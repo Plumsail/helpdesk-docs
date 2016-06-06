@@ -120,7 +120,7 @@ This action used to send email to different recipients. In message title and bod
 :Attachment URLs: 
 	Semicolon separated list of attachment which will be included in the email message. In this field you can use any context tokens. For example ``{{CurrentItem.AttachmentUrls}}``.
 
-Full description of context tokens you can find in `Message templates`_ section.
+Full description of context tokens you can find in `Tokens and snippets`_ section.
 
 .. toctree::
    :hidden:
@@ -164,7 +164,7 @@ This action used to change value of any public field in ticket.
 .. _Condition: #condition
 .. _Actions: #actions
 .. _complete condition syntax description: Condition%20syntax.html
-.. _Message templates: Tokens%20and%20snippets.html
+.. _Tokens and snippets: Tokens%20and%20snippets.html
 .. _Workflow customization: Workflow%20customization.html
 
 .. |SettingsIcon| image:: /_static/img/SettingsIcon.png

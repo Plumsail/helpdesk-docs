@@ -4,10 +4,14 @@ Contacts
 Contacts is a directory of persons that HelpDesk is aware of. There are
 three predefined contact roles:
 
-#. Agent – SharePoint user that processes tickets.
-#. Member - SharePoint user that creates tickets.
-#. End-User - User without SharePoint account who creates tickets by
-   email.
+Agent
+   SharePoint user that processes tickets.
+
+Member
+   SharePoint user that creates tickets.
+
+End-User
+   User without SharePoint account who creates tickets by email.
 
 Navigate to Contacts using the icon on the navbar:
 
@@ -27,30 +31,53 @@ name. You will see a card of the contact with information about
 his organization, email address, phone number, role and time zone. There
 are also two views with recent tickets related to current contact:
 
-#. Requested tickets – recent tickets that were requested by the
-   contact.
-#. Assigned tickets – recent tickets that current contact is an assignee
-   of.
+Requested tickets
+   Recent tickets that were requested by the contact.
 
-**Note:** the views are visible only if there are tickets related to the
-current contact.
+Assigned tickets 
+   Recent tickets that current contact is an assignee of.
+
+.. note::
+   The views are visible only if there are tickets related to the current contact.
 
 |tony_anderson|
 
 Additional information about of the contact card fields:
 
--  Organization: look up to Organizations list item. You can create a
-   new organization without leaving the currently opened form by
+Organization
+   Look up to Organizations list item. You can create a new organization without leaving the currently opened form by
    clicking “Add new”.
--  Role: defines occupation of the current person:
-   *         Agent*\  - SharePoint user who processes tickets.
-   *         Member*- SharePoint user who creates tickets.
-   *         End-User*- User without a SharePoint account who creates
-   tickets by email.
--  SharePoint user/Email: Either one is displayed, depending on the
+
+Role
+   Defines occupation of the current person:
+   
+   Agent
+      SharePoint user who processes tickets.
+
+   Member
+      SharePoint user who creates tickets.
+
+   End-User
+      User without a SharePoint account who creates tickets by email.
+
+SharePoint user/Email
+   Either one is displayed, depending on the
    current person’s role. If he is an agent or a member – his name
    becomes a link to his SharePoint user page, otherwise his Email is
    displayed.
+
+Signature
+~~~~~~~~~
+
+Each agent can have own signature which will automatically appended to reply when agent clicked to "Add reply" button on the ticket editing form.
+
+To setup agent signature you shoul navigate to agent contact and edit "Signature" field.
+
+|SetupSignature|
+
+You can check how signature works on the ticket editing form. Just click "Add reply" button.
+
+|HowSignatureWork|
 
 .. |ContactsNav| image:: /_static/img/ContactsNav.png
    :alt: Contact Navigation Icon
@@ -58,3 +85,7 @@ Additional information about of the contact card fields:
    :alt: Contact
 .. |tony_anderson| image:: /_static/img/tony_anderson.png
    :alt: Tony Anderson
+.. |SetupSignature| image:: /_static/img/contact-signature-0.png
+   :alt: Setup Signature
+.. |HowSignatureWork| image:: /_static/img/contact-signature-1.gif
+   :alt: How Signature Works

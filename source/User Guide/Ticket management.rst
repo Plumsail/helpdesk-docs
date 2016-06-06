@@ -33,20 +33,34 @@ Enter.
 Most of the ticket fields are displayed in the table on the right hand
 side of the screen:
 
--  Requester: the person from the Contacts list who requested the ticket
+Requester
+   The person from the Contacts list who requested the ticket
    (if the contact has his organization specified you’ll see it next to
    his name).
--  Assigned to: the SharePoint user that is currently working on the
+
+Assigned to
+   The SharePoint user that is currently working on the
    ticket.
--  Cc: carbon copy. Contacts specified in this field will receive the
+
+Cc
+   Carbon copy. Contacts specified in this field will receive the
    same notifications as the requester.
--  Status: ticket status. There are three statuses by default: New, In
+
+Status
+   Ticket status. There are three statuses by default: New, In
    progress and Solved. You can also add your own.
--  Priority: relative ticket priority (Low, Normal, High, Urgent).
--  Due date: the date when the ticket has to be resolved by.
--  Category: the type of the ticket (Question, Incident, Problem,
-   Request)
--  Tags: some key categories to classify the ticket.
+
+Priority
+   Relative ticket priority (Low, Normal, High, Urgent).
+
+Due date
+   The date when the ticket has to be resolved by.
+
+Category
+   The type of the ticket (Question, Incident, Problem, Request)
+
+Tags
+   Some key categories to classify the ticket.
 
 Edit ticket and add comments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

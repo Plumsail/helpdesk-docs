@@ -69,10 +69,14 @@ Create contacts for agents
 HelpDesk has a place for storing contact details of your customers or
 agents. There are three types of contacts:
 
-#. Agent - SharePoint user that processes tickets.
-#. Member - SharePoint user that creates tickets.
-#. End-User - user without a SharePoint account that creates tickets by
-   email.
+Agent
+	SharePoint user that processes tickets.
+
+Member
+	SharePoint user that creates tickets.
+
+End-User 
+	User without a SharePoint account that creates tickets by email.
 
 If user sends email messages to HelpDesk, it creates a contact for such
 user automatically, but for agents you need to create contacts manually.

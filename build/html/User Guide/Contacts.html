@@ -101,7 +101,10 @@
 <li class="toctree-l1"><a class="reference internal" href="Ticket management.html">Ticket management</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Knowledge base.html">Knowledge base</a></li>
 <li class="toctree-l1"><a class="reference internal" href="All tickets.html">All tickets</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Contacts</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contacts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#signature">Signature</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="Reports.html">Reports</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Use cases and overviews</span></p>
@@ -158,12 +161,14 @@
 <h1>Contacts<a class="headerlink" href="#contacts" title="Permalink to this headline">¶</a></h1>
 <p>Contacts is a directory of persons that HelpDesk is aware of. There are
 three predefined contact roles:</p>
-<ol class="arabic simple">
-<li>Agent – SharePoint user that processes tickets.</li>
-<li>Member - SharePoint user that creates tickets.</li>
-<li>End-User - User without SharePoint account who creates tickets by
-email.</li>
-</ol>
+<dl class="docutils">
+<dt>Agent</dt>
+<dd>SharePoint user that processes tickets.</dd>
+<dt>Member</dt>
+<dd>SharePoint user that creates tickets.</dd>
+<dt>End-User</dt>
+<dd>User without SharePoint account who creates tickets by email.</dd>
+</dl>
 <p>Navigate to Contacts using the icon on the navbar:</p>
 <p><img alt="Contact Navigation Icon" src="../_images/ContactsNav.png" /></p>
 <p>Use the “Contacts” list to manage information about everyone who
@@ -177,30 +182,47 @@ who work with HelpDesk.</p>
 name. You will see a card of the contact with information about
 his organization, email address, phone number, role and time zone. There
 are also two views with recent tickets related to current contact:</p>
-<ol class="arabic simple">
-<li>Requested tickets – recent tickets that were requested by the
-contact.</li>
-<li>Assigned tickets – recent tickets that current contact is an assignee
-of.</li>
-</ol>
-<p><strong>Note:</strong> the views are visible only if there are tickets related to the
-current contact.</p>
+<dl class="docutils">
+<dt>Requested tickets</dt>
+<dd>Recent tickets that were requested by the contact.</dd>
+<dt>Assigned tickets</dt>
+<dd>Recent tickets that current contact is an assignee of.</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The views are visible only if there are tickets related to the current contact.</p>
+</div>
 <p><img alt="Tony Anderson" src="../_images/tony_anderson.png" /></p>
 <p>Additional information about of the contact card fields:</p>
-<ul class="simple">
-<li>Organization: look up to Organizations list item. You can create a
-new organization without leaving the currently opened form by
-clicking “Add new”.</li>
-<li>Role: defines occupation of the current person:
-<em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Agent</em>&nbsp;- SharePoint user who processes tickets.
-<em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Member</em>-&nbsp;SharePoint user who creates tickets.
-<em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;End-User</em>-&nbsp;User without a SharePoint account who creates
-tickets by email.</li>
-<li>SharePoint user/Email: Either one is displayed, depending on the
+<dl class="docutils">
+<dt>Organization</dt>
+<dd>Look up to Organizations list item. You can create a new organization without leaving the currently opened form by
+clicking “Add new”.</dd>
+<dt>Role</dt>
+<dd><p class="first">Defines occupation of the current person:</p>
+<dl class="last docutils">
+<dt>Agent</dt>
+<dd>SharePoint user who processes tickets.</dd>
+<dt>Member</dt>
+<dd>SharePoint user who creates tickets.</dd>
+<dt>End-User</dt>
+<dd>User without a SharePoint account who creates tickets by email.</dd>
+</dl>
+</dd>
+<dt>SharePoint user/Email</dt>
+<dd>Either one is displayed, depending on the
 current person’s role. If he is an agent or a member – his name
 becomes a link to his SharePoint user page, otherwise his Email is
-displayed.</li>
-</ul>
+displayed.</dd>
+</dl>
+<div class="section" id="signature">
+<h2>Signature<a class="headerlink" href="#signature" title="Permalink to this headline">¶</a></h2>
+<p>Each agent can have own signature which will automatically appended to reply when agent clicked to &#8220;Add reply&#8221; button on the ticket editing form.</p>
+<p>To setup agent signature you shoul navigate to agent contact and edit &#8220;Signature&#8221; field.</p>
+<p><img alt="Setup Signature" src="../_images/contact-signature-0.png" /></p>
+<p>You can check how signature works on the ticket editing form. Just click &#8220;Add reply&#8221; button.</p>
+<p><img alt="How Signature Works" src="../_images/contact-signature-1.gif" /></p>
+</div>
 </div>
 
 

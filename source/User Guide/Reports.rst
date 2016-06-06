@@ -23,13 +23,20 @@ Overview
 It is a dashboard representing all HelpDesk tickets. The dashboard
 consists of four chatrs:
 
--  Tickets by state - shows how many unassigned, overdue, in progress
+Tickets by state 
+   Shows how many unassigned, overdue, in progress
    and new tickets are created.
--  Tickets by category - shows how many tickets are created within a
+
+Tickets by category 
+   Shows how many tickets are created within a
    specific category (Ticket field “Category”).
--  Tickets by agents - shows how many overdue and non-overdue tickets
+
+Tickets by agents 
+   Shows how many overdue and non-overdue tickets
    each agent has (Ticket field “Due date”).
--  Active requesters (Top 10) - shows top 10 requesters by the amount of
+
+Active requesters (Top 10) 
+   Shows top 10 requesters by the amount of
    tickets created.
 
 |overview|
@@ -40,11 +47,13 @@ By date
 Here you can see two timelines. Vertical axis represents amount of
 tickets, horizontal axis represents date of ticket creation.
 
-Created by category - shows amount of tickets created within a specific
-category and a specified interval (Ticket field “Category”).
+Created by category 
+   Shows amount of tickets created within a specific
+   category and a specified interval (Ticket field “Category”).
 
-Created/Resolved - shows amount of tickets created and amount of tickets
-resolved within specified interval.
+Created/Resolved 
+   Shows amount of tickets created and amount of tickets
+   resolved within specified interval.
 
 |by-date|
 
@@ -53,9 +62,12 @@ By assignee
 
 Next charts represent information related to assignee:
 
--  Perfomance (Avg solved per day) - shows average resolved tickets per
+Perfomance (Avg solved per day) 
+   Shows average resolved tickets per
    day within specified interval.
--  Resolved by assignee - shows amount of tickets resolved by assignee
+
+Resolved by assignee 
+   Shows amount of tickets resolved by assignee
    within specified interval.
 
 |By-assignee|

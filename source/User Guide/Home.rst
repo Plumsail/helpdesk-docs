@@ -18,20 +18,30 @@ such ticket is shown below:
 
 |homeview_5|
 
-**Note:** Unread tickets are displayed as unread for the assignee only.
+.. note::
+	Unread tickets are displayed as unread for the assignee only.
+	
 Bold typing is used in “My tickets” and “My overdue” views only.
 
 Here is the list of built-in views:
 
--  My tiсkets - all tickets assigned to you. (Tickets that have you
-   specified in the “Assigned to” field).
--  Requested by me - all tickets requested by you. (Tickets that have
-   you specified in the “Requester” field).
--  My overdue - tickets assigned to me with Due date before today.
--  Group tickets - tickets assigned to SharePoint groups that I belong
-   to. (You can assign tickets to SharePoint groups, e.g.”IT Support”).
--  Unassigned - all tickets with an empty “Assigned to” field.
--  Unread - all unread tickets assigned to you.
+My tiсkets 
+	All tickets assigned to you. (Tickets that have you specified in the “Assigned to” field).
+
+Requested by me
+	All tickets requested by you. (Tickets that have you specified in the “Requester” field).
+
+My overdue 
+	Tickets assigned to me with Due date before today.
+
+Group tickets 
+	Tickets assigned to SharePoint groups that I belong to. (You can assign tickets to SharePoint groups, e.g.”IT Support”).
+
+Unassigned 
+	All tickets with an empty “Assigned to” field.
+
+Unread 
+	All unread tickets assigned to you.
 
 Resolved tickets are not displayed in any of the home views.
 
