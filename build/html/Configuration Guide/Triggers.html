@@ -1,0 +1,387 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Triggers &mdash; HelpDesk Documentation 2.0.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="HelpDesk Documentation 2.0.0 documentation" href="../index.html"/>
+        <link rel="next" title="Condition syntax" href="Condition Syntax.html"/>
+        <link rel="prev" title="How forwarding works" href="How forwarding works.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> HelpDesk Documentation
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Getting Started/Installation.html">HelpDesk installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Getting Started/License installation.html">License Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Getting Started/Quick HelpDesk configuration.html">Quick HelpDesk configuration</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://plumsail.com/forum/viewforum.php?f=33">Community forum</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Configuration guide</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Email settings.html">Email settings</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Triggers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#events">Events</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#condition">Condition</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Condition Syntax.html">Condition syntax</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#actions">Actions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#send-email">Send Email</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Tokens and snippets.html">Tokens and snippets</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#start-workflow">Start Workflow</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Workflow customization.html">Workflows customization</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#set-field">Set Field</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Scheduling.html">Scheduling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Navigation.html">Navigation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Color theme.html">Color theme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Statuses customization.html">Statuses customization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Reports customization.html">Reports customization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Forms customization.html">Customize forms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="How to change home page.html">How to change home page</a></li>
+</ul>
+<p class="caption"><span class="caption-text">User guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/Home.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/Ticket management.html">Ticket management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/Knowledge base.html">Knowledge base</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/All tickets.html">All tickets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/Contacts.html">Contacts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/Reports.html">Reports</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Use cases and overviews</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://www.youtube.com/watch?v=rcA34gRC27c">Video overview</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://plumsail.com/blog/2015/11/build-it-help-desk-or-service-desk-on-your-sharepoint-online-or-sharepoint-2013-on-premises-in-15-minutes/">Build IT Help Desk or Service Desk in 15 minutes</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Additional resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="http://www.learningsharepoint.com/2013/09/05/how-to-set-a-page-as-home-page-in-sharepoint-2013-site/">How to change home page</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">HelpDesk Documentation</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>Triggers</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="triggers">
+<h1>Triggers<a class="headerlink" href="#triggers" title="Permalink to this headline">¶</a></h1>
+<p>Triggers allow you to set up automatic execution of arbitrary actions
+based on events and conditions. We use it mostly for notifications.
+There are bunch of triggers that send email notification based on
+specific event type and condition, a list of which you can see on the
+screenshot below. But you can use it for other purposes also. Create
+your own triggers and run custom actions based on your requirements.</p>
+<p>Navigate to settings using the icon in the navbar:</p>
+<p><img alt="Settings Navigation Icon" src="../_images/SettingsIcon.png" /></p>
+<p>Then click on “Triggers” tab. You will see the list of predefined
+triggers.</p>
+<p><img alt="HelpDesk Triggers" src="../_images/triggers-0.png" /></p>
+<p>For example there is a built in trigger called “Notification: Requester
+– Ticket resolved”. It sends a notification to requester when ticket
+status is changed to “Solved”. Let us open this trigger for edit and see
+what is inside:</p>
+<p><img alt="Trigger - Notify Requester" src="../_images/triggers-1.png" /></p>
+<p>This is a description of the fields you can see on the form:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body">Trigger title.</td>
+</tr>
+<tr class="field-even field"><th class="field-name"><a class="reference external" href="#events">Event</a>:</th><td class="field-body">Type of event when trigger will fired.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name"><a class="reference external" href="#condition">Condition</a>:</th><td class="field-body">Condition which says when actions are to be started. You can find more information about the syntax below.</td>
+</tr>
+<tr class="field-even field"><th class="field-name"><a class="reference external" href="#actions">Actions</a>:</th><td class="field-body">List of actions that has to be started on the specified event and if the condition is satisfied.</td>
+</tr>
+</tbody>
+</table>
+<p>The condition is this:</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">Prev</span><span class="p">::</span><span class="n">InternalStatus</span><span class="p">]</span> <span class="o">&lt;&gt;</span> <span class="p">[</span><span class="n">InternalStatus</span><span class="p">]</span> <span class="ow">and</span> <span class="p">[</span><span class="n">InternalStatus</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Solved&#39;</span>
+</pre></div>
+</div>
+<p>The condition literally says: <strong>InternalStatus</strong> is changed and <strong>InternalStatus</strong> is equal to “Solved”.</p>
+<p>So, you can access field values of tickets and comments using such syntax: <code class="docutils literal"><span class="pre">[InternalFieldName]</span></code>.
+If the trigger’s event is “<a class="reference internal" href="#term-ticket-has-been-changed"><span class="xref std std-term">Ticket has been changed</span></a>” you can also access previous values like this: <code class="docutils literal"><span class="pre">[prev::InternalFieldName]</span></code>.</p>
+<p>The actions list contains one action &#8220;Send email&#8221;. Each action in list has short description what it will do. In this trigger action will send email to <strong>requester</strong> and <strong>Cc</strong>.
+If you click on action it will be expanded and you will see complete settings of selected action:</p>
+<p><img alt="Expanded action - Send Email" src="../_images/triggers-2.png" /></p>
+<p>The complete defention of &#8220;Send email&#8221; action you can find in &#8220;<a class="reference external" href="#actions">Actions</a>&#8221; section.</p>
+<div class="section" id="events">
+<h2>Events<a class="headerlink" href="#events" title="Permalink to this headline">¶</a></h2>
+<dl class="glossary docutils">
+<dt id="term-ticket-has-been-created">Ticket has been created</dt>
+<dd>Occurs after ticket has been created.
+Trigger with this event <strong>can&#8217;t refer</strong> to previous values of fields in condition.</dd>
+<dt id="term-ticket-has-been-changed">Ticket has been changed</dt>
+<dd>Occurs after ticket has been changed.
+Trigger with this event <strong>can refer</strong> to previous values of fields in conditions using <code class="docutils literal"><span class="pre">[prev::InternalFieldName]</span></code> syntax.</dd>
+<dt id="term-comment-has-been-created">Comment has been created</dt>
+<dd>Occurs after comment has been created.
+Trigger with this event <strong>can&#8217;t refer</strong> to previous values of fields in condition.</dd>
+</dl>
+</div>
+<div class="section" id="condition">
+<h2>Condition<a class="headerlink" href="#condition" title="Permalink to this headline">¶</a></h2>
+<p>In condition allowed to reference to any field of current triggered item (ticket or comment) by internal name. For example <code class="docutils literal"><span class="pre">[Title]</span></code> will return value of <strong>Title</strong> field.
+By default lookup field returns <strong>lookup value</strong>, to get <strong>lookup id</strong> you should use <code class="docutils literal"><span class="pre">[LookupFieldName.Id]</span></code>.</p>
+<p>There is a number of operators and functions available, such as logical operators <code class="docutils literal"><span class="pre">and</span></code>, <code class="docutils literal"><span class="pre">or</span></code>, <code class="docutils literal"><span class="pre">=</span></code>, <code class="docutils literal"><span class="pre">&lt;&gt;</span></code>.</p>
+<p>For a complete list see <a class="reference external" href="Condition%20syntax.html">complete condition syntax description</a>.</p>
+<div class="toctree-wrapper compound" id="triggerstoc">
+</div>
+</div>
+<div class="section" id="actions">
+<h2>Actions<a class="headerlink" href="#actions" title="Permalink to this headline">¶</a></h2>
+<p>To add new action you can click on &#8220;Add new action&#8221; link.</p>
+<p><img alt="Add new action" src="../_images/triggers-gif-0.gif" /></p>
+<p>There are three types of actions:</p>
+<ol class="arabic simple">
+<li><a class="reference external" href="#send-email">Send Email</a></li>
+<li><a class="reference external" href="#start-workflow">Start Workflow</a></li>
+<li><a class="reference external" href="#set-field">Set Field</a></li>
+</ol>
+<p>List of actions can contain many different actions which will be executed sequentally one after other from top. To reorder actions you can drag action header and drop in desired place.</p>
+<p><img alt="Drag and Drop action" src="../_images/triggers-gif-1.gif" /></p>
+<p>To save changes in trggier you should click &#8220;Save&#8221; button. To discard any changes you should click &#8220;Cancel&#8221; button.</p>
+<div class="section" id="send-email">
+<h3>Send Email<a class="headerlink" href="#send-email" title="Permalink to this headline">¶</a></h3>
+<p>This action used to send email to different recipients. In message title and body you can use tokens and snippets to automatically include information about current triggered item.</p>
+<p>&#8220;Send email&#8221; action has following setttings:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">To:</th><td class="field-body">Required field. Recepients of the message. In this field you can use any contact from contacts list or tokens &#8220;All agents&#8221;, &#8220;Requester&#8221;, &#8220;Cc&#8221;, &#8220;Assignee&#8221; and &#8220;Comment author&#8221; (only for &#8220;<a class="reference internal" href="#term-comment-has-been-created"><span class="xref std std-term">Comment has been created</span></a>&#8221; event).</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Except:</th><td class="field-body">Contacts from this field will be excluded from recepients list. In this field you can use any contact from contacts list or tokens &#8220;All agents&#8221;, &#8220;Requester&#8221;, &#8220;Cc&#8221;, &#8220;Assignee&#8221; and &#8220;Comment author&#8221; (only for &#8220;<a class="reference internal" href="#term-comment-has-been-created"><span class="xref std std-term">Comment has been created</span></a>&#8221; event).</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Subject:</th><td class="field-body">Title of message. In this field you can use any context tokens.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Email body:</th><td class="field-body">Body of the message. In this field you can use any context tokens and snippets.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">Attachment URLs:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Semicolon separated list of attachment which will be included in the email message. In this field you can use any context tokens. For example <code class="docutils literal"><span class="pre">{{CurrentItem.AttachmentUrls}}</span></code>.</td>
+</tr>
+</tbody>
+</table>
+<p>Full description of context tokens you can find in <a class="reference external" href="Tokens%20and%20snippets.html">Message templates</a> section.</p>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="start-workflow">
+<h3>Start Workflow<a class="headerlink" href="#start-workflow" title="Permalink to this headline">¶</a></h3>
+<p>This action used to start selected workflow.</p>
+<p>&#8220;Start workflow&#8221; action has following settings:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Workflow to start:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Required field. Name  of the workflow which must be started when trigger fired. Sharepoint Workflows 2010 and Sharepoint Workflow 2013 are supported. You can select list level workflow or site level workflow.</td>
+</tr>
+</tbody>
+</table>
+<div class="toctree-wrapper compound">
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last">HelpDesk Actions Pack is provided with HelpDesk. In <a class="reference external" href="Workflow%20customization.html">Workflow customization</a> section you can find full description.</p>
+</div>
+</div>
+<div class="section" id="set-field">
+<h3>Set Field<a class="headerlink" href="#set-field" title="Permalink to this headline">¶</a></h3>
+<p>This action used to change value of any public field in ticket.</p>
+<p>&#8220;Set field&#8221; action has following settings:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Field name:</th><td class="field-body">Required field. Field name you want to assign a new value.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Field value:</th><td class="field-body">New value which will be assigned to selected field. In this field you can use any context tokens.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Condition Syntax.html" class="btn btn-neutral float-right" title="Condition syntax" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="How forwarding works.html" class="btn btn-neutral" title="How forwarding works" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Plumsail.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'2.0.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

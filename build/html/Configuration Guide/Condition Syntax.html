@@ -1,0 +1,597 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Condition syntax &mdash; HelpDesk Documentation 2.0.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="HelpDesk Documentation 2.0.0 documentation" href="../index.html"/>
+        <link rel="up" title="Triggers" href="Triggers.html"/>
+        <link rel="next" title="Tokens and snippets" href="Tokens and snippets.html"/>
+        <link rel="prev" title="Triggers" href="Triggers.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> HelpDesk Documentation
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Getting Started/Installation.html">HelpDesk installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Getting Started/License installation.html">License Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Getting Started/Quick HelpDesk configuration.html">Quick HelpDesk configuration</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://plumsail.com/forum/viewforum.php?f=33">Community forum</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Configuration guide</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Email settings.html">Email settings</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="Triggers.html">Triggers</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Triggers.html#events">Events</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="Triggers.html#condition">Condition</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Condition syntax</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#operators">Operators</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#values">Values</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Triggers.html#actions">Actions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Scheduling.html">Scheduling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Navigation.html">Navigation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Color theme.html">Color theme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Statuses customization.html">Statuses customization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Reports customization.html">Reports customization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Forms customization.html">Customize forms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="How to change home page.html">How to change home page</a></li>
+</ul>
+<p class="caption"><span class="caption-text">User guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/Home.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/Ticket management.html">Ticket management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/Knowledge base.html">Knowledge base</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/All tickets.html">All tickets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/Contacts.html">Contacts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../User Guide/Reports.html">Reports</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Use cases and overviews</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://www.youtube.com/watch?v=rcA34gRC27c">Video overview</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://plumsail.com/blog/2015/11/build-it-help-desk-or-service-desk-on-your-sharepoint-online-or-sharepoint-2013-on-premises-in-15-minutes/">Build IT Help Desk or Service Desk in 15 minutes</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Additional resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="http://www.learningsharepoint.com/2013/09/05/how-to-set-a-page-as-home-page-in-sharepoint-2013-site/">How to change home page</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">HelpDesk Documentation</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="Triggers.html">Triggers</a> &raquo;</li>
+      
+    <li>Condition syntax</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="condition-syntax">
+<h1>Condition syntax<a class="headerlink" href="#condition-syntax" title="Permalink to this headline">¶</a></h1>
+<p>Trigger conditions can be described by following list of operators,
+values and functions.</p>
+<div class="section" id="operators">
+<h2>Operators<a class="headerlink" href="#operators" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="logical">
+<h3>Logical<a class="headerlink" href="#logical" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Operator</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">or</span></code>, <code class="docutils literal"><span class="pre">||</span></code></td>
+<td><div class="code first last highlight-default"><div class="highlight"><pre><span></span><span class="n">TRUE</span> <span class="k">if</span> <span class="n">either</span> <span class="n">Boolean</span> <span class="n">expression</span> <span class="ow">is</span> <span class="n">TRUE</span><span class="o">.</span>
+
+<span class="n">Example</span><span class="p">:</span>
+
+   <span class="p">[</span><span class="n">CommentType</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Public&#39;</span> <span class="ow">or</span> <span class="p">[</span><span class="n">Created</span><span class="p">]</span> <span class="o">&lt;</span> <span class="s1">&#39;#01/01/2015#&#39;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">and</span></code>, <code class="docutils literal"><span class="pre">&amp;&amp;</span></code></td>
+<td><div class="code first last highlight-default"><div class="highlight"><pre><span></span><span class="n">TRUE</span> <span class="k">if</span> <span class="n">both</span> <span class="n">Boolean</span> <span class="n">expression</span> <span class="ow">is</span> <span class="n">TRUE</span><span class="o">.</span>
+
+<span class="n">Example</span><span class="p">:</span>
+
+   <span class="p">[</span><span class="n">AssignedTo</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span> <span class="ow">and</span> <span class="p">[</span><span class="n">AssignedTo</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">Editor</span><span class="p">]</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <code class="docutils literal"><span class="pre">and</span></code> operator has more priority than the <code class="docutils literal"><span class="pre">or</span></code>.</p>
+</div>
+<div class="section" id="relational">
+<h3>Relational<a class="headerlink" href="#relational" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">=</span></code>, <code class="docutils literal"><span class="pre">==</span></code>, <code class="docutils literal"><span class="pre">!=</span></code>, <code class="docutils literal"><span class="pre">&lt;&gt;</span></code></li>
+<li><code class="docutils literal"><span class="pre">&lt;</span></code>, <code class="docutils literal"><span class="pre">&lt;=</span></code>, <code class="docutils literal"><span class="pre">&gt;</span></code>, <code class="docutils literal"><span class="pre">&gt;=</span></code></li>
+</ul>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">2</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="additive">
+<h3>Additive<a class="headerlink" href="#additive" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">+</span></code>, <code class="docutils literal"><span class="pre">-</span></code></li>
+</ul>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">-</span> <span class="mi">5</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="multiplicative">
+<h3>Multiplicative<a class="headerlink" href="#multiplicative" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">*</span></code>, <code class="docutils literal"><span class="pre">/</span></code>, <code class="docutils literal"><span class="pre">%</span></code></li>
+</ul>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="mi">5</span> <span class="o">*</span> <span class="mi">5</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="bitwise">
+<h3>Bitwise<a class="headerlink" href="#bitwise" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">&amp;</span></code> (bitwise and), <code class="docutils literal"><span class="pre">|</span></code> (bitwise or), <code class="docutils literal"><span class="pre">^</span></code> (bitwise xor), <code class="docutils literal"><span class="pre">&lt;&lt;</span></code> (left shift), <a href="#id1"><span class="problematic" id="id2">``</span></a>&gt;&gt;``(right shift)</li>
+</ul>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="mi">1</span> <span class="o">&gt;&gt;</span> <span class="mi">5</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="unary">
+<h3>Unary<a class="headerlink" href="#unary" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">!</span></code>, <code class="docutils literal"><span class="pre">not</span></code>, <code class="docutils literal"><span class="pre">-</span></code>, <code class="docutils literal"><span class="pre">~</span></code> (bitwise not)</li>
+</ul>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="ow">not</span> <span class="n">true</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="primary">
+<h3>Primary<a class="headerlink" href="#primary" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">(</span></code>, <code class="docutils literal"><span class="pre">)</span></code></li>
+<li>values</li>
+</ul>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span> <span class="o">*</span> <span class="mi">4</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="values">
+<h2>Values<a class="headerlink" href="#values" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="references">
+<h3>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Operator</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">[Prev]</span></code></td>
+<td><div class="code first last highlight-default"><div class="highlight"><pre><span></span>Return ticket item before changes.
+
+Example:
+
+   ([Prev.Status] != [Status]) and ([Status] == ‘Solved’)
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="integers">
+<h3>Integers<a class="headerlink" href="#integers" title="Permalink to this headline">¶</a></h3>
+<p>They are represented using numbers.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="mi">123456</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="floating-point-numbers">
+<h3>Floating point numbers<a class="headerlink" href="#floating-point-numbers" title="Permalink to this headline">¶</a></h3>
+<p>Use the dot to define the decimal part.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="mf">123.456</span>
+<span class="o">.</span><span class="mi">123</span>
+</pre></div>
+</div>
+<p>They are evaluated as&nbsp;<strong>Decimal</strong>.</p>
+</div>
+<div class="section" id="scientific-notation">
+<h3>Scientific notation<a class="headerlink" href="#scientific-notation" title="Permalink to this headline">¶</a></h3>
+<p>You can use the&nbsp;<code class="docutils literal"><span class="pre">e</span></code> &nbsp;to define power of ten (10^).</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="mf">1.22e1</span>
+<span class="mi">1</span><span class="n">e2</span>
+<span class="mi">1</span><span class="n">e</span><span class="o">+</span><span class="mi">2</span>
+<span class="mi">1</span><span class="n">e</span><span class="o">-</span><span class="mi">2</span>
+<span class="o">.</span><span class="mi">1</span><span class="n">e</span><span class="o">-</span><span class="mi">2</span>
+<span class="mi">1</span><span class="n">e10</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="dates-and-times">
+<h3>Dates and Times<a class="headerlink" href="#dates-and-times" title="Permalink to this headline">¶</a></h3>
+<p>Must be enclosed between sharps.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="c1">#2008/01/31# // for en-US culture</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="booleans">
+<h3>Booleans<a class="headerlink" href="#booleans" title="Permalink to this headline">¶</a></h3>
+<p>Booleans can be either&nbsp;<code class="docutils literal"><span class="pre">true</span></code> &nbsp;or&nbsp;<code class="docutils literal"><span class="pre">false</span></code>.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="n">true</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="strings">
+<h3>Strings<a class="headerlink" href="#strings" title="Permalink to this headline">¶</a></h3>
+<p>Any character between single quotes <code class="docutils literal"><span class="pre">'</span></code> are evaluated
+as&nbsp;<strong>String</strong>.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="s1">&#39;hello&#39;</span>
+</pre></div>
+</div>
+<p>You can escape special characters
+using&nbsp;<strong>\\</strong>,&nbsp;<strong>\&#8217;</strong>,&nbsp;<strong>\n</strong>,&nbsp;<strong>\r</strong>,&nbsp;<strong>\t</strong>.</p>
+</div>
+<div class="section" id="function">
+<h3>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h3>
+<p>A function is made of a name followed by braces, containing optionally
+any value as arguments.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="n">Abs</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">doSomehting</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;dummy&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h3>
+<p>A parameter as a name, and can be optionnaly contained inside brakets.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="mi">2</span> <span class="o">+</span> <span class="n">x</span><span class="p">,</span> <span class="mi">2</span> <span class="o">+</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Description</th>
+<th class="head">Usage</th>
+<th class="head">Result</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>Abs</strong></td>
+<td>Returns the absolute value of a specified number.</td>
+<td><code class="docutils literal"><span class="pre">Abs(-1)</span></code></td>
+<td><code class="docutils literal"><span class="pre">1M</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>Acos</strong></td>
+<td>Returns the angle whose cosine is the specified number.</td>
+<td><code class="docutils literal"><span class="pre">Acos(1)</span></code></td>
+<td><code class="docutils literal"><span class="pre">0d</span></code></td>
+</tr>
+<tr class="row-even"><td><strong>Asin</strong></td>
+<td>Returns the angle whose sine is the specified number.</td>
+<td><code class="docutils literal"><span class="pre">Asin(0)</span></code></td>
+<td><code class="docutils literal"><span class="pre">0d</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>Atan</strong></td>
+<td>Returns the angle whose tangent is the specified number.</td>
+<td><code class="docutils literal"><span class="pre">Atan(0)</span></code></td>
+<td><code class="docutils literal"><span class="pre">0d</span></code></td>
+</tr>
+<tr class="row-even"><td><strong>Ceiling</strong></td>
+<td>Returns the smallest integer greater than or equal to the specified number.</td>
+<td><code class="docutils literal"><span class="pre">Ceiling(1.5)</span></code></td>
+<td><code class="docutils literal"><span class="pre">2d</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>Cos</strong></td>
+<td>Returns the cosine of the specified angle.</td>
+<td><code class="docutils literal"><span class="pre">Cos(0)</span></code></td>
+<td><code class="docutils literal"><span class="pre">1d</span></code></td>
+</tr>
+<tr class="row-even"><td><strong>Exp</strong></td>
+<td>Returns e raised to the specified power.</td>
+<td><code class="docutils literal"><span class="pre">Exp(0)</span></code></td>
+<td><code class="docutils literal"><span class="pre">1d</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>Floor</strong></td>
+<td>Returns the largest integer less than or equal to the specified number.</td>
+<td><code class="docutils literal"><span class="pre">Floor(1.5)</span></code></td>
+<td><code class="docutils literal"><span class="pre">1d</span></code></td>
+</tr>
+<tr class="row-even"><td><strong>IEEERemainder</strong></td>
+<td>Returns the remainder resulting from the division of a specified number by another specified number.</td>
+<td><code class="docutils literal"><span class="pre">IEEERemainder(3,</span> <span class="pre">2)</span></code></td>
+<td><code class="docutils literal"><span class="pre">-1d</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>Log</strong></td>
+<td>Returns the logarithm of a specified number.</td>
+<td><code class="docutils literal"><span class="pre">Log(1,</span> <span class="pre">10)</span></code></td>
+<td><code class="docutils literal"><span class="pre">0d</span></code></td>
+</tr>
+<tr class="row-even"><td><strong>Log10</strong></td>
+<td>Returns the base 10 logarithm of a specified number.</td>
+<td><code class="docutils literal"><span class="pre">Log10(1)</span></code></td>
+<td><code class="docutils literal"><span class="pre">0d</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>Max</strong></td>
+<td>Returns the larger of two specified numbers.</td>
+<td><code class="docutils literal"><span class="pre">Max(1,</span> <span class="pre">2)</span></code></td>
+<td><code class="docutils literal"><span class="pre">2</span></code></td>
+</tr>
+<tr class="row-even"><td><strong>Min</strong></td>
+<td>Returns the smaller of two numbers.</td>
+<td><code class="docutils literal"><span class="pre">Min(1,</span> <span class="pre">2)</span></code></td>
+<td><code class="docutils literal"><span class="pre">1</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>Pow</strong></td>
+<td>Returns a specified number raised to the specified power.</td>
+<td><code class="docutils literal"><span class="pre">Pow(3,</span> <span class="pre">2)</span></code></td>
+<td><code class="docutils literal"><span class="pre">9d</span></code></td>
+</tr>
+<tr class="row-even"><td><strong>Round</strong></td>
+<td>Rounds a value to the nearest integer or specified number of decimal places. The mid number behaviour can be changed by using EvaluateOption.RoundAwayFromZero during construction of the Expression object.</td>
+<td><code class="docutils literal"><span class="pre">Round(3.222,</span> <span class="pre">2)</span></code></td>
+<td><code class="docutils literal"><span class="pre">3.22d</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>Sign</strong></td>
+<td>Returns a value indicating the sign of a number.</td>
+<td><code class="docutils literal"><span class="pre">Sign(-10)</span></code></td>
+<td><code class="docutils literal"><span class="pre">-1</span></code></td>
+</tr>
+<tr class="row-even"><td><strong>Sin</strong></td>
+<td>Returns the sine of the specified angle.</td>
+<td><code class="docutils literal"><span class="pre">Sin(0)</span></code></td>
+<td><code class="docutils literal"><span class="pre">0d</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>Sqrt</strong></td>
+<td>Returns the square root of a specified number.</td>
+<td><code class="docutils literal"><span class="pre">Sqrt(4)</span></code></td>
+<td><code class="docutils literal"><span class="pre">2d</span></code></td>
+</tr>
+<tr class="row-even"><td><strong>Tan</strong></td>
+<td>Returns the tangent of the specified angle.</td>
+<td><code class="docutils literal"><span class="pre">Tan(0)</span></code></td>
+<td><code class="docutils literal"><span class="pre">0d</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>Truncate</strong></td>
+<td>Calculates the integral part of a number.</td>
+<td><code class="docutils literal"><span class="pre">Truncate(1.7)</span></code></td>
+<td><code class="docutils literal"><span class="pre">1</span></code></td>
+</tr>
+</tbody>
+</table>
+<p>It also includes other general purpose ones.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Description</th>
+<th class="head">Usage</th>
+<th class="head">Result</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>in</strong></td>
+<td>Returns whether an element is in a set of values.</td>
+<td><code class="docutils literal"><span class="pre">in(1</span> <span class="pre">+</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">3)</span></code></td>
+<td><code class="docutils literal"><span class="pre">true</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>if</strong></td>
+<td>Returns a value based on a condition.</td>
+<td><code class="docutils literal"><span class="pre">if(3</span> <span class="pre">%</span> <span class="pre">2</span> <span class="pre">=</span> <span class="pre">1,</span> <span class="pre">'value</span> <span class="pre">is</span> <span class="pre">true',</span> <span class="pre">'value</span> <span class="pre">is</span> <span class="pre">false')</span></code></td>
+<td><code class="docutils literal"><span class="pre">value</span> <span class="pre">is</span> <span class="pre">true</span></code></td>
+</tr>
+<tr class="row-even"><td><strong>contains</strong></td>
+<td>Returns true if the first string contains the second.</td>
+<td><code class="docutils literal"><span class="pre">contains('1234',</span> <span class="pre">'23')</span></code></td>
+<td><code class="docutils literal"><span class="pre">true</span></code></td>
+</tr>
+<tr class="row-odd"><td><strong>match</strong></td>
+<td>Indicates whether the specified regular expression (second argument) finds a match in the specified input string (first argument).</td>
+<td><code class="docutils literal"><span class="pre">match('1298-673-4192',</span> <span class="pre">'^[a-zA-Z0-9]\d{2}[a-zA-Z0-9](-\d{3}){2}[A-Za-z0-9]$')</span></code></td>
+<td><code class="docutils literal"><span class="pre">true</span></code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Tokens and snippets.html" class="btn btn-neutral float-right" title="Tokens and snippets" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Triggers.html" class="btn btn-neutral" title="Triggers" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Plumsail.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'2.0.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
