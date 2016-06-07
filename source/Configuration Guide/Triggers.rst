@@ -1,37 +1,28 @@
 Triggers
 ########
 
-Triggers allow you to set up automatic execution of arbitrary actions
-based on events and conditions. We use it mostly for notifications.
-There are bunch of triggers that send email notification based on
-specific event type and condition, a list of which you can see on the
-screenshot below. But you can use it for other purposes also. Create
-your own triggers and run custom actions based on your requirements.
+Triggers allow you to set up automatic execution of arbitrary sets of actions based on events and conditions. A bunch of triggers designed for sending notifications is available out-of-the-box. Find them in the screenshot below. You can create your own triggers and define actions for them in accordance with your needs.
 
-Navigate to settings using the icon in the navbar:
+Navigate to the settings using the icon in the navbar:
 
 |SettingsIcon|
 
-Then click on “Triggers” tab. You will see the list of predefined
-triggers.
+Then click the "Triggers" tab. Here you can find the list of pre-defined triggers.
 
 |hd-triggers| 
 
-For example there is a built in trigger called “Notification: Requester
-– Ticket resolved”. It sends a notification to requester when ticket
-status is changed to “Solved”. Let us open this trigger for edit and see
-what is inside:
+For instance, there is a built-in trigger called “Notification: Requester – Ticket resolved”. It sends a notification to a requester when the ticket status is changed to "Solved". Let's open this trigger for edit and see what is inside:
 
 |TriggerNotifyRequester|
 
-This is a description of the fields you can see on the form:
+Trigger's forms fields:
 
-:Name: Trigger title.
-:Event_: Type of event when trigger will fired.
-:Condition_: Condition which says when actions are to be started. You can find more information about the syntax below.
-:Actions_: List of actions that has to be started on the specified event and if the condition is satisfied.
+:Name: Trigger's title.
+:Event_: The event that raises the actions.
+:Condition_: The condition that determines whether the actions have to be executed. You can find more information about the syntax below.
+:Actions_: The list of actions that have to be executed on the specified event if the condition is "true".
 
-The condition is this:
+The condition is:
 
 .. code::
 
@@ -39,15 +30,15 @@ The condition is this:
 
 The condition literally says: **InternalStatus** is changed and **InternalStatus** is equal to “Solved”.
 
-So, you can access field values of tickets and comments using such syntax: ``[InternalFieldName]``.
-If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values like this: ``[prev::InternalFieldName]``.
+So, you can access field values of the ticket or comment using syntax: ``[InternalFieldName]``.
+If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values this way: ``[prev::InternalFieldName]``.
 
-The actions list contains one action "Send email". Each action in list has short description what it will do. In this trigger action will send email to **requester** and **Cc**.
-If you click on action it will be expanded and you will see complete settings of selected action:
+The list of actions contains a single action "Send email". Each action in list has a short description of what it does. This action sends an email to **requester** and **Cc**.
+Click the action to expand its settings:
 
 |ExpandedAction|
 
-The complete defention of "Send email" action you can find in "Actions_" section.
+Find the detailed description of the "Send email" action in the "Actions_" section.
 
 Events
 ~~~~~~
@@ -55,26 +46,26 @@ Events
 .. glossary::
 
 	Ticket has been created 
-		Occurs after ticket has been created.
-		Trigger with this event **can't refer** to previous values of fields in condition.
+		Occurs when the ticket has been created.
+		You **cannot refer** to previous values of fields in the condition of the trigger.
 
 	Ticket has been changed
-		Occurs after ticket has been changed.
-		Trigger with this event **can refer** to previous values of fields in conditions using ``[prev::InternalFieldName]`` syntax.
+		Occurs when the ticket has been changed.
+		You **can refer** to previous values of fields in the condition by using ``[prev::InternalFieldName]`` syntax.
 
 	Comment has been created
-		Occurs after comment has been created.
-		Trigger with this event **can't refer** to previous values of fields in condition.
+		Occurs when a comment has been created.
+		You **cannot refer** to previous values of fields in the condition of the trigger.
 
 Condition
 ~~~~~~~~~
 
-In condition allowed to reference to any field of current triggered item (ticket or comment) by internal name. For example ``[Title]`` will return value of **Title** field.
-By default lookup field returns **lookup value**, to get **lookup id** you should use ``[LookupFieldName.Id]``.
+Conditions determine whether the actions have to be executed. They support references to fields of the current item (ticket or comment) by their internal names. For example, ``[Title]`` returns the value of the **Title** field.
+By default lookup field returns **lookup value**. Use ``[LookupFieldName.Id]`` to get **lookup id**.
 
-There is a number of operators and functions available, such as logical operators ``and``, ``or``, ``=``, ``<>``.
+There is a number of operators and functions available in conditions, e.g. logical operators ``and``, ``or``, ``=``, ``<>``.
 
-For a complete list see `complete condition syntax description`_.
+For the complete list see `condition syntax`_.
 
 .. toctree::
    :name: triggerstoc
@@ -86,7 +77,7 @@ For a complete list see `complete condition syntax description`_.
 Actions
 ~~~~~~~
 
-To add new action you can click on "Add new action" link. 
+To add a new action you can click the "Add new action" link. 
 
 |AddNewAction|
 
@@ -96,31 +87,31 @@ There are three types of actions:
 #. `Start Workflow`_
 #. `Set Field`_
 
-List of actions can contain many different actions which will be executed sequentally one after other from top. To reorder actions you can drag action header and drop in desired place.
+The list of actions may contain multiple actions which will be executed sequentially one by one starting from the top. To reorder actions, drag the action's header and drop it to the desirable place.
 
 |DnDAction|
 
-To save changes in trggier you should click "Save" button. To discard any changes you should click "Cancel" button.
+To save changes of the trigger, click the "Save" button. To discard the changes, click the "Cancel" button.
 
 Send Email
 ++++++++++
 
-This action used to send email to different recipients. In message title and body you can use tokens and snippets to automatically include information about current triggered item.
+This action sends an email to multiple recipients. You can use tokens and snippets in the message's title and body to automatically populate information on the current item.
 
-"Send email" action has following setttings:
+"Send email" action has the following properties:
 
 :To: 
-	Required field. Recepients of the message. In this field you can use any contact from contacts list or tokens "All agents", "Requester", "Cc", "Assignee" and "Comment author" (only for ":term:`Comment has been created`" event).
+	Required field. Defines recipients of the message. In this field you can pick a contact from the contacts list or use tokens "All agents", "Requester", "Cc", "Assignee", and "Comment author" (only for ":term:`Comment has been created`" event).
 :Except: 
-	Contacts from this field will be excluded from recepients list. In this field you can use any contact from contacts list or tokens "All agents", "Requester", "Cc", "Assignee" and "Comment author" (only for ":term:`Comment has been created`" event).
+	Excludes the specified recipients from the "To" field. In this field you can pick a contact from the contacts list or use tokens "All agents", "Requester", "Cc", "Assignee" and "Comment author" (only for ":term:`Comment has been created`" event).
 :Subject: 
-	Title of message. In this field you can use any context tokens.
+	The title of the message. In this field you can use context tokens.
 :Email body: 
-	Body of the message. In this field you can use any context tokens and snippets.
+	The body of the message. In this field you can use context tokens and snippets.
 :Attachment URLs: 
-	Semicolon separated list of attachment which will be included in the email message. In this field you can use any context tokens. For example ``{{CurrentItem.AttachmentUrls}}``.
+	Semicolon separated list of attachments that have to be included to the message. In this field you can use context tokens. For example, ``{{CurrentItem.AttachmentUrls}}``.
 
-Full description of context tokens you can find in `Tokens and snippets`_ section.
+Find the complete description of the context tokens and snippets in `Tokens and snippets`_ section.
 
 .. toctree::
    :hidden:
@@ -131,12 +122,12 @@ Full description of context tokens you can find in `Tokens and snippets`_ sectio
 Start Workflow
 ++++++++++++++
 
-This action used to start selected workflow.
+This action starts the specified workflow.
 
-"Start workflow" action has following settings:
+"Start workflow" action has the following properties:
 
 :Workflow to start:
-	Required field. Name  of the workflow which must be started when trigger fired. Sharepoint Workflows 2010 and Sharepoint Workflow 2013 are supported. You can select list level workflow or site level workflow.
+	Required field. The name of the workflow that has to be executed. Both SharePoint Workflows 2010 and 2013 are supported. You can pick a list level workflow or a site level workflow.
 
 .. toctree::
    :hidden:
@@ -145,17 +136,17 @@ This action used to start selected workflow.
    Workflow customization
 
 .. seealso::
-	HelpDesk Actions Pack is provided with HelpDesk. In `Workflow customization`_ section you can find full description. 
+	HelpDesk Actions Pack is provided with HelpDesk. Find the detailed description in `Workflow customization`_ section. 
 
 Set Field
 +++++++++
 
-This action used to change value of any public field in ticket.
+This action sets the value of the public field of the ticket.
 
-"Set field" action has following settings:
+"Set field" action has following properties:
 
-:Field name: Required field. Field name you want to assign a new value.
-:Field value: New value which will be assigned to selected field. In this field you can use any context tokens.
+:Field name: Required field. The name of the field that has to be changed.
+:Field value: The new value of the field. In this field you can use context tokens.
 
 .. _Send Email: #send-email
 .. _Start Workflow: #start-workflow
