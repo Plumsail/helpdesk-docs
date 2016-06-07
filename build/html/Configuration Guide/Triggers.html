@@ -113,6 +113,8 @@
 <li class="toctree-l1"><a class="reference internal" href="Reports customization.html">Reports customization</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Forms customization.html">Customize forms</a></li>
 <li class="toctree-l1"><a class="reference internal" href="How to change home page.html">How to change home page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Upgrade manager.html">Upgrade manager</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Uninstall HelpDesk.html">Uninstall HelpDesk</a></li>
 </ul>
 <p class="caption"><span class="caption-text">User guide</span></p>
 <ul>
@@ -175,74 +177,65 @@
             
   <div class="section" id="triggers">
 <h1>Triggers<a class="headerlink" href="#triggers" title="Permalink to this headline">¶</a></h1>
-<p>Triggers allow you to set up automatic execution of arbitrary actions
-based on events and conditions. We use it mostly for notifications.
-There are bunch of triggers that send email notification based on
-specific event type and condition, a list of which you can see on the
-screenshot below. But you can use it for other purposes also. Create
-your own triggers and run custom actions based on your requirements.</p>
-<p>Navigate to settings using the icon in the navbar:</p>
+<p>Triggers allow you to set up automatic execution of arbitrary sets of actions based on events and conditions. A bunch of triggers designed for sending notifications is available out-of-the-box. Find them in the screenshot below. You can create your own triggers and define actions for them in accordance with your needs.</p>
+<p>Navigate to the settings using the icon in the navbar:</p>
 <p><img alt="Settings Navigation Icon" src="../_images/SettingsIcon.png" /></p>
-<p>Then click on “Triggers” tab. You will see the list of predefined
-triggers.</p>
+<p>Then click the &#8220;Triggers&#8221; tab. Here you can find the list of pre-defined triggers.</p>
 <p><img alt="HelpDesk Triggers" src="../_images/triggers-0.png" /></p>
-<p>For example there is a built in trigger called “Notification: Requester
-– Ticket resolved”. It sends a notification to requester when ticket
-status is changed to “Solved”. Let us open this trigger for edit and see
-what is inside:</p>
+<p>For instance, there is a built-in trigger called “Notification: Requester – Ticket resolved”. It sends a notification to a requester when the ticket status is changed to &#8220;Solved&#8221;. Let&#8217;s open this trigger for edit and see what is inside:</p>
 <p><img alt="Trigger - Notify Requester" src="../_images/triggers-1.png" /></p>
-<p>This is a description of the fields you can see on the form:</p>
+<p>Trigger&#8217;s forms fields:</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body">Trigger title.</td>
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body">Trigger&#8217;s title.</td>
 </tr>
-<tr class="field-even field"><th class="field-name"><a class="reference external" href="#events">Event</a>:</th><td class="field-body">Type of event when trigger will fired.</td>
+<tr class="field-even field"><th class="field-name"><a class="reference external" href="#events">Event</a>:</th><td class="field-body">The event that raises the actions.</td>
 </tr>
-<tr class="field-odd field"><th class="field-name"><a class="reference external" href="#condition">Condition</a>:</th><td class="field-body">Condition which says when actions are to be started. You can find more information about the syntax below.</td>
+<tr class="field-odd field"><th class="field-name"><a class="reference external" href="#condition">Condition</a>:</th><td class="field-body">The condition that determines whether the actions have to be executed. You can find more information about the syntax below.</td>
 </tr>
-<tr class="field-even field"><th class="field-name"><a class="reference external" href="#actions">Actions</a>:</th><td class="field-body">List of actions that has to be started on the specified event and if the condition is satisfied.</td>
+<tr class="field-even field"><th class="field-name"><a class="reference external" href="#actions">Actions</a>:</th><td class="field-body">The list of actions that have to be executed on the specified event if the condition is &#8220;true&#8221;.</td>
 </tr>
 </tbody>
 </table>
-<p>The condition is this:</p>
+<p>The condition is:</p>
 <div class="code highlight-default"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">Prev</span><span class="p">::</span><span class="n">InternalStatus</span><span class="p">]</span> <span class="o">&lt;&gt;</span> <span class="p">[</span><span class="n">InternalStatus</span><span class="p">]</span> <span class="ow">and</span> <span class="p">[</span><span class="n">InternalStatus</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Solved&#39;</span>
 </pre></div>
 </div>
 <p>The condition literally says: <strong>InternalStatus</strong> is changed and <strong>InternalStatus</strong> is equal to “Solved”.</p>
-<p>So, you can access field values of tickets and comments using such syntax: <code class="docutils literal"><span class="pre">[InternalFieldName]</span></code>.
-If the trigger’s event is “<a class="reference internal" href="#term-ticket-has-been-changed"><span class="xref std std-term">Ticket has been changed</span></a>” you can also access previous values like this: <code class="docutils literal"><span class="pre">[prev::InternalFieldName]</span></code>.</p>
-<p>The actions list contains one action &#8220;Send email&#8221;. Each action in list has short description what it will do. In this trigger action will send email to <strong>requester</strong> and <strong>Cc</strong>.
-If you click on action it will be expanded and you will see complete settings of selected action:</p>
+<p>So, you can access field values of the ticket or comment using syntax: <code class="docutils literal"><span class="pre">[InternalFieldName]</span></code>.
+If the trigger’s event is “<a class="reference internal" href="#term-ticket-has-been-changed"><span class="xref std std-term">Ticket has been changed</span></a>” you can also access previous values this way: <code class="docutils literal"><span class="pre">[prev::InternalFieldName]</span></code>.</p>
+<p>The list of actions contains a single action &#8220;Send email&#8221;. Each action in list has a short description of what it does. This action sends an email to <strong>requester</strong> and <strong>Cc</strong>.
+Click the action to expand its settings:</p>
 <p><img alt="Expanded action - Send Email" src="../_images/triggers-2.png" /></p>
-<p>The complete defention of &#8220;Send email&#8221; action you can find in &#8220;<a class="reference external" href="#actions">Actions</a>&#8221; section.</p>
+<p>Find the detailed description of the &#8220;Send email&#8221; action in the &#8220;<a class="reference external" href="#actions">Actions</a>&#8221; section.</p>
 <div class="section" id="events">
 <h2>Events<a class="headerlink" href="#events" title="Permalink to this headline">¶</a></h2>
 <dl class="glossary docutils">
 <dt id="term-ticket-has-been-created">Ticket has been created</dt>
-<dd>Occurs after ticket has been created.
-Trigger with this event <strong>can&#8217;t refer</strong> to previous values of fields in condition.</dd>
+<dd>Occurs when the ticket has been created.
+You <strong>cannot refer</strong> to previous values of fields in the condition of the trigger.</dd>
 <dt id="term-ticket-has-been-changed">Ticket has been changed</dt>
-<dd>Occurs after ticket has been changed.
-Trigger with this event <strong>can refer</strong> to previous values of fields in conditions using <code class="docutils literal"><span class="pre">[prev::InternalFieldName]</span></code> syntax.</dd>
+<dd>Occurs when the ticket has been changed.
+You <strong>can refer</strong> to previous values of fields in the condition by using <code class="docutils literal"><span class="pre">[prev::InternalFieldName]</span></code> syntax.</dd>
 <dt id="term-comment-has-been-created">Comment has been created</dt>
-<dd>Occurs after comment has been created.
-Trigger with this event <strong>can&#8217;t refer</strong> to previous values of fields in condition.</dd>
+<dd>Occurs when a comment has been created.
+You <strong>cannot refer</strong> to previous values of fields in the condition of the trigger.</dd>
 </dl>
 </div>
 <div class="section" id="condition">
 <h2>Condition<a class="headerlink" href="#condition" title="Permalink to this headline">¶</a></h2>
-<p>In condition allowed to reference to any field of current triggered item (ticket or comment) by internal name. For example <code class="docutils literal"><span class="pre">[Title]</span></code> will return value of <strong>Title</strong> field.
-By default lookup field returns <strong>lookup value</strong>, to get <strong>lookup id</strong> you should use <code class="docutils literal"><span class="pre">[LookupFieldName.Id]</span></code>.</p>
-<p>There is a number of operators and functions available, such as logical operators <code class="docutils literal"><span class="pre">and</span></code>, <code class="docutils literal"><span class="pre">or</span></code>, <code class="docutils literal"><span class="pre">=</span></code>, <code class="docutils literal"><span class="pre">&lt;&gt;</span></code>.</p>
-<p>For a complete list see <a class="reference external" href="Condition%20syntax.html">complete condition syntax description</a>.</p>
+<p>Conditions determine whether the actions have to be executed. They support references to fields of the current item (ticket or comment) by their internal names. For example, <code class="docutils literal"><span class="pre">[Title]</span></code> returns the value of the <strong>Title</strong> field.
+By default lookup field returns <strong>lookup value</strong>. Use <code class="docutils literal"><span class="pre">[LookupFieldName.Id]</span></code> to get <strong>lookup id</strong>.</p>
+<p>There is a number of operators and functions available in conditions, e.g. logical operators <code class="docutils literal"><span class="pre">and</span></code>, <code class="docutils literal"><span class="pre">or</span></code>, <code class="docutils literal"><span class="pre">=</span></code>, <code class="docutils literal"><span class="pre">&lt;&gt;</span></code>.</p>
+<p>For the complete list see <a class="reference external" href="Condition%20syntax.html">condition syntax</a>.</p>
 <div class="toctree-wrapper compound" id="triggerstoc">
 </div>
 </div>
 <div class="section" id="actions">
 <h2>Actions<a class="headerlink" href="#actions" title="Permalink to this headline">¶</a></h2>
-<p>To add new action you can click on &#8220;Add new action&#8221; link.</p>
+<p>To add a new action you can click the &#8220;Add new action&#8221; link.</p>
 <p><img alt="Add new action" src="../_images/triggers-gif-0.gif" /></p>
 <p>There are three types of actions:</p>
 <ol class="arabic simple">
@@ -250,44 +243,44 @@ By default lookup field returns <strong>lookup value</strong>, to get <strong>lo
 <li><a class="reference external" href="#start-workflow">Start Workflow</a></li>
 <li><a class="reference external" href="#set-field">Set Field</a></li>
 </ol>
-<p>List of actions can contain many different actions which will be executed sequentally one after other from top. To reorder actions you can drag action header and drop in desired place.</p>
+<p>The list of actions may contain multiple actions which will be executed sequentially one by one starting from the top. To reorder actions, drag the action&#8217;s header and drop it to the desirable place.</p>
 <p><img alt="Drag and Drop action" src="../_images/triggers-gif-1.gif" /></p>
-<p>To save changes in trggier you should click &#8220;Save&#8221; button. To discard any changes you should click &#8220;Cancel&#8221; button.</p>
+<p>To save changes of the trigger, click the &#8220;Save&#8221; button. To discard the changes, click the &#8220;Cancel&#8221; button.</p>
 <div class="section" id="send-email">
 <h3>Send Email<a class="headerlink" href="#send-email" title="Permalink to this headline">¶</a></h3>
-<p>This action used to send email to different recipients. In message title and body you can use tokens and snippets to automatically include information about current triggered item.</p>
-<p>&#8220;Send email&#8221; action has following setttings:</p>
+<p>This action sends an email to multiple recipients. You can use tokens and snippets in the message&#8217;s title and body to automatically populate information on the current item.</p>
+<p>&#8220;Send email&#8221; action has the following properties:</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">To:</th><td class="field-body">Required field. Recepients of the message. In this field you can use any contact from contacts list or tokens &#8220;All agents&#8221;, &#8220;Requester&#8221;, &#8220;Cc&#8221;, &#8220;Assignee&#8221; and &#8220;Comment author&#8221; (only for &#8220;<a class="reference internal" href="#term-comment-has-been-created"><span class="xref std std-term">Comment has been created</span></a>&#8221; event).</td>
+<tr class="field-odd field"><th class="field-name">To:</th><td class="field-body">Required field. Defines recipients of the message. In this field you can pick a contact from the contacts list or use tokens &#8220;All agents&#8221;, &#8220;Requester&#8221;, &#8220;Cc&#8221;, &#8220;Assignee&#8221;, and &#8220;Comment author&#8221; (only for &#8220;<a class="reference internal" href="#term-comment-has-been-created"><span class="xref std std-term">Comment has been created</span></a>&#8221; event).</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Except:</th><td class="field-body">Contacts from this field will be excluded from recepients list. In this field you can use any contact from contacts list or tokens &#8220;All agents&#8221;, &#8220;Requester&#8221;, &#8220;Cc&#8221;, &#8220;Assignee&#8221; and &#8220;Comment author&#8221; (only for &#8220;<a class="reference internal" href="#term-comment-has-been-created"><span class="xref std std-term">Comment has been created</span></a>&#8221; event).</td>
+<tr class="field-even field"><th class="field-name">Except:</th><td class="field-body">Excludes the specified recipients from the &#8220;To&#8221; field. In this field you can pick a contact from the contacts list or use tokens &#8220;All agents&#8221;, &#8220;Requester&#8221;, &#8220;Cc&#8221;, &#8220;Assignee&#8221; and &#8220;Comment author&#8221; (only for &#8220;<a class="reference internal" href="#term-comment-has-been-created"><span class="xref std std-term">Comment has been created</span></a>&#8221; event).</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Subject:</th><td class="field-body">Title of message. In this field you can use any context tokens.</td>
+<tr class="field-odd field"><th class="field-name">Subject:</th><td class="field-body">The title of the message. In this field you can use context tokens.</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Email body:</th><td class="field-body">Body of the message. In this field you can use any context tokens and snippets.</td>
+<tr class="field-even field"><th class="field-name">Email body:</th><td class="field-body">The body of the message. In this field you can use context tokens and snippets.</td>
 </tr>
 <tr class="field-odd field"><th class="field-name" colspan="2">Attachment URLs:</th></tr>
-<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Semicolon separated list of attachment which will be included in the email message. In this field you can use any context tokens. For example <code class="docutils literal"><span class="pre">{{CurrentItem.AttachmentUrls}}</span></code>.</td>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Semicolon separated list of attachments that have to be included to the message. In this field you can use context tokens. For example, <code class="docutils literal"><span class="pre">{{CurrentItem.AttachmentUrls}}</span></code>.</td>
 </tr>
 </tbody>
 </table>
-<p>Full description of context tokens you can find in <a class="reference external" href="Tokens%20and%20snippets.html">Tokens and snippets</a> section.</p>
+<p>Find the complete description of the context tokens and snippets in <a class="reference external" href="Tokens%20and%20snippets.html">Tokens and snippets</a> section.</p>
 <div class="toctree-wrapper compound">
 </div>
 </div>
 <div class="section" id="start-workflow">
 <h3>Start Workflow<a class="headerlink" href="#start-workflow" title="Permalink to this headline">¶</a></h3>
-<p>This action used to start selected workflow.</p>
-<p>&#8220;Start workflow&#8221; action has following settings:</p>
+<p>This action starts the specified workflow.</p>
+<p>&#8220;Start workflow&#8221; action has the following properties:</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name" colspan="2">Workflow to start:</th></tr>
-<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Required field. Name  of the workflow which must be started when trigger fired. Sharepoint Workflows 2010 and Sharepoint Workflow 2013 are supported. You can select list level workflow or site level workflow.</td>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Required field. The name of the workflow that has to be executed. Both SharePoint Workflows 2010 and 2013 are supported. You can pick a list level workflow or a site level workflow.</td>
 </tr>
 </tbody>
 </table>
@@ -295,20 +288,20 @@ By default lookup field returns <strong>lookup value</strong>, to get <strong>lo
 </div>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
-<p class="last">HelpDesk Actions Pack is provided with HelpDesk. In <a class="reference external" href="Workflow%20customization.html">Workflow customization</a> section you can find full description.</p>
+<p class="last">HelpDesk Actions Pack is provided with HelpDesk. Find the detailed description in <a class="reference external" href="Workflow%20customization.html">Workflow customization</a> section.</p>
 </div>
 </div>
 <div class="section" id="set-field">
 <h3>Set Field<a class="headerlink" href="#set-field" title="Permalink to this headline">¶</a></h3>
-<p>This action used to change value of any public field in ticket.</p>
-<p>&#8220;Set field&#8221; action has following settings:</p>
+<p>This action sets the value of the public field of the ticket.</p>
+<p>&#8220;Set field&#8221; action has following properties:</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Field name:</th><td class="field-body">Required field. Field name you want to assign a new value.</td>
+<tr class="field-odd field"><th class="field-name">Field name:</th><td class="field-body">Required field. The name of the field that has to be changed.</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Field value:</th><td class="field-body">New value which will be assigned to selected field. In this field you can use any context tokens.</td>
+<tr class="field-even field"><th class="field-name">Field value:</th><td class="field-body">The new value of the field. In this field you can use context tokens.</td>
 </tr>
 </tbody>
 </table>

@@ -20,7 +20,38 @@ form in a simple drag-and-drop fashion:
 
 |FormsDesigner|
 
- 
+.. _forms backups:
+
+Restore default forms
+~~~~~~~~~~~~~~~~~~~~~
+
+You can easilly rollback any changes applied to the form and return to the default form. 
+Default form layouts you can find in ``<your HelpDesk site>/HD/FormsBackups/`` forlder.
+
+|FormsBackupsFolder|
+
+All layouts are splitted by three folders:
+
+Tickets
+	Contains backups of the tickets forms.
+
+Contacts
+	Contains backups of the contacts forms.
+
+TicketStatuses
+	Contains backups of the ticket statuses forms.
+
+|TicketFormsBackups|
+
+For example to restore ticket edit form you need to do following steps:
+
+1. Download file from ``<your HelpDesk site>/HD/FormsBackups/Tickets/Item_edit.xfds``.
+2. Navigate to any tickets list view (for example click on "Home" button on navbar).
+3. Click on "Design Forms" button in the ribbon.
+4. Select "Edit Form" in Forms Designer.
+5. Click on "Import" button.
+6. Select downloaded file "Item_edit.xfds".
+7. Save the form. 
 
 .. _Forms Designer: http://spform.com/
 .. _the documentation: http://spform.com/documentation
@@ -29,3 +60,7 @@ form in a simple drag-and-drop fashion:
    :alt: Forms Designer Ribbon
 .. |FormsDesigner| image:: /_static/img/FormsDesigner.png
    :alt: Forms Designer
+.. |FormsBackupsFolder| image:: /_static/img/forms-backups-0.png
+   :alt: Forms Backups Folder
+.. |TicketFormsBackups| image:: /_static/img/forms-backups-1.png
+   :alt: Forms Backups Folder

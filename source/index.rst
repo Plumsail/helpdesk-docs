@@ -30,6 +30,8 @@ Welcome to HelpDesk Documentation's!
    Configuration Guide/Reports customization
    Configuration Guide/Forms customization
    Configuration Guide/How to change home page
+   Configuration Guide/Upgrade manager
+   Configuration Guide/Uninstall HelpDesk
 
 .. toctree::
    :caption: User guide 

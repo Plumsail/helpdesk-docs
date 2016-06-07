@@ -92,8 +92,13 @@
 <li class="toctree-l1"><a class="reference internal" href="Color theme.html">Color theme</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Statuses customization.html">Statuses customization</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Reports customization.html">Reports customization</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Customize forms</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Customize forms</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#restore-default-forms">Restore default forms</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="How to change home page.html">How to change home page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Upgrade manager.html">Upgrade manager</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Uninstall HelpDesk.html">Uninstall HelpDesk</a></li>
 </ul>
 <p class="caption"><span class="caption-text">User guide</span></p>
 <ul>
@@ -169,6 +174,32 @@ List” section:</p>
 <p>Clicking the button will load Forms Designer where you can edit your
 form in a simple drag-and-drop fashion:</p>
 <p><img alt="Forms Designer" src="../_images/FormsDesigner.png" /></p>
+<div class="section" id="restore-default-forms">
+<span id="forms-backups"></span><h2>Restore default forms<a class="headerlink" href="#restore-default-forms" title="Permalink to this headline">¶</a></h2>
+<p>You can easilly rollback any changes applied to the form and return to the default form.
+Default form layouts you can find in <code class="docutils literal"><span class="pre">&lt;your</span> <span class="pre">HelpDesk</span> <span class="pre">site&gt;/HD/FormsBackups/</span></code> forlder.</p>
+<p><img alt="Forms Backups Folder" src="../_images/forms-backups-0.png" /></p>
+<p>All layouts are splitted by three folders:</p>
+<dl class="docutils">
+<dt>Tickets</dt>
+<dd>Contains backups of the tickets forms.</dd>
+<dt>Contacts</dt>
+<dd>Contains backups of the contacts forms.</dd>
+<dt>TicketStatuses</dt>
+<dd>Contains backups of the ticket statuses forms.</dd>
+</dl>
+<p><img alt="Forms Backups Folder" src="../_images/forms-backups-1.png" /></p>
+<p>For example to restore ticket edit form you need to do following steps:</p>
+<ol class="arabic simple">
+<li>Download file from <code class="docutils literal"><span class="pre">&lt;your</span> <span class="pre">HelpDesk</span> <span class="pre">site&gt;/HD/FormsBackups/Tickets/Item_edit.xfds</span></code>.</li>
+<li>Navigate to any tickets list view (for example click on &#8220;Home&#8221; button on navbar).</li>
+<li>Click on &#8220;Design Forms&#8221; button in the ribbon.</li>
+<li>Select &#8220;Edit Form&#8221; in Forms Designer.</li>
+<li>Click on &#8220;Import&#8221; button.</li>
+<li>Select downloaded file &#8220;Item_edit.xfds&#8221;.</li>
+<li>Save the form.</li>
+</ol>
+</div>
 </div>
 
 

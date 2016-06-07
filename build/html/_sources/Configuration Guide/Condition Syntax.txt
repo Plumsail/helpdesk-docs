@@ -66,7 +66,7 @@ Multiplicative
 Bitwise
 ^^^^^^^
 
--  ``&`` (bitwise and), ``|`` (bitwise or), ``^`` (bitwise xor), ``<<`` (left shift), ``>>``(right shift)
+-  ``&`` (bitwise and), ``|`` (bitwise or), ``^`` (bitwise xor), ``<<`` (left shift), ``>>`` (right shift)
 
 .. code::
 
