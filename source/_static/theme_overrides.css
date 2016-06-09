@@ -17,7 +17,7 @@
 }
 
 .wy-side-nav-search {
-	background-color: #429e70;
+	background-color: #F09600;
 }
 
 /*
@@ -35,6 +35,10 @@ body{
 }
 
 */
+
+.wy-side-nav-search input[type=text] {
+    border-color: #F09600;
+}
 
 .pl-nav-btn {
     margin: 0px 10px 10px 0px !important;
