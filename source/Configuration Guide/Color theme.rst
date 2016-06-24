@@ -1,7 +1,7 @@
 Color theme
 ###########
 
-By default HelpDesk uses own color theme, but you can always revert it
+By default, HelpDesk uses its own color theme, but you can always revert it
 to default or choose another one. HelpDesk uses SharePoint look to
 change colors. Look is a color theme applied to your SharePoint site.
 
@@ -10,7 +10,7 @@ look" item:
 
 |ctl-online|
 
-You will see list of available "Looks". To apply desired look just click
+You will see the list of available "Looks". To apply the desired look just click
 on it and follow setup steps.
 
 |looks|
