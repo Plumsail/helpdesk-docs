@@ -9,7 +9,7 @@ Navigate to settings using the icon in the navbar:
 
 Then click on "About" tab. You will see the interface of upgrade manager.
 
-.. note:: If you don't see "About" tab that means you are using HelpDesk version 1.0.0. You should manually navigate to URL ``<Site with HelpDesk>/HD/Settings/About.aspx``.
+.. note:: If you don't see "About" tab that means you are using HelpDesk version 1.0.0. You should manually navigate to URL ``<Site with HelpDesk>/HD/pages/About.aspx``.
 
 |UpgradeManager|
 
