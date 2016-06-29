@@ -2,11 +2,11 @@ Knowledge base
 ##############
 
 Use the knowledge base to store answers to the most common questions. It
-is possible that somebody already answered similar question earlier. You
+is possible that somebody already answered the similar question earlier. You
 can check knowledge base before answering the question.
 
 Navigate to all tickets using the icon in the navigation bar on the
-right hand side of the page:
+right-hand side of the page:
 
 |kb_icon|
 
@@ -18,7 +18,7 @@ To create a new article click “New”:
 
 |create-kb-article|
 
-To create new folder navigate to “Files” tab in the ribbon and click
+To create a new folder navigate to “Files” tab in the ribbon and click
 “New Folder”.
 
 |create-kb-folder|

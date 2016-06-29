@@ -3,7 +3,7 @@ Home
 
 This is the home page where agents process their tickets. This section
 contains tickets that are related to the current agent only. Navigate to
-home page using the icon on the navigation bar at the right hand side:
+home page using the icon on the navigation bar at the right-hand side:
 
 |home_icon|
 
@@ -35,7 +35,7 @@ My overdue
 	Tickets assigned to me with Due date before today.
 
 Group tickets 
-	Tickets assigned to SharePoint groups that I belong to. (You can assign tickets to SharePoint groups, e.g.”IT Support”).
+	Tickets assigned to SharePoint groups that I belong to. (You can assign tickets to SharePoint groups, e.g., ”IT Support”).
 
 Unassigned 
 	All tickets with an empty “Assigned to” field.
@@ -46,7 +46,7 @@ Unread
 Resolved tickets are not displayed in any of the home views.
 
 There is also HelpDesk ribbon tab. Use it to navigate to ticket by id.
-Just type id the id and hit Enter:
+Just type ID and hit Enter:
 
 |HD_ribbon|
 
@@ -64,8 +64,7 @@ Mark tickets as read or unread
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When a ticket is created or updated it is marked as unread for the
-assignee. All unread tickets are displayed with bold typed titles andW
-ids in “My tickets” and “My overdue” views. There is also a separate
+assignee. All unread tickets are displayed with bold typed titles and IDs in “My tickets” and “My overdue” views. There is also a separate
 Unread view, where the agent can see all unread tickets.
 
 You can mark tickets as read or as unread manually. Select single or

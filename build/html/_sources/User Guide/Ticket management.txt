@@ -9,11 +9,11 @@ with a form like this one:
 
 |view-ticket-form|
 
-You can see the Discussion tab with conversation between agent and
+You can see the Discussion tab with the conversation between agent and
 requester. You may notice a small lock underneath an agent’s name, it
 tells that this message is a private note that is visible to agents only
 and not to the requester. The requester will not receive any
-notification about it and will not be able to read it. Also there is a
+notification about it and will not be able to read it. Also, there is a
 list of attachments on the right side of the view, below Due Date.
 
 The ticket's change history can be opened by clicking the History tab:
@@ -21,7 +21,7 @@ The ticket's change history can be opened by clicking the History tab:
 |history-tab|
 
 Once you opened the ticket form as the assignee, it is marked as read.
-But certainly you may want to mark the ticket as unread right from the
+But certainly, you may want to mark the ticket as unread right from the
 form you are currently in. To do this open HelpDesk ribbon tab and click
 Mark as unread button (make sure you are the assignee of the ticket).
 
@@ -30,7 +30,7 @@ Enter.
 
 |hd-ribbon-tab|
 
-Most of the ticket fields are displayed in the table on the right hand
+Most of the ticket fields are displayed in the table on the right-hand
 side of the screen:
 
 Requester
@@ -47,7 +47,7 @@ Cc
    same notifications as the requester.
 
 Status
-   Ticket status. There are three statuses by default: New, In
+   The ticket status. There are three statuses by default: New, In
    progress and Solved. You can also add your own.
 
 Priority
@@ -86,7 +86,7 @@ Add new ticket
 
 HelpDesk is able to create new tickets from email messages, but you may
 need to create a new ticket manually. Click the button in the navigation
-bar on the right hand side of the page:
+bar on the right-hand side of the page:
 
 |new-icon|
 

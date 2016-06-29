@@ -16,7 +16,7 @@ display setting and a list of HelpDesk navigation elements.
 Quick launch
 ~~~~~~~~~~~~
 
-By default quick launch bar is hidden, but you can unhide it with this
+By default, quick launch bar is hidden, but you can unhide it with this
 setting. If this setting is on then the bar is displayed on every page:
 
 |leftsidebar|
@@ -24,7 +24,7 @@ setting. If this setting is on then the bar is displayed on every page:
 Right navigation
 ~~~~~~~~~~~~~~~~
 
-HelpDesk navigation is a set of icons on the right hand side of
+HelpDesk navigation is a set of icons on the right-hand side of
 HelpDesk. You can customize them by changing the navigation list items:
 
 -  Add new item to create a new navigation element

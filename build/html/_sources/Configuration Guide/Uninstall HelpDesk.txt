@@ -6,10 +6,10 @@ Navigate to :menuselection:`"Site Setting" --> "Uninstall Plumsail HelpDesk"`.
 
 |RemoveManager|
 
-Enter your login and password then HelpDesk system will check your permissions and start uninstall process.
+Enter your login and password then HelpDesk system will check your permissions and start the uninstallation process.
 
 .. warning:: 
-	All data associated with HelpDesk will be deleted, including contacts, tickets and triggers. You will not able to restore this data.
+	All data associated with HelpDesk will be deleted, including contacts, tickets, and triggers. You will not able to restore this data.
 
 .. |RemoveManager| image:: /_static/img/remove-manager-0.png
    :alt: Upgrade Manager

@@ -1,7 +1,7 @@
 Upgrade manager
 ###############
 
-Upgrade manager allows you to install updates on your HelpDesk. Also it provides information about HelpDesk version and license.
+Upgrade manager allows you to install updates on your HelpDesk. Also, it provides information about HelpDesk version and license.
 
 Navigate to settings using the icon in the navbar:
 
@@ -9,11 +9,11 @@ Navigate to settings using the icon in the navbar:
 
 Then click on "About" tab. You will see the interface of upgrade manager.
 
-.. note:: If you don't see "About" tab that means you are using HelpDesk version 1.0.0. You should manually navigate to URL ``<Site with HelpDesk>/HD/pages/About.aspx``.
+.. note:: If you don't see "About" tab that means you are using HelpDesk version 1.0.0. You should manually navigate to URL ``<Site with HelpDesk>/HD/Settings/About.aspx``.
 
 |UpgradeManager|
 
-On the picture above you can see that HelpDesk has version 1.2.6 and at the moment this version is up to date. Also you can see that license type is "Production" and expiration date is 09.12.2016.
+On the picture above you can see that HelpDesk has version 1.2.6 and at the moment this version is up to date. Also you can see that license type is "Production" and the expiration date is 09.12.2016.
 
 If version of your HelpDesk is not up to date and your account have "Manage Web" permissions then you will see the list of updates with full description of each update.
 
@@ -26,7 +26,7 @@ Upgrade to version 1.2.6
 
 This update can erase some of settings:
 
-- Notificaitons will be disabled during update.
+- Notifications will be disabled during update.
 - New tickets and comments creation will not work during update.
 - All modifications of triggers will be lost. You will need to configure triggers from scratch.
 - New triggers, will not use workflows by default, but you will be able to configure them to use old workflows.
@@ -48,12 +48,12 @@ Manual steps
 
 You need to perform some actions manually to complete update:
 
-1. Downdload css file :download:`plumsail.helpdesk.theme.css </_static/download/plumsail.helpdesk.theme.css>`.
+1. Download CSS file :download:`plumsail.helpdesk.theme.css </_static/download/plumsail.helpdesk.theme.css>`.
 2. **Upload** and **publish** "plumsail.helpdesk.theme.css" to following location ``<Site Collection with HelpDesk Site>/Style Library/<your language folder>/Themable/Plumsail/HelpDesk``.
 
 	.. note::
 		| If HelpDesk is installed on the site ``https://helpdesk.sharepoint.com/sites/IT/HelpDesk/`` with **English** as default language 
-		| then you should **upload** and publish file to ``https://helpdesk.sharepoint.com/sites/IT/Style Library/en-us/Themable/Plumsail/HelpDesk``.
+		| then you should **upload** and publish the file to ``https://helpdesk.sharepoint.com/sites/IT/Style Library/en-us/Themable/Plumsail/HelpDesk``.
 
 3. Go to site settings and click "Change the look".
 4. Reapply your current look.

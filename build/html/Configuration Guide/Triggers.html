@@ -43,8 +43,6 @@
 
 <body class="wy-body-for-nav" role="document">
 
-   
-
   <div class="wy-grid-for-nav">
 
     
@@ -163,19 +161,15 @@
 
 <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="https://plumsail.com/sharepoint-helpdesk/">Product</a> &raquo;</li>
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
     <li>Triggers</li>
-
-    <li class="wy-breadcrumbs-aside">
-        <a href="https://plumsail.com/sharepoint-helpdesk/store/" class="btn btn-neutral float-right pl-nav-btn">Buy It</a>
-    </li>
-    <li class="wy-breadcrumbs-aside">
-      <a href="https://plumsail.com/sharepoint-helpdesk/download/" class="btn btn-neutral float-right pl-nav-btn">Try It</a>
-    </li> 
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
   </ul>
-
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -212,7 +206,7 @@
 <p>The condition literally says: <strong>InternalStatus</strong> is changed and <strong>InternalStatus</strong> is equal to “Solved”.</p>
 <p>So, you can access field values of the ticket or comment using syntax: <code class="docutils literal"><span class="pre">[InternalFieldName]</span></code>.
 If the trigger’s event is “<a class="reference internal" href="#term-ticket-has-been-changed"><span class="xref std std-term">Ticket has been changed</span></a>” you can also access previous values this way: <code class="docutils literal"><span class="pre">[prev::InternalFieldName]</span></code>.</p>
-<p>The list of actions contains a single action &#8220;Send email&#8221;. Each action in list has a short description of what it does. This action sends an email to <strong>requester</strong> and <strong>Cc</strong>.
+<p>The list of actions contains a single action &#8220;Send email&#8221;. Each action in the list has a short description of what it does. This action sends an email to <strong>requester</strong> and <strong>Cc</strong>.
 Click the action to expand its settings:</p>
 <p><img alt="Expanded action - Send Email" src="../_images/triggers-2.png" /></p>
 <p>Find the detailed description of the &#8220;Send email&#8221; action in the &#8220;<a class="reference external" href="#actions">Actions</a>&#8221; section.</p>
@@ -233,7 +227,7 @@ You <strong>cannot refer</strong> to previous values of fields in the condition 
 <div class="section" id="condition">
 <h2>Condition<a class="headerlink" href="#condition" title="Permalink to this headline">¶</a></h2>
 <p>Conditions determine whether the actions have to be executed. They support references to fields of the current item (ticket or comment) by their internal names. For example, <code class="docutils literal"><span class="pre">[Title]</span></code> returns the value of the <strong>Title</strong> field.
-By default lookup field returns <strong>lookup value</strong>. Use <code class="docutils literal"><span class="pre">[LookupFieldName.Id]</span></code> to get <strong>lookup id</strong>.</p>
+By default, lookup field returns <strong>lookup value</strong>. Use <code class="docutils literal"><span class="pre">[LookupFieldName.Id]</span></code> to get <strong>lookup id</strong>.</p>
 <p>There is a number of operators and functions available in conditions, e.g. logical operators <code class="docutils literal"><span class="pre">and</span></code>, <code class="docutils literal"><span class="pre">or</span></code>, <code class="docutils literal"><span class="pre">=</span></code>, <code class="docutils literal"><span class="pre">&lt;&gt;</span></code>.</p>
 <p>For the complete list see <a class="reference external" href="Condition%20syntax.html">condition syntax</a>.</p>
 <div class="toctree-wrapper compound" id="triggerstoc">
@@ -269,7 +263,7 @@ By default lookup field returns <strong>lookup value</strong>. Use <code class="
 <tr class="field-even field"><th class="field-name">Email body:</th><td class="field-body">The body of the message. In this field you can use context tokens and snippets.</td>
 </tr>
 <tr class="field-odd field"><th class="field-name" colspan="2">Attachment URLs:</th></tr>
-<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Semicolon separated list of attachments that have to be included to the message. In this field you can use context tokens. For example, <code class="docutils literal"><span class="pre">{{CurrentItem.AttachmentUrls}}</span></code>.</td>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Semicolon separated list of attachments that have to be included in the message. In this field you can use context tokens. For example, <code class="docutils literal"><span class="pre">{{CurrentItem.AttachmentUrls}}</span></code>.</td>
 </tr>
 </tbody>
 </table>

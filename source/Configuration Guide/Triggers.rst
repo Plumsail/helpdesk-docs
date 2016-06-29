@@ -33,7 +33,7 @@ The condition literally says: **InternalStatus** is changed and **InternalStatus
 So, you can access field values of the ticket or comment using syntax: ``[InternalFieldName]``.
 If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values this way: ``[prev::InternalFieldName]``.
 
-The list of actions contains a single action "Send email". Each action in list has a short description of what it does. This action sends an email to **requester** and **Cc**.
+The list of actions contains a single action "Send email". Each action in the list has a short description of what it does. This action sends an email to **requester** and **Cc**.
 Click the action to expand its settings:
 
 |ExpandedAction|
@@ -61,7 +61,7 @@ Condition
 ~~~~~~~~~
 
 Conditions determine whether the actions have to be executed. They support references to fields of the current item (ticket or comment) by their internal names. For example, ``[Title]`` returns the value of the **Title** field.
-By default lookup field returns **lookup value**. Use ``[LookupFieldName.Id]`` to get **lookup id**.
+By default, lookup field returns **lookup value**. Use ``[LookupFieldName.Id]`` to get **lookup id**.
 
 There is a number of operators and functions available in conditions, e.g. logical operators ``and``, ``or``, ``=``, ``<>``.
 
@@ -109,7 +109,7 @@ This action sends an email to multiple recipients. You can use tokens and snippe
 :Email body: 
 	The body of the message. In this field you can use context tokens and snippets.
 :Attachment URLs: 
-	Semicolon separated list of attachments that have to be included to the message. In this field you can use context tokens. For example, ``{{CurrentItem.AttachmentUrls}}``.
+	Semicolon separated list of attachments that have to be included in the message. In this field you can use context tokens. For example, ``{{CurrentItem.AttachmentUrls}}``.
 
 Find the complete description of the context tokens and snippets in `Tokens and snippets`_ section.
 

@@ -2,7 +2,7 @@ Reports customization
 #####################
 
 You can use our additional solution `Dashboard Designer`_ to customize
-charts. You can find more information in \ `documentation`_.
+charts. You can find more information in the \ `documentation`_.
 
 In order to customize charts with Dashboard Designer navigate to the
 page containing charts and enter edit mode.

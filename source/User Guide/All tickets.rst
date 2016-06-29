@@ -3,7 +3,7 @@ All tickets
 
 All tickets is a module where you can view a list of all tickets and
 filter them by creation date or by due date. Navigate to all tickets
-using the icon in the navigation panel on the right hand side:
+using the icon in the navigation panel on the right-hand side:
 
 |tickets_icon|
 

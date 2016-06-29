@@ -125,7 +125,7 @@ Get Items by Query
 
 Executes CAML query on a list or on a document library list and returns
 a collection of elements. Read `this article`_ to learn how to query
-items using this workflow action. We would recommend to read the whole
+items using this workflow action. We would recommend reading the whole
 article to understand how to work with dictionaries in general, but you
 can also just read the section related to this workflow action.
 

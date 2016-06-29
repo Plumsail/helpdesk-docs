@@ -12,27 +12,27 @@ Snippets
 ~~~~~~~~
 
 Snippet is a small part of a template that will be inserted in the
-resulting message template. Current version doesn’t support snippet
-customization, but there is a list of built in snippets. Snippet is
+resulting message template. The current version doesn’t support snippet
+customization, but there is a list of built-in snippets. The snippet is
 denoted by double square brackets.
 
 .. glossary::
 
 	[[AllComments]] 
-		Renders a list of all comments for current ticket.
+		Renders a list of all comments for a current ticket.
 
 	[[PublicComments]] 
-		Renders a list of public comments for current ticket.
+		Renders a list of public comments for a current ticket.
 
 	[[Styles]]
-		Sets the style of email message to the default HelpDesk style via CSS.
+		Sets the style of a email message to the default HelpDesk style via CSS.
 
 	[[TicketInfo]]
 		Renders a summary for current tickets as a table. 
 
 .. _context-tokens: 
 
-Context Tokens
+Tokens
 ~~~~~~~~~~~~~~
 
 You can use context tokens to access HelpDesk entities like current list
@@ -104,7 +104,9 @@ There are some additional helper tokens.
 .. rubric:: The 'Each' token
 
 If you need to display a block of text for each item in a collection,
-use the each token. ::
+use the each token.
+
+.. code-block:: latex
 
 	{{#!Ticket.AllComments.Body}}
 	{{#each Ticket.AllComments}}
@@ -119,10 +121,12 @@ AllComments.
 Take a look at ``{{#!Ticket.AllComments.Body}}``. This expression begins
 with ``#!`` and defines a property inside the collection which we want to
 retrieve. Thus, we have to define all properties we will use before the
-loop. In this example it is Body property.
+loop. In this example, it is Body property.
 
 Additionally, you can access the current index into the collection being
-enumerated using the index token. ::
+enumerated using the index token. 
+
+.. code-block:: latex
 
 	{{#each Ticket.AllComments}}
 	 <div>{{#index}}</div>
@@ -130,7 +134,9 @@ enumerated using the index token. ::
 
 .. rubric:: The 'If' token
 
-The ``if`` token allows you to conditionally include a block of text. ::
+The ``if`` token allows you to conditionally include a block of text. 
+
+.. code-block:: latex
 
 	{{#if Ticket.Requester}}
 	  {{Ticket.Requester.Title}}

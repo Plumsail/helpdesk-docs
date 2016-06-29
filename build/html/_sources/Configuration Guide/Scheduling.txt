@@ -9,12 +9,12 @@ Navigate to settings using the icon in the navbar:
 
 |SettingsIcon|
 
-Then switch to 'Scheduler' tab:
+Then switch to "Scheduler" tab:
 
 |HelpDeskScheduler|
 
 Read the `Customize workflows`_ article to get more information about
-built in workflow actions.
+built-in workflow actions.
 
 .. _Workflow Scheduler: https://plumsail.com/workflow-scheduler/
 .. _the Workflow Scheduler documentation: https://plumsail.com/workflow-scheduler/docs/

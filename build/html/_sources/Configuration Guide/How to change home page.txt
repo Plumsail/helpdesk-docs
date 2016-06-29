@@ -1,7 +1,7 @@
 How to change home page
 #######################
 
-There are two ways to change home page:
+There are two ways to change homepage:
 
 #. `From ribbon`_
 #. `From site settings`_
@@ -11,7 +11,7 @@ There are two ways to change home page:
 From ribbon
 -----------
 
-To change home page, open the needed page in a browser. On the ribbon
+To change homepage, open the needed page in a browser. On the ribbon
 tab named 'Page' you will find a button 'Make homepage':
 
 |image0|
@@ -21,7 +21,7 @@ tab named 'Page' you will find a button 'Make homepage':
 From site settings
 ------------------
 
-If you want to set a custom homepage, you can change its url in your
+If you want to set a custom homepage, you can change its URL in your
 site settings.
 
 Navigate to settings using the icon in the navbar:
@@ -32,7 +32,7 @@ Then click on the “Welcome page” link:
 
 |Set welcome page|
 
-On the opened page you can provide a new value for welcome page url:
+On the opened page you can provide a new value for welcome page URL:
 
 |Set welcome page url|
 

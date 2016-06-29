@@ -2,7 +2,7 @@ Quick HelpDesk configuration
 #########################################
 
 Once HelpDesk has been installed you can start working with it straight
-away, no further configuration required. There are couple of things you
+away, no further configuration required. There are a couple of things you
 may want to set up to make your life easier, however. You can:
 
 #. `Forward messages from your support mailbox`_
@@ -52,12 +52,12 @@ forwarding for some of the most popular platforms:
 Change the reply address and email display name
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-By default HelpDesk will use auto generated email address for sending
+By default, HelpDesk will use auto generated email address for sending
 notifications. You can specify your own “Reply to” address, so your
 customers will reply to your own support mailbox.
 
 You also can specify a friendly display name for your email address. By
-default it is “HelpDesk”.
+default, it is “HelpDesk”.
 
 |HDEmailSettingsReply|
 

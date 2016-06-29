@@ -3,7 +3,7 @@ Customize forms
 
 You can use embedded `Forms Designer`_ to customize ticket and contact
 forms. Forms Designer allows to design SharePoint forms with tabs,
-complex tables and accordions among other UI elements.
+complex tables, and accordions among other UI elements.
 
 You can find more information on how to use Forms Designer in `the
 documentation`_.
@@ -25,8 +25,8 @@ form in a simple drag-and-drop fashion:
 Restore default forms
 ~~~~~~~~~~~~~~~~~~~~~
 
-You can easilly rollback any changes applied to the form and return to the default form. 
-Default form layouts you can find in ``<your HelpDesk site>/HD/FormsBackups/`` forlder.
+You can easily rollback any changes applied to the form and return to the default form. 
+Default form layouts you can find in ``<your HelpDesk site>/HD/FormsBackups/`` folder.
 
 |FormsBackupsFolder|
 
@@ -43,7 +43,7 @@ TicketStatuses
 
 |TicketFormsBackups|
 
-For example to restore ticket edit form you need to do following steps:
+For example, to restore ticket edit form you need to do following steps:
 
 1. Download file from ``<your HelpDesk site>/HD/FormsBackups/Tickets/Item_edit.xfds``.
 2. Navigate to any tickets list view (for example click on "Home" button on navbar).

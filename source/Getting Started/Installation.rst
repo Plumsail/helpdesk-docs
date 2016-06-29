@@ -10,8 +10,8 @@ access:
 Follow the wizard steps.
 
 .. note::
-	If you specify a non existing site, it will be created automatically. 
-	For example if you specify *https://yourdomain.sharepoint.com/*\ **HelpDesk**
+	If you specify a nonexisting site, it will be created automatically. 
+	For example, if you specify *https://yourdomain.sharepoint.com/*\ **HelpDesk**
 	and **HelpDesk** doesn’t	exist, it will be created for you. 
 
 .. admonition:: Known issues

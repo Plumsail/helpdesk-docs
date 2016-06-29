@@ -1,8 +1,8 @@
 Reports
 #######
 
-In this section you are able to create diagrams based on all tickets,
-requesters and agents. Here you can analyze efficiency and intensity of
+In this section, you are able to create diagrams based on all tickets,
+requesters, and agents. Here you can analyze efficiency and intensity of
 HelpDesk usage, personal productivity of each agent, find most active
 requesters and do other kinds of information analysis with your HelpDesk
 data.
@@ -21,7 +21,7 @@ Overview
 ~~~~~~~~
 
 It is a dashboard representing all HelpDesk tickets. The dashboard
-consists of four chatrs:
+consists of four charts:
 
 Tickets by state 
    Shows how many unassigned, overdue, in progress
@@ -36,7 +36,7 @@ Tickets by agents
    each agent has (Ticket field “Due date”).
 
 Active requesters (Top 10) 
-   Shows top 10 requesters by the amount of
+   Shows top 10 requesters by a number of
    tickets created.
 
 |overview|
@@ -44,15 +44,15 @@ Active requesters (Top 10)
 By date
 ~~~~~~~
 
-Here you can see two timelines. Vertical axis represents amount of
-tickets, horizontal axis represents date of ticket creation.
+Here you can see two timelines. The vertical axis represents an amount of
+tickets, the horizontal axis represents a date of ticket creation.
 
 Created by category 
-   Shows amount of tickets created within a specific
+   Shows the amount of tickets created within a specific
    category and a specified interval (Ticket field “Category”).
 
 Created/Resolved 
-   Shows amount of tickets created and amount of tickets
+   Shows the amount of tickets created and the amount of tickets
    resolved within specified interval.
 
 |by-date|
@@ -62,12 +62,12 @@ By assignee
 
 Next charts represent information related to assignee:
 
-Perfomance (Avg solved per day) 
+Performance (Avg solved per day) 
    Shows average resolved tickets per
    day within specified interval.
 
 Resolved by assignee 
-   Shows amount of tickets resolved by assignee
+   Shows the amount of tickets resolved by assignee
    within specified interval.
 
 |By-assignee|
@@ -79,7 +79,7 @@ This chart which shows how many active tickets and tickets resolved by
 requester exist within specified interval. An active ticket is a ticket
 with one of the following statuses: “In progress” or “New”. You can see
 how many tickets are unresolved yet (Active) and how many tickets are
-resolved by requester (Resolved).
+resolved by the requester (Resolved).
 
 |by-requester|
 

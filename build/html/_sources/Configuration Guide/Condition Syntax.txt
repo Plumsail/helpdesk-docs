@@ -190,7 +190,7 @@ any value as arguments.
 Parameters
 ^^^^^^^^^^
 
-A parameter as a name, and can be optionnaly contained inside brakets.
+A parameter as a name, and can be optionnally contained inside brackets.
 
 .. code::
 
@@ -263,7 +263,7 @@ Functions
       - ``Pow(3, 2)``
       - ``9d``
    *  - **Round**
-      - Rounds a value to the nearest integer or specified number of decimal places. The mid number behaviour can be changed by using EvaluateOption.RoundAwayFromZero during construction of the Expression object.
+      - Rounds a value to the nearest integer or specified a number of decimal places. The mid number behavior can be changed by using EvaluateOption.RoundAwayFromZero during construction of the Expression object.
       - ``Round(3.222, 2)``
       - ``3.22d``
    *  - **Sign**

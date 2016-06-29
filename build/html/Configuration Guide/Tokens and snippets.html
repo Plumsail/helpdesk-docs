@@ -44,8 +44,6 @@
 
 <body class="wy-body-for-nav" role="document">
 
-   
-
   <div class="wy-grid-for-nav">
 
     
@@ -158,21 +156,17 @@
 
 <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="https://plumsail.com/sharepoint-helpdesk/">Product</a> &raquo;</li>
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-        <li><a href="Triggers.html">Triggers</a> &raquo;</li>
+          <li><a href="Triggers.html">Triggers</a> &raquo;</li>
       
     <li>Tokens and snippets</li>
-
-    <li class="wy-breadcrumbs-aside">
-        <a href="https://plumsail.com/sharepoint-helpdesk/store/" class="btn btn-neutral float-right pl-nav-btn">Buy It</a>
-    </li>
-    <li class="wy-breadcrumbs-aside">
-      <a href="https://plumsail.com/sharepoint-helpdesk/download/" class="btn btn-neutral float-right pl-nav-btn">Try It</a>
-    </li> 
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
   </ul>
-
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -186,22 +180,22 @@ tokens inside templates, we call them <a class="reference external" href="#snipp
 <div class="section" id="snippets">
 <span id="snippet"></span><h2>Snippets<a class="headerlink" href="#snippets" title="Permalink to this headline">¶</a></h2>
 <p>Snippet is a small part of a template that will be inserted in the
-resulting message template. Current version doesn’t support snippet
-customization, but there is a list of built in snippets. Snippet is
+resulting message template. The current version doesn’t support snippet
+customization, but there is a list of built-in snippets. The snippet is
 denoted by double square brackets.</p>
 <dl class="glossary docutils">
 <dt id="term-allcomments">[[AllComments]]</dt>
-<dd>Renders a list of all comments for current ticket.</dd>
+<dd>Renders a list of all comments for a current ticket.</dd>
 <dt id="term-publiccomments">[[PublicComments]]</dt>
-<dd>Renders a list of public comments for current ticket.</dd>
+<dd>Renders a list of public comments for a current ticket.</dd>
 <dt id="term-styles">[[Styles]]</dt>
-<dd>Sets the style of email message to the default HelpDesk style via CSS.</dd>
+<dd>Sets the style of a email message to the default HelpDesk style via CSS.</dd>
 <dt id="term-ticketinfo">[[TicketInfo]]</dt>
 <dd>Renders a summary for current tickets as a table.</dd>
 </dl>
 </div>
-<div class="section" id="context-tokens">
-<span id="id1"></span><h2>Context Tokens<a class="headerlink" href="#context-tokens" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="tokens">
+<span id="context-tokens"></span><h2>Tokens<a class="headerlink" href="#tokens" title="Permalink to this headline">¶</a></h2>
 <p>You can use context tokens to access HelpDesk entities like current list
 item, current ticket or current site URL.</p>
 <p class="rubric">Ticket token</p>
@@ -255,10 +249,10 @@ like this:</p>
 <p class="rubric">The &#8216;Each&#8217;&nbsp;token</p>
 <p>If you need to display a block of text for each item in a collection,
 use the each token.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">{{</span><span class="c1">#!Ticket.AllComments.Body}}</span>
-<span class="p">{{</span><span class="c1">#each Ticket.AllComments}}</span>
-        <span class="o">&lt;</span><span class="n">div</span><span class="o">&gt;</span><span class="p">{{</span><span class="n">Body</span><span class="p">}}</span><span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
-<span class="p">{{</span><span class="o">/</span><span class="n">each</span><span class="p">}}</span>
+<div class="highlight-latex"><div class="highlight"><pre><span></span><span class="nb">{{</span>#!Ticket.AllComments.Body<span class="nb">}}</span>
+<span class="nb">{{</span>#each Ticket.AllComments<span class="nb">}}</span>
+        &lt;div&gt;<span class="nb">{{</span>Body<span class="nb">}}</span>&lt;/div&gt;
+<span class="nb">{{</span>/each<span class="nb">}}</span>
 </pre></div>
 </div>
 <p>Within the context of the each block, the scope changes to the current
@@ -267,18 +261,18 @@ AllComments.</p>
 <p>Take a look at&nbsp;<code class="docutils literal"><span class="pre">{{#!Ticket.AllComments.Body}}</span></code>. This expression begins
 with <code class="docutils literal"><span class="pre">#!</span></code> and defines a property inside the collection which we want to
 retrieve. Thus, we have to define all properties we will use before the
-loop. In this example it is Body property.</p>
+loop. In this example, it is Body property.</p>
 <p>Additionally, you can access the current index into the collection being
 enumerated using the index token.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">{{</span><span class="c1">#each Ticket.AllComments}}</span>
- <span class="o">&lt;</span><span class="n">div</span><span class="o">&gt;</span><span class="p">{{</span><span class="c1">#index}}&lt;/div&gt;</span>
-<span class="p">{{</span><span class="o">/</span><span class="n">each</span><span class="p">}}</span>
+<div class="highlight-latex"><div class="highlight"><pre><span></span><span class="nb">{{</span>#each Ticket.AllComments<span class="nb">}}</span>
+ &lt;div&gt;<span class="nb">{{</span>#index<span class="nb">}}</span>&lt;/div&gt;
+<span class="nb">{{</span>/each<span class="nb">}}</span>
 </pre></div>
 </div>
 <p>The <code class="docutils literal"><span class="pre">if</span></code>&nbsp;token allows you to conditionally include a block of text.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">{{</span><span class="c1">#if Ticket.Requester}}</span>
-  <span class="p">{{</span><span class="n">Ticket</span><span class="o">.</span><span class="n">Requester</span><span class="o">.</span><span class="n">Title</span><span class="p">}}</span>
-<span class="p">{{</span><span class="o">/</span><span class="k">if</span><span class="p">}}</span>
+<div class="highlight-latex"><div class="highlight"><pre><span></span><span class="nb">{{</span>#if Ticket.Requester<span class="nb">}}</span>
+  <span class="nb">{{</span>Ticket.Requester.Title<span class="nb">}}</span>
+<span class="nb">{{</span>/if<span class="nb">}}</span>
 </pre></div>
 </div>
 <p>The block will be printed if:</p>

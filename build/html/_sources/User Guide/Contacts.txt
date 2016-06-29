@@ -28,7 +28,7 @@ who work with HelpDesk.
 
 To find out more about one of the contacts in this list click his full
 name. You will see a card of the contact with information about
-his organization, email address, phone number, role and time zone. There
+his organization, email address, phone number, role, and time zone. There
 are also two views with recent tickets related to current contact:
 
 Requested tickets
@@ -63,7 +63,7 @@ Role
 SharePoint user/Email
    Either one is displayed, depending on the
    current person’s role. If he is an agent or a member – his name
-   becomes a link to his SharePoint user page, otherwise his Email is
+   becomes a link to his SharePoint user page, otherwise, his Email is
    displayed.
 
 Signature

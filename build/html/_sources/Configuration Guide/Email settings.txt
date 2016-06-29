@@ -25,7 +25,7 @@ Forwarding of e-mail messages from your support mailbox
    How forwarding works
 
 If you want to receive new tickets sent to your support email in
-HelpDesk you’ll need to configure e-mail forwarding. Take a look at the
+HelpDesk, you’ll need to configure e-mail forwarding. Take a look at the
 email address in the Screenshot above. It was created automatically
 during HelpDesk installation.
 
@@ -52,25 +52,25 @@ forwarding for some of the most popular platforms:
 Change the reply address and email display name
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-By default HelpDesk will use auto generated email address for sending
+By default, HelpDesk will use the auto generated email address for sending
 notifications. You can specify your own “Reply to” address, so your
 customers will reply to your own support mailbox.
 
 You also can specify a friendly display name for your email address. By
-default it is “HelpDesk”.
+default, it is “HelpDesk”.
 
 |HDEmailSettingsReply|
 
 Custom SMTP server settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-By default HelpDesk will use the auto generated email address for
-sending notificaitons. You can specify a custom “Reply to” address as
-described above, but alternatively you can specify SMTP server settings
+By default, HelpDesk will use the auto generated email address for
+sending notifications. You can specify a custom “Reply to” address as
+described above, but alternatively, you can specify SMTP server settings
 for your support mailbox to make HelpDesk use your support mailbox for
 sending messages. To do it click “Custom SMTP server settings”. You will
 see a few parameters. Fill them in by following your SMTP server’s
-instructions and click “Save”. Also you can test correctness of entered settings by clicking on "Test" button.
+instructions and click “Save”. Also, you can test the correctness of entered settings by clicking on "Test" button.
 
 |HDSMTPServerSettings|
 
