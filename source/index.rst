@@ -52,6 +52,12 @@ Plumsail HelpDesk Documentation
 
    Video overview <https://www.youtube.com/watch?v=rcA34gRC27c>
    Build IT Help Desk or Service Desk in 15 minutes <https://plumsail.com/blog/2015/11/build-it-help-desk-or-service-desk-on-your-sharepoint-online-or-sharepoint-2013-on-premises-in-15-minutes/>
+   How to update help desk message template <https://plumsail.com/blog/2016/06/helpdesk-tip-how-to-update-help-desk-message-template/>
+   How to add new email notification for SharePoint help desk ticket <https://plumsail.com/blog/2016/07/quick-tip-how-to-add-new-email-notification-for-sharepoint-help-desk-ticket/>
+   How to add a new column to tickets list and form in Sharepoint help desk <https://plumsail.com/blog/2016/07/quick-tip-how-to-add-a-new-column-to-tickets-list-and-form-in-sharepoint-help-desk/>
+   How to find the internal name of SharePoint column <https://plumsail.com/blog/2016/07/quick-tip-how-to-find-the-internal-name-of-sharepoint-column/>
+   How to assign ticket to multiple agents <https://plumsail.com/blog/2016/07/quick-tip-how-to-assign-ticket-to-multiple-agents/>
+   How to create a new view <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-view/>
 
 .. toctree::
    :caption: Additional resources 

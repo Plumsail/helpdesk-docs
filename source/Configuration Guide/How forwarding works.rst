@@ -14,12 +14,7 @@ operations are performed over secure encrypted https connection.
 
 .. rubric:: Dedicated installation
 
-If you want to host this address on your side, you can request dedicated
-installation. Send an email with a request to support@plumsail.com.
-
- 
-
- 
+At the moment, we don't have this feature but we are listening to you, so, send us feedback via support@plumsail.com if you'd like to get a dedicated SMTP server.
 
 .. _Forward messages: ../Getting%20Started/Quick%20HelpDesk%20configuration.html#forwarding
 
