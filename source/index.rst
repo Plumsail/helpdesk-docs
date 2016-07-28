@@ -58,6 +58,8 @@ Plumsail HelpDesk Documentation
    How to find the internal name of SharePoint column <https://plumsail.com/blog/2016/07/quick-tip-how-to-find-the-internal-name-of-sharepoint-column/>
    How to assign ticket to multiple agents <https://plumsail.com/blog/2016/07/quick-tip-how-to-assign-ticket-to-multiple-agents/>
    How to create a new view <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-view/>
+   How to export tickets to Excel <https://plumsail.com/blog/2016/07/quick-tip-how-to-export-tickets-to-excel/>
+   How to create a new chart for help desk reports in SharePoint <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-chart-for-help-desk-reports-in-sharepoint/>
 
 .. toctree::
    :caption: Additional resources 
