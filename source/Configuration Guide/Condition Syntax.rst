@@ -109,7 +109,7 @@ References
 
          Example:
 
-            ([Prev.Status] != [Status]) and ([Status] == ‘Solved’)
+            ([Prev::Status] <> [Status]) and ([Status] == 'Solved')
 
 Integers
 ^^^^^^^^

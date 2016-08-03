@@ -163,7 +163,7 @@ AssignedTo are empty ``{{/if}}``
 .. _snippets: #snippet
 .. _context tokens: #context-tokens
 .. _advanced syntax: #advanced-syntax
-.. _Send email: Workflow%20actions.html#send-email
+.. _Send email: Workflow%20customization.html#send%20email
 
 .. |HDMessageTemplateForm| image:: /_static/img/message-templates-0.png
    :alt: HelpDesk Message Template

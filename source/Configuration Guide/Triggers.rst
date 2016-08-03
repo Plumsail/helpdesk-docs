@@ -154,7 +154,7 @@ This action sets the value of the public field of the ticket.
 .. _Event: #events
 .. _Condition: #condition
 .. _Actions: #actions
-.. _condition syntax: Condition%20syntax.html
+.. _condition syntax: Condition%20Syntax.html
 .. _Tokens and snippets: Tokens%20and%20snippets.html
 .. _Workflow customization: Workflow%20customization.html
 
