@@ -60,6 +60,7 @@ Plumsail HelpDesk Documentation
    How to create a new view <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-view/>
    How to export tickets to Excel <https://plumsail.com/blog/2016/07/quick-tip-how-to-export-tickets-to-excel/>
    How to create a new chart for help desk reports in SharePoint <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-chart-for-help-desk-reports-in-sharepoint/>
+   How to automatically assign a ticket to specific person <https://plumsail.com/blog/2016/08/how-to-automatically-assign-a-ticket-in-sharepoint-help-desk/>
 
 .. toctree::
    :caption: Additional resources 
