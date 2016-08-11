@@ -79,7 +79,7 @@ You can check how signature works on the ticket editing form. Just click "Add re
 
 |HowSignatureWork|
 
-.. |ContactsNav| image:: /_static/img/ContactsNav.png
+.. |ContactsNav| image:: /_static/img/contactsnav.png
    :alt: Contact Navigation Icon
 .. |contacts_1| image:: /_static/img/contacts_1.png
    :alt: Contact

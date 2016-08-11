@@ -56,9 +56,9 @@ For example, to restore ticket edit form you need to do following steps:
 .. _Forms Designer: http://spform.com/
 .. _the documentation: http://spform.com/documentation
 
-.. |HelpDeskFDRibbon| image:: /_static/img/HelpDeskFDRibbon.png
+.. |HelpDeskFDRibbon| image:: /_static/img/helpdeskfdribbon.png
    :alt: Forms Designer Ribbon
-.. |FormsDesigner| image:: /_static/img/FormsDesigner.png
+.. |FormsDesigner| image:: /_static/img/formsdesigner.png
    :alt: Forms Designer
 .. |FormsBackupsFolder| image:: /_static/img/forms-backups-0.png
    :alt: Forms Backups Folder

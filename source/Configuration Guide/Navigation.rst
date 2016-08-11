@@ -36,7 +36,7 @@ dialog with an ability to set link properties.
 
 |navigationEdit|
 
-.. |SettingsIcon| image:: /_static/img/SettingsIcon.png
+.. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon
 .. |navigationsets| image:: /_static/img/navigation-0.png
    :alt: Navigation Sets

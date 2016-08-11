@@ -158,7 +158,7 @@ This action sets the value of the public field of the ticket.
 .. _Tokens and snippets: Tokens%20and%20snippets.html
 .. _Workflow customization: Workflow%20customization.html
 
-.. |SettingsIcon| image:: /_static/img/SettingsIcon.png
+.. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon
 .. |hd-triggers| image:: /_static/img/triggers-0.png
    :alt: HelpDesk Triggers

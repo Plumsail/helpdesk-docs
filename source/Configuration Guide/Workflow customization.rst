@@ -275,7 +275,7 @@ Example
    :alt: Send Email
 .. |get items| image:: /_static/img/get-items.png
    :alt: Get Items
-.. |Join Dictionary Values| image:: /_static/img/Screenshot_2.png
+.. |Join Dictionary Values| image:: /_static/img/screenshot_2.png
 
 .. _triggers: Triggers.html
 .. _workflow scheduler: Scheduling.html

@@ -99,11 +99,11 @@ Then specify mandatory fields and submit the form.
 .. _Gmail: https://support.google.com/mail/answer/10957?hl=en
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
 
-.. |SettingsIcon| image:: /_static/img/SettingsIcon.png
+.. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon
 .. |HDEmailSettings| image:: /_static/img/email-settings-0.png
    :alt: Email Settings
 .. |HDEmailSettingsReply| image:: /_static/img/email-settings-1.png
    :alt: Email Reply Settings
-.. |ContactsNav| image:: /_static/img/ContactsNav.png
+.. |ContactsNav| image:: /_static/img/contactsnav.png
    :alt: Contacts Navigation Icon

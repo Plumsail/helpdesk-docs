@@ -91,7 +91,7 @@ resolved by the requester (Resolved).
    :alt: Overview
 .. |by-date| image:: /_static/img/by-date.png
    :alt: By date
-.. |By-assignee| image:: /_static/img/By-assignee.png
+.. |By-assignee| image:: /_static/img/by-assignee.png
    :alt: By assignee
 .. |by-requester| image:: /_static/img/by-requester.png
    :alt: By requester

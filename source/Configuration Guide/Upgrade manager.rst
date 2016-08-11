@@ -58,7 +58,7 @@ You need to perform some actions manually to complete update:
 3. Go to site settings and click "Change the look".
 4. Reapply your current look.
 
-.. |SettingsIcon| image:: /_static/img/SettingsIcon.png
+.. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon
 .. |UpgradeManager| image:: /_static/img/upgrade-manager-0.png
    :alt: Upgrade Manager

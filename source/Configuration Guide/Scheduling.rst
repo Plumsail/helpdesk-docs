@@ -20,7 +20,7 @@ built-in workflow actions.
 .. _the Workflow Scheduler documentation: https://plumsail.com/workflow-scheduler/docs/
 .. _Customize workflows: Workflow%20customization.html
 
-.. |SettingsIcon| image:: /_static/img/SettingsIcon.png
+.. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon
 .. |HelpDeskScheduler| image:: /_static/img/scheduler-0.png
    :alt: HelpDesk Scheduler

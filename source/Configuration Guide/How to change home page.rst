@@ -40,7 +40,7 @@ On the opened page you can provide a new value for welcome page URL:
 .. _From site settings: #from-settings
 
 .. |image0| image:: /_static/img/set_homepage_from_ribbon.png
-.. |SettingsIcon| image:: /_static/img/SP_SiteSettingsImg.png
+.. |SettingsIcon| image:: /_static/img/sp_sitesettingsimg.png
    :alt: Site Settings Icon
 .. |Set welcome page| image:: /_static/img/settings_welcome_page.png
 .. |Set welcome page url| image:: /_static/img/edit_welcome_page_url.png
