@@ -15,6 +15,8 @@ Plumsail HelpDesk Documentation
    Getting Started/License installation
    Getting Started/Quick HelpDesk configuration
    Community forum  <https://plumsail.com/forum/viewforum.php?f=33>
+   Official blog <https://plumsail.com/blog/> 
+   YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>
 
 .. toctree::
    :caption: Configuration guide 
@@ -61,6 +63,7 @@ Plumsail HelpDesk Documentation
    How to export tickets to Excel <https://plumsail.com/blog/2016/07/quick-tip-how-to-export-tickets-to-excel/>
    How to create a new chart for help desk reports in SharePoint <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-chart-for-help-desk-reports-in-sharepoint/>
    How to automatically assign a ticket to specific person <https://plumsail.com/blog/2016/08/how-to-automatically-assign-a-ticket-in-sharepoint-help-desk/>
+   How to start a workflow with a trigger in SharePoint help desk <https://plumsail.com/blog/2016/08/how-to-start-a-workflow-with-a-trigger-in-sharepoint-help-desk/>
 
 .. toctree::
    :caption: Additional resources 
@@ -68,4 +71,3 @@ Plumsail HelpDesk Documentation
    :maxdepth: 1 
 
    How to change home page <http://www.learningsharepoint.com/2013/09/05/how-to-set-a-page-as-home-page-in-sharepoint-2013-site/>
-
