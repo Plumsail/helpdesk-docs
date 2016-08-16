@@ -119,7 +119,7 @@ html_theme_options = {
 	'sticky_navigation': True,
 	'analytics_id': 'UA-36215023-2',
 }
-#test
+
 #html_theme = "sphinx_rtd_theme"
 #html_theme_path = ["_themes\sphinx_librato_theme", ]
 
