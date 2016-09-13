@@ -51,26 +51,33 @@ All documentation articles
       User Guide/Reports
 
    .. toctree::
-      :caption: Use cases and overviews 
+      :caption: How to
       :name: usecasetoc
       :maxdepth: 1
-
-      Video overview <https://www.youtube.com/watch?v=rcA34gRC27c>
+      
       Build IT Help Desk or Service Desk in 15 minutes <https://plumsail.com/blog/2015/11/build-it-help-desk-or-service-desk-on-your-sharepoint-online-or-sharepoint-2013-on-premises-in-15-minutes/>
-      How to update help desk message template <https://plumsail.com/blog/2016/06/helpdesk-tip-how-to-update-help-desk-message-template/>
-      How to add new email notification for SharePoint help desk ticket <https://plumsail.com/blog/2016/07/quick-tip-how-to-add-new-email-notification-for-sharepoint-help-desk-ticket/>
-      How to add a new column to tickets list and form <https://plumsail.com/blog/2016/07/quick-tip-how-to-add-a-new-column-to-tickets-list-and-form-in-sharepoint-help-desk/>
-      How to find the internal name of SharePoint column <https://plumsail.com/blog/2016/07/quick-tip-how-to-find-the-internal-name-of-sharepoint-column/>
-      How to assign ticket to multiple agents <https://plumsail.com/blog/2016/07/quick-tip-how-to-assign-ticket-to-multiple-agents/>
-      How to create a new view <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-view/>
-      How to export tickets to Excel <https://plumsail.com/blog/2016/07/quick-tip-how-to-export-tickets-to-excel/>
-      How to create a new chart for help desk reports <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-chart-for-help-desk-reports-in-sharepoint/>
-      How to automatically assign a ticket to specific person <https://plumsail.com/blog/2016/08/how-to-automatically-assign-a-ticket-in-sharepoint-help-desk/>
-      How to start a workflow with a trigger <https://plumsail.com/blog/2016/08/how-to-start-a-workflow-with-a-trigger-in-sharepoint-help-desk/>
+      Update help desk message template <https://plumsail.com/blog/2016/06/helpdesk-tip-how-to-update-help-desk-message-template/>
+      Add new email notification ticket <https://plumsail.com/blog/2016/07/quick-tip-how-to-add-new-email-notification-for-sharepoint-help-desk-ticket/>
+      Add a new column to tickets list and form <https://plumsail.com/blog/2016/07/quick-tip-how-to-add-a-new-column-to-tickets-list-and-form-in-sharepoint-help-desk/>
+      Find the internal name of SharePoint column <https://plumsail.com/blog/2016/07/quick-tip-how-to-find-the-internal-name-of-sharepoint-column/>
+      Assign ticket to multiple agents <https://plumsail.com/blog/2016/07/quick-tip-how-to-assign-ticket-to-multiple-agents/>
+      Create a new view <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-view/>
+      Export tickets to Excel <https://plumsail.com/blog/2016/07/quick-tip-how-to-export-tickets-to-excel/>
+      Create a new chart for help desk reports <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-chart-for-help-desk-reports-in-sharepoint/>
+      Automatically assign a ticket to specific person <https://plumsail.com/blog/2016/08/how-to-automatically-assign-a-ticket-in-sharepoint-help-desk/>
+      Start a workflow with a trigger <https://plumsail.com/blog/2016/08/how-to-start-a-workflow-with-a-trigger-in-sharepoint-help-desk/>
+
+   .. toctree::
+      :caption: Videos
+      :name: videostoc
+      :maxdepth: 1
+
+      General overview <https://www.youtube.com/watch?v=rcA34gRC27c>
+      Initial configuration of HelpDesk in SharePoint Online <https://www.youtube.com/watch?v=Zz513Se2zU4>
 
    .. toctree::
       :caption: Additional resources 
       :name: addrestoc
       :maxdepth: 1 
 
-      How to change home page <http://www.learningsharepoint.com/2013/09/05/how-to-set-a-page-as-home-page-in-sharepoint-2013-site/>
+      How to change home page <http://www.learningsharepoint.com/2013/09/05/how-to-set-a-page-as-home-page-in-sharepoint-2013-site/>      

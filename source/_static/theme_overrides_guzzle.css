@@ -1,4 +1,4 @@
-.section > h1{
+.section > h1, #search-documentation{
     background-color: #F09600;
     color: white;
     border: none;
@@ -85,4 +85,18 @@ a{
 
 .sidebar-block > .sidebar-toc ul:first-child li a {
     padding-left: 10px;
+}
+
+.form-control, #main-search form .input-group input{
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.btn{
+    border-radius: 0px;
+}
+
+.btn-default {
+    background-image: none;
+    box-shadow: none;
 }
