@@ -34,6 +34,7 @@ disqus_shortname = 'plumsail'  # Add this line to conf.py.
 # ones.
 extensions = []
 
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -129,6 +130,7 @@ html_theme_options = {
 
     # Set you GA account ID to enable tracking
     "google_analytics_account": "UA-36215023-2",
+    "base_url": "https://plumsail.com/docs/help-desk-o365/v1.x/" #for sitemap
 }
 
 #html_theme = "sphinx_rtd_theme"
