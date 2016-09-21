@@ -12,7 +12,7 @@ All documentation articles
       :name: generaltoc
       :maxdepth: 1
  
-      Privacy policy
+      Privacy policy <https://plumsail.com/privacy-policy/helpdesk-privacy-policy/>
       License agreement <https://plumsail.com/license-agreement/>
 
    .. toctree::
