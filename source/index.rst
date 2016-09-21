@@ -8,6 +8,14 @@ All documentation articles
 .. container:: pl-left-column
 
    .. toctree::
+      :caption: General
+      :name: generaltoc
+      :maxdepth: 1
+      General/Version history
+      Privacy policy
+      License agreement <https://plumsail.com/license-agreement/>
+
+   .. toctree::
       :caption: Getting Started
       :name: getstarttoc
       :maxdepth: 1
