@@ -8,7 +8,7 @@ All documentation articles
 .. container:: pl-left-column
 
    .. toctree::
-      :caption: Getting Started
+      :caption: Getting Started1
       :name: getstarttoc
       :maxdepth: 1
       
