@@ -1,8 +1,8 @@
 Version history
 ###############
 
-Upgrade to version 1.2.7
-------------------------
+Version 1.2.7
+--------------
 
 This update will reset form customizations by applying new text editor.
 
@@ -18,8 +18,8 @@ New features:
 - Incorrect theme color bug fix.
 - Other minor bug fixes.
 
-Upgrade to version 1.2.6
-------------------------
+Version 1.2.6
+--------------
 
 This update can erase some of settings:
 
@@ -39,6 +39,16 @@ New features:
 - New `trigger engine`_ with friendly and flexible interface.
 - HelpDesk `uninstall page`_.
 - HelpDesk update page.
+
+Version 1.0
+------------
+
+- Assign tickets to agents or group of agents.
+- Instant appearance of all e-mail messages in help desk
+- Filtering tickets with own views.
+- Reports section.
+- Workflow scheduler and triggers.
+- Knowledge base.
 
 .. _rollback forms: Forms%20customization.html#forms-backups
 .. _signature: ../User%20Guide/Contacts.html#signature
