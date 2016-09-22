@@ -12,7 +12,7 @@ All documentation articles
       :name: generaltoc
       :maxdepth: 1
 
-      General/Version history
+      General/Versionhistory
       Privacy policy <https://plumsail.com/privacy-policy/helpdesk/>
       License agreement <https://plumsail.com/license-agreement/>
 
