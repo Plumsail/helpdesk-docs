@@ -1,6 +1,23 @@
 Version history
 ###############
 
+Upgrade to version 1.2.7
+------------------------
+
+This update will reset form customizations by applying new text editor.
+
+New features:
+
+- New rich text editor for comments.
+- Ability to paste pictures to text editor.
+- Ability to upload pictures with drag and drop.
+- Guided tour to users on first entrance.
+- Getting started video and quick tips in knowlege base.
+- Automatic creation of contact on user first visit
+- Triggers UI bug fixes.
+- Incorrect theme color bug fix.
+- Other minor bug fixes.
+
 Upgrade to version 1.2.6
 ------------------------
 
@@ -22,23 +39,6 @@ New features:
 - New `trigger engine`_ with friendly and flexible interface.
 - HelpDesk `uninstall page`_.
 - HelpDesk update page.
-
-Upgrade to version 1.2.7
-------------------------
-
-This update will reset form customizations by applying new text editor.
-
-New features:
-
-- New rich text editor for comments.
-- Ability to paste pictures to text editor.
-- Ability to upload pictures with drag and drop.
-- Guided tour to users on first entrance.
-- Getting started video and quick tips in knowlege base.
-- Automatic creation of contact on user first visit
-- Triggers UI bug fixes.
-- Incorrect theme color bug fix.
-- Other minor bug fixes.
 
 .. _rollback forms: Forms%20customization.html#forms-backups
 .. _signature: ../User%20Guide/Contacts.html#signature

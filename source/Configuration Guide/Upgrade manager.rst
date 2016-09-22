@@ -22,7 +22,7 @@ If version of your HelpDesk is not up to date and your account have "Manage Web"
 To install update you can click "Update" button.
 
 Manual steps
-++++++++++++
++++++++++++++
 
 You need to perform some actions manually to complete update:
 

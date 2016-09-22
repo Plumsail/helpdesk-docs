@@ -83,6 +83,7 @@ All documentation articles
 
       General overview <https://www.youtube.com/watch?v=rcA34gRC27c>
       Initial configuration of HelpDesk in SharePoint Online <https://www.youtube.com/watch?v=Zz513Se2zU4>
+      How to work with HelpDesk <https://www.youtube.com/watch?v=hV1nIFT2ZNM>
 
    .. toctree::
       :caption: Additional resources 
