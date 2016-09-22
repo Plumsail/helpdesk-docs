@@ -1,7 +1,7 @@
 Upgrade manager
 ###############
 
-Upgrade manager allows you to install updates on your HelpDesk. Also, it provides information about HelpDesk version and license.
+Upgrade manager allows you to install updates on your HelpDesk. Also, it provides information about HelpDesk version and license. Information about all HelpDesk versions you can find on `Version history`_ page.
 
 Navigate to settings using the icon in the navbar:
 
@@ -21,10 +21,9 @@ If version of your HelpDesk is not up to date and your account have "Manage Web"
 
 To install update you can click "Update" button.
 
-Manual steps
-+++++++++++++
 
-You need to perform some actions manually to complete update:
+:Manual steps when upgrading from version 1.0: 
+You need to perform some actions manually to complete upgrade if you are updating from version 1.0:
 
 1. Download CSS file :download:`plumsail.helpdesk.theme.css </_static/download/plumsail.helpdesk.theme.css>`.
 2. **Upload** and **publish** "plumsail.helpdesk.theme.css" to following location ``<Site Collection with HelpDesk Site>/Style Library/<your language folder>/Themable/Plumsail/HelpDesk``.
@@ -43,3 +42,4 @@ You need to perform some actions manually to complete update:
 .. |UpdateAvailable| image:: /_static/img/upgrade-manager-1.png
    :alt: Update Available
 
+.. _Version history: ../General/Versionhistory.html
