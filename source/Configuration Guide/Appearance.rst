@@ -1,4 +1,4 @@
-Navigation
+Appearance
 ##########
 
 You can hide or display the SharePoint out of the box quick launch bar
@@ -8,7 +8,7 @@ Navigate to settings using the icon in the navbar:
 
 |SettingsIcon|
 
-Then click on the “Navigation” tab. Now you can see the quick launch
+Then click on the “Appearance” tab. Now you can see the quick launch
 display setting and a list of HelpDesk navigation elements.
 
 |navigationsets|

@@ -36,7 +36,7 @@ All documentation articles
       Configuration Guide/Email settings
       Configuration Guide/Triggers
       Configuration Guide/Scheduling
-      Configuration Guide/Navigation
+      Configuration Guide/Appearance
       Configuration Guide/Color theme
       Configuration Guide/Statuses customization
       Configuration Guide/Reports customization
