@@ -7,7 +7,7 @@ may want to set up to make your life easier, however. You can:
 
 #. `Forward messages from your support mailbox`_
 #. `Change the reply address and email display name`_
-#. `Create contacts for agents`_
+#. `Create agents`_
 
 .. _forwarding:
 
@@ -63,7 +63,7 @@ default, it is “HelpDesk”.
 
 .. _create-contacts:
 
-Create contacts for agents
+Create agents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 HelpDesk has a place for storing contact details of your customers or
@@ -78,10 +78,7 @@ Member
 End-User 
 	User without a SharePoint account that creates tickets by email.
 
-If user sends email messages to HelpDesk, it creates a contact for such
-user automatically, but for agents you need to create contacts manually.
-Once you created an agent, you can start receiving notifications about
-new unassigned tickets.
+End-Users and Members are created automatically, when a new ticket is created or when a user visits help desk for the first time. The only case when you need to do something manually is when you create a new agent or convert an existing contact to an agent by changing his role. Once you created an agent, you can start receiving notifications about new unassigned tickets.
 
 To create a new contact, navigate to “Contacts” using the icon in the
 right navbar:
