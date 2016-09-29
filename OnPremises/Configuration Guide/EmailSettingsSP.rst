@@ -1,5 +1,5 @@
 Email settings
-###########################
+##############
 
 You can configure HelpDesk to create new tickets or ticket comments with
 email messages as well as specify some custom settings for the email
