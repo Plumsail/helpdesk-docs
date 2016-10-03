@@ -1,2 +1,5 @@
 #ignore build folder
 /build
+/build_online
+/build_onpremises
+/source
