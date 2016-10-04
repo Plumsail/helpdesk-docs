@@ -7,7 +7,7 @@ Go to SharePoint site where you want to create HelpDesk. Select ‘Site Settings
 
 |HelpDeskAuthentication|
 
-Then navigate to site features1:
+Then navigate to site features:
 
 |HelpDeskAuthentication1|
 
