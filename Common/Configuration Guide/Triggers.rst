@@ -129,14 +129,6 @@ This action starts the specified workflow.
 :Workflow to start:
 	Required field. The name of the workflow that has to be executed. Both SharePoint Workflows 2010 and 2013 are supported. You can pick a list level workflow or a site level workflow.
 
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-
-   Workflow customization
-
-.. seealso::
-	HelpDesk Actions Pack is provided with HelpDesk. Find the detailed description in `Workflow customization`_ section. 
 
 Set Field
 +++++++++
@@ -156,7 +148,6 @@ This action sets the value of the public field of the ticket.
 .. _Actions: #actions
 .. _condition syntax: Condition%20Syntax.html
 .. _Tokens and snippets: Tokens%20and%20snippets.html
-.. _Workflow customization: Workflow%20customization.html
 
 .. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon

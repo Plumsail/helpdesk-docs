@@ -1,7 +1,7 @@
 HelpDesk installation
 #####################
 
-`Download`_ and run it on one of the servers in your SharePoint 2013 farm as Farm Administrator. Follow the wizard steps.
+`Download`_ and run it on one of the servers in your SharePoint 2013/2016 farm as Farm Administrator. Follow the wizard steps.
 
 Go to SharePoint site where you want to create HelpDesk. Select ‘Site Settings’:
 
@@ -19,7 +19,7 @@ Once you clicked on the feature you are redirected to installation wizard. It wi
 
 |HDWorkflowSelect2013|
 
-You have to choose workflow engine. HelpDesk uses SharePoint workflows for notifications and other automation. We would recommend you to choose SharePoint 2013 workflows. They are more flexible and extendable. Read `this article`_ to understand difference between workflow engines.
+You have to choose workflow engine. HelpDesk uses SharePoint workflows for notifications and other automation. We would recommend you to choose SharePoint 2013/2016 workflows. They are more flexible and extendable. Read `this article`_ to understand difference between workflow engines.
 
 Then click next and wait for installation. Once HelpDesk has been installed, you can go on to `configuration`_.
 

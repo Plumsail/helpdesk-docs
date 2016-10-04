@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-All documentation articles
+Office 365 documentation articles
 ==================================================
 .. container:: pl-left-column
 
