@@ -21,9 +21,9 @@ All documentation articles
       :name: getstarttoc
       :maxdepth: 1
       
-      Getting Started/Installation
-      Getting Started/License installation
-      Getting Started/Quick HelpDesk configuration
+      Getting Started/InstallationSP
+      Getting Started/LicenseInstallationSP
+      Getting Started/QuickHelpDeskConfigurationSP
       Community forum  <https://plumsail.com/forum/viewforum.php?f=33>
       Official blog <https://plumsail.com/blog/> 
       YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>
@@ -33,7 +33,7 @@ All documentation articles
       :name: confguidetoc
       :maxdepth: 2
 
-      Configuration Guide/Email settings
+      Configuration Guide/EmailSettingsSP
       Configuration Guide/Triggers
       Configuration Guide/Scheduling
       Configuration Guide/Appearance
