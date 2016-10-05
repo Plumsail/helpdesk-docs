@@ -15,7 +15,8 @@ Office 365 documentation articles
       General/Versionhistory
       Privacy policy <https://plumsail.com/privacy-policy/helpdesk/>
       License agreement <https://plumsail.com/license-agreement/>
-
+      Support plans <https://plumsail.com/support-plans/>
+ 
    .. toctree::
       :caption: Getting Started
       :name: getstarttoc
