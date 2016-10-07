@@ -29,6 +29,7 @@ The condition is:
     [Prev::InternalStatus] <> [InternalStatus] and [InternalStatus] = 'Solved'
 
 The condition literally says: **InternalStatus** is changed and **InternalStatus** is equal to “Solved”.
+**InternalStatus** is an **Internal Name** of a SharePoint column which couldn't be changed. You can changу only **Status** as it is a **Display Name**. 
 
 So, you can access field values of the ticket or comment using syntax: ``[InternalFieldName]``.
 If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values this way: ``[prev::InternalFieldName]``.

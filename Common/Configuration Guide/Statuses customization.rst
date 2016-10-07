@@ -1,8 +1,7 @@
 Statuses customization
 ######################
 
-You can translate ticket statuses into a language other than English. 
-All ticket statuses are stored in the "Ticket Statuses" list that could be found in the "Site Contents" page.
+In "Tickets" list could be found two fields: **Status** and **Internal Status**. And all ticket statuses are stored in the "Ticket Statuses" list which is placed on the "Site Contents" page.
 
 |TicketStatusesList|
 
@@ -11,9 +10,10 @@ Each status has two fields:
 :Name: A display name of the status. This value is displayed in the UI: views, forms and etc.
 :Internal Name: An internal name of the status that is used in triggers, e-mail synchronization, and other core processes.
 
-By default, there are three statuses and two of them are "system" ("New" and "Solved"). "System" status means that you cannot remove it or change its "Internal Status" field.
+This fields are correlate with "Tickets" list.
 
-To translate the statuses, change their "Name" field.
+By default, there are three statuses and two of them are "system" ("New" and "Solved"). "System" status means that you cannot remove it or change its "Internal Status" field.
+But you can change its "Name" field. For example, you can translate ticket statuses into a language other than English.
 
 |EditStatus|
 
