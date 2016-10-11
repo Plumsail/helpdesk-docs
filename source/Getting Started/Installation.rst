@@ -1,31 +1,37 @@
 HelpDesk installation
 #####################
 
-`Download`_ and run the setup file. Then specify the URL where a
-HelpDesk instance will be created and credentials for Full Control
-access:
+`Download`_ and run it on one of the servers in your SharePoint 2013/2016 farm as Farm Administrator. Follow the wizard steps.
 
-|HelpDeskOnlineInstallAuthentication|
+Go to SharePoint site where you want to create HelpDesk. Select ‘Site Settings’:
 
-Follow the wizard steps.
+|HelpDeskAuthentication|
 
-.. note::
-	If you specify a nonexisting site, it will be created automatically. 
-	For example, if you specify *https://yourdomain.sharepoint.com/*\ **HelpDesk**
-	and **HelpDesk** doesn’t	exist, it will be created for you. 
+Then navigate to site features:
 
-.. admonition:: Known issues
-	:class: warning
+|HelpDeskAuthentication1|
 
-	We are not able to install HelpDesk unless scripting
-	capabilities are enabled. Please make sure that you enabled scripting
-	capabilities. Read `this article`_ for more information.
+Activate Plumsail HelpDesk feature.
 
-Once HelpDesk has been installed, you can go on to `configuration`_.
+|HelpDeskFeature| 
+
+Once you clicked on the feature you are redirected to installation wizard. It will check prerequisites and show you such screen:
+
+|HDWorkflowSelect2013|
+
+You have to choose workflow engine. HelpDesk uses SharePoint workflows for notifications and other automation. We would recommend you to choose SharePoint 2013/2016 workflows. They are more flexible and extendable. Read `this article`_ to understand difference between workflow engines.
+
+Then click next and wait for installation. Once HelpDesk has been installed, you can go on to `configuration`_.
 
 .. _Download: https://plumsail.com/sharepoint-helpdesk/download/
-.. _this article: https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+.. _this article: https://technet.microsoft.com/en-us/library/jj219638.aspx
 .. _configuration: Quick%20HelpDesk%20configuration.html
 
-.. |HelpDeskOnlineInstallAuthentication| image:: /_static/img/wizard-0.png
-   :alt: Install Authentication
+.. |HelpDeskAuthentication| image:: /_static/img/HD_SiteSettings_2013.png
+   :alt: Site settings
+.. |HelpDeskAuthentication1| image:: /_static/img/ManageSiteFeatures.png
+   :alt: Site Features
+.. |HelpDeskFeature| image:: /_static/img/HD_Feature_2013.png
+   :alt: Activate Plumsail HelpDesk
+.. |HDWorkflowSelect2013| image:: /_static/img/HD_WorkflowSelect_2013.png
+   :alt: HelpDesk Installer

@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Office 365 documentation articles
+SP 2013 / 2016 documentation articles
 ==================================================
 .. container:: pl-left-column
 
@@ -16,15 +16,15 @@ Office 365 documentation articles
       Privacy policy <https://plumsail.com/privacy-policy/helpdesk/>
       License agreement <https://plumsail.com/license-agreement/>
       Support plans <https://plumsail.com/support-plans/>
- 
+
    .. toctree::
       :caption: Getting Started
       :name: getstarttoc
       :maxdepth: 1
       
       Getting Started/Installation
-      Getting Started/License installation
-      Getting Started/Quick HelpDesk configuration
+      Getting Started/LicenseInstallation
+      Getting Started/QuickHelpDeskConfigurationSP
       Community forum  <https://plumsail.com/forum/viewforum.php?f=33>
       Official blog <https://plumsail.com/blog/> 
       YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>
@@ -34,7 +34,7 @@ Office 365 documentation articles
       :name: confguidetoc
       :maxdepth: 2
 
-      Configuration Guide/Email settings
+      Configuration Guide/EmailSettings
       Configuration Guide/Triggers
       Configuration Guide/Scheduling
       Configuration Guide/Appearance
@@ -76,8 +76,6 @@ Office 365 documentation articles
       Create a new chart for help desk reports <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-chart-for-help-desk-reports-in-sharepoint/>
       Automatically assign a ticket to specific person <https://plumsail.com/blog/2016/08/how-to-automatically-assign-a-ticket-in-sharepoint-help-desk/>
       Start a workflow with a trigger <https://plumsail.com/blog/2016/08/how-to-start-a-workflow-with-a-trigger-in-sharepoint-help-desk/>
-      How to create multiple help desks for different departments <https://plumsail.com/blog/2016/09/quick-tip-how-to-create-multiple-help-desks-for-different-departments-and-configure-them-with-different-inboxes/>
-
 
    .. toctree::
       :caption: Videos

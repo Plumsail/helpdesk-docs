@@ -75,6 +75,8 @@ if errorlevel 9009 (
 
 
 if "%1" == "html" (
+	rmdir source /s /q
+  md source
 	xcopy Common source /y /e
 	xcopy OnPremises source /y /e
 
