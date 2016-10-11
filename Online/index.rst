@@ -76,6 +76,8 @@ Office 365 documentation articles
       Create a new chart for help desk reports <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-chart-for-help-desk-reports-in-sharepoint/>
       Automatically assign a ticket to specific person <https://plumsail.com/blog/2016/08/how-to-automatically-assign-a-ticket-in-sharepoint-help-desk/>
       Start a workflow with a trigger <https://plumsail.com/blog/2016/08/how-to-start-a-workflow-with-a-trigger-in-sharepoint-help-desk/>
+      How to create multiple help desks for different departments <https://plumsail.com/blog/2016/09/quick-tip-how-to-create-multiple-help-desks-for-different-departments-and-configure-them-with-different-inboxes/>
+
 
    .. toctree::
       :caption: Videos

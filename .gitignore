@@ -3,3 +3,5 @@
 /build_online
 /build_onpremises
 /source
+make-online-html.bat
+make-onpremises-html.bat
