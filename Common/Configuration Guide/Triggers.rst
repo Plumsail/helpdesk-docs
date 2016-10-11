@@ -29,7 +29,7 @@ The condition is:
     [Prev::InternalStatus] <> [InternalStatus] and [InternalStatus] = 'Solved'
 
 The condition literally says: **InternalStatus** is changed and **InternalStatus** is equal to “Solved”.
-**Internal Status** is a system status of Ticket Status List. To get more information about it, click `here`_.
+You may notice that we have used **InternalStatus** column instead of **Status** column here. There is actually a separate list of statuses with Display names and Internal Names, so we have used this one from there. To get more information about it read `this article`_.
 
 So, you can access field values of the ticket or comment using syntax: ``[InternalFieldName]``.
 If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values this way: ``[prev::InternalFieldName]``.
@@ -149,7 +149,7 @@ This action sets the value of the public field of the ticket.
 .. _Actions: #actions
 .. _condition syntax: Condition%20Syntax.html
 .. _Tokens and snippets: Tokens%20and%20snippets.html
-.. _here: Statuses%20customization.html#how-statuses-list-connected-to-tickets-list
+.. _this article: Statuses%20customization.html#how-statuses-list-connected-to-tickets-list
 
 .. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon

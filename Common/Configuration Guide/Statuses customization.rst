@@ -26,13 +26,13 @@ To translate the statuses, change their "Name" field.
 
 .. _how-connected:
 
-How Statuses list connected to Tickets list
+How Statuses list is connected to Tickets list
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As it was said above, "Ticket Statuses" list has two fields — **Display Name** and **Internal Name**. These fields are correlating with fields from "Tickets" list. There could be found two fields: **Status** and **Internal Status**.
 Status field gets its value from Display Name and Internal Status gets information from Internal Name.
 
-**InternalStatus** is a **Internal Name** of a SharePoint column which strongly not recommended to change. It is much better to change only **Status** as it is a **Display Name** and doesn't affect any core process.
+Look at this picture to understand how fields are connected.
 
 |TicketToStatus|
 
