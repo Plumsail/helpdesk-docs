@@ -22,8 +22,8 @@ SP 2013 / 2016 documentation articles
       :name: getstarttoc
       :maxdepth: 1
       
-      Getting Started/InstallationSP
-      Getting Started/LicenseInstallationSP
+      Getting Started/Installation
+      Getting Started/LicenseInstallation
       Getting Started/QuickHelpDeskConfigurationSP
       Community forum  <https://plumsail.com/forum/viewforum.php?f=33>
       Official blog <https://plumsail.com/blog/> 
@@ -34,7 +34,7 @@ SP 2013 / 2016 documentation articles
       :name: confguidetoc
       :maxdepth: 2
 
-      Configuration Guide/EmailSettingsSP
+      Configuration Guide/EmailSettings
       Configuration Guide/Triggers
       Configuration Guide/Scheduling
       Configuration Guide/Appearance
