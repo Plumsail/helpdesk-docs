@@ -34,7 +34,7 @@ So, you can access field values of the ticket or comment using syntax: ``[Intern
 If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values this way: ``[prev::InternalFieldName]``.
 
   .. note::
-    | You may notice that we have used **InternalStatus** column instead of **Status** column in this example. There is actually a separate list of ticket statuses with display names and internal names. We recommend to use InternalStatus in conditions, as it is internal ticket status name, which should not be not changed in future. To get more information about it read `this article`_.    
+    | You may notice that we have used **InternalStatus** column instead of **Status** column in this example. There is actually a separate list of ticket statuses with display names and internal names. We recommend to use **InternalStatus** in conditions, as it is internal ticket status name, which should not be not changed in future. To get more information about it read `this article`_.    
 
 The list of actions contains a single action "Send email". Each action in the list has a short description of what it does. This action sends an email to **requester** and **Cc**.
 Click the action to expand its settings:
