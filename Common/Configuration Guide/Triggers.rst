@@ -28,11 +28,13 @@ The condition is:
 
     [Prev::InternalStatus] <> [InternalStatus] and [InternalStatus] = 'Solved'
 
-The condition literally says: **InternalStatus** is changed and **InternalStatus** is equal to “Solved”.
-You may notice that we have used **InternalStatus** column instead of **Status** column here. There is actually a separate list of statuses with Display names and Internal Names, so we have used this one from there. To get more information about it read `this article`_.
+The condition literally says: **InternalStatus** is changed and **InternalStatus** is equal to “Solved”. **InternalStatus** is an internal name of a column in the Tickets list.
 
 So, you can access field values of the ticket or comment using syntax: ``[InternalFieldName]``.
 If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values this way: ``[prev::InternalFieldName]``.
+
+  .. note::
+    | You may notice that we have used **InternalStatus** column instead of **Status** column in this example. There is actually a separate list of statuses with status display names and status internal names. We recommend to use InternalStatus in conditions, as it is internal status name, which should not be not changed in future. To get more information about it read `this article`_.    
 
 The list of actions contains a single action "Send email". Each action in the list has a short description of what it does. This action sends an email to **requester** and **Cc**.
 Click the action to expand its settings:
