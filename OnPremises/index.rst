@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-SP 2013 / 2016 documentation articles123
+SP 2013 / 2016 documentation articles
 ==================================================
 .. container:: pl-left-column
 
