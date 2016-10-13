@@ -23,8 +23,8 @@ SP 2013 / 2016 documentation articles
       :maxdepth: 1
       
       Getting Started/Installation
-      Getting Started/LicenseInstallation
-      Getting Started/QuickHelpDeskConfiguration
+      Getting Started/License Installation
+      Getting Started/Quick HelpDesk Configuration
       Community forum  <https://plumsail.com/forum/viewforum.php?f=33>
       Official blog <https://plumsail.com/blog/> 
       YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>
