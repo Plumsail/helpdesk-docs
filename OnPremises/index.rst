@@ -23,8 +23,8 @@ SP 2013 / 2016 documentation articles
       :maxdepth: 1
       
       Getting Started/Installation
-      Getting Started/License Installation
-      Getting Started/Quick HelpDesk Configuration
+      Getting Started/License installation
+      Getting Started/Quick HelpDesk configuration
       Community forum  <https://plumsail.com/forum/viewforum.php?f=33>
       Official blog <https://plumsail.com/blog/> 
       YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>
@@ -34,7 +34,7 @@ SP 2013 / 2016 documentation articles
       :name: confguidetoc
       :maxdepth: 2
 
-      Configuration Guide/EmailSettings
+      Configuration Guide/Email settings
       Configuration Guide/Triggers
       Configuration Guide/Scheduling
       Configuration Guide/Appearance
