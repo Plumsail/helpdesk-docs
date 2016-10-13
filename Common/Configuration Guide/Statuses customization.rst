@@ -44,6 +44,6 @@ Look at this picture to understand how fields are connected.
    :alt: Ticket Statuses List
 .. |EditStatus| image:: /_static/img/ticket-statuses-1.png
    :alt: Edit ticket status
-.. |TicketToStatus| image:: /_static/img/TicketToStatus.png.
+.. |TicketToStatus| image:: /_static/img/TicketToStatus.png
     :alt: From Tickets to Statuses 
 
