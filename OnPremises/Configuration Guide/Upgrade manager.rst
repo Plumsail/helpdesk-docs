@@ -3,15 +3,15 @@ Upgrade manager
 
 Upgrade manager allows you to install updates on your HelpDesk. Also, it provides information about HelpDesk version and license. Information about all HelpDesk versions you can find on `Version history`_ page.
 
-If you'd like to update HelpDesk, you need to `download`_ the installer and run it on one of the servers in your SharePoint 2013/2016 farm as Farm Administrator. Follow the wizard steps and choose "Update".
+If you'd like to update HelpDesk, you need to `download`_ the last version of installer and run it on one of the servers in your SharePoint 2013/2016 farm as Farm Administrator. Follow the wizard steps and choose "Upgrade".
 
 After that, navigate to settings using the icon in the navbar:
 
 |SettingsIcon|
 
-Then click on "About" tab. You will see the interface of upgrade manager.
+Then click on "About" tab. You will see the interface of upgrade manager. If you don't see "About" tab that means you are using HelpDesk version 1.0.0. You should manually navigate to URL ``<Site with HelpDesk>/_layouts/15/Plumsail/Helpdesk/About.aspx``.
 
-.. note:: If you don't see "About" tab that means you are using HelpDesk version 1.0.0. You should manually navigate to URL ``<Site with HelpDesk>/_layouts/15/Plumsail/Helpdesk/About.aspx``.
+.. note:: You need to update each HelpDesk instance in your farm otherwise, sites without update wouldn't be working.
 
 |UpgradeManager|
 
@@ -22,8 +22,6 @@ If version of your HelpDesk is not up to date and your account have "Manage Web"
 |UpdateAvailable|
 
 To finish update you should click "Update" button.
-
-.. note:: You need to update each of your HelpDesk applications otherwise, it wouldn't be working.
 
 :Manual steps when upgrading from version 1.0: 
 You need to perform some actions manually to complete upgrade if you are updating from version 1.0:
