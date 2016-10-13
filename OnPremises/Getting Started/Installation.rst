@@ -17,9 +17,7 @@ Activate Plumsail HelpDesk feature.
 
 Once you clicked on the feature you are redirected to installation wizard. It will check prerequisites and show you such screen:
 
-|HDWorkflowSelect2013|
-
-You have to choose workflow engine. HelpDesk uses SharePoint workflows for notifications and other automation. We would recommend you to choose SharePoint 2013/2016 workflows. They are more flexible and extendable. Read `this article`_ to understand difference between workflow engines.
+|HDInstaller|
 
 Then click next and wait for installation. Once HelpDesk has been installed, you can go on to `configuration`_.
 
@@ -33,5 +31,5 @@ Then click next and wait for installation. Once HelpDesk has been installed,
    :alt: Site Features
 .. |HelpDeskFeature| image:: /_static/img/HD_Feature_2013.png
    :alt: Activate Plumsail HelpDesk
-.. |HDWorkflowSelect2013| image:: /_static/img/HD_WorkflowSelect_2013.png
+.. |HDInstaller| image:: /_static/img/installer.png
    :alt: HelpDesk Installer
