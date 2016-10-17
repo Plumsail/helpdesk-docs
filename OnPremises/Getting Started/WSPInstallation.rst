@@ -23,7 +23,7 @@ Activate Plumsail HelpDesk feature.
 
 |PFeature|
 
-After that, you can go on to `configuration`_.
+After that, you can continue with `configuration`_.
 
 .. _Download WSP package: https://plumsail.com/sharepoint-helpdesk/download/
 .. _configuration: https://plumsail.com/docs/help-desk-onpremises/v1.x/Getting%20Started/Quick%20HelpDesk%20configuration.html
