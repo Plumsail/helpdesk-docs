@@ -23,7 +23,6 @@ SP 2013 / 2016 documentation articles
       :maxdepth: 1
       
       Getting Started/Installation
-      Getting Started/WSPInstallation
       Getting Started/License installation
       Getting Started/Quick HelpDesk configuration
       Community forum  <https://plumsail.com/forum/viewforum.php?f=33>
