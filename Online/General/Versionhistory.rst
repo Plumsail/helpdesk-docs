@@ -8,7 +8,7 @@ This update will reset field names for tickets.
 
 New features:
 
--"HelpDesk mailbox" column has been added to the tickets list. It stores mailbox address from which the original e-mail message was forwarded.
+- "HelpDesk mailbox" column has been added to the tickets list. It stores mailbox address from which the original e-mail message was forwarded.
 
 Version 1.2.8
 --------------
