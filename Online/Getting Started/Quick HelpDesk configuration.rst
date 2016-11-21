@@ -8,6 +8,7 @@ may want to set up to make your life easier, however. You can:
 #. `Forward messages from your support mailbox`_
 #. `Change the reply address and email display name`_
 #. `Create agents`_
+#. `Place widget for requesters`_
 
 .. _forwarding:
 
@@ -64,7 +65,7 @@ default, it is “HelpDesk”.
 .. _create-contacts:
 
 Create agents
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 HelpDesk has a place for storing contact details of your customers or
 agents. There are three types of contacts:
@@ -87,14 +88,24 @@ right navbar:
 
 Then specify mandatory fields and submit the form.
 
+.. _place-widget:
+
+Place widget for requesters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+HelpDesk Widget is a tool for external users for managing their tickets. This widget helps you to provide support exactly where it is needed — widget can be added either on your SharePoint site or any external site. How to do that you can find out `here`_.
+Notice that adding a widget is optional.
+
 .. _Forward messages from your support mailbox: #forwarding
 .. _Change the reply address and email display name: #reply-to
 .. _Create contacts for agents: #create-contacts
+.. _Place widget for requesters: #place-widget
 .. _this article: ../Configuration%20Guide/How%20forwarding%20works.html
 .. _Office 365 Outlook: https://support.office.com/en-sg/article/Use-rules-in-Outlook-Web-App-to-automatically-forward-messages-to-another-account-1433e3a0-7fb0-4999-b536-50e05cb67fed#__toc377639463
 .. _Outlook.com: http://windows.microsoft.com/en-us/outlook/multiple-email-accounts#msaForwardEmail
 .. _Gmail: https://support.google.com/mail/answer/10957?hl=en
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
+.. _here: ../Configuration%20Guide/Widget.html
 
 .. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon

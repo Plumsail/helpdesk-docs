@@ -13,12 +13,9 @@ Then switch to "Scheduler" tab:
 
 |HelpDeskScheduler|
 
-Read the `Customize workflows`_ article to get more information about
-built-in workflow actions.
 
 .. _Workflow Scheduler: https://plumsail.com/workflow-scheduler/
 .. _the Workflow Scheduler documentation: https://plumsail.com/workflow-scheduler/docs/
-.. _Customize workflows: Workflow%20customization.html
 
 .. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon
