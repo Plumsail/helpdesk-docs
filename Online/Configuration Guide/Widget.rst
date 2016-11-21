@@ -16,7 +16,7 @@ Then click “Widgets” tab.
 
 |WidgetTab|
 
-Here you can create a new widget configuration for your page by choosing 'New item' and edit any existing configurations by clicking 'Edit'. Note that editing of widget configuration is 
+Here you can create a new widget configuration for your page by choosing 'New item' and edit any existing configurations by clicking 'Edit'. Note that editing of widget configuration is employing to every existing widget with this configuration.
 
 |NewWidget|
 
