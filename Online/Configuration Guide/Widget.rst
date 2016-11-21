@@ -8,11 +8,11 @@ Navigate to e-mail settings using navbar.
 
 |EmailSettings|
 
-Then click “Widgets” tab. Here you can create a widget for your page.
+Then click “Widgets” tab. 
 
 |WidgetTab|
 
- On this tab you can find all widget configurations which were created by you. For creating a new widget click on ‘New item’. Also, you can edit any existing configurations by clicking 'Edit'.
+Here you can create a new widget configuration for your page by choosing 'New item' and edit any existing configurations by clicking 'Edit'.
 
 |NewWidget|
 
