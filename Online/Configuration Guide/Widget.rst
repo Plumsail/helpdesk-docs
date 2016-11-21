@@ -43,7 +43,7 @@ Adding widget to external site
 
 Adding a widget to an external site is quite similar to adding it to SharePoint site. Just copy an auto-generated HTML code, open editing form of HTML page and add copied code where you'd like to place a widget.
 
-.. |WidgetView| image:: /_static/img/widgetview.png.png
+.. |WidgetView| image:: /_static/img/widgetview.png
    :alt: HelpDesk Widget
 .. |EmailSettings| image:: /_static/img/settingsicon.png
    :alt: E-mail settings
