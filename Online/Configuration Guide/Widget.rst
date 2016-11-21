@@ -1,5 +1,9 @@
-HelpDesk widget
-###############
+Widget
+######
+
+HelpDesk Widget is a web part app for requesters. This widget can be embedded to your site, so customers can easily submit tickets and review them. Here is 'My tickets' view looks like for end-users:
+
+|WidgetView|
 
 Adding widget to SharePoint site
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -12,7 +16,7 @@ Then click “Widgets” tab.
 
 |WidgetTab|
 
-Here you can create a new widget configuration for your page by choosing 'New item' and edit any existing configurations by clicking 'Edit'.
+Here you can create a new widget configuration for your page by choosing 'New item' and edit any existing configurations by clicking 'Edit'. Note that editing of widget configuration is 
 
 |NewWidget|
 
@@ -39,8 +43,8 @@ Adding widget to external site
 
 Adding a widget to an external site is quite similar to adding it to SharePoint site. Just copy an auto-generated HTML code, open editing form of HTML page and add copied code where you'd like to place a widget.
 
-.. |AppStore| image:: /_static/img/.png
-   :alt: HelpDesk Widget in App Store
+.. |WidgetView| image:: /_static/img/widgetview.png.png
+   :alt: HelpDesk Widget
 .. |EmailSettings| image:: /_static/img/settingsicon.png
    :alt: E-mail settings
 .. |WidgetTab| image:: /_static/img/tab.png
