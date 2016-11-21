@@ -1,7 +1,7 @@
 Widget
 ######
 
-HelpDesk Widget is a web part app for requesters. This widget can be embedded to your site, so customers can easily submit tickets and review them. Here is 'My tickets' view looks like for end-users:
+HelpDesk Widget is a web part app for requesters. This widget can be embedded on your site, so customers can easily submit tickets and review them. Here is 'My tickets' view looks like for end-users:
 
 |WidgetView|
 
