@@ -93,7 +93,7 @@ Then specify mandatory fields and submit the form.
 Place widget for requesters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-HelpDesk Widget is a tool for external users for managing their tickets. This widget helps you to provide support exactly where it is needed — widget can be added either on your SharePoint site or any external site. How to do that you can find out `here`_.
+HelpDesk Widget is a tool for requesters for managing their tickets. This widget helps you to provide support exactly where it is needed — widget can be added either on your SharePoint site or any external site. How to do that you can find out `here`_.
 Notice that adding a widget is optional.
 
 .. _Forward messages from your support mailbox: #forwarding
