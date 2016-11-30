@@ -1,5 +1,24 @@
 Version history
 ###############
+Version 1.2.11
+--------------
+
+New features:
+
+- Interface for HelpDesk application `client secret renewal`_
+
+Version 1.2.10
+--------------
+
+This update can erase some of settings:
+
+- Field and list titles for tickets list will be reset to default.
+
+New features:
+
+- The `widget`_ for requesters is implemented. A requester can use it to communicate on tickets. It can be placed on any SharePoint site or even to an external site.
+- Fix for jQuery conflict in ticket body editor.
+- Other minor bugfixes.
 
 Version 1.2.9
 --------------
@@ -74,3 +93,5 @@ Version 1.0
 .. _ticket statuses: Statuses%20customization.html
 .. _trigger engine: Triggers.html
 .. _uninstall page: Uninstall%20HelpDesk.html
+.. _client secret renewal: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Client%20secret%20renewal.html
+.. _widget: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Widget.html
