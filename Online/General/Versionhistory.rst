@@ -18,6 +18,7 @@ New features:
 
 - The `widget`_ for requesters is implemented. A requester can use it to communicate on tickets. It can be placed on any SharePoint site or even to an external site.
 - Fix for jQuery conflict in ticket body editor.
+- Two new fields to stay up-to-date — Last comment date and Last comment contact.
 - Other minor bugfixes.
 
 Version 1.2.9
