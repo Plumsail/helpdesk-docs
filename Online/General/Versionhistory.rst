@@ -12,13 +12,14 @@ Version 1.2.10
 
 This update can erase some of settings:
 
-- Field and list titles for tickets list will be reset to default.
+- Columns display names for tickets and contacts lists will be reset to default.
+- Tickets new form will be reset to default.
 
 New features:
 
 - The `widget`_ for requesters is implemented. A requester can use it to communicate on tickets. It can be placed on any SharePoint site or even to an external site.
-- Fix for jQuery conflict in ticket body editor.
 - Two new fields to stay up-to-date — Last comment date and Last comment contact.
+- Fix for jQuery conflict in ticket body editor.
 - Other minor bugfixes.
 
 Version 1.2.9
