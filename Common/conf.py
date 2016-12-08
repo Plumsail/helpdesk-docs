@@ -27,7 +27,7 @@ import os
 #needs_sphinx = '1.0'
 
 # Options for extensions.
-disqus_shortname = 'plumsail'  # Add this line to conf.py.
+#disqus_shortname = 'plumsail'  # Add this line to conf.py.
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
