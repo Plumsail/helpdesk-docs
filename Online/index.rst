@@ -15,6 +15,7 @@ Office 365 documentation articles
       General/Versionhistory
       Privacy policy <https://plumsail.com/privacy-policy/helpdesk/>
       General/Security
+      General/Licensing details
       License agreement <https://plumsail.com/license-agreement/>
       Support plans <https://plumsail.com/support-plans/>
  
@@ -26,7 +27,6 @@ Office 365 documentation articles
       Getting Started/Installation
       Getting Started/License installation
       Getting Started/Quick HelpDesk configuration
-      Getting Started/Licensing details
       Community forum  <https://plumsail.com/forum/viewforum.php?f=33>
       Official blog <https://plumsail.com/blog/> 
       YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>

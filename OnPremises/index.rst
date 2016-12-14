@@ -13,6 +13,7 @@ SP 2013 / 2016 documentation articles
       :maxdepth: 1
 
       General/Versionhistory
+      General/Licensing details
       Privacy policy <https://plumsail.com/privacy-policy/helpdesk/>
       License agreement <https://plumsail.com/license-agreement/>
       Support plans <https://plumsail.com/support-plans/>
