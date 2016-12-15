@@ -1,8 +1,5 @@
-Licensing details
-#################
-
 Licensing details for HelpDesk for Office 365
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#############################################
 
 You can choose your billing cycle — purchase for one year or pay month-to-month. The subscription is linked to SharePoint Online domain (yourdomain.sharepoint.com). Depending on your plan, you can create one help desk instance within your SharePoint Online domain or unlimited help desk instances. 
 

@@ -16,6 +16,7 @@ Office 365 documentation articles
       Privacy policy <https://plumsail.com/privacy-policy/helpdesk/>
       General/Security
       General/Licensing details
+      General/Upgrade
       License agreement <https://plumsail.com/license-agreement/>
       Support plans <https://plumsail.com/support-plans/>
  
