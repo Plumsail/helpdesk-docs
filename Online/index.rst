@@ -53,6 +53,16 @@ Office 365 documentation articles
 .. container:: pl-right-column
 
    .. toctree::
+      :caption: Stay up-to-date 
+      :name: stayuptodatetoc
+      :maxdepth: 1
+
+      YouTube <https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>
+      Twitter <https://twitter.com/plumsail_sp>
+      Google Plus <https://plus.google.com/b/112093525198664117371/+PlumsailSharePointTeam?hl=ru>
+      LinkedIn <https://www.linkedin.com/company/sharepoint-helpdesk?trk=biz-brand-tree-co-name>
+
+   .. toctree::
       :caption: User guide 
       :name: userguidetoc
       :maxdepth: 1
