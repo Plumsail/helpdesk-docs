@@ -31,10 +31,10 @@ denoted by double square brackets.
 		Renders a summary for current tickets as a table. 
 	
 	[[TicketIdLink]]
-		renders a link to a ticket in HelpDesk.
+		Renders a link to a ticket in HelpDesk.
 		
 	[[TicketIdWidgetLink]]
-		renders a link to a ticket in Widget.
+		Renders a link to a ticket in Widget.
 	
 .. _context-tokens: 
 
