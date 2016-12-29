@@ -29,7 +29,13 @@ denoted by double square brackets.
 
 	[[TicketInfo]]
 		Renders a summary for current tickets as a table. 
-
+	
+	[[TicketIdLink]]
+		renders a link to a ticket in HelpDesk.
+		
+	[[TicketIdWidgetLink]]
+		renders a link to a ticket in Widget.
+	
 .. _context-tokens: 
 
 Tokens
@@ -86,6 +92,7 @@ You can use the ``{{Context}}`` token to get site related information::
 
 	{{Context.SiteUrl}}
 	{{Context.ServerUrl}}
+	{{Context.WidgetUrl}}
 
 .. rubric:: Data token
 
