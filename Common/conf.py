@@ -27,7 +27,7 @@ import os
 #needs_sphinx = '1.0'
 
 # Options for extensions.
-disqus_shortname = 'plumsail'  # Add this line to conf.py.
+#disqus_shortname = 'plumsail'  # Add this line to conf.py.
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -125,8 +125,8 @@ extensions.append("guzzle_sphinx_theme")
 html_theme_options = {
     # Set the name of the project to appear in the sidebar
     "project_nav_name": "Workflow Actions Pack",
-     # Set your Disqus short name to enable comments
-    "disqus_comments_shortname": "plumsail",
+    # Set your Disqus short name to enable comments
+    # "disqus_comments_shortname": "plumsail",
 
     # Set you GA account ID to enable tracking
     "google_analytics_account": "UA-36215023-2",
