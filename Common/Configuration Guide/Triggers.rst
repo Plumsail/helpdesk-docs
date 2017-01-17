@@ -28,10 +28,13 @@ The condition is:
 
     [Prev::InternalStatus] <> [InternalStatus] and [InternalStatus] = 'Solved'
 
-The condition literally says: **InternalStatus** is changed and **InternalStatus** is equal to “Solved”.
+The condition literally says: **InternalStatus** is changed and **InternalStatus** is equal to “Solved”. **InternalStatus** is an internal name of a column in the Tickets list.
 
 So, you can access field values of the ticket or comment using syntax: ``[InternalFieldName]``.
 If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values this way: ``[prev::InternalFieldName]``.
+
+  .. note::
+    | You may notice that we have used **InternalStatus** column instead of **Status** column in this example. There is actually a separate list of ticket statuses with display names and internal names. We recommend to use **InternalStatus** in conditions, as it is internal ticket status name, which should not be not changed in future. To get more information about it read `this article`_.    
 
 The list of actions contains a single action "Send email". Each action in the list has a short description of what it does. This action sends an email to **requester** and **Cc**.
 Click the action to expand its settings:
@@ -129,14 +132,6 @@ This action starts the specified workflow.
 :Workflow to start:
 	Required field. The name of the workflow that has to be executed. Both SharePoint Workflows 2010 and 2013 are supported. You can pick a list level workflow or a site level workflow.
 
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-
-   Workflow customization
-
-.. seealso::
-	HelpDesk Actions Pack is provided with HelpDesk. Find the detailed description in `Workflow customization`_ section. 
 
 Set Field
 +++++++++
@@ -156,7 +151,7 @@ This action sets the value of the public field of the ticket.
 .. _Actions: #actions
 .. _condition syntax: Condition%20Syntax.html
 .. _Tokens and snippets: Tokens%20and%20snippets.html
-.. _Workflow customization: Workflow%20customization.html
+.. _this article: Statuses%20customization.html#how-statuses-list-connected-to-tickets-list
 
 .. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon
