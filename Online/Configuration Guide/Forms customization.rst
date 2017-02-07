@@ -1,7 +1,7 @@
 Customize forms
 ###############
 
-In order to customize ticket and contact forms you `need to install Forms Designer`_.
+In order to customize ticket and contact forms you need to install `Forms Designer`_.
 It is available for free for HelpDesk customizations.
 Forms Designer allows to design SharePoint forms with tabs,
 complex tables, and accordions among other UI elements.
@@ -54,8 +54,7 @@ For example, to restore ticket edit form you need to do following steps:
 6. Select downloaded file "Item_edit.xfds".
 7. Save the form. 
 
-.. _need to install Forms Designer: https://store.office.com/plumsail-forms-designer-WA104231938.aspx?assetid=WA104231938
-.. _Forms Designer: http://spform.com/
+.. _Forms Designer: https://store.office.com/plumsail-forms-designer-WA104231938.aspx?assetid=WA104231938
 .. _the documentation: http://spform.com/documentation
 
 .. |HelpDeskFDRibbon| image:: /_static/img/helpdeskfdribbon.png
