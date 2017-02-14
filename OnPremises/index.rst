@@ -88,7 +88,13 @@ SP 2013 / 2016 documentation articles
       Create a new chart for help desk reports <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-chart-for-help-desk-reports-in-sharepoint/>
       Automatically assign a ticket to specific person <https://plumsail.com/blog/2016/08/how-to-automatically-assign-a-ticket-in-sharepoint-help-desk/>
       Start a workflow with a trigger <https://plumsail.com/blog/2016/08/how-to-start-a-workflow-with-a-trigger-in-sharepoint-help-desk/>
-      How to create multiple help desks for different departments <https://plumsail.com/blog/2016/09/quick-tip-how-to-create-multiple-help-desks-for-different-departments-and-configure-them-with-different-inboxes/>
+      Create multiple help desks for different departments <https://plumsail.com/blog/2016/09/quick-tip-how-to-create-multiple-help-desks-for-different-departments-and-configure-them-with-different-inboxes/>
+      Send SMS notifications from help desk with Microsoft Flow and Twilio <https://plumsail.com/blog/2016/11/how-to-send-sms-notifications-from-help-desk-with-microsoft-flow-and-twilio/>
+      Configure assigning based on forwarding address <https://plumsail.com/blog/2017/02/how-to-configure-assigning-based-on-forwarding-address/>
+      Track time spent to solve the ticket <https://plumsail.com/blog/2017/02/how-to-track-time-spent-to-solve-the-ticket/>
+      Configure periodic notifications on overdue tickets <https://plumsail.com/blog/2017/01/how-to-configure-periodic-notifications-on-overdue-tickets-in-plumsail-helpdesk-for-sharepoint-online-with-microsoft-flow/>
+      Detect agent collision <https://plumsail.com/blog/2016/12/agent-collision-how-to-detect-it/>
+      Edit ticket’s properties from mailbox <https://plumsail.com/blog/2016/12/quick-tip-how-to-edit-tickets-properties-from-mailbox/>
 
    .. toctree::
       :caption: Videos
