@@ -12,7 +12,7 @@ Version 1.2.11
 
 New features:
 
-- Interface for HelpDesk application `client secret renewal`_
+- Interface for HelpDesk application `client secret renewal`_.
 
 Version 1.2.10
 --------------
