@@ -3,8 +3,9 @@ Version history
 Version 1.2.12
 --------------
 New features:
-1. Cc from emails are now automatically added to corresponding tickets.
-2. Bugfixes.
+
+- Cc from emails are now automatically added to corresponding tickets.
+- Bugfixes.
 
 Version 1.2.11
 --------------
