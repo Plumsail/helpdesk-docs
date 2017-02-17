@@ -2,10 +2,20 @@ Version history
 ###############
 Version 1.2.12
 --------------
+This update will erase some settings:
+
+- Tickets and contacts forms will be reset to default.
+- Default views for tickets list will be reset to initial state.
+
 New features:
 
+- Most of the scripts are moved to CDN.
+- Fulltext search is configured for tickets and comments.
+- Improved ticket and contact forms, full support of standalone verion of Forms Designer.
+- Now you can use standalone Forms Designer with most of its features to customize help desk forms for free. You need to install it from SharePoint store firstly. Embedded version has been excluded from installation.
+- Bugfix for 5000 contacts limit.
 - Cc from emails are now automatically added to corresponding tickets.
-- Bugfixes.
+- Other minor bugfixes and perfomance optimizations.
 
 Version 1.2.11
 --------------
