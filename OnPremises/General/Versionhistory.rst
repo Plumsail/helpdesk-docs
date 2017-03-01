@@ -61,8 +61,9 @@ Version 1.0
 - Workflow scheduler and triggers.
 - Knowledge base.
 
-.. _rollback forms: Forms%20customization.html#forms-backups
+
+.. _rollback forms: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Forms%20customization.html#restore-default-forms
 .. _signature: ../User%20Guide/Contacts.html#signature
-.. _ticket statuses: Statuses%20customization.html
-.. _trigger engine: Triggers.html
-.. _uninstall page: Uninstall%20HelpDesk.html
+.. _ticket statuses: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Statuses%20customization.html
+.. _trigger engine: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html
+.. _uninstall page: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Uninstall%20HelpDesk.html

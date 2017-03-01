@@ -143,7 +143,7 @@ This action sets the value of the public field of the ticket.
 :Field name: Required field. The name of the field that has to be changed.
 :Field value: The new value of the field. In this field you can use context tokens.
 
-.. _Send Email: #send-email
+.. _Send Email: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html#send-email
 .. _Start Workflow: #start-workflow
 .. _Set Field: #set-field
 .. _Event: #events
