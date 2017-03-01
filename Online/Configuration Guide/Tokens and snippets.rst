@@ -172,7 +172,7 @@ AssignedTo are empty ``{{/if}}``
 .. _snippets: #snippet
 .. _context tokens: #context-tokens
 .. _advanced syntax: #advanced-syntax
-.. _Send email: Workflow%20customization.html#send%20email
+.. _Send email: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html#send-email
 
 .. |HDMessageTemplateForm| image:: /_static/img/message-templates-0.png
    :alt: HelpDesk Message Template

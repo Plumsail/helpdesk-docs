@@ -25,3 +25,10 @@ Likely you start using Plumsail HelpDesk with a trial. The trial version gives y
 |helpdesk instances|helpdesk instances|helpdesk instances|
 +------------------+------------------+------------------+
  
+ .. glossary::
+
+	Who is an agent?
+	Agent is a SharePoint user that processes tickets. Agents unlike members, receive notifications about new unassigned tickets.
+	You can find information about user's role in `contacts`_ directory.
+
+	.. _contacts: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Contacts.html
