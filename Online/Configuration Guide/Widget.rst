@@ -43,6 +43,12 @@ Adding widget to external site
 
 Adding a widget to an external site is quite similar to adding it to SharePoint site. Just copy an auto-generated HTML code, open editing form of HTML page and add copied code where you'd like to place a widget.
 
+Adding widget from SharePoint App Store
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+First of all, you need to install Plumsail HelpDesk Widget from `SharePoint App store <https://store.office.com/en-us/app.aspx?assetid=WA104380769&sourcecorrid=764978a8-0233-4b42-b2e4-7724d130dcf5&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false&canaryguid=c737b959d79b439bb20bebb5befabc00&reviewedAssetRating=5&AuthType=1&username=liljastanislavskaya%40gmail.com&fromAR=1>`_. Then move to Site Contents and find newly downloaded app. Open it and click ‘Activate’.
+After that just do the same steps as descibed above in "Adding widget to SharePoint site" section
+
 .. |WidgetView| image:: /_static/img/widgetview.png
    :alt: HelpDesk Widget
 .. |EmailSettings| image:: /_static/img/settingsicon.png
