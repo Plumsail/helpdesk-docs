@@ -97,6 +97,12 @@ Office 365 documentation articles
       Configure periodic notifications on overdue tickets <https://plumsail.com/blog/2017/01/how-to-configure-periodic-notifications-on-overdue-tickets-in-plumsail-helpdesk-for-sharepoint-online-with-microsoft-flow/>
       Detect agent collision <https://plumsail.com/blog/2016/12/agent-collision-how-to-detect-it/>
       Edit ticket’s properties from mailbox <https://plumsail.com/blog/2016/12/quick-tip-how-to-edit-tickets-properties-from-mailbox/>
+      Сonfigure periodic notifications on overdue tickets with Microsoft Flow <https://plumsail.com/blog/2017/01/how-to-configure-periodic-notifications-on-overdue-tickets-in-plumsail-helpdesk-for-sharepoint-online-with-microsoft-flow/>
+      Configure assigning based on forwarding address <https://plumsail.com/blog/2017/02/how-to-configure-assigning-based-on-forwarding-address/>
+      Track time spent to solve the ticket <https://plumsail.com/blog/2017/02/how-to-track-time-spent-to-solve-the-ticket/>
+
+
+
 
 
 
