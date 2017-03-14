@@ -4,8 +4,6 @@ Version history
 Version 1.2.8
 --------------
 
-This update will reset form customizations by applying new text editor.
-
 New features:
 
 - Bug fixes.
@@ -14,8 +12,6 @@ New features:
 
 Version 1.2.7
 --------------
-
-This update will reset form customizations by applying new text editor.
 
 New features:
 
@@ -31,16 +27,6 @@ New features:
 
 Version 1.2.6
 --------------
-
-This update can erase some of settings:
-
-- Notifications will be disabled during update.
-- New tickets and comments creation will not work during update.
-- All modifications of triggers will be lost. You will need to configure triggers from scratch.
-- New triggers, will not use workflows by default, but you will be able to configure them to use old workflows.
-- All modifications of message templates will be lost. You will need to configure them from scratch.
-- Field and list titles will be reset to default.
-- Forms will be reset to default.
 
 New features:
 
