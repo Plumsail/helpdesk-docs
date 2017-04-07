@@ -10,9 +10,7 @@ Adding widget to SharePoint site
 
 Open SharePoint site where you want to place the widget.
 
-Install Plumsail HelpDesk Widget add-in from `SharePoint App store <https://store.office.com/en-us/app.aspx?assetid=WA104380769&sourcecorrid=764978a8-0233-4b42-b2e4-7724d130dcf5&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false&canaryguid=c737b959d79b439bb20bebb5befabc00&reviewedAssetRating=5&AuthType=1&username=liljastanislavskaya%40gmail.com&fromAR=1>`_. 
-
-Installing of the add-in is required to enable automitic sign-in under current SharePoint user in widget.
+Install Plumsail HelpDesk Widget add-in from `SharePoint App store <https://store.office.com/en-us/app.aspx?assetid=WA104380769&sourcecorrid=764978a8-0233-4b42-b2e4-7724d130dcf5&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false&canaryguid=c737b959d79b439bb20bebb5befabc00&reviewedAssetRating=5&AuthType=1&username=liljastanislavskaya%40gmail.com&fromAR=1>`_. Installing of the add-in is required to enable automitic sign-in under current SharePoint user in widget.
 
 Then you need to place widget to specific SharePoint page. Steps to do that are described below. 
 
