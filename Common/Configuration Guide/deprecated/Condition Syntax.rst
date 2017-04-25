@@ -63,6 +63,14 @@ Multiplicative
 
     5 * 5
 
+Bitwise
+^^^^^^^
+
+-  ``&`` (bitwise and), ``|`` (bitwise or), ``^`` (bitwise xor), ``<<`` (left shift), ``>>`` (right shift)
+
+.. code::
+
+    1 >> 5
 
 Unary
 ^^^^^
@@ -94,14 +102,14 @@ References
 
    *  - Operator
       - Description
-   *  - ``[LastTicketVersion]``
+   *  - ``[Prev]``
       - .. code::
 
          Return ticket item before changes.
 
          Example:
 
-            ([LastTicketVersion.Status] <> [Status]) and ([Status] = 'Solved')
+            ([Prev::Status] <> [Status]) and ([Status] == 'Solved')
 
 Integers
 ^^^^^^^^
@@ -124,6 +132,19 @@ Use the dot to define the decimal part. 
 
 They are evaluated as \ **Decimal**\ .
 
+Scientific notation
+^^^^^^^^^^^^^^^^^^^
+
+You can use the ``e``  to define power of ten (10^).
+
+.. code::
+
+    1.22e1
+    1e2
+    1e+2
+    1e-2
+    .1e-2
+    1e10
 
 Dates and Times
 ^^^^^^^^^^^^^^^
@@ -189,14 +210,46 @@ Functions
       - Returns the absolute value of a specified number.
       - ``Abs(-1)``
       - ``1M``
+   *  - **Acos**
+      - Returns the angle whose cosine is the specified number.
+      - ``Acos(1)``
+      - ``0d``
+   *  - **Asin**
+      - Returns the angle whose sine is the specified number.
+      - ``Asin(0)``
+      - ``0d``
+   *  - **Atan**
+      - Returns the angle whose tangent is the specified number.
+      - ``Atan(0)``
+      - ``0d``
    *  - **Ceiling**
       - Returns the smallest integer greater than or equal to the specified number.
       - ``Ceiling(1.5)``
       - ``2d``
+   *  - **Cos**
+      - Returns the cosine of the specified angle.
+      - ``Cos(0)``
+      - ``1d``
+   *  - **Exp**
+      - Returns e raised to the specified power.
+      - ``Exp(0)``
+      - ``1d``
    *  - **Floor**
       - Returns the largest integer less than or equal to the specified number.
       - ``Floor(1.5)``
       - ``1d``
+   *  - **IEEERemainder**
+      - Returns the remainder resulting from the division of a specified number by another specified number.
+      - ``IEEERemainder(3, 2)``
+      - ``-1d``
+   *  - **Log**
+      - Returns the logarithm of a specified number.
+      - ``Log(1, 10)``
+      - ``0d``
+   *  - **Log10**
+      - Returns the base 10 logarithm of a specified number.
+      - ``Log10(1)``
+      - ``0d``
    *  - **Max**
       - Returns the larger of two specified numbers.
       - ``Max(1, 2)``
@@ -205,43 +258,34 @@ Functions
       - Returns the smaller of two numbers.
       - ``Min(1, 2)``
       - ``1``
+   *  - **Pow**
+      - Returns a specified number raised to the specified power.
+      - ``Pow(3, 2)``
+      - ``9d``
    *  - **Round**
       - Rounds a value to the nearest integer or specified a number of decimal places. The mid number behavior can be changed by using EvaluateOption.RoundAwayFromZero during construction of the Expression object.
       - ``Round(3.222, 2)``
       - ``3.22d``
-   *  - **Date()**
-      - Returns the value that represents a particular date.
-      - ``Date([Ticket.Created])=Today()``
-      - ``#01/02/2017#```
-   *  - **Today()**
-      - Returns  the current date.
-      - ``Date([Ticket.Created])=Today()``
-      - ``#01/02/2017#``
-   *  - **Now()**
-      - Returns the current system date and time.
-      - ``[Ticket.Created]>AddHours(Now(),-1)``
-      - ````
-   *  - **AddMinutes()**
-      - Adds the specified number of minutes to the specified date parameter.
-      - ``addMinutes(#01/02/2017 13:45#, 2)``
-      - ``#01/02/2017 13:47#``
-   *  - **AddHours()**
-      - Adds the specified number of hours to the specified date parameter.
-      - ``addHours(#01/02/2017 13:45#, 2)``
-      - ``#01/02/2017 15:45#``
-   *  - **AddDays()**
-      - Adds the specified number of days to the specified date parameter.
-      - ``addDays(#01/04/2017 12:00#, 2)``
-      - ``#03/04/2017 12:00#``
-   *  - **AddMonths()**
-      - Adds the specified number of months to the specified date parameter.
-      - ``addMonths(#01/04/2017 12:00#, 2)``
-      - ``#01/06/2017 12:00#``
-   *  - **AddYears()**
-      - Adds the specified number of years to the specified date parameter.
-      - ``addYears(#01/02/2017 12:00#, 2)``
-      - ``#01/02/2019 12:00#``
-
+   *  - **Sign**
+      - Returns a value indicating the sign of a number.
+      - ``Sign(-10)``
+      - ``-1``
+   *  - **Sin**
+      - Returns the sine of the specified angle.
+      - ``Sin(0)``
+      - ``0d``
+   *  - **Sqrt**
+      - Returns the square root of a specified number.
+      - ``Sqrt(4)``
+      - ``2d``
+   *  - **Tan**
+      - Returns the tangent of the specified angle.
+      - ``Tan(0)``
+      - ``0d``
+   *  - **Truncate**
+      - Calculates the integral part of a number.
+      - ``Truncate(1.7)``
+      - ``1``
 
 It also includes other general purpose ones.
 

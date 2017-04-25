@@ -1,5 +1,22 @@
 Version history
 ###############
+
+Version 1.3.0
+--------------
+New features:
+
+- Major improvements in triggers and scheduler functionality and new user-friendly editor.
+- Ability to send emails, start workflows and set ticket fields in the scheduler.
+- Other minor bugfixes and performance optimizations.
+
+Version 1.2.13
+--------------
+
+New features:
+
+- Ticket resolution date and helpdesk mailbox fields are now visible.
+- We added prevention of deletion for mandatory fields in tickets list: Status, Body, Cc, Requester, Assigned to, Subject.
+
 Version 1.2.12
 --------------
 

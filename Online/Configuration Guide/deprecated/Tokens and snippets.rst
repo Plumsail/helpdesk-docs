@@ -18,22 +18,22 @@ denoted by double square brackets.
 
 .. glossary::
 
-	{{snippet:AllComments}}
+	[[AllComments]] 
 		Renders a list of all comments for a current ticket.
 
-	{{snippet:PublicComments}}
+	[[PublicComments]] 
 		Renders a list of public comments for a current ticket.
 
-	{{snippet:Styles}} 
+	[[Styles]]
 		Sets the style of a email message to the default HelpDesk style via CSS.
 
-	{{snippet:TicketInfo}}
+	[[TicketInfo]]
 		Renders a summary for current tickets as a table. 
 	
-	{{snippet:TicketIdLink}}
+	[[TicketIdLink]]
 		Renders a link to a ticket in HelpDesk.
 		
-	{{snippet:TicketIdWidgetLink}} 
+	[[TicketIdWidgetLink]]
 		Renders a link to a ticket in Widget.
 	
 .. _context-tokens: 
@@ -65,8 +65,7 @@ You also can retrieve values from related lists via a lookup field::
 
 Real world example:
 
-``{{Ticket.Requester.Title}}`` — Requester is a lookup field to the contacts list. Title is an internal field name.
-``{{Ticket.Requester.Organization.Title}}``— returns a requester's organization name.
+``{{Ticket.Requester.Title}}`` - Requester is a lookup field to the contacts list. Title is an internal field name.
 
 There are additional extensions for the Ticket token:
 
@@ -76,6 +75,16 @@ them.
 
 ``{{Ticket.PublicComments}}`` - returns a collection of list items for
 public comments only.
+
+.. rubric:: CurrentItem token
+
+Email templates are used by notification workflows that process tickets
+and comments. To retrieve current list item’s field values you can use
+the ``{{CurrentItem}}`` token.
+
+It supports the same logic as the ``{{Ticket}}`` token. There is only one
+difference, it doesn’t have additional extensions like AllComments and
+PublicComments. 
 
 .. rubric:: Context token
 
@@ -165,5 +174,5 @@ AssignedTo are empty ``{{/if}}``
 .. _advanced syntax: #advanced-syntax
 .. _Send email: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html#send-email
 
-.. |HDMessageTemplateForm| image:: /_static/img/snippet.png
+.. |HDMessageTemplateForm| image:: /_static/img/message-templates-0.png
    :alt: HelpDesk Message Template

@@ -1,31 +1,24 @@
 Triggers
 ########
 
- .. note::
-    | If you are using Plumsail HelpDesk with version older than 1.3.0, please follow  `this link <deprecated/Triggers.html>`_ to learn about triggers.
-
 Triggers allow you to set up automatic execution of arbitrary sets of actions based on events and conditions. A bunch of triggers designed for sending notifications is available out-of-the-box. Find them in the screenshot below. You can create your own triggers and define actions for them in accordance with your needs.
 
 Navigate to the settings using the icon in the navbar:
 
 |SettingsIcon|
 
-Then click the "Triggers" tab. Here you can find the list of pre-defined triggers. All pre-defined triggers are active but you can uncheck this option in trigger’s configuration menu.
+Then click the "Triggers" tab. Here you can find the list of pre-defined triggers.
 
 |hd-triggers| 
 
 For instance, there is a built-in trigger called “Notification: Requester – Ticket resolved”. It sends a notification to a requester when the ticket status is changed to "Solved". Let's open this trigger for edit and see what is inside:
 
-|HD-trigger|
-
-As you can see, the trigger is active and you can find trigger’s logs in its history.
-
+|TriggerNotifyRequester|
 
 Trigger's forms fields:
 
 :Name: Trigger's title.
 :Event_: The event that raises the actions.
-:Order: This field helps to control triggers execution order.
 :Condition_: The condition that determines whether the actions have to be executed. You can find more information about the syntax below.
 :Actions_: The list of actions that have to be executed on the specified event if the condition is "true".
 
@@ -33,29 +26,22 @@ The condition is:
 
 .. code::
 
-    [Ticket.InternalStatus.Title] equals ‘Solved’ and [Ticket.InternalStatus.Title] not equal to [LastTicketVersion.InternalStatus.Title]
-
-You can make sure that your condition is valid by clicking ‘Validate’ button. If it is not, you will notice an alert message.    
+    [Prev::InternalStatus] <> [InternalStatus] and [InternalStatus] = 'Solved'
 
 The condition literally says: **InternalStatus** is changed and **InternalStatus** is equal to “Solved”. **InternalStatus** is an internal name of a column in the Tickets list.
 
 So, you can access field values of the ticket or comment using syntax: ``[InternalFieldName]``.
-If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values this way: ``[LastTicketVersion.InternalFieldName].``.
+If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values this way: ``[prev::InternalFieldName]``.
 
   .. note::
-    | You may notice that we have used **InternalStatus** column instead of **Status** column in this example. There is actually a separate list of ticket statuses with display names and internal names. We recommend to use **InternalStatus** in conditions, as it is internal ticket status name, which should not be not changed in future. To get more information about it read `this article`_.   
+    | You may notice that we have used **InternalStatus** column instead of **Status** column in this example. There is actually a separate list of ticket statuses with display names and internal names. We recommend to use **InternalStatus** in conditions, as it is internal ticket status name, which should not be not changed in future. To get more information about it read `this article`_.    
 
- 
 The list of actions contains a single action "Send email". Each action in the list has a short description of what it does. This action sends an email to **requester** and **Cc**.
 Click the action to expand its settings:
 
 |ExpandedAction|
 
 Find the detailed description of the "Send email" action in the "Actions_" section.
-
-After the action is completed, you can make sure that the trigger is working by unfolding logs history. If it is working, you will find a message in logs which says "Condition result: true". 
-
-|LogHistory|
 
 Events
 ~~~~~~
@@ -68,7 +54,7 @@ Events
 
 	Ticket has been changed
 		Occurs when the ticket has been changed.
-		You **can refer** to previous values of fields in the condition by using ``[LastTicketVersion.InternalFieldName]`` syntax.
+		You **can refer** to previous values of fields in the condition by using ``[prev::InternalFieldName]`` syntax.
 
 	Comment has been created
 		Occurs when a comment has been created.
@@ -166,19 +152,16 @@ This action sets the value of the public field of the ticket.
 .. _condition syntax: Condition%20Syntax.html
 .. _Tokens and snippets: Tokens%20and%20snippets.html
 .. _this article: Statuses%20customization.html#how-statuses-list-connected-to-tickets-list
-.. _this link: /Configuration%20Guide/deprecated/Triggers.html
 
 .. |SettingsIcon| image:: /_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |hd-triggers| image:: /_static/img/HD-All-triggers.png
+.. |hd-triggers| image:: /_static/img/triggers-0.png
    :alt: HelpDesk Triggers
-.. |HD-trigger| image:: /_static/img/HD-trigger.png
+.. |TriggerNotifyRequester| image:: /_static/img/triggers-1.png
    :alt: Trigger - Notify Requester
-.. |ExpandedAction| image:: /_static/img/show-action.png
+.. |ExpandedAction| image:: /_static/img/triggers-2.png
    :alt: Expanded action - Send Email
-.. |LogHistory| image:: /_static/img/log-history.png
-   :alt: Log history
-.. |AddNewAction| image:: /_static/img/new-action.gif
+.. |AddNewAction| image:: /_static/img/triggers-gif-0.gif
    :alt: Add new action
-.. |DnDAction| image:: /_static/img/move-actions.gif
+.. |DnDAction| image:: /_static/img/triggers-gif-1.gif
    :alt: Drag and Drop action
