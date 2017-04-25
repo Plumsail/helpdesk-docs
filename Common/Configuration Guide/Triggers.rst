@@ -40,7 +40,7 @@ You can make sure that your condition is valid by clicking ‘Validate’ button
 The condition literally says: **InternalStatus** is changed and **InternalStatus** is equal to “Solved”. **InternalStatus** is an internal name of a column in the Tickets list.
 
 So, you can access field values of the ticket or comment using syntax: ``[InternalFieldName]``.
-If the trigger’s event is “:term:`Ticket has been changed`” you can also access previous values this way: ``[LastTicketVersion.InternalFieldName].``.
+If the trigger’s event is “Ticket has been changed” you can also access previous values this way: ``[LastTicketVersion.InternalFieldName]``.
 
   .. note::
     | You may notice that we have used **InternalStatus** column instead of **Status** column in this example. There is actually a separate list of ticket statuses with display names and internal names. We recommend to use **InternalStatus** in conditions, as it is internal ticket status name, which should not be not changed in future. To get more information about it read `this article`_.   
@@ -118,9 +118,9 @@ This action sends an email to multiple recipients. You can use tokens and snippe
 "Send email" action has the following properties:
 
 :To: 
-	Required field. Defines recipients of the message. In this field you can pick a contact from the contacts list or use tokens "All agents", "Requester", "Cc", "Assignee", and "Comment author" (only for ":term:`Comment has been created`" event).
+	Required field. Defines recipients of the message. In this field you can pick a contact from the contacts list or use tokens "All agents", "Requester", "Cc", "Assignee", and "Comment author" (only for "Comment has been created" event).
 :Except: 
-	Excludes the specified recipients from the "To" field. In this field you can pick a contact from the contacts list or use tokens "All agents", "Requester", "Cc", "Assignee" and "Comment author" (only for ":term:`Comment has been created`" event).
+	Excludes the specified recipients from the "To" field. In this field you can pick a contact from the contacts list or use tokens "All agents", "Requester", "Cc", "Assignee" and "Comment author" (only for "Comment has been created" event).
 :Subject: 
 	The title of the message. In this field you can use context tokens.
 :Email body: 
