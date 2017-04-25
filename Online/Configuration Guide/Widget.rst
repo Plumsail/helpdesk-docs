@@ -8,11 +8,13 @@ HelpDesk Widget is a web part app for requesters. This widget can be embedded on
 Adding widget to SharePoint site
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-First of all, you need to install Plumsail HelpDesk Widget from `SharePoint App store <https://store.office.com/en-us/app.aspx?assetid=WA104380769&sourcecorrid=764978a8-0233-4b42-b2e4-7724d130dcf5&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false&canaryguid=c737b959d79b439bb20bebb5befabc00&reviewedAssetRating=5&AuthType=1&username=liljastanislavskaya%40gmail.com&fromAR=1>`_. After installing Widget from App store, all users will be automatically authorized through SharePoint.
+Open SharePoint site where you want to place the widget.
 
-Then move to Site Contents and find a newly downloaded app. Open it and click ‘Activate’.
+Install Plumsail HelpDesk Widget add-in from `SharePoint App store <https://store.office.com/en-us/app.aspx?assetid=WA104380769&sourcecorrid=764978a8-0233-4b42-b2e4-7724d130dcf5&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false&canaryguid=c737b959d79b439bb20bebb5befabc00&reviewedAssetRating=5&AuthType=1&username=liljastanislavskaya%40gmail.com&fromAR=1>`_. Installing of the add-in is required to enable automitic sign-in under current SharePoint user in widget.
 
-After that navigate to e-mail settings using navbar.
+Then you need to place widget to specific SharePoint page. Steps to do that are described below. 
+
+Navigate to e-mail settings using navbar.
 
 |EmailSettings|
 
