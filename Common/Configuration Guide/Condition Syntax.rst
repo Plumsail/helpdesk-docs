@@ -22,7 +22,7 @@ Logical
 
          Example:
 
-            [CommentType] = 'Public' or [Created] < '#01/01/2015#'
+            [Comment.CommentType] = 'Public' or [Ticket.Created] < '#01/01/2015#'
 
    *  - ``and``, ``&&``
       - .. code::
@@ -31,7 +31,7 @@ Logical
 
          Example:
 
-            [AssignedTo] = '' and [AssignedTo] = [Editor]
+            [Ticket.AssignedTo] = '' and [Ticket.AssignedTo] = [Editor]
 
 The ``and`` operator has more priority than the ``or``.
 
@@ -101,7 +101,7 @@ References
 
          Example:
 
-            ([LastTicketVersion.Status] <> [Status]) and ([Status] = 'Solved')
+             ([LastTicketVersion.Status.Title] <> [Ticket.Status.Title]) and ([Ticket.Status.Title] = 'Solved')
 
 Integers
 ^^^^^^^^

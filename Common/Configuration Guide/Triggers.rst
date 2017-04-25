@@ -77,8 +77,7 @@ Events
 Condition
 ~~~~~~~~~
 
-Conditions determine whether the actions have to be executed. They support references to fields of the current item (ticket or comment) by their internal names. For example, ``[Title]`` returns the value of the **Title** field.
-By default, lookup field returns **lookup value**. Use ``[LookupFieldName.Id]`` to get **lookup id**.
+Conditions determine whether the actions have to be executed. They support references to fields of the current item (ticket or comment) by their internal names. For example, ``[Ticket.Title]`` returns the value of the **Title** field.
 
 There is a number of operators and functions available in conditions, e.g. logical operators ``and``, ``or``, ``=``, ``<>``.
 
