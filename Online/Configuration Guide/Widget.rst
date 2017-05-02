@@ -1,6 +1,12 @@
 Widget
 ######
 
+.. admonition:: Known issues
+	:class: warning
+
+	The latest version of Google Chrome browser doesn't support embedding scripts with Script Editor Web Part.
+	Please use different browsers like Microsoft Edge or Mozilla Firefox.
+
 HelpDesk Widget is a web part app for requesters. This widget can be embedded on your site, so customers can easily submit tickets and review them. Here is 'My tickets' view looks like for end-users:
 
 |WidgetView|
