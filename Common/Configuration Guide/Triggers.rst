@@ -125,7 +125,7 @@ This action sends an email to multiple recipients. You can use tokens and snippe
 :Email body: 
 	The body of the message. In this field you can use context tokens and snippets.
 :Attachment URLs: 
-	Semicolon separated list of attachments that have to be included in the message. In this field you can use context tokens. For example, ``{{CurrentItem.AttachmentUrls}}``.
+	Semicolon separated list of attachments that have to be included in the message. In this field you can use context tokens. For example, ``{{Comment.AttachmentUrls}}``.
 
 Find the complete description of the context tokens and snippets in `Tokens and snippets`_ section.
 
