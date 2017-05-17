@@ -209,37 +209,37 @@ Functions
       - Rounds a value to the nearest integer or specified a number of decimal places. The mid number behavior can be changed by using EvaluateOption.RoundAwayFromZero during construction of the Expression object.
       - ``Round(3.222, 2)``
       - ``3.22d``
-   *  - **Date()**
-      - Returns the value that represents a particular date.
-      - ``Date([Ticket.Created])=Today()``
-      - ``#01/02/2017#```
    *  - **Today()**
-      - Returns  the current date.
-      - ``Date([Ticket.Created])=Today()``
+      - Returns the current system date.
+      - ``Today()``
       - ``#01/02/2017#``
    *  - **Now()**
       - Returns the current system date and time.
-      - ``[Ticket.Created]>AddHours(Now(),-1)``
-      - ````
+      - ``Now()``
+      - ``#01/02/2017 13:47#``
+   *  - **Date()**
+      - Returns the date part of a particluar datetime value.
+      - ``Date([Ticket.Created])``
+      - ``#01/02/2017#``
    *  - **AddMinutes()**
       - Adds the specified number of minutes to the specified date parameter.
-      - ``addMinutes(#01/02/2017 13:45#, 2)``
+      - ``AddMinutes(#01/02/2017 13:45#, 2)``
       - ``#01/02/2017 13:47#``
    *  - **AddHours()**
       - Adds the specified number of hours to the specified date parameter.
-      - ``addHours(#01/02/2017 13:45#, 2)``
+      - ``AddHours(#01/02/2017 13:45#, 2)``
       - ``#01/02/2017 15:45#``
    *  - **AddDays()**
       - Adds the specified number of days to the specified date parameter.
-      - ``addDays(#01/04/2017 12:00#, 2)``
+      - ``AddDays(#01/04/2017 12:00#, 2)``
       - ``#03/04/2017 12:00#``
    *  - **AddMonths()**
       - Adds the specified number of months to the specified date parameter.
-      - ``addMonths(#01/04/2017 12:00#, 2)``
+      - ``AddMonths(#01/04/2017 12:00#, 2)``
       - ``#01/06/2017 12:00#``
    *  - **AddYears()**
       - Adds the specified number of years to the specified date parameter.
-      - ``addYears(#01/02/2017 12:00#, 2)``
+      - ``AddYears(#01/02/2017 12:00#, 2)``
       - ``#01/02/2019 12:00#``
 
 
@@ -265,6 +265,15 @@ It also includes other general purpose ones.
       - ``contains('1234', '23')``
       - ``true``
    *  - **match**
-      - Indicates whether the specified regular expression (second argument) finds a match in the specified input string (first argument).
+      - Indicates whether the specified regular expression (second argument) finds a match in the specified input string (first argument). This pattern can contain inline options to modify behavior of the regular expression. Such options have to be placed in the beginning of the expression inside brackets with question mark: ``(?YOUR_OPTIONS)``. For example options ``(?mi)`` will allow to process multi line text with case insensitivity. Example of regular expression with options:``(?mi)(?[^>]*@[^<]*)``.
+        List of available options:
+        ::
+
+          x - allow whitespace and comments 
+          s - single line mode
+          m - multi line mode 
+          i - case insensitivity 
+          n - only allow explicit capture
+        You can find additional information about inline options in this `MSDN article <http://msdn.microsoft.com/en-us/library/yd1hzczs%28v=vs.110%29.aspx>`_.
       - ``match('1298-673-4192', '^[a-zA-Z0-9]\d{2}[a-zA-Z0-9](-\d{3}){2}[A-Za-z0-9]$')``
       - ``true``
