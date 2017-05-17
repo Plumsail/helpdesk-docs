@@ -24,7 +24,7 @@ Follow the wizard steps.
 Once HelpDesk has been installed, you can go on to `configuration`_.
 
 .. _Download: https://plumsail.com/sharepoint-helpdesk/download/
-.. _this article: https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+.. _this article: ../Configuration%20Guide/Enabling%20scripting.html
 .. _configuration: Quick%20HelpDesk%20configuration.html
 
 .. |HelpDeskOnlineInstallAuthentication| image:: /_static/img/wizard-0.png
