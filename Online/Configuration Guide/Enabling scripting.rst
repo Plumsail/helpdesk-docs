@@ -3,7 +3,7 @@ Enabling scripting capabilities
 
 We are not able to install HelpDesk unless scripting capabilities are enabled.
 
-If you use tenant administrator account to install HelpDesk, scripting capabilities will be enabled automatically during installation, otherwize, please ask your tenant administrator to install HelpDesk or to turn scripting capabilities on manually. For detail see this `MSDN article`_\.
+If you use tenant administrator account to install HelpDesk, scripting capabilities will be enabled automatically during installation, otherwise, please ask your tenant administrator to install HelpDesk or to turn scripting capabilities on manually. For detail see this `MSDN article`_\.
 
 .. note::
 	When you install HelpDesk to Office365 Group site, this site will not appear in SharePoint admin center. Tenant administrator can turn on scripting capabilities by using this PowerShell command:
