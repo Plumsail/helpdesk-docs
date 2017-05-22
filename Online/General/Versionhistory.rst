@@ -1,8 +1,18 @@
 Version history
 ###############
 
+Version 1.3.1
+-------------
+
+New features:
+
+- We added prevention of deletion for HelpDesk mailbox field in tickets list.
+- Requesters can now leave feedback and rate service on the tickets.
+- Other minor bugfixes and performance optimizations.
+
 Version 1.3.0
 --------------
+
 New features:
 
 - Major improvements in triggers and scheduler functionality and new user-friendly editor.

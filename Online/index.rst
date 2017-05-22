@@ -40,6 +40,7 @@ Office 365 documentation articles
       Configuration Guide/Email settings
       Configuration Guide/Triggers
       Configuration Guide/Widget
+      Configuration Guide/Feedback
       Configuration Guide/Scheduling
       Configuration Guide/Appearance
       Configuration Guide/Color theme

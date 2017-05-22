@@ -35,9 +35,8 @@ Tickets by agents
    Shows how many overdue and non-overdue tickets
    each agent has (Ticket field “Due date”).
 
-Active requesters (Top 10) 
-   Shows top 10 requesters by a number of
-   tickets created.
+Active requesters (Top 10)
+   Shows top 10 requesters by a number of tickets created.
 
 |overview|
 
@@ -75,13 +74,9 @@ Resolved by assignee
 By requester
 ~~~~~~~~~~~~
 
-This chart which shows how many active tickets and tickets resolved by
-requester exist within specified interval. An active ticket is a ticket
-with one of the following statuses: “In progress” or “New”. You can see
-how many tickets are unresolved yet (Active) and how many tickets are
-resolved by the requester (Resolved).
+This chart which shows how many active tickets and tickets resolved by requester exist within specified interval. An active ticket is a ticket with one of the following statuses: “In progress” or “New”. You can see how many tickets are unresolved yet (Active) and how many tickets are resolved by the requester (Resolved).
 
-|by-requester|
+|By-requester|
 
 .. _Dashboard Designer: http://spchart.com/
 
@@ -93,5 +88,5 @@ resolved by the requester (Resolved).
    :alt: By date
 .. |By-assignee| image:: /_static/img/by-assignee.png
    :alt: By assignee
-.. |by-requester| image:: /_static/img/by-requester.png
+.. |By-requester| image:: /_static/img/by-requester.png
    :alt: By requester
