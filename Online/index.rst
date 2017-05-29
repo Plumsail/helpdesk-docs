@@ -74,6 +74,8 @@ Office 365 documentation articles
       User Guide/All tickets
       User Guide/Contacts
       User Guide/Reports
+      User Guide/Merge
+      User Guide/Split
 
    .. toctree::
       :caption: How to
