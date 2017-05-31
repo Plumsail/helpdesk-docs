@@ -1,6 +1,14 @@
 Version history
 ###############
 
+Version 1.3.2
+-------------
+
+New features:
+
+- Ticket splitting.
+– Ticket merging.
+
 Version 1.3.1
 -------------
 
