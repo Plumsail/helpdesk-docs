@@ -82,6 +82,7 @@ Office 365 documentation articles
       :name: usecasetoc
       :maxdepth: 1
       
+      howtos/How to assign ticket to first agent who replies
       Build IT Help Desk or Service Desk in 15 minutes <https://plumsail.com/blog/2015/11/build-it-help-desk-or-service-desk-on-your-sharepoint-online-or-sharepoint-2013-on-premises-in-15-minutes/>
       Update help desk message template <https://plumsail.com/blog/2016/06/helpdesk-tip-how-to-update-help-desk-message-template/>
       Add new email notification ticket <https://plumsail.com/blog/2016/07/quick-tip-how-to-add-new-email-notification-for-sharepoint-help-desk-ticket/>
