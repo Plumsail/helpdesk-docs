@@ -77,28 +77,24 @@ SP 2013 / 2016 documentation articles
       :name: usecasetoc
       :maxdepth: 1
       
-      Build IT Help Desk or Service Desk in 15 minutes <https://plumsail.com/blog/2015/11/build-it-help-desk-or-service-desk-on-your-sharepoint-online-or-sharepoint-2013-on-premises-in-15-minutes/>
-      Update help desk message template <https://plumsail.com/blog/2016/06/helpdesk-tip-how-to-update-help-desk-message-template/>
-      Add new email notification ticket <https://plumsail.com/blog/2016/07/quick-tip-how-to-add-new-email-notification-for-sharepoint-help-desk-ticket/>
-      Add a new column to tickets list and form <https://plumsail.com/blog/2016/07/quick-tip-how-to-add-a-new-column-to-tickets-list-and-form-in-sharepoint-help-desk/>
-      Find the internal name of SharePoint column <https://plumsail.com/blog/2016/07/quick-tip-how-to-find-the-internal-name-of-sharepoint-column/>
-      Assign ticket to multiple agents <https://plumsail.com/blog/2016/07/quick-tip-how-to-assign-ticket-to-multiple-agents/>
-      Create a new view <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-view/>
-      Export tickets to Excel <https://plumsail.com/blog/2016/07/quick-tip-how-to-export-tickets-to-excel/>
-      Create a new chart for help desk reports <https://plumsail.com/blog/2016/07/quick-tip-how-to-create-a-new-chart-for-help-desk-reports-in-sharepoint/>
-      Automatically assign a ticket to specific person <https://plumsail.com/blog/2016/08/how-to-automatically-assign-a-ticket-in-sharepoint-help-desk/>
-      Start a workflow with a trigger <https://plumsail.com/blog/2016/08/how-to-start-a-workflow-with-a-trigger-in-sharepoint-help-desk/>
-      Create multiple help desks for different departments <https://plumsail.com/blog/2016/09/quick-tip-how-to-create-multiple-help-desks-for-different-departments-and-configure-them-with-different-inboxes/>
-      Send SMS notifications from help desk with Microsoft Flow and Twilio <https://plumsail.com/blog/2016/11/how-to-send-sms-notifications-from-help-desk-with-microsoft-flow-and-twilio/>
-      Configure assigning based on forwarding address <https://plumsail.com/blog/2017/02/how-to-configure-assigning-based-on-forwarding-address/>
-      Track time spent to solve the ticket <https://plumsail.com/blog/2017/02/how-to-track-time-spent-to-solve-the-ticket/>
-      Configure periodic notifications on overdue tickets <https://plumsail.com/blog/2017/01/how-to-configure-periodic-notifications-on-overdue-tickets-in-plumsail-helpdesk-for-sharepoint-online-with-microsoft-flow/>
-      Detect agent collision <https://plumsail.com/blog/2016/12/agent-collision-how-to-detect-it/>
-      Edit ticket’s properties from mailbox <https://plumsail.com/blog/2016/12/quick-tip-how-to-edit-tickets-properties-from-mailbox/>
-      
+      How To/Add new column to tickets list
+      How To/Add new email notification
+      How To/Agent collision
+      How To/Assign ticket to multiple agents
+      How To/Assign ticket to specific person
+      How To/Configure assigning based on forwarding address
+      How To/Create a new chart
+      How To/Create a new view
+      How To/Edit ticket's properties from mailbox
+      How To/Export tickets to Excel
+      How To/Find the internal name of SharePoint column
+      How To/Send SMS notifications from help desk with Microsoft Flow and Twilio
+      How To/Sync SharePoint user profiles fields to HelpDesk contacts
+      How To/Start a workflow with a trigger
+      How To/Track time spent to solve the ticket
+      How To/Update Help Desk message template
+
      
-
-
    .. toctree::
       :caption: Videos
       :name: videostoc
