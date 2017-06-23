@@ -16,15 +16,15 @@ Adding widget to SharePoint site
 
 Open SharePoint site where you want to place the widget.
 
-Install Plumsail HelpDesk Widget add-in from `SharePoint App store <https://store.office.com/en-us/app.aspx?assetid=WA104380769&sourcecorrid=764978a8-0233-4b42-b2e4-7724d130dcf5&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false&canaryguid=c737b959d79b439bb20bebb5befabc00&reviewedAssetRating=5&AuthType=1&username=liljastanislavskaya%40gmail.com&fromAR=1>`_. Installing of the add-in is required to enable automitic sign-in under current SharePoint user in widget.
+Install Plumsail HelpDesk Widget add-in from `SharePoint App store <https://store.office.com/en-us/app.aspx?assetid=WA104380769&sourcecorrid=764978a8-0233-4b42-b2e4-7724d130dcf5&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false&canaryguid=c737b959d79b439bb20bebb5befabc00&reviewedAssetRating=5&AuthType=1&fromAR=1>`_. Installing of the add-in is required to enable automitic sign-in under current SharePoint user in widget.
 
-Then you need to place widget to specific SharePoint page. Steps to do that are described below. 
+Then you need to place widget to specific SharePoint page. Steps to do that are described below.
 
 Navigate to e-mail settings using navbar.
 
 |EmailSettings|
 
-Then click “Widgets” tab. 
+Then click “Widgets” tab.
 
 |WidgetTab|
 
@@ -32,7 +32,7 @@ Here you can create a new widget configuration for your page by choosing 'New it
 
 |NewWidget|
 
-Provide a title for a widget configuration and choose how many tickets will be displayed on the page. 
+Provide a title for a widget configuration and choose how many tickets will be displayed on the page.
 If you are creating a widget for external site, you can choose allow or not user's registration. Registrated users have ability to review their tickets.
 
 |WidgetMenu|
@@ -41,11 +41,11 @@ After saving this configuration, HTML code will be generated and you need to cop
 
 |GenHTML|
 
-Navigate to a page where you'd like to place a widget and click ‘Edit’ on the site ribbon menu. 
+Navigate to a page where you'd like to place a widget and click ‘Edit’ on the site ribbon menu.
 
 |EditPage|
 
-Choose the place where the app will be shown and click ‘Insert’ tab. Here you need to choose ‘Embed code’ option and just paste HTML code which you copied before in the pop-up window. 
+Choose the place where the app will be shown and click ‘Insert’ tab. Here you need to choose ‘Embed code’ option and just paste HTML code which you copied before in the pop-up window.
 Finish with clicking ‘Save’ on the ribbon.
 
 |Finish|
