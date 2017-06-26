@@ -85,7 +85,7 @@ Version 1.2.7
 
 New features:
 
-- New rich text editor for comments.
+- `New rich text editor`_ for comments.
 - Ability to paste pictures to text editor.
 - Ability to upload pictures with drag and drop.
 - Guided tour to users on first entrance.
@@ -124,3 +124,4 @@ Version 1.0
 .. _uninstall page: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Uninstall%20HelpDesk.html
 .. _client secret renewal: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Client%20secret%20renewal.html
 .. _widget: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Widget.html
+.. _New rich text editor: https://plumsail.com/blog/2016/10/new-editor-for-tickets/

@@ -83,14 +83,15 @@ SP 2013 / 2016 documentation articles
       How To/Assign ticket to multiple agents
       How To/Assign ticket to specific person
       How To/Configure assigning based on forwarding address
+      How To/Create multiple help desks for different departments and configure them with different inboxes
       How To/Create a new chart
       How To/Create a new view
       How To/Edit ticket's properties from mailbox
       How To/Export tickets to Excel
       How To/Find the internal name of SharePoint column
       How To/Send SMS notifications from help desk with Microsoft Flow and Twilio
-      How To/Sync SharePoint user profiles fields to HelpDesk contacts
       How To/Start a workflow with a trigger
+      How To/Sync SharePoint user profiles fields to HelpDesk contacts
       How To/Track time spent to solve the ticket
       How To/Update Help Desk message template
 

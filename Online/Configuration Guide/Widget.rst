@@ -7,7 +7,9 @@ Widget
 	The latest version of Google Chrome browser doesn't support embedding scripts with Script Editor Web Part.
 	Please use different browsers like Microsoft Edge or Mozilla Firefox.
 
-HelpDesk Widget is a web part app for requesters. This widget can be embedded on your site, so customers can easily submit tickets and review them. Here is 'My tickets' view looks like for end-users:
+HelpDesk Widet is a tool for requesters allowing them to review their tickets, add comments and attachments. It can be embedded in a public website or a SharePoint site other than a site where the HelpDesk is installed, so requesters will not have access to all tickets in your help desk.
+
+Here is 'My tickets' view looks like for end-users:
 
 |WidgetView|
 
