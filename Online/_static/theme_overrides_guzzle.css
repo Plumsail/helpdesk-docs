@@ -103,6 +103,8 @@ a{
 
 .section img {
     border: 1px solid rgb(238, 238, 238);
+    width:100%;
+    max-width:800px;
 }
 
 
