@@ -1,5 +1,5 @@
-How to assign ticket to first agent who replies
-###############################################
+Assign ticket to first agent who replies
+########################################
 
 It is very common to have a lot of agents responsible for the customer support inside a company. And with a lot of tickets coming in, it may be hard to specify which agent should be the responsible for each ticket manually. An alternative is to assign a ticket to whichever agent replies to it first automatically and this article will describe how to do it.
 
