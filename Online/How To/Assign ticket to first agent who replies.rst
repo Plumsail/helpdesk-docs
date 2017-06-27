@@ -36,7 +36,7 @@ You can even validate your conditions to make sure everything’s right.
 
 Next thing is adding the action that will set the assignee properly. Add a new action pressing “add action”.
 
-|image-8
+|image-8|
 
 This will be a “Set field” action. Set it so HelpDesk will change the “Assigned To” field to {{Comment.From.Email}}. This way it will assign the ticket to the agent who replied to it.
 
@@ -63,5 +63,5 @@ And this is how you can automatically assign tickets to the first agent who repl
    :alt: Validate conditions
 .. |image-8| image:: /_static/img/assign-ticket-to-agent-who-replied/8.png
    :alt: Add action
-.. |image-9| image:: /_static/img/assign-ticket-to-agent-who-replied/8.png
-   :alt: Assigned To
+.. |image-9| image:: /_static/img/assign-ticket-to-agent-who-replied/9.png
+   :alt: Set field
