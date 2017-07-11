@@ -82,7 +82,6 @@ Office 365 documentation articles
       :name: usecasetoc
       :maxdepth: 1
       
-      How To/Assign ticket to first agent who replies
       How To/Add new column to tickets list
       How To/Add new email notification
       How To/Agent collision
