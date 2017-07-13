@@ -36,7 +36,7 @@ You can even validate your conditions to make sure everything’s right.
 
 Next thing is adding the action that will set the assignee properly. Add a new action pressing “add action”.
 
-|image-8
+|image-8|
 
 This will be a “Set field” action. Set it so HelpDesk will change the “Assigned To” field to {{Comment.From.Email}}. This way it will assign the ticket to the agent who replied to it.
 
@@ -47,21 +47,21 @@ And this is how you can automatically assign tickets to the first agent who repl
 .. _From ribbon: #from-ribbon
 .. _From site settings: #from-settings
 
-.. |image-1| image:: /_static/img/assign-ticket-to-agent-who-replied/1.png
+.. |image-1| image:: /_static/img/first-agent-1.png
    :alt: Settings button
-.. |image-2| image:: /_static/img/assign-ticket-to-agent-who-replied/2.png
-   :alt: Triggers tab
-.. |image-3| image:: /_static/img/assign-ticket-to-agent-who-replied/3.png
+.. |image-2| image:: /_static/img/first-agent-2.png
+   :alt: Triggers
+.. |image-3| image:: /_static/img/first-agent-3.png
    :alt: New item
-.. |image-4| image:: /_static/img/assign-ticket-to-agent-who-replied/4.png
-   :alt: New trigger
-.. |image-5| image:: /_static/img/assign-ticket-to-agent-who-replied/5.png
+.. |image-4| image:: /_static/img/first-agent-4.png
+   :alt: New trigger page
+.. |image-5| image:: /_static/img/first-agent-5.png
    :alt: First condition
-.. |image-6| image:: /_static/img/assign-ticket-to-agent-who-replied/6.png
+.. |image-6| image:: /_static/img/first-agent-6.png
    :alt: Second condition
-.. |image-7| image:: /_static/img/assign-ticket-to-agent-who-replied/7.png
-   :alt: Validate conditions
-.. |image-8| image:: /_static/img/assign-ticket-to-agent-who-replied/8.png
-   :alt: Add action
-.. |image-9| image:: /_static/img/assign-ticket-to-agent-who-replied/8.png
-   :alt: Assigned To
+.. |image-7| image:: /_static/img/first-agent-7.png
+   :alt: Validate condition
+.. |image-8| image:: /_static/img/first-agent-8.png
+   :alt: Set assignee
+.. |image-9| image:: /_static/img/first-agent-9.png
+   :alt: Set field
