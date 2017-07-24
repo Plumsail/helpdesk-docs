@@ -42,6 +42,7 @@ Office 365 documentation articles
       Configuration Guide/Widget
       Configuration Guide/Feedback
       Configuration Guide/Scheduling
+      Configuration Guide/SLA policy
       Configuration Guide/Appearance
       Configuration Guide/Color theme
       Configuration Guide/Statuses customization
@@ -50,6 +51,7 @@ Office 365 documentation articles
       Configuration Guide/How to change home page
       Configuration Guide/Upgrade manager
       Configuration Guide/Uninstall HelpDesk
+      
 
 .. container:: pl-right-column
 
