@@ -1,13 +1,21 @@
 Version history
 ###############
 
+Version 1.3.3
+-------------
+
+New features:
+
+- The `Service Level Agreement feature`_ is implemented. You can define target time and actions to be executed on SLA fail for the following metrics: first reply, next reply, resolution time. Note that ticket status with internal name "Pending" will be used for SLA metrics calculations.
+
+
 Version 1.3.2
 -------------
 
 New features:
 
-- Ticket splitting.
-- Ticket merging.
+- `Ticket splitting`_.
+- `Ticket merging`_.
 
 Version 1.3.1
 -------------
@@ -125,3 +133,6 @@ Version 1.0
 .. _client secret renewal: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Client%20secret%20renewal.html
 .. _widget: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Widget.html
 .. _New rich text editor: https://plumsail.com/blog/2016/10/new-editor-for-tickets/
+.. _Service Level Agreement feature: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/SLA%20policy.html
+.. _Ticket splitting: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Split.html
+.. _Ticket merging: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Merge.html
