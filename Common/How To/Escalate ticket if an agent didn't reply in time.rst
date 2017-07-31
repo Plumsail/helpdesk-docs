@@ -1,39 +1,33 @@
-Add new email notifications
-###########################
+Escalate ticket if an agent didn't reply in time
+################################################
 
-Here you can find how to customize email notifications in your service desk.
+If the first response time has been passed, it is better to configure escalation for tickets for immediate reaction. Here is how you can do it. 
+ 
+Navigate to Settings and click on SLA policies tab. You need to create a new SLA policy, so click ‘Add new policy’ button’. 
 
-You can create a new trigger that runs when a help desk ticket is updated in some specific way. For example, you can configure a trigger which will notify a specific person when a ticket priority is changed to urgent.
+|NewPolicy|
 
-This is an example of such notification:
+Then provide a name for a new SLA policy. Also, you can specify conditions but there is no need for it in this case, so move to defining a target and action.
 
-|NotificatonLetter|
+|TicketEscalation|
 
-Navigate to the settings using the icon in the navbar:
+If the requester didn’t get an answer to the ticket within 8 office hours, the ticket’s priority will be escalated. For configuring escalation, click ‘Add action’, choose ‘Set field’ in drop-down menu and select Priority field. Don’t forget to provide a value of priority field, it may be ‘High’ or ‘Urgent’.
 
-|SettingsIcon|
+|TargetAction|
 
-Click the "Triggers" tab, then create a new item.
+You can go further and configure assigning of high priority tickets to executive manager. For that, configure target in the next reply metric and then specify action again — click ‘Add action’, choose ‘Set field’ in the drop-down menu and select ‘Assigned to’ field. In this case, all escalated and answered tickets will be assigned to Admin.
 
-The ‘Event’ field specifies an action that trigger will perform – in this case it’s going to be ‘Send email’. If you need notifications to be sent only in case a ticket has been changed, choose the corresponding option in dropdown menu. ‘Conditions’ field defines the conditions which should be met in order for the action to be performed.
+|NextReply|
 
-|TicketForm|
+This tip is also applying to `cascading SLAs`_ also.
 
-This above defines two conditions that must be met for the trigger to fire, namely that Priority should have been changed and it should be ‘Urgent’ now. More about syntax you can find out `here`_.
+.. |NewPolicy| image:: /_static/img/add-new-policy.png
+   :alt: Add new policy
+.. |TicketEscalation| image:: /_static/img/ticket-escalatiot.png
+   :alt: Ticket escalation
+.. |TargetAction| image:: /_static/img/high-escalation.png
+   :alt: Target and Action
+.. |NextReply| image:: /_static/img/next-reply-time.png
+   :alt: Next reply time
 
-Note that Subject and Email body have been specified inside this action. Some `tokens`_  were used to receive information about ticket title, its ID and the person who escalate it. 
-
-After that, add a new action and select ‘Send email’. You can choose a person from Contact list that’s going to receive notifications regarding ticket’s priority status change. Save the trigger and you will receive e-mails like on the first screenshot.
-
-
-.. |NotificatonLetter| image:: /_static/img/new-niotification.jpg
-   :alt: Example of the new notification
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
-   :alt: Settings Navigation Icon
-.. |TicketForm| image:: /_static/img/new-niotification-1.png
-   :alt: New trigger's condition
-
-.. _Forms Designer: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Forms%20customization.html
-.. _Triggers: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html
-.. _here: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Condition%20Syntax.html
-.. _tokens: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Tokens%20and%20snippets.html
+.. _cascading SLAs: https://plumsail.com/docs/help-desk-o365/v1.x/How%20To/Create%20cascading%20SLAs.html

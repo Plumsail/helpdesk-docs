@@ -51,7 +51,7 @@ In SLA you can define three metrics:
      It is the time taken by the ticket to move from status “New” to “Solved”.
 
 .. note::
-      | First reply time and Next reply time are using Requester comment as a starting point of SLA and these metrics are calculated only for assignee. When resolution time is calculated, pending time is taken from it. In other words, SLA is always paused when the ticket has pending status.
+      | First reply time and Next reply time are using Requester comment as a starting point of SLA and these metrics are calculated only for Assignee. When resolution time is calculated, pending time is taken from it. In other words, SLA is always paused when the ticket has pending status.
 
 |TicketLifecycle|
 

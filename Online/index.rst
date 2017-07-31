@@ -94,9 +94,12 @@ Office 365 documentation articles
       How To/Create multiple help desks for different departments and configure them with different inboxes
       How To/Create a new chart
       How To/Create a new view
+      How To/Create cascading SLAs
       How To/Edit ticket's properties from mailbox
+      How To/Escalate ticket if an agent didn't reply in time
       How To/Export tickets to Excel
       How To/Find the internal name of SharePoint column
+      How To/Notify agent or manager when SLA is failed
       How To/Send SMS notifications from help desk with Microsoft Flow and Twilio
       How To/Start a workflow with a trigger
       How To/Sync SharePoint user profiles fields to HelpDesk contacts
