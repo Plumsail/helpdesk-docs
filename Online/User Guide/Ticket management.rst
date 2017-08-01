@@ -90,8 +90,8 @@ bar on the right-hand side of the page:
 
 |new-icon|
 
-When creating a new ticket Title, Requester, Status and Priority fields
-are required to be filled in.
+When creating a new ticket Title, Requester and Priority fields
+are required to be filled in. Status of ticket will be 'New' by design.
 
 |new-ticket-form|
 
