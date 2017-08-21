@@ -100,6 +100,7 @@ Office 365 documentation articles
       How To/Export tickets to Excel
       How To/Find the internal name of SharePoint column
       How To/Notify agent or manager when SLA is failed
+      How To/Reassign ticket from disabled user in help desk
       How To/Send SMS notifications from help desk with Microsoft Flow and Twilio
       How To/Start a workflow with a trigger
       How To/Sync SharePoint user profiles fields to HelpDesk contacts
