@@ -13,7 +13,7 @@ And then to Scheduling tab. Here you can find pre-defined task but you need to c
 
 |schedulerOverview|
 
-Provide a title for your task and schedule how often do you want to run that task. On the screenshot, it was chosen to repeat it every day. 
+Provide a title for your task and schedule how often you want to run that task. On the screenshot, it was chosen to repeat it every day. 
 
 |schedulerTask|
 
