@@ -80,7 +80,7 @@ To set language for your widget you need to open widget configuration form and s
 
 |WidgetLanguage| |WidgetCustomLanguage|
 
-If you selected custom language for your widget you will need to translate by yourself. To do this, navigate to <Site with HelpDesk>/HD/localization folder, create a copy of en-US.js file and rename it to LocaleName.js, for example it-IT.js. Then you will have to translate all strings starting with "Widget" prefix and save the file.
+If you selected custom language for your widget you will need to translate it by yourself. To do this, navigate to <Site with HelpDesk>/HD/localization folder, create a copy of en-US.js file and rename it to LocaleName.js, for example it-IT.js. Then you will have to translate all strings starting with "Widget" prefix and save the file.
 
 Also you can customize any string in Widget interface just the same way as any other string in HelpDesk interface.
 
