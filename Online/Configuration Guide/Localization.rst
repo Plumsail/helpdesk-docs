@@ -19,7 +19,7 @@ Available languages:
 - English
 - German
 
-You can send us a request to add new language in `customization store`_\.
+If you want to add support of new language, please send request to support@plumsail.com.
 
 Localization logic
 ------------------
@@ -34,8 +34,8 @@ Static strings in aspx pages are being set during HelpDesk installation and can'
 
 Sharepoint artefacts are translated to all supported languages during installation. So if `Multiple Language User Interface (MUI)`_\  is enabled on your site, HelpDesk list titles and field names will be displayed depending on user language settings. For example, if you installed HelpDesk on English site with German as additional interface language, sharepoint artefacts will be displayed in English or German depending on current user preferences. If user's preferred language is not supported by HelpDesk, he will see sharepoint artefacts in default HelpDesk language selected during installation.
 
-Most of the strings in HelpDesk user interface a generated dynamically by javascript and can be customized. All strings are stored in separate files for each supported language in <Site with HelpDesk>/HD/localization folder.
-This strings also support MUI. The same logic is applied for translation of this strings as for SharePoint artefacts.
+Most of the strings in HelpDesk user interface are generated dynamically by javascript and can be customized. All strings are stored in separate files for each supported language in *<Site with HelpDesk>/HD/localization* folder.
+These strings also support MUI. The same logic is applied for translation of these strings as for SharePoint artefacts.
 
 Email templates are configured during installation process and can be customized. MUI is not supported for them.
 
@@ -53,7 +53,7 @@ If you are installing HelpDesk to a new web site, you can select HelpDesk langua
 How to change a string in the interface
 ---------------------------------------
 
-To change a string in HelpDesk interface you need to open <Site with HelpDesk>/HD/localization folder.
+To change a string in HelpDesk interface you need to open *<Site with HelpDesk>/HD/localization* folder.
 There are files with localization strings for each supported language.
 
 For example, let us change HelpDesk ribbon tab title for English locale. To do this you will need to modify en-US.js file. We advise you to create backup copy of this file before any changes.
@@ -80,14 +80,13 @@ To set language for your widget you need to open widget configuration form and s
 
 |WidgetLanguage| |WidgetCustomLanguage|
 
-If you selected custom language for your widget you will need to translate it by yourself. To do this, navigate to <Site with HelpDesk>/HD/localization folder, create a copy of en-US.js file and rename it to LocaleName.js, for example it-IT.js. Then you will have to translate all strings starting with "Widget" prefix and save the file.
+If you selected custom language for your widget you will need to translate it by yourself. To do this, navigate to *<Site with HelpDesk>/HD/localization* folder, create a copy of en-US.js file and rename it to LocaleName.js, for example it-IT.js. Then you will have to translate all strings starting with "Widget" prefix and save the file.
 
 Also you can customize any string in Widget interface just the same way as any other string in HelpDesk interface.
 
 .. note::
 	Widget localization strings are cached for 30 minutes for optimisation purposes. You will need to clear browser cache to apply your changes immediatly.
 
-.. _customization store: https://plumsail.com/sharepoint-helpdesk/store/customizations-and-support/
 .. _Multiple Language User Interface (MUI): https://support.office.com/en-us/article/Choose-the-languages-you-want-to-make-available-for-a-site-s-user-interface-16d3a83c-05ab-4b50-8fbb-ff576a3351e8
 .. _Table of Language Culture Names: https://msdn.microsoft.com/ru-ru/library/ee825488(v=cs.20).aspx
 .. |HelpDeskOnlineSelectLanguage| image:: /_static/img/select-lang.png
