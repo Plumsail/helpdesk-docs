@@ -43,6 +43,7 @@ Office 365 documentation articles
       Configuration Guide/Feedback
       Configuration Guide/Scheduling
       Configuration Guide/SLA policy
+      Configuration Guide/Localization
       Configuration Guide/Appearance
       Configuration Guide/Color theme
       Configuration Guide/Statuses customization
