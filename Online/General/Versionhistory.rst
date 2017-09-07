@@ -6,7 +6,7 @@ Version 1.3.4
 
 New features:
 
-- Ability to localize Plumsail Widget.
+- Ability to `localize`_ Plumsail Widget.
 
 Version 1.3.3
 -------------
@@ -143,3 +143,4 @@ Version 1.0
 .. _Service Level Agreement feature: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/SLA%20policy.html
 .. _Ticket splitting: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Split.html
 .. _Ticket merging: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Merge.html
+.. _localize: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Localization.html
