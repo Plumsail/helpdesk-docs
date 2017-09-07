@@ -1,6 +1,13 @@
 Version history
 ###############
 
+Version 1.3.4
+-------------
+
+New features:
+
+- Ability to localize Plumsail Widget.
+
 Version 1.3.3
 -------------
 
