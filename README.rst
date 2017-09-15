@@ -8,7 +8,7 @@ This repository stores sources for documentation of Plumsail HelpDesk for follow
 - HelpDesk for SharePoint 2013/2016
 - HelpDesk for Office 365
 
-Plumsail help desk features
+Plumsail HelpDesk features
 ---------------------------
 
 - Interface tailored for efficiency, no clutter
