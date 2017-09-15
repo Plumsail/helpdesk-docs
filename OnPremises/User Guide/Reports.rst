@@ -80,13 +80,13 @@ This chart which shows how many active tickets and tickets resolved by requester
 
 .. _Dashboard Designer: http://spchart.com/
 
-.. |reports-icon| image:: /_static/img/reports-icon.png
+.. |reports-icon| image:: ../_static/img/reports-icon.png
    :alt: Reports Navigation Icon
-.. |overview| image:: /_static/img/overview.png
+.. |overview| image:: ../_static/img/overview.png
    :alt: Overview
-.. |by-date| image:: /_static/img/by-date.png
+.. |by-date| image:: ../_static/img/by-date.png
    :alt: By date
-.. |By-assignee| image:: /_static/img/by-assignee.png
+.. |By-assignee| image:: ../_static/img/by-assignee.png
    :alt: By assignee
-.. |By-requester| image:: /_static/img/by-requester.png
+.. |By-requester| image:: ../_static/img/by-requester.png
    :alt: By requester

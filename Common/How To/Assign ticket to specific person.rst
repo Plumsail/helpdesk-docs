@@ -16,21 +16,21 @@ To automatically assign tickets to an agent, in actions select ‘Set field’ a
 
 |Action| 
 
-.. |NewTrigger| image:: /_static/img/new-trigger-specific.png
+.. |NewTrigger| image:: ../_static/img/new-trigger-specific.png
    :alt: New trigger
-.. |Action| image:: /_static/img/new-action-specified.png
+.. |Action| image:: ../_static/img/new-action-specified.png
    :alt: New action
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt: 
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt:  
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt: 
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt: 
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt: 
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt: 
 
 .. _here: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Condition%20Syntax.html#functions

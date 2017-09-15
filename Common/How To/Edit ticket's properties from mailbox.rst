@@ -35,27 +35,27 @@ Or change ticket’s category.
 
 |TicketCategory|
 
-.. |EditTrigger| image:: /_static/img/ticket-high-priority.png
+.. |EditTrigger| image:: ../_static/img/ticket-high-priority.png
    :alt: Edit trigger
-.. |Action| image:: /_static/img/set-priority-action.png
+.. |Action| image:: ../_static/img/set-priority-action.png
    :alt: Set action
-.. |Letter| image:: /_static/img/how-to-letter.png
+.. |Letter| image:: ../_static/img/how-to-letter.png
    :alt: Letter with hashtag
-.. |Comment| image:: /_static/img/letter-2.png
+.. |Comment| image:: ../_static/img/letter-2.png
    :alt: Comment from mailbox
-.. |TicketUpdate| image:: /_static/img/ticket-update.png
+.. |TicketUpdate| image:: ../_static/img/ticket-update.png
    :alt: Ticket was updated
-.. |Resolved| image:: /_static/img/ticket-resolved.png
+.. |Resolved| image:: ../_static/img/ticket-resolved.png
    :alt: Ticket resolved   
-.. |TicketCategory| image:: /_static/img/ticket-category.png
+.. |TicketCategory| image:: ../_static/img/ticket-category.png
    :alt: Ticket category
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt:   
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt:   
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt:   
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt:   
 
 

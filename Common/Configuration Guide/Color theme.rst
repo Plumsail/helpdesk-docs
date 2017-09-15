@@ -15,7 +15,7 @@ on it and follow setup steps.
 
 |looks|
 
-.. |ctl-online| image:: /_static/img/ctl-online.png
+.. |ctl-online| image:: ../_static/img/ctl-online.png
    :alt: Change the look
-.. |looks| image:: /_static/img/looks.png
+.. |looks| image:: ../_static/img/looks.png
    :alt: Looks

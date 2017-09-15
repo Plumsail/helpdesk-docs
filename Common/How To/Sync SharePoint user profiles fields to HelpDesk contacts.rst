@@ -31,17 +31,17 @@ Then add a new action which will update fields in Contacts list in SharePoint if
 
 Don't forget to save the new new flow.
 
-.. |SuiteBar| image:: /_static/img/flow-button.png
+.. |SuiteBar| image:: ../_static/img/flow-button.png
    :alt: Office 365 suite bar
-.. |Recurrence| image:: /_static/img/recurrence-flow.png
+.. |Recurrence| image:: ../_static/img/recurrence-flow.png
    :alt: Recurrence action
-.. |GetItems| image:: /_static/img/get-items-with-filter.png
+.. |GetItems| image:: ../_static/img/get-items-with-filter.png
    :alt: Get items
-.. |Loop| image:: /_static/img/apply-to-each.png
+.. |Loop| image:: ../_static/img/apply-to-each.png
    :alt: Loop action
-.. |GetUser| image:: /_static/img/get-user-profile-office.png
+.. |GetUser| image:: ../_static/img/get-user-profile-office.png
    :alt: Get user profiles
-.. |Update| image:: /_static/img/update-items-in-contacts.png
+.. |Update| image:: ../_static/img/update-items-in-contacts.png
    :alt: Update items
 
 

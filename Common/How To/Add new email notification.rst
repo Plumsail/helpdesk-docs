@@ -26,11 +26,11 @@ Note that Subject and Email body have been specified inside this action. Some `t
 After that, add a new action and select ‘Send email’. You can choose a person from Contact list that’s going to receive notifications regarding ticket’s priority status change. Save the trigger and you will receive e-mails like on the first screenshot.
 
 
-.. |NotificatonLetter| image:: /_static/img/new-niotification.jpg
+.. |NotificatonLetter| image:: ../_static/img/new-niotification.jpg
    :alt: Example of the new notification
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |TicketForm| image:: /_static/img/new-niotification-1.png
+.. |TicketForm| image:: ../_static/img/new-niotification-1.png
    :alt: New trigger's condition
 
 .. _Forms Designer: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Forms%20customization.html

@@ -87,15 +87,15 @@ Average satisfaction
 
 .. _Dashboard Designer: http://spchart.com/
 
-.. |reports-icon| image:: /_static/img/reports-icon.png
+.. |reports-icon| image:: ../_static/img/reports-icon.png
    :alt: Reports Navigation Icon
-.. |overview| image:: /_static/img/OverviewReports.png
+.. |overview| image:: ../_static/img/OverviewReports.png
    :alt: Overview
-.. |by-date| image:: /_static/img/by-date.png
+.. |by-date| image:: ../_static/img/by-date.png
    :alt: By date
-.. |by-date-1| image:: /_static/img/by-date-1.png
+.. |by-date-1| image:: ../_static/img/by-date-1.png
    :alt: By date
-.. |By-assignee| image:: /_static/img/by-assignee.png
+.. |By-assignee| image:: ../_static/img/by-assignee.png
    :alt: By assignee
-.. |By-assignee-1| image:: /_static/img/by-assignee-1.png
+.. |By-assignee-1| image:: ../_static/img/by-assignee-1.png
    :alt: By assignee

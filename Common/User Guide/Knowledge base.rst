@@ -23,9 +23,9 @@ To create a new folder navigate to “Files” tab in the ribbon and click
 
 |create-kb-folder|
 
-.. |kb_icon| image:: /_static/img/kb_icon.png
+.. |kb_icon| image:: ../_static/img/kb_icon.png
    :alt: Knowledge Base Navigation Icon
-.. |create-kb-article| image:: /_static/img/create-kb-article.png
+.. |create-kb-article| image:: ../_static/img/create-kb-article.png
    :alt: Create Article
-.. |create-kb-folder| image:: /_static/img/create-kb-folder.png
+.. |create-kb-folder| image:: ../_static/img/create-kb-folder.png
    :alt: Create Folder

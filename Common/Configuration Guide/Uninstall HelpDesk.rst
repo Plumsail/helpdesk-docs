@@ -11,7 +11,7 @@ Enter your login and password then HelpDesk system will check your permissions a
 .. warning:: 
 	All data associated with HelpDesk will be deleted, including contacts, tickets, and triggers. You will not able to restore this data.
 
-.. |RemoveManager| image:: /_static/img/remove-manager-0.png
+.. |RemoveManager| image:: ../_static/img/remove-manager-0.png
    :alt: Upgrade Manager
 
 .. _rollback forms: Forms%20customization.html#forms-backups

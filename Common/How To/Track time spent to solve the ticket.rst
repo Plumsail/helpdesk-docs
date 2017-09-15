@@ -40,21 +40,21 @@ This way you can count every hour spent on the ticket. After it, you can run the
 |Result|
 
 
-.. |Timesheet| image:: /_static/img/timesheet.png
+.. |Timesheet| image:: ../_static/img/timesheet.png
    :alt: Timesheet
-.. |NewList| image:: /_static/img/new-list.png
+.. |NewList| image:: ../_static/img/new-list.png
    :alt: New list
-.. |TimesheetStructure| image:: /_static/img/timesheet-structure.png
+.. |TimesheetStructure| image:: ../_static/img/timesheet-structure.png
    :alt: Timesheet structure
-.. |NewWorkflow| image:: /_static/img/new-workflow.png
+.. |NewWorkflow| image:: ../_static/img/new-workflow.png
    :alt: New workflow  
-.. |Trigger| image:: /_static/img/new-trigger-for-billable-workflow.png
+.. |Trigger| image:: ../_static/img/new-trigger-for-billable-workflow.png
    :alt: New trigger
-.. |newView| image:: /_static/img/for-invoice-view.png
+.. |newView| image:: ../_static/img/for-invoice-view.png
    :alt: New view
-.. |Totals| image:: /_static/img/totals.png
+.. |Totals| image:: ../_static/img/totals.png
    :alt: Totals
-.. |Result| image:: /_static/img/timesheet-result.png
+.. |Result| image:: ../_static/img/timesheet-result.png
    :alt: Result 
 
 .. _check this article: https://plumsail.com/blog/2016/07/quick-tip-how-to-add-a-new-column-to-tickets-list-and-form-in-sharepoint-help-desk/

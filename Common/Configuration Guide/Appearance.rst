@@ -36,11 +36,11 @@ dialog with an ability to set link properties.
 
 |navigationEdit|
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |navigationsets| image:: /_static/img/navigation-0.png
+.. |navigationsets| image:: ../_static/img/navigation-0.png
    :alt: Navigation Sets
-.. |leftsidebar| image:: /_static/img/navigation-1.png
+.. |leftsidebar| image:: ../_static/img/navigation-1.png
    :alt: Left Side Bar
-.. |navigationEdit| image:: /_static/img/navigation_edit.png
+.. |navigationEdit| image:: ../_static/img/navigation_edit.png
    :alt: Navigation Edit

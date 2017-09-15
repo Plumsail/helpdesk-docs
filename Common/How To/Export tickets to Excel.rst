@@ -14,6 +14,6 @@ Then head to ribbon menu and click on ‘Export to Excel’. Note that you need 
 
 During exporting all ticket's parameters will be exported as well, so you can build any analytics in Excel.
 
-.. |Export| image:: /_static/img/export-tickets.jpg
+.. |Export| image:: ../_static/img/export-tickets.jpg
    :alt: Export tickets
 

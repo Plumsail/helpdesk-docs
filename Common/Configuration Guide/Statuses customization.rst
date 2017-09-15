@@ -40,10 +40,10 @@ Look at this picture to understand how fields are connected.
 .. _Ticket Statuses list: #statuseslist
 .. _How Statuses list connected to Tickets list: #how-connected
 
-.. |TicketStatusesList| image:: /_static/img/ticket-statuses-0.png
+.. |TicketStatusesList| image:: ../_static/img/ticket-statuses-0.png
    :alt: Ticket Statuses List
-.. |EditStatus| image:: /_static/img/ticket-statuses-1.png
+.. |EditStatus| image:: ../_static/img/ticket-statuses-1.png
    :alt: Edit ticket status
-.. |TicketToStatus| image:: /_static/img/TicketToStatus.png
+.. |TicketToStatus| image:: ../_static/img/TicketToStatus.png
    :alt: From Tickets to Statuses
 

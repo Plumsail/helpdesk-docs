@@ -42,19 +42,19 @@ Click ‘Preview’ and enjoy a new chart which shows that administration depart
 
 Save your chart and that's it.
 
-.. |SiteCont| image:: /_static/img/DD-in-site-contents.jpg
+.. |SiteCont| image:: ../_static/img/DD-in-site-contents.jpg
    :alt: DD in site-contents
-.. |Reports| image:: /_static/img/reports-icon.png
+.. |Reports| image:: ../_static/img/reports-icon.png
    :alt: Reports
-.. |RibbonChart| image:: /_static/img/chart.jpg
+.. |RibbonChart| image:: ../_static/img/chart.jpg
    :alt: Inser a chart
-.. |configureChart| image:: /_static/img/configure-chart.jpg
+.. |configureChart| image:: ../_static/img/configure-chart.jpg
    :alt: Configure a chart
-.. |ListPick| image:: /_static/img/lists-pick.jpg
+.. |ListPick| image:: ../_static/img/lists-pick.jpg
    :alt: Pick a list
-.. |ChooseChart| image:: /_static/img/choose-chart.jpg
+.. |ChooseChart| image:: ../_static/img/choose-chart.jpg
    :alt: Choosу a chart type
-.. |NewChart| image:: /_static/img/new-chart-1.jpg
+.. |NewChart| image:: ../_static/img/new-chart-1.jpg
    :alt: New chart
 
 

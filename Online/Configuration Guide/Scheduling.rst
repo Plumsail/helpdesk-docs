@@ -45,18 +45,18 @@ Note that you can schedule a task not oftener than once in an hour.
 .. _Condition syntax: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Condition%20Syntax.html
 .. _actions: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html#actions
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |HelpDeskScheduler| image:: /_static/img/overdue-notification.png
+.. |HelpDeskScheduler| image:: ../_static/img/overdue-notification.png
    :alt: Overdue notification task
-.. |TaskCondition| image:: /_static/img/task-condition.png
+.. |TaskCondition| image:: ../_static/img/task-condition.png
    :alt: Task condition
-.. |Schedule| image:: /_static/img/runat.png
+.. |Schedule| image:: ../_static/img/runat.png
    :alt: Schedule tab
-.. |Task| image:: /_static/img/task-condition-1.png
+.. |Task| image:: ../_static/img/task-condition-1.png
    :alt: Condition for task
-.. |Task1| image:: /_static/img/task-action.png
+.. |Task1| image:: ../_static/img/task-action.png
    :alt: Condition for task
-.. |Logs| image:: /_static/img/task-logs.png
+.. |Logs| image:: ../_static/img/task-logs.png
    :alt: Task's logs
 

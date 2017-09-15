@@ -37,17 +37,17 @@ You can modify this view by clicking the button in the ribbon.
 
 |ModifyView|
 
-.. |newView| image:: /_static/img/new-view.jpg
+.. |newView| image:: ../_static/img/new-view.jpg
    :alt: 
-.. |ViewType| image:: /_static/img/view-type.jpg
+.. |ViewType| image:: ../_static/img/view-type.jpg
    :alt: View type
-.. |createView| image:: /_static/img/create-view.jpg
+.. |createView| image:: ../_static/img/create-view.jpg
    :alt: Create view
-.. |Columns| image:: /_static/img/columns-1.jpg
+.. |Columns| image:: ../_static/img/columns-1.jpg
    :alt: Columns settings
-.. |ViewFilter| image:: /_static/img/view-operators.jpg
+.. |ViewFilter| image:: ../_static/img/view-operators.jpg
    :alt: Filtering views
-.. |FinallyView| image:: /_static/img/view-menu.jpg
+.. |FinallyView| image:: ../_static/img/view-menu.jpg
    :alt: Finally view
-.. |ModifyView| image:: /_static/img/modify-view.jpg
+.. |ModifyView| image:: ../_static/img/modify-view.jpg
    :alt: Modify view

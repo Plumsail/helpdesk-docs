@@ -17,7 +17,7 @@ Then switch to "Scheduler" tab:
 .. _Workflow Scheduler: https://plumsail.com/workflow-scheduler/
 .. _the Workflow Scheduler documentation: https://plumsail.com/workflow-scheduler/docs/
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |HelpDeskScheduler| image:: /_static/img/scheduler-0.png
+.. |HelpDeskScheduler| image:: ../_static/img/scheduler-0.png
    :alt: HelpDesk Scheduler

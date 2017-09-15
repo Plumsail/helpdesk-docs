@@ -34,19 +34,19 @@ Now you can assign tickets to group.
 |groupExample|
 
 
-.. |siteSettings| image:: /_static/img/siteSettings.jpg
+.. |siteSettings| image:: ../_static/img/siteSettings.jpg
    :alt: Site settings
-.. |sitePermissions| image:: /_static/img/sitePermissions.jpg
+.. |sitePermissions| image:: ../_static/img/sitePermissions.jpg
    :alt: Site permissions
-.. |createGroup| image:: /_static/img/createGroup.jpg
+.. |createGroup| image:: ../_static/img/createGroup.jpg
    :alt: Create a group
-.. |GroupSettings| image:: /_static/img/create-group-1.jpg
+.. |GroupSettings| image:: ../_static/img/create-group-1.jpg
    :alt:   
-.. |groupPermission| image:: /_static/img/group-permission.jpg
+.. |groupPermission| image:: ../_static/img/group-permission.jpg
    :alt: Group permission level
-.. |AddUsers| image:: /_static/img/addUsers.jpg
+.. |AddUsers| image:: ../_static/img/addUsers.jpg
    :alt:  Add new users
-.. |groupDialog| image:: /_static/img/group-dialog.jpg
+.. |groupDialog| image:: ../_static/img/group-dialog.jpg
    :alt:  Share pop up window
-.. |groupExample| image:: /_static/img/group-example.jpg
+.. |groupExample| image:: ../_static/img/group-example.jpg
    :alt:  Example of assignment

@@ -30,15 +30,15 @@ In the drop-down menu select ‘Assigned to’ field and provide a username to w
 Save changes and run a task to test it. You can make sure that your task is working by looking in the logs. 
 
 
-.. |Settings| image:: /_static/img/settingsicon.png
+.. |Settings| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |schedulerOverview| image:: /_static/img/scheduler-overview.png
+.. |schedulerOverview| image:: ../_static/img/scheduler-overview.png
    :alt: Scheduler overview
-.. |schedulerTask| image:: /_static/img/scheduler-task.png
+.. |schedulerTask| image:: ../_static/img/scheduler-task.png
    :alt: Scheduler task
-.. |schedulerCondition| image:: /_static/img/scheduler-condition.png
+.. |schedulerCondition| image:: ../_static/img/scheduler-condition.png
    :alt: Scheduler condition
-.. |SetField| image:: /_static/img/scheduler-action.png
+.. |SetField| image:: ../_static/img/scheduler-action.png
    :alt: Set action
 
 .. _Scheduler: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Scheduling.html 

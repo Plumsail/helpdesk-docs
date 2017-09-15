@@ -21,5 +21,5 @@ customize your chart.
 .. _Dashboard Designer: http://www.spchart.com/
 .. _documentation: http://www.spchart.com/documentation
 
-.. |Start edit mode| image:: /_static/img/ribbon_charts_c.png
-.. |Edit chart| image:: /_static/img/chart_edit_c.png
+.. |Start edit mode| image:: ../_static/img/ribbon_charts_c.png
+.. |Edit chart| image:: ../_static/img/chart_edit_c.png

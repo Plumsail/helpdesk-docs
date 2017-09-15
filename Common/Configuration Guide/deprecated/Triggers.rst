@@ -151,17 +151,17 @@ This action sets the value of the public field of the ticket.
 .. _Actions: #actions
 .. _condition syntax: Condition%20Syntax.html
 .. _Tokens and snippets: Tokens%20and%20snippets.html
-.. _this article: Statuses%20customization.html#how-statuses-list-connected-to-tickets-list
+.. _this article: ../Statuses%20customization.html#how-statuses-list-connected-to-tickets-list
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |hd-triggers| image:: /_static/img/triggers-0.png
+.. |hd-triggers| image:: ../../_static/img/triggers-0.png
    :alt: HelpDesk Triggers
-.. |TriggerNotifyRequester| image:: /_static/img/triggers-1.png
+.. |TriggerNotifyRequester| image:: ../../_static/img/triggers-1.png
    :alt: Trigger - Notify Requester
-.. |ExpandedAction| image:: /_static/img/triggers-2.png
+.. |ExpandedAction| image:: ../../_static/img/triggers-2.png
    :alt: Expanded action - Send Email
-.. |AddNewAction| image:: /_static/img/triggers-gif-0.gif
+.. |AddNewAction| image:: ../../_static/img/triggers-gif-0.gif
    :alt: Add new action
-.. |DnDAction| image:: /_static/img/triggers-gif-1.gif
+.. |DnDAction| image:: ../../_static/img/triggers-gif-1.gif
    :alt: Drag and Drop action
