@@ -3,7 +3,7 @@ Documentation for Plumsail HelpDesk
 
 Plumsail HelpDesk official page: `https://plumsail.com/sharepoint-helpdesk/`
 
-This repository stores sources for documentation of Plumsail HelpDesk. Sources of documentation for following version of HelpDesk are stored in this repository:
+This repository stores sources for documentation of Plumsail HelpDesk for following versions:
 
 - HelpDesk for SharePoint 2013/2016
 - HelpDesk for Office 365
