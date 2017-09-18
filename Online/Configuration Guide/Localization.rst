@@ -18,6 +18,7 @@ Available languages:
 
 - English
 - German
+- Dutch
 
 If you want to add support of new language, please send request to support@plumsail.com.
 
