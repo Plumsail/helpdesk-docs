@@ -46,23 +46,23 @@ Now agent who is responsible for articles will get email notifications like this
 |NotificationLetter|
 
 
-.. |SharePointDesigner| image:: /_static/img/sharepont-designer-1.jpg
+.. |SharePointDesigner| image:: ../_static/img/sharepont-designer-1.jpg
    :alt: SharePoint designer
-.. |SharepointDesignerWorkflows| image:: /_static/img/sharepoint-designer-2.jpg
+.. |SharepointDesignerWorkflows| image:: ../_static/img/sharepoint-designer-2.jpg
    :alt: SharePoint designer workflows
-.. |Action| image:: /_static/img/stage-1.jpg
+.. |Action| image:: ../_static/img/stage-1.jpg
    :alt: Applaying actions
-.. |AssignATask| image:: /_static/img/assign-a-task.jpg
+.. |AssignATask| image:: ../_static/img/assign-a-task.jpg
    :alt: Assign a task 
-.. |Description| image:: /_static/img/assign-a-task-1.jpg
+.. |Description| image:: ../_static/img/assign-a-task-1.jpg
    :alt: Description
-.. |completeWorkflow| image:: /_static/img/complete-workflow.jpg
+.. |completeWorkflow| image:: ../_static/img/complete-workflow.jpg
    :alt: Complete workflow
-.. |newTriggerForWorkflow| image:: /_static/img/new-trigger-for-worflow.png
+.. |newTriggerForWorkflow| image:: ../_static/img/new-trigger-for-worflow.png
    :alt: New trigger
-.. |newAction| image:: /_static/img/action-to-perform.png
+.. |newAction| image:: ../_static/img/action-to-perform.png
    :alt: New action
-.. |NotificationLetter| image:: /_static/img/notification-letter-with-task.jpg
+.. |NotificationLetter| image:: ../_static/img/notification-letter-with-task.jpg
    :alt: Email notification
 
 .. _SharePoint Designer: https://www.microsoft.com/en-us/download/details.aspx?id=35491

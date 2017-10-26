@@ -26,13 +26,13 @@ Then go back to Triggers. Now to reference custom field you need to use ``{{Tick
 After saving this message template you will receive e-mails with order numbers in there.
 
 
-.. |UpdatedMessage| image:: /_static/img/Update-Template1.jpg
+.. |UpdatedMessage| image:: ../_static/img/Update-Template1.jpg
    :alt: Example of the upadated message template
-.. |TicketForm| image:: /_static/img/Update-Template-2.jpg
+.. |TicketForm| image:: ../_static/img/Update-Template-2.jpg
    :alt: Ticket
-.. |InternalName| image:: /_static/img/Update-Template-3.jpg
+.. |InternalName| image:: ../_static/img/Update-Template-3.jpg
    :alt: Internal name of the field
-.. |TriggerWithUpdatedTemplate| image:: /_static/img/Update-Template-4.png
+.. |TriggerWithUpdatedTemplate| image:: ../_static/img/Update-Template-4.png
    :alt: Additional text in the trigger   
 
 

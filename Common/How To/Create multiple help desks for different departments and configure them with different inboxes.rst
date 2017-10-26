@@ -37,19 +37,19 @@ After all, just install `Plumsail HelpDesk`_ to your new subsite. When you finis
 
 Also, you can design triggers for your own needs. For example, you can configure a trigger for notification on special issues. `In this article`_, you can find more information about how to do that.
 
-.. |siteContent| image:: /_static/img/site-content.png
+.. |siteContent| image:: ../_static/img/site-content.png
    :alt: Site contents
-.. |Subsite| image:: /_static/img/subsite.png
+.. |Subsite| image:: ../_static/img/subsite.png
    :alt: Subsite
-.. |SubsiteDetails| image:: /_static/img/subsite-details.png
+.. |SubsiteDetails| image:: ../_static/img/subsite-details.png
    :alt: Subsite details
-.. |SubsitePermissions| image:: /_static/img/subsite-perm.png
+.. |SubsitePermissions| image:: ../_static/img/subsite-perm.png
    :alt: Subsite permissions
-.. |SubsiteVisitors| image:: /_static/img/subsite-visitors.png
+.. |SubsiteVisitors| image:: ../_static/img/subsite-visitors.png
    :alt: Subsite visitors
-.. |TopLinkBar| image:: /_static/img/top-link-bar.png
+.. |TopLinkBar| image:: ../_static/img/top-link-bar.png
    :alt: Top link bar
-.. |Email| image:: /_static/img/email-settings-forwarding.png
+.. |Email| image:: ../_static/img/email-settings-forwarding.png
    :alt: Email settings
 
 .. _Plumsail HelpDesk: https://plumsail.com/sharepoint-helpdesk/download/

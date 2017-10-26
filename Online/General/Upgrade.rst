@@ -20,9 +20,9 @@ You will be redirected to the confirmation and payment page, where you will be a
 
 Optionally you can enable auto-renewal for the product. See the “Enable auto-renewal” link at the picture above. So, renewal will be performed automatically using the credit card information you submitted.
 
-.. |SignInToAvangate| image:: /_static/img/SignInToAvangate.png
+.. |SignInToAvangate| image:: ../_static/img/SignInToAvangate.png
    :alt: Signin to Avangate
-.. |AvangateTopMenu| image:: /_static/img/AvangateTopMenu.png
+.. |AvangateTopMenu| image:: ../_static/img/AvangateTopMenu.png
    :alt: Avangate top menu
-.. |RenewSample| image:: /_static/img/RenewSample.png
+.. |RenewSample| image:: ../_static/img/RenewSample.png
    :alt: Renew sample

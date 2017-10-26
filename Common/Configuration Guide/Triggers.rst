@@ -167,17 +167,17 @@ This action sets the value of the public field of the ticket.
 .. _this article: Statuses%20customization.html#how-statuses-list-connected-to-tickets-list
 .. _this link: /Configuration%20Guide/deprecated/Triggers.html
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |hd-triggers| image:: /_static/img/HD-All-triggers.png
+.. |hd-triggers| image:: ../_static/img/HD-All-triggers.png
    :alt: HelpDesk Triggers
-.. |HD-trigger| image:: /_static/img/HD-trigger.png
+.. |HD-trigger| image:: ../_static/img/HD-trigger.png
    :alt: Trigger - Notify Requester
-.. |ExpandedAction| image:: /_static/img/show-action.png
+.. |ExpandedAction| image:: ../_static/img/show-action.png
    :alt: Expanded action - Send Email
-.. |LogHistory| image:: /_static/img/log-history.png
+.. |LogHistory| image:: ../_static/img/log-history.png
    :alt: Log history
-.. |AddNewAction| image:: /_static/img/new-action.gif
+.. |AddNewAction| image:: ../_static/img/new-action.gif
    :alt: Add new action
-.. |DnDAction| image:: /_static/img/move-actions.gif
+.. |DnDAction| image:: ../_static/img/move-actions.gif
    :alt: Drag and Drop action

@@ -23,11 +23,11 @@ For high priority tickets, we define the target time for 2 working hours. If the
 
 And remember that order of your SLAs is important. The first SLA with matching condition will be always applied. Put the most strict SLA rules on the top.
 
-.. |TicketEscalation| image:: /_static/img/ticket-escalatiot.png
+.. |TicketEscalation| image:: ../_static/img/ticket-escalatiot.png
    :alt: Ticket escalation
-.. |TargetAction| image:: /_static/img/high-escalation.png
+.. |TargetAction| image:: ../_static/img/high-escalation.png
    :alt: Target and Action
-.. |UrgentAssigning| image:: /_static/img/urgent-assigning.png
+.. |UrgentAssigning| image:: ../_static/img/urgent-assigning.png
    :alt: Urgent assigning
-.. |Action| image:: /_static/img/urgent-sla.png
+.. |Action| image:: ../_static/img/urgent-sla.png
    :alt: Urgent SLA

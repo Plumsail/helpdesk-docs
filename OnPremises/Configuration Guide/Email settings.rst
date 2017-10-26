@@ -47,17 +47,17 @@ Once you started sync service, it will run synchronization periodically (5 minut
 You can interrupt synchronization any time by stopping the service. 
 
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |HDEmailSettings| image:: /_static/img/email_settings5.png
+.. |HDEmailSettings| image:: ../_static/img/email_settings5.png
    :alt: Email Settings
-.. |IncomingEmail| image:: /_static/img/HD_ImapSettings_2013.png
+.. |IncomingEmail| image:: ../_static/img/HD_ImapSettings_2013.png
    :alt: Incoming email settings
-.. |OutgoingEmailSettings| image:: /_static/img/HD_SMTPSettings2013.png
+.. |OutgoingEmailSettings| image:: ../_static/img/HD_SMTPSettings2013.png
    :alt: Outgoing email settings
-.. |OutgoingEmailSettings1| image:: /_static/img/HD_EmailSettings2013_full.png
+.. |OutgoingEmailSettings1| image:: ../_static/img/HD_EmailSettings2013_full.png
    :alt: Outgoing email settings
-.. |MessageSync| image:: /_static/img/start_sync1.png
+.. |MessageSync| image:: ../_static/img/start_sync1.png
    :alt: Sync service status
-.. |MessageSync1| image:: /_static/img/sync_now.png
+.. |MessageSync1| image:: ../_static/img/sync_now.png
    :alt: Sync now

@@ -83,17 +83,17 @@ Then specify mandatory fields and submit the form.
 .. _Start synchronization of email messages: #startsync
 .. _Create agents: #createagents
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |HDEmailSettings| image:: /_static/img/email_settings5.png
+.. |HDEmailSettings| image:: ../_static/img/email_settings5.png
    :alt: Email Settings
-.. |OutgoingEmail| image:: /_static/img/HD_SMTPSettings2013.png
+.. |OutgoingEmail| image:: ../_static/img/HD_SMTPSettings2013.png
    :alt: Outgoing Email Settings
-.. |OutgoingEmail1| image:: /_static/img/HD_EmailSettings2013_full.png
+.. |OutgoingEmail1| image:: ../_static/img/HD_EmailSettings2013_full.png
    :alt: Outgoing Email Settings
-.. |StartSync| image:: /_static/img/start_sync1.png
+.. |StartSync| image:: ../_static/img/start_sync1.png
    :alt: Start Sync
-.. |SyncNow| image:: /_static/img/sync_now.png
+.. |SyncNow| image:: ../_static/img/sync_now.png
    :alt: Sync now
-.. |ContactsNav| image:: /_static/img/contactsnav.png
+.. |ContactsNav| image:: ../_static/img/contactsnav.png
    :alt: Contacts Navigation Icon

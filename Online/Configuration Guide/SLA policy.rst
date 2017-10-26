@@ -76,21 +76,21 @@ The list of actions may contain multiple actions which will be executed sequenti
 
 |Failure|
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |SLA| image:: /_static/img/new-policy.png
+.. |SLA| image:: ../_static/img/new-policy.png
    :alt: SLA policy page
-.. |SLApolicy| image:: /_static/img/SLA-policy.png
+.. |SLApolicy| image:: ../_static/img/SLA-policy.png
    :alt: SLA policy view
-.. |TicketLifecycle| image:: /_static/img/ticket-cycle.png
+.. |TicketLifecycle| image:: ../_static/img/ticket-cycle.png
    :alt: Ticket lifecycle
-.. |editSLA| image:: /_static/img/edit-sla.png
+.. |editSLA| image:: ../_static/img/edit-sla.png
    :alt: Edit SLA policy
-.. |Target| image:: /_static/img/target-time.png
+.. |Target| image:: ../_static/img/target-time.png
    :alt: Target time
-.. |WorkingHours| image:: /_static/img/working-hours.png
+.. |WorkingHours| image:: ../_static/img/working-hours.png
    :alt: Working hours
-.. |Failure| image:: /_static/img/action-for-sla.png
+.. |Failure| image:: ../_static/img/action-for-sla.png
    :alt: Action for SLA failure
 
 

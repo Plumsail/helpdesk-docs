@@ -19,13 +19,13 @@ The ‘Conditions’ field defines the conditions under which the actions are pe
 
 As you want to assign tickets to the group of agents automatically, you should use ‘Set field’ and pick the ‘Assigned to’ field. Don’t forget about field value, here you can use a user’s name, e-mail, or a name of a SharePoint group.
 
-.. |Condition| image:: /_static/img/assigning-on-forwarding.png
+.. |Condition| image:: ../_static/img/assigning-on-forwarding.png
    :alt: Condition of the trigger
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt: 
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt: 
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt:   
 
 

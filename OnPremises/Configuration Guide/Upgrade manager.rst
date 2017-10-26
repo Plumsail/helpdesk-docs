@@ -36,11 +36,11 @@ You need to perform some actions manually to complete upgrade if you are updatin
 3. Go to site settings and click "Change the look".
 4. Reapply your current look.
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |UpgradeManager| image:: /_static/img/AboutHelpDesk.png
+.. |UpgradeManager| image:: ../_static/img/AboutHelpDesk.png
    :alt: Upgrade Manager
-.. |UpdateAvailable| image:: /_static/img/upgrade-manager-1.png
+.. |UpdateAvailable| image:: ../_static/img/upgrade-manager-1.png
    :alt: Update Available
 
 .. _Version history: ../General/Versionhistory.html

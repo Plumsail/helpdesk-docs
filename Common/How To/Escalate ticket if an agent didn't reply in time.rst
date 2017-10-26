@@ -21,13 +21,13 @@ You can go further and configure assigning of high priority tickets to executive
 
 This tip is also applying to `cascading SLAs`_ also.
 
-.. |NewPolicy| image:: /_static/img/add-new-policy.png
+.. |NewPolicy| image:: ../_static/img/add-new-policy.png
    :alt: Add new policy
-.. |TicketEscalation| image:: /_static/img/ticket-escalatiot.png
+.. |TicketEscalation| image:: ../_static/img/ticket-escalatiot.png
    :alt: Ticket escalation
-.. |TargetAction| image:: /_static/img/high-escalation.png
+.. |TargetAction| image:: ../_static/img/high-escalation.png
    :alt: Target and Action
-.. |NextReply| image:: /_static/img/next-reply-time.png
+.. |NextReply| image:: ../_static/img/next-reply-time.png
    :alt: Next reply time
 
 .. _cascading SLAs: https://plumsail.com/docs/help-desk-o365/v1.x/How%20To/Create%20cascading%20SLAs.html

@@ -1,5 +1,5 @@
 Enabling scripting capabilities
-####################
+###############################
 
 We are not able to install HelpDesk unless scripting capabilities are enabled.
 

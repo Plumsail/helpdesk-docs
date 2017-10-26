@@ -90,15 +90,15 @@ Also you can customize any string in Widget interface just the same way as any o
 
 .. _Multiple Language User Interface (MUI): https://support.office.com/en-us/article/Choose-the-languages-you-want-to-make-available-for-a-site-s-user-interface-16d3a83c-05ab-4b50-8fbb-ff576a3351e8
 .. _Table of Language Culture Names: https://msdn.microsoft.com/ru-ru/library/ee825488(v=cs.20).aspx
-.. |HelpDeskOnlineSelectLanguage| image:: /_static/img/select-lang.png
+.. |HelpDeskOnlineSelectLanguage| image:: ../_static/img/select-lang.png
    :alt: Select Language
-.. |ModifyLocalizationFile| image:: /_static/img/en-US.png
+.. |ModifyLocalizationFile| image:: ../_static/img/en-US.png
    :alt: Modify Localization File
-.. |RibbonLocalization| image:: /_static/img/ribbon-localization.png
+.. |RibbonLocalization| image:: ../_static/img/ribbon-localization.png
    :alt: Ribbon Localization
-.. |WidgetLanguage| image:: /_static/img/widget-lang.png
+.. |WidgetLanguage| image:: ../_static/img/widget-lang.png
    :alt: Widget Language
-.. |WidgetCustomLanguage| image:: /_static/img/widget-lang-custom.png
+.. |WidgetCustomLanguage| image:: ../_static/img/widget-lang-custom.png
    :alt: Widget Custom Language
 
 

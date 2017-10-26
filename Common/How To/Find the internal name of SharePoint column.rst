@@ -26,11 +26,11 @@ Important to notice that the internal name is set only once and it stays immutab
 Small trick on how to avoid this confusing experience with replacing Unicode — you can create a column which Display name has no spaces and after Internal name has been generated, just add spaces to Display name wherever necessary. This way, Internal name will be preserved in its original form with no underscores.
 
 
-.. |ListSettings| image:: /_static/img/list-settings-1.jpg
+.. |ListSettings| image:: ../_static/img/list-settings-1.jpg
    :alt: List settings
-.. |Columns| image:: /_static/img/columns.jpg
+.. |Columns| image:: ../_static/img/columns.jpg
    :alt: Columns
-.. |URL| image:: /_static/img/internal-name-in-url.jpg
+.. |URL| image:: ../_static/img/internal-name-in-url.jpg
    :alt: Internal name in URL
 
 .. _trigger conditions: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html

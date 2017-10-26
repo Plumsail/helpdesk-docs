@@ -45,8 +45,9 @@ Note that you can schedule a task not oftener than once in an hour.
 .. _Condition syntax: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Condition%20Syntax.html
 .. _actions: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html#actions
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
+<<<<<<< HEAD
 .. |HelpDeskScheduler| image:: /_static/img/overdue-notification.png
    :alt: Overdue notification task
 .. |TaskCondition| image:: /_static/img/task-condition.png
@@ -60,3 +61,7 @@ Note that you can schedule a task not oftener than once in an hour.
 .. |Logs| image:: /_static/img/task-logs.png
    :alt: Task's logs
 
+=======
+.. |HelpDeskScheduler| image:: ../_static/img/scheduler-0.png
+   :alt: HelpDesk Scheduler
+>>>>>>> ddecf60070bd008301175ccc77be41b7b38a09b6

@@ -107,11 +107,11 @@ Notice that adding a widget is optional.
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
 .. _here: ../Configuration%20Guide/Widget.html
 
-.. |SettingsIcon| image:: /_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |HDEmailSettings| image:: /_static/img/email-settings-0.png
+.. |HDEmailSettings| image:: ../_static/img/email-settings-0.png
    :alt: Email Settings
-.. |HDEmailSettingsReply| image:: /_static/img/email-settings-1.png
+.. |HDEmailSettingsReply| image:: ../_static/img/email-settings-1.png
    :alt: Email Reply Settings
-.. |ContactsNav| image:: /_static/img/contactsnav.png
+.. |ContactsNav| image:: ../_static/img/contactsnav.png
    :alt: Contacts Navigation Icon

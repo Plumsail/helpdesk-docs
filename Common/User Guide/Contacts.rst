@@ -79,13 +79,13 @@ You can check how signature works on the ticket editing form. Just click "Add re
 
 |HowSignatureWork|
 
-.. |ContactsNav| image:: /_static/img/contactsnav.png
+.. |ContactsNav| image:: ../_static/img/contactsnav.png
    :alt: Contact Navigation Icon
-.. |contacts_1| image:: /_static/img/contacts_1.png
+.. |contacts_1| image:: ../_static/img/contacts_1.png
    :alt: Contact
-.. |tony_anderson| image:: /_static/img/tony_anderson.png
+.. |tony_anderson| image:: ../_static/img/tony_anderson.png
    :alt: Tony Anderson
-.. |SetupSignature| image:: /_static/img/contact-signature-0.png
+.. |SetupSignature| image:: ../_static/img/contact-signature-0.png
    :alt: Setup Signature
-.. |HowSignatureWork| image:: /_static/img/contact-signature-1.gif
+.. |HowSignatureWork| image:: ../_static/img/contact-signature-1.gif
    :alt: How Signature Works

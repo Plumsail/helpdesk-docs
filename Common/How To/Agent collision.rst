@@ -7,5 +7,5 @@ Autorefresh is taking care about if someone already added a comment or ticket ha
 
 |agentCollision|
 
-.. |agentCollision| image:: /_static/img/agent-collision.png
+.. |agentCollision| image:: ../_static/img/agent-collision.png
    :alt: Agent collision warning

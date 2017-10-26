@@ -20,9 +20,9 @@ filtering by creation date:
 If you don’t specify “From” or “To” inputs, default values will be used:
 01/01/1970 for “From” and 5 years from now for “To”.
 
-.. |tickets_icon| image:: /_static/img/tickets_icon.png
+.. |tickets_icon| image:: ../_static/img/tickets_icon.png
    :alt: All Ticket Navigation Icon
-.. |alltickets_2| image:: /_static/img/alltickets_2.png
+.. |alltickets_2| image:: ../_static/img/alltickets_2.png
    :alt: All tickets
-.. |alltickets_custom_2| image:: /_static/img/alltickets_custom_2.png
+.. |alltickets_custom_2| image:: ../_static/img/alltickets_custom_2.png
    :alt: Custom Filter

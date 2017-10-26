@@ -96,6 +96,7 @@ are required to be filled in. Status of ticket will be 'New' by design.
 |new-ticket-form|
 
 
+<<<<<<< HEAD
 Understanding ticket's statuses
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -111,20 +112,23 @@ When the ticket is resolved, Agent should change its status to **Solved**.
 |TicketStatus|
 
 .. |view-ticket-form| image:: /_static/img/view-ticket-form.png
+=======
+.. |view-ticket-form| image:: ../_static/img/view-ticket-form.png
+>>>>>>> ddecf60070bd008301175ccc77be41b7b38a09b6
    :alt: View Ticket Form
-.. |history-tab| image:: /_static/img/history-tab.png
+.. |history-tab| image:: ../_static/img/history-tab.png
    :alt: History Tab
-.. |hd-ribbon-tab| image:: /_static/img/hd-ribbon-tab.png
+.. |hd-ribbon-tab| image:: ../_static/img/hd-ribbon-tab.png
    :alt: HelpDesk Ribbon Tab
-.. |edit-item| image:: /_static/img/edit-item.png
+.. |edit-item| image:: ../_static/img/edit-item.png
    :alt: Edit Item
-.. |edit-ticket-context| image:: /_static/img/edit-ticket-context.png
+.. |edit-ticket-context| image:: ../_static/img/edit-ticket-context.png
    :alt: Edit Ticket Context
-.. |ticket-edit-comment| image:: /_static/img/ticket-edit-comment.png
+.. |ticket-edit-comment| image:: ../_static/img/ticket-edit-comment.png
    :alt: Edit Ticket Comment
-.. |new-icon| image:: /_static/img/new-icon.png
+.. |new-icon| image:: ../_static/img/new-icon.png
    :alt: New Ticket Navigation Icon
-.. |new-ticket-form| image:: /_static/img/new-ticket-form1.png
+.. |new-ticket-form| image:: ../_static/img/new-ticket-form1.png
    :alt: New Ticket Form
 .. |TicketLifecycle| image:: /_static/img/ticket-cycle.png
    :alt: Ticket lifecycle

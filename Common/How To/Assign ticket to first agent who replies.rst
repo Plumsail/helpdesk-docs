@@ -47,21 +47,21 @@ And this is how you can automatically assign tickets to the first agent who repl
 .. _From ribbon: #from-ribbon
 .. _From site settings: #from-settings
 
-.. |image-1| image:: /_static/img/first-agent-1.png
+.. |image-1| image:: ../_static/img/first-agent-1.png
    :alt: Settings button
-.. |image-2| image:: /_static/img/first-agent-2.png
+.. |image-2| image:: ../_static/img/first-agent-2.png
    :alt: Triggers
-.. |image-3| image:: /_static/img/first-agent-3.png
+.. |image-3| image:: ../_static/img/first-agent-3.png
    :alt: New item
-.. |image-4| image:: /_static/img/first-agent-4.png
+.. |image-4| image:: ../_static/img/first-agent-4.png
    :alt: New trigger page
-.. |image-5| image:: /_static/img/first-agent-5.png
+.. |image-5| image:: ../_static/img/first-agent-5.png
    :alt: First condition
-.. |image-6| image:: /_static/img/first-agent-6.png
+.. |image-6| image:: ../_static/img/first-agent-6.png
    :alt: Second condition
-.. |image-7| image:: /_static/img/first-agent-7.png
+.. |image-7| image:: ../_static/img/first-agent-7.png
    :alt: Validate condition
-.. |image-8| image:: /_static/img/first-agent-8.png
+.. |image-8| image:: ../_static/img/first-agent-8.png
    :alt: Set assignee
-.. |image-9| image:: /_static/img/first-agent-9.png
+.. |image-9| image:: ../_static/img/first-agent-9.png
    :alt: Set field

@@ -73,12 +73,12 @@ click “Mark as Read” or “Mark as Unread” button:
 
 |homeview_helpdesktab_4|
 
-.. |home_icon| image:: /_static/img/home_icon.png
+.. |home_icon| image:: ../_static/img/home_icon.png
    :alt: Home Navigation Icon
-.. |homeview_5| image:: /_static/img/homeview_5.png
+.. |homeview_5| image:: ../_static/img/homeview_5.png
    :alt: Home View
-.. |HD_ribbon| image:: /_static/img/hd_ribbon.png
+.. |HD_ribbon| image:: ../_static/img/hd_ribbon.png
    :alt: HelpDesk Ribbon
-.. |homeview_create_3| image:: /_static/img/homeview_create_3.png
+.. |homeview_create_3| image:: ../_static/img/homeview_create_3.png
    :alt: Create Home View
-.. |homeview_helpdesktab_4| image:: /_static/img/homeview_helpdesktab_4.png
+.. |homeview_helpdesktab_4| image:: ../_static/img/homeview_helpdesktab_4.png

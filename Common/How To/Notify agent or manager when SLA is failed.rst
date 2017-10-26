@@ -18,11 +18,11 @@ Then define a time target and failure actions for each metric. In this case, tar
 If the target time is not achieved, action ‘Send email’ will be performed. 
 In ‘To’ field specify who will receive a notification about unanswered ticket. In this case, it will be Admin. Subject and Email body were complemented with `tokens`_ to provide more context for the recipient of the message. 
 
-.. |NewPolicy| image:: /_static/img/add-new-policy.png
+.. |NewPolicy| image:: ../_static/img/add-new-policy.png
    :alt: Add new policy
-.. |Name| image:: /_static/img/notification-for-manager.png
+.. |Name| image:: ../_static/img/notification-for-manager.png
    :alt: SLA name
-.. |NextReply| image:: /_static/img/one-more-sla.png
+.. |NextReply| image:: ../_static/img/one-more-sla.png
    :alt: Next reply time
  
 

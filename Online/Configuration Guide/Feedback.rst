@@ -50,17 +50,17 @@ Here you can learn how work of support team was rated day by day.
 |ByDate|
 
 
-.. |Feedback| image:: /_static/img/Feedback.png
+.. |Feedback| image:: ../_static/img/Feedback.png
    :alt: Feedback
-.. |FeedbackSnippet| image:: /_static/img/FeedbackSnippet.png
+.. |FeedbackSnippet| image:: ../_static/img/FeedbackSnippet.png
    :alt: Feedback Snippet
-.. |CommentAfterFeedback| image:: /_static/img/CommentAfterFeedback.png
+.. |CommentAfterFeedback| image:: ../_static/img/CommentAfterFeedback.png
    :alt: Comment After Feedback
-.. |ByAssignee| image:: /_static/img/CSSByAssignee.png
+.. |ByAssignee| image:: ../_static/img/CSSByAssignee.png
    :alt: Average ticket rate by assignee. 
-.. |Overview| image:: /_static/img/CSSOverview.png
+.. |Overview| image:: ../_static/img/CSSOverview.png
    :alt: Overview of customer satisfaction surveys.
-.. |ByDate| image:: /_static/img/CSSByDate.png
+.. |ByDate| image:: ../_static/img/CSSByDate.png
    :alt: Average ticket rate by date 
 
 .. _reports: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Reports.html

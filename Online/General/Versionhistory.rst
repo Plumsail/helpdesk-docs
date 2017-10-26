@@ -1,6 +1,13 @@
 Version history
 ###############
 
+Version 1.3.5
+-------------
+
+New features:
+
+- Ability to display Plumsail Widget in German and Dutch.
+
 Version 1.3.4
 -------------
 

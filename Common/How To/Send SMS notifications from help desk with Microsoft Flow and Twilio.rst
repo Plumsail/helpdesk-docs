@@ -40,19 +40,19 @@ The last action of the last step — updating ‘Is notified’ field in SharePo
 
 Save flow and that’s it! It starts running immediately, so you can check how it’s working. 
 
-.. |SuiteBar| image:: /_static/img/flow-button.png
+.. |SuiteBar| image:: ../_static/img/flow-button.png
    :alt: Office 365 suite bar
-.. |FirstAction| image:: /_static/img/flow-action-1.png
+.. |FirstAction| image:: ../_static/img/flow-action-1.png
    :alt: SharePoint action in Flow
-.. |Condition| image:: /_static/img/flow-condition.png
+.. |Condition| image:: ../_static/img/flow-condition.png
    :alt: Condition
-.. |GetUser| image:: /_static/img/get-user-ptofile.png
+.. |GetUser| image:: ../_static/img/get-user-ptofile.png
    :alt:  Get user profile action 
-.. |Twilio| image:: /_static/img/twilio-action.png
+.. |Twilio| image:: ../_static/img/twilio-action.png
    :alt: Action with Twilio
-.. |UpdateItem| image:: /_static/img/update-item.png
+.. |UpdateItem| image:: ../_static/img/update-item.png
    :alt: Update item action
-.. || image:: /_static/img/
+.. || image:: ../_static/img/
    :alt: 
 
 

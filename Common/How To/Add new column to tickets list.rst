@@ -36,19 +36,19 @@ This how your ticket's editing form will look like:
 
 |TicketEditForm|
 
-.. |ListSettings| image:: /_static/img/list-settings-1.jpg
+.. |ListSettings| image:: ../_static/img/list-settings-1.jpg
    :alt: List settings
-.. |CreateColumn| image:: /_static/img/create-column.jpg
+.. |CreateColumn| image:: ../_static/img/create-column.jpg
    :alt: Create column
-.. |ColumnSettings| image:: /_static/img/create-column-1.jpg
+.. |ColumnSettings| image:: ../_static/img/create-column-1.jpg
    :alt: Column settings
-.. |FormsDesigner| image:: /_static/img/forms-designer.jpg
+.. |FormsDesigner| image:: ../_static/img/forms-designer.jpg
    :alt:  Forms Designer in the ribbon
-.. |FormsDesigner1| image:: /_static/img/forms-designer-1.jpg
+.. |FormsDesigner1| image:: ../_static/img/forms-designer-1.jpg
    :alt: Drag-and-drop new column
-.. |Save| image:: /_static/img/forms-designer-2.jpg
+.. |Save| image:: ../_static/img/forms-designer-2.jpg
    :alt:  Pay attention to Save settings
-.. |TicketEditForm| image:: /_static/img/ticket-editing-form.jpg
+.. |TicketEditForm| image:: ../_static/img/ticket-editing-form.jpg
    :alt: Ticket edit form withe the new column
 
 
