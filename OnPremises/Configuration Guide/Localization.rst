@@ -3,16 +3,13 @@ Localization
 
 Feature overview
 ----------------
-Localization is supported in HelpDesk from version 1.3.4.
+Localization is supported in HelpDesk from version 1.3.5.
 
-For already installed instances, upgrade 1.3.4 brings the ability to localize HelpDesk Widget. This means that you will be able to set display language for a widget placed outside of your SharePoint environment. You will also be able to customize any string in widget interface both for internal and external widgets.
+With upgrade 1.3.5 you will be able:
 
-For a newly created instances you will be able:
-
-- Select HelpDesk language during installation
+- Install localized HelpDesk on German and Dutch sites
 - Customize most of the strings in HelpDesk interface
-- Set display language for a widget placed outside of your SharePoint environment
-- Customize any string in widget interface both for internal and external widgets
+- Customize any string in widget interface 
 
 Available languages:
 
@@ -42,11 +39,7 @@ Email templates are configured during installation process and can be customized
 
 Selecting HelpDesk language
 ---------------------------
-If you are installing HelpDesk to an existing web site, this site language will be used in HelpDesk, because there is no supported way to change the default language of a site, once it has been created. Is default site language is not supported, HelpDesk will be installed in English.
-
-If you are installing HelpDesk to a new web site, you can select HelpDesk language from a dropdown containing all supported languages.
-
-|HelpDeskOnlineSelectLanguage|
+If you are installing HelpDesk to an existing web site, this site language will be used in HelpDesk, because there is no supported way to change the default language of a site, once it has been created. If default site language is not supported, HelpDesk will be installed in English.
 
 .. note::
 	HelpDesk language can't be changed after installation
@@ -72,16 +65,9 @@ You will see a JSON, containing all strings that can be customized. They are sto
 
 Widget localization
 -------------------
-HelpDesk users are now able to select language for widgets located on external sites.
-For widgets located inside SharePoint environment usual localization logic is applied.
+The same localization logic is applied to widgets. For example, you can put English widget to an English site and German widget to a German site. You can also translate your widget to any custom language by yourself.
 
-For example, you can put English widget to an English version of your site and German widget to a German version. You can also translate your widget to any custom language by yourself.
-
-To set language for your widget you need to open widget configuration form and select a language from Site language dropdown. You can also select custom language option and enter you own locale name. You can find list of culture names here: `Table of Language Culture Names`_\.
-
-|WidgetLanguage| |WidgetCustomLanguage|
-
-If you selected custom language for your widget you will need to translate it by yourself. To do this, navigate to *<Site with HelpDesk>/HD/localization* folder, create a copy of en-US.js file and rename it to LocaleName.js, for example it-IT.js. Then you will have to translate all strings starting with "Widget" prefix and save the file.
+If you selected custom language for your widget you will need to translate it by yourself. To do this, navigate to *<Site with HelpDesk>/HD/localization* folder, create a copy of en-US.js file and rename it to LocaleName.js, for example it-IT.js. You can find list of culture names here: `Table of Language Culture Names`_\. Then you will have to translate all strings starting with "Widget" prefix and save the file.
 
 Also you can customize any string in Widget interface just the same way as any other string in HelpDesk interface.
 
