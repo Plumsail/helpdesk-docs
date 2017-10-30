@@ -47,8 +47,7 @@ Note that you can schedule a task not oftener than once in an hour.
 
 .. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-<<<<<<< HEAD
-.. |HelpDeskScheduler| image:: /_static/img/overdue-notification.png
+.. |HelpDeskScheduler| image:: /_static/img/overdueNotification.png
    :alt: Overdue notification task
 .. |TaskCondition| image:: /_static/img/task-condition.png
    :alt: Task condition
@@ -60,8 +59,6 @@ Note that you can schedule a task not oftener than once in an hour.
    :alt: Condition for task
 .. |Logs| image:: /_static/img/task-logs.png
    :alt: Task's logs
-
-=======
 .. |HelpDeskScheduler| image:: ../_static/img/scheduler-0.png
    :alt: HelpDesk Scheduler
->>>>>>> ddecf60070bd008301175ccc77be41b7b38a09b6
+
