@@ -59,6 +59,4 @@ Note that you can schedule a task not oftener than once in an hour.
    :alt: Condition for task
 .. |Logs| image:: /_static/img/task-logs.png
    :alt: Task's logs
-.. |HelpDeskScheduler| image:: ../_static/img/scheduler-0.png
-   :alt: HelpDesk Scheduler
 
