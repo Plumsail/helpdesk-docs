@@ -109,12 +109,8 @@ When End-user submits a ticket, ticket’s status will be New by default. It app
 Then Agent should provide a reply and change ticket’s status to **Pending**. After End-user has provided some feedback, ticket’s status will be automatically changed into In progress. This cycle can repeat as much as needed to resolve a ticket.
 When the ticket is resolved, Agent should change its status to **Solved**.
 
-|TicketStatus|
 
-.. |view-ticket-form| image:: /_static/img/view-ticket-form.png
-=======
 .. |view-ticket-form| image:: ../_static/img/view-ticket-form.png
->>>>>>> ddecf60070bd008301175ccc77be41b7b38a09b6
    :alt: View Ticket Form
 .. |history-tab| image:: ../_static/img/history-tab.png
    :alt: History Tab

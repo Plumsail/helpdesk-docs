@@ -165,9 +165,6 @@ AssignedTo are empty ``{{/if}}``
 .. _advanced syntax: #advanced-syntax
 .. _Send email: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html#send-email
 
-<<<<<<< HEAD
+
 .. |HDMessageTemplateForm| image:: /_static/img/snippet.png
-=======
-.. |HDMessageTemplateForm| image:: ../_static/img/message-templates-0.png
->>>>>>> ddecf60070bd008301175ccc77be41b7b38a09b6
    :alt: HelpDesk Message Template
