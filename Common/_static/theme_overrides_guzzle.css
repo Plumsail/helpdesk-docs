@@ -128,15 +128,18 @@ a:hover, a:focus {
         margin-left: 0
     }
 }
+
+.document .toctree-l1 a {
+    color: #F09600;    
+}
 .sidebar-toc ul li a:hover,
 .main-menu li a:hover span:before,
 .main-menu li a:hover span:after,
 .main-menu li a:hover span{
     background: #F09600;
 }
-
 .breadcrumb a:hover,
 .main-menu li a:hover,
 .mega-subcat__links a:hover{
-    background: #F09600;
+    color: #F09600;
 }
