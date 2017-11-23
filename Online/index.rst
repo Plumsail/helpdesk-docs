@@ -29,7 +29,7 @@ Office 365 documentation articles
       Getting Started/License installation
       Getting Started/Quick HelpDesk configuration
       Community forum  <https://plumsail.com/forum/viewforum.php?f=33>
-      Official blog <https://plumsail.com/blog/> 
+      Official blog <https://medium.com/plumsail> 
       YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>
 
    .. toctree::
