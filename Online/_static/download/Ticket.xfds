@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsDesigner JavaScript="fd.beforeSave(fd.helpDeskWidget.AddTicket);&#xD;&#xA;fd.rendered(function(){&#xD;&#xA;&#x9;var localizationDictionary = fd.helpDeskWidget.Localization;&#xD;&#xA;&#xD;&#xA;&#x9;//localize field titles&#xD;&#xA;&#x9;fd.field(&quot;Title&quot;).title =&#xD;&#xA;&#x9;&#x9;localizationDictionary[&quot;Widget_NewTicketForm_Subject&quot;];&#xD;&#xA;&#x9;fd.field(&quot;Body&quot;).title =&#xD;&#xA;&#x9;&#x9;localizationDictionary[&quot;Widget_NewTicketForm_Description&quot;];&#x9;&#xD;&#xA;&#x9;fd.field(&quot;Attachments&quot;).title =&#xD;&#xA;&#x9;&#x9;localizationDictionary[&quot;Widget_NewTicketForm_AttachFile&quot;];&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;//localize controls&#xD;&#xA;&#x9;fd._getComponentByInternalName(ComponentTypes.Control, &quot;CancelButton&quot;).text =&#xD;&#xA;&#x9;&#x9;localizationDictionary[&quot;Widget_NewTicketForm_Cancel&quot;];&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;fd._getComponentByInternalName(ComponentTypes.Control, &quot;SaveButton&quot;).text =&#xD;&#xA;&#x9;&#x9;localizationDictionary[&quot;Widget_NewTicketForm_Submit&quot;];&#x9;&#xD;&#xA;});" Css=".pl-hd-widget .fd-form .container-fluid{&#xD;&#xA;&#x9;padding-left:0;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.fd-button.cancelButton{&#xD;&#xA;&#x9;background-color: #f4f4f4;&#xD;&#xA;    border: 1px solid #f4f4f4;&#xD;&#xA;&#x9;color: #333;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.fd-button.cancelButton:hover{&#xD;&#xA;    background-color: #eaeaea;&#xD;&#xA;    border-color: #eaeaea;&#xD;&#xA;&#x9;color: #333;&#xD;&#xA;}" SubmitToFlow="false" FormId="633ea9ae-1f2a-47ed-a56c-7d4f2a363a02">
+  <PCView>
+    <Layout Version="1.0.0.0">
+      <Grid Stacked="Small" DefaultChildWidth="6">
+        <Row>
+          <Cell Width="6" Offset="0">
+            <Field Title="Title" TitleFontStyle="Normal" TitleFontWeight="Normal" Orientation="Vertical" TitleVisibility="True" TitleWrapping="False" ControlFontStyle="Normal" ControlFontWeight="Normal" Type="TextBox" InternalName="Title" Required="True" />
+          </Cell>
+        </Row>
+        <Row>
+          <Cell Width="6" Offset="0">
+            <Field Title="Description" TitleFontStyle="Normal" TitleFontWeight="Normal" Orientation="Vertical" TitleVisibility="True" TitleWrapping="False" ControlFontStyle="Normal" ControlFontWeight="Normal" Type="MultilineTextBox" InternalName="Body" Required="True" />
+          </Cell>
+        </Row>
+        <Row>
+          <Cell Width="6" Offset="0">
+            <Field Title="Attachments" TitleFontStyle="Normal" TitleFontWeight="Normal" Orientation="Vertical" TitleVisibility="True" TitleWrapping="True" ControlFontStyle="Normal" ControlFontWeight="Normal" Type="Attachments" InternalName="Attachments" Required="False" MaxSize="10240" AllowedExtensions="[]" />
+          </Cell>
+        </Row>
+        <Row>
+          <Cell Width="1" Offset="4">
+            <Button Style="width:100%" CssClass="cancelButton" OnClick="&quot; fd.helpDeskWidget.Cancel();&quot;" Text="Cancel" Width="NaN" InternalName="CancelButton" />
+          </Cell>
+          <Cell Width="1" Offset="0">
+            <SaveButton Style="width:100%" OnClick="&quot;fd.save();\n&quot;" Text="Submit" Width="NaN" InternalName="SaveButton" />
+          </Cell>
+        </Row>
+      </Grid>
+    </Layout>
+  </PCView>
+</FormsDesigner>
