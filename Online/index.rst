@@ -40,6 +40,7 @@ Office 365 documentation articles
       Configuration Guide/Email settings
       Configuration Guide/Triggers
       Configuration Guide/Widget
+      Configuration Guide/Canned responses
       Configuration Guide/Feedback
       Configuration Guide/Scheduling
       Configuration Guide/SLA policy
@@ -77,6 +78,7 @@ Office 365 documentation articles
       User Guide/All tickets
       User Guide/Contacts
       User Guide/Reports
+      User Guide/Assign to me
       User Guide/Merge
       User Guide/Split
 
