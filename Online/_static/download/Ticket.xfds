@@ -19,11 +19,11 @@
           </Cell>
         </Row>
         <Row>
-          <Cell Width="1" Offset="4">
-            <Button Style="width:100%" CssClass="cancelButton" OnClick="&quot; fd.helpDeskWidget.Cancel();&quot;" Text="Cancel" Width="NaN" InternalName="CancelButton" />
+          <Cell Width="2" Offset="0">
+            <SaveButton OnClick="&quot;fd.save();\n&quot;" Text="Submit" Width="150" InternalName="SaveButton" />
           </Cell>
-          <Cell Width="1" Offset="0">
-            <SaveButton Style="width:100%" OnClick="&quot;fd.save();\n&quot;" Text="Submit" Width="NaN" InternalName="SaveButton" />
+          <Cell Width="2" Offset="0" PaddingLeft="20">
+            <Button CssClass="cancelButton" OnClick="&quot; fd.helpDeskWidget.Cancel();&quot;" Text="Cancel" Width="150" InternalName="CancelButton" />
           </Cell>
         </Row>
       </Grid>

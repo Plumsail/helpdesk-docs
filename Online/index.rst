@@ -40,6 +40,8 @@ Office 365 documentation articles
       Configuration Guide/Email settings
       Configuration Guide/Triggers
       Configuration Guide/Widget
+      Configuration Guide/Widget forms customization
+      Configuration Guide/Ticket and contact forms customization
       Configuration Guide/Canned responses
       Configuration Guide/Feedback
       Configuration Guide/Scheduling
@@ -49,7 +51,6 @@ Office 365 documentation articles
       Configuration Guide/Color theme
       Configuration Guide/Statuses customization
       Configuration Guide/Reports customization
-      Configuration Guide/Forms customization
       Configuration Guide/How to change home page
       Configuration Guide/Upgrade manager
       Configuration Guide/Uninstall HelpDesk
