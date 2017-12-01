@@ -46,4 +46,4 @@ Don't forget to save the new new flow.
 
 
 .. _Microsoft Flow: https://flow.microsoft.com/en-us/
-.. _here: https://plumsail.com/blog/2016/07/quick-tip-how-to-add-a-new-column-to-tickets-list-and-form-in-sharepoint-help-desk/)
+.. _here: https://plumsail.com/blog/2016/07/quick-tip-how-to-add-a-new-column-to-tickets-list-and-form-in-sharepoint-help-desk/

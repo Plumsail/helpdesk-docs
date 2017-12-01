@@ -1,6 +1,16 @@
 Version history
 ###############
 
+Version 1.4.1
+-------------
+
+New features:
+
+- "Assign to me" button that automatically assigns selected tickets to a current agent.
+- Canned responses.
+- Ability to change items in home page menu.
+- Other minor bug fixes.
+
 Version 1.3.5
 -------------
 

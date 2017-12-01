@@ -150,7 +150,7 @@ This action sets the value of the public field of the ticket.
 .. _Condition: #condition
 .. _Actions: #actions
 .. _condition syntax: Condition%20Syntax.html
-.. _Tokens and snippets: Tokens%20and%20snippets.html
+.. _Tokens and snippets: https://plumsail.com/docs/help-desk-onpremises/v1.x/Configuration%20Guide/Tokens%20and%20snippets.html
 .. _this article: ../Statuses%20customization.html#how-statuses-list-connected-to-tickets-list
 
 .. |SettingsIcon| image:: ../../_static/img/settingsicon.png
