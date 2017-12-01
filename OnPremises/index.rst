@@ -79,7 +79,7 @@ SP 2013 / 2016 documentation articles
    .. toctree::
       :caption: How to
       :name: usecasetoc
-      :maxdepth: 1
+      :maxdepth: 2
       
       How To/notifications
       How To/automations
