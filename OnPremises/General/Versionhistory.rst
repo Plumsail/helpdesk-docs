@@ -1,5 +1,22 @@
 Version history
 ###############
+
+Version 1.3.7
+--------------
+
+New features:
+
+- Fixed autocomplete in Assigned to field.
+- Other minor bugfixes.
+
+Version 1.3.6
+--------------
+
+New features:
+
+- Datetime picker visibility fixed.
+- Other minor styling fixes.
+
 Version 1.3.5
 --------------
 
