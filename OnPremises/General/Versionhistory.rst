@@ -25,7 +25,7 @@ New features:
 - Major improvements in `triggers`_ and `scheduler`_ functionality and new user-friendly editor.
 - Ability to send emails, start workflows and set ticket fields in the scheduler.
 - The `Service Level Agreement feature`_ is implemented. You can define target time and actions to be executed on SLA fail for the following metrics: first reply, next reply, resolution time. Note that ticket status with internal name "Pending" will be used for SLA metrics calculations.
-- `The widget`_for requesters is implemented. A requester can use it to communicate on tickets. It can be placed on any SharePoint site, requester doesn't need access to HelpDesk site.
+- `The widget`_ for requesters is implemented. A requester can use it to communicate on tickets. It can be placed on any SharePoint site, requester doesn't need access to HelpDesk site.
 - Fulltext search is configured for tickets and comments.
 - `Ticket splitting`_.
 - `Ticket merging`_.
