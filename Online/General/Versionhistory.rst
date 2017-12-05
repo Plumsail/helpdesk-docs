@@ -1,6 +1,14 @@
 Version history
 ###############
 
+Version 1.4.2
+-------------
+
+New features:
+
+- Ability to `customize widget forms`_ using Plumsail Forms product.
+- New field in tickets list: Support channel.
+
 Version 1.4.1
 -------------
 
@@ -160,3 +168,4 @@ Version 1.0
 .. _Ticket splitting: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Split.html
 .. _Ticket merging: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Merge.html
 .. _localize: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Localization.html
+.. _customize widget forms: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Widget%20forms%20customization.html
