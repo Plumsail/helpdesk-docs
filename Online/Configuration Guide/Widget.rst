@@ -35,7 +35,7 @@ Here you can create a new widget configuration for your page by choosing 'New it
 |NewWidget|
 
 Provide a title for a widget configuration and choose how many tickets will be displayed on the page.
-If you are creating a widget for external site, you can choose allow or not user's registration. Registrated users have ability to review their tickets.
+If you are creating a widget for external site, you can choose widget language and whether to allow user registration. Registered users have ability to review their tickets.
 
 |WidgetMenu|
 
@@ -56,7 +56,6 @@ Adding widget to external site
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Adding a widget to an external site is quite similar to adding it to SharePoint site. Just copy an auto-generated HTML code, open editing form of HTML page and add copied code where you'd like to place a widget.
-
 
 .. |WidgetView| image:: ../_static/img/widgetview.png
    :alt: HelpDesk Widget

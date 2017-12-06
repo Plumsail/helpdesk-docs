@@ -1,6 +1,14 @@
 Version history
 ###############
 
+Version 1.4.2
+-------------
+
+New features:
+
+- Ability to `customize widget forms`_ using Plumsail Forms product.
+- New field in tickets list: Support channel.
+
 Version 1.4.1
 -------------
 
@@ -9,6 +17,12 @@ New features:
 - "Assign to me" button that automatically assigns selected tickets to a current agent.
 - Canned responses.
 - Ability to change items in home page menu.
+- Other minor bug fixes.
+
+Version 1.4.0
+-------------
+
+- Implemented a fallback mechanism for notification delivery when event receivers fail.
 - Other minor bug fixes.
 
 Version 1.3.5
@@ -160,3 +174,4 @@ Version 1.0
 .. _Ticket splitting: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Split.html
 .. _Ticket merging: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Merge.html
 .. _localize: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Localization.html
+.. _customize widget forms: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Widget%20forms%20customization.html
