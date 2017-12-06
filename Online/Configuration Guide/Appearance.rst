@@ -50,7 +50,9 @@ You will see a dialog window where you need provide a title for a new item and s
 |NewItem|
 
 In Order field, provide an index number which the new item will take place in the line of existing elements. 
-Don’t forget to save a new item. 
+Don’t forget to save a new item.
+
+If you have troubles with deleting the item, open your browser's console and type localStorage.clear() there. Then renew the page.
 
 
 .. |SettingsIcon| image:: ../_static/img/settingsicon.png
