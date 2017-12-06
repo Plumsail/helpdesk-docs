@@ -19,6 +19,12 @@ New features:
 - Ability to change items in home page menu.
 - Other minor bug fixes.
 
+Version 1.4.0
+-------------
+
+- Implemented a fallback mechanism for notification delivery when event receivers fail.
+- Other minor bug fixes.
+
 Version 1.3.5
 -------------
 
