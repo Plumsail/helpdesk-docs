@@ -40,18 +40,19 @@ Plumsail HelpDesk hosts all data in Microsoft Azure which data centers have been
 GDPR
 ----
 
-Plumsail prioritizes customer trust. We know that customer data is important to our customers’ values and operations. That is why we keep it private and safe. This section describes compliance with General Data Protection Regulation (“GDPR”), which becomes enforceable on May 25, 2018.
+Plumsail prioritizes customer trust. We know that customer data is important to our customers’ values and operations. That is why we keep it private and safe. This section describes our actions to comply with General Data Protection Regulation (“GDPR”), which becomes enforceable on May 25, 2018.
 
 Informaiton that we collect about you as a customer is describe in our general `privacy policy </privacy-policy/>`_. You, as a customer, have rights and ability to:
- - Access your personal data
- - Correct errors in their personal data
- - Erase your personal data
- - Object to processing of your personal data
- - Export personal data
+
+- Access your personal data
+- Correct errors in their personal data
+- Erase your personal data
+- Object to processing of your personal data
+- Export personal data
 
 Plumsail HelpDesk is installed directly into SharePoint tenant of a client. All personal data of HelpDesk requesters and agents is stored inside tenant of a client. Thus, Microsoft GDPR policies are applied here.
 
-However, Plumsail provides services for conversion of email messages into tickets. Physical location of those services is inside Europian Union. All date is properly protected and encrypted while processing as described in our `data protection <Security>`_ and in `privacy </privacy-policy/helpdesk/>`_ policies. 
+However, Plumsail provides services for conversion of email messages into tickets. Physical location of those services is inside Europian Union. All date that we process is properly protected and encrypted as described in our `data protection <Security>`_ and in `privacy </privacy-policy/helpdesk/>`_ policies. 
 
 Plumsail is implementing necessary data breaches notifications for relevant supervisory authorities and data subjects in accordance with GDPR timeframes.
 
