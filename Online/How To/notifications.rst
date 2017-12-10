@@ -1,4 +1,4 @@
-Email notifications
+Notifications
 ===================
 
 .. toctree::    
