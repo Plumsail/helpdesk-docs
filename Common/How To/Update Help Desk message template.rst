@@ -1,4 +1,4 @@
-Update help desk message template
+Update email message template
 #################################
 
 Here you can find how to modify message templates in HelpDesk for Office 365 with adding information from custom columns to message body.
