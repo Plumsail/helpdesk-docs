@@ -7,7 +7,7 @@ Localization is supported in HelpDesk from version 1.3.5.
 
 With upgrade 1.3.5 you will be able:
 
-- Install localized HelpDesk on German and Dutch sites
+- Install localized HelpDesk on German, Dutch, Czech and Norwegian sites
 - Customize most of the strings in HelpDesk interface
 - Customize any string in widget interface 
 
@@ -16,6 +16,8 @@ Available languages:
 - English
 - German
 - Dutch
+- Czech
+- Norwegian
 
 If you want to add support of new language, please send request to support@plumsail.com.
 

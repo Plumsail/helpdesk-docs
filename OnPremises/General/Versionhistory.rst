@@ -1,6 +1,14 @@
 Version history
 ###############
 
+Version 1.3.8
+--------------
+
+New features:
+
+- Czech and Norwegian languages support.
+- Minor bugfixes.
+
 Version 1.3.7
 --------------
 
