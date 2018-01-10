@@ -1,6 +1,13 @@
 Version history
 ###############
 
+Version 1.4.3
+-------------
+
+New features:
+
+- Ability to display Plumsail Widget in Norwegian and Czech.
+
 Version 1.4.2
 -------------
 
