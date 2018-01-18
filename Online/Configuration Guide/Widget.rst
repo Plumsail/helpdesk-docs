@@ -58,6 +58,8 @@ If you don’t want to make this app availalbe on all sites, you will need to `a
 Creating widget configuration
 -----------------------------
 
+The next step is to configure your future widget. 
+
 Open HelpDesk site and navigate to e-mail settings using navbar.
 
 |EmailSettings|
@@ -85,22 +87,48 @@ Install Plumsail HelpDesk Widget add-in from `SharePoint App store <https://stor
 
 Then you need to place widget to specific SharePoint page. Steps to do that are described below.
 
-Add widget to specific SharePoint page
+Adding widget to modern SharePoint page
 --------------------------------------
 
-Navigate to a page where you'd like to place a widget and click ‘Edit’ on the site ribbon menu.
+Navigate to a page where you'd like to place a widget.
 
-|EditPage|
+Pick ‘Plumsail HelpDesk Widget WebPart’ web part from the menu to add it to your page:
 
-Choose the place where the app will be shown and click ‘Insert’ tab. Here you need to choose ‘Embed code’ option and just paste HTML code which you copied before in the pop-up window.
-Finish with clicking ‘Save’ on the ribbon.
+|PickWPOnModernPage|
 
-|Finish|
+Once you added the web part you need to configure it. Just copy 'Configuration ID for SharePoint' from widget configuration form and paste it to corresponding web part property.
+
+|ConfigureModernWP|
+
+Publish the page. Your HelpDesk widget is ready to use.
+
+|WidgetOnModernPage|
+
+Adding widget to classic SharePoint page
+--------------------------------------
+
+Navigate to a page where you'd like to place a widget and open the page in the edit mode.
+
+Click ‘Insert → Web Part’. 
+
+Pick ‘Plumsail’ category in the list of web part categories.
+
+Pick ‘Plumsail HelpDesk Widget WebPart’ web part and click ‘Add’:
+
+|PickWPOnClassicPage|
+
+Once you added the web part you need to configure it. Just copy 'Configuration ID for SharePoint' from widget configuration form and paste it to corresponding web part property.
+
+Save the page. Your HelpDesk widget is ready to use.
+
+|WidgetOnClassicPage|
 
 Adding widget to external site
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Adding a widget to an external site is quite similar to adding it to SharePoint site. Just copy an auto-generated HTML code, open editing form of HTML page and add copied code where you'd like to place a widget.
+Addind widget to an extarnal site is quite simple. Just copy an auto-generated HTML code from widget configuration form, open editing form of HTML page and add copied code where you'd like to place a widget.
+
+|GenGeneratedHTML|
 
 .. |WidgetView| image:: ../_static/img/widgetview.png
    :alt: HelpDesk Widget
@@ -125,5 +153,12 @@ Adding a widget to an external site is quite similar to adding it to SharePoint 
 .. |NewAppCatalog| image:: ../_static/img/widget-new-app-catalog.png
 .. |UploadSPPKG| image:: ../_static/img/widget-upload-sppkg.png
 .. |TenantScopedWP| image:: ../_static/img/widget-tenant-scoped-webpart.png
+.. |PickWPOnModernPage| image:: ../_static/img/widget-pick-wp-on-modern-page.png
+.. |ConfigureModernWP| image:: ../_static/img/widget-configure-modern-wp.png
+.. |WidgetOnModernPage| image:: ../_static/img/widget-on-modern-page.png
+.. |PickWPOnClassicPage| image:: ../_static/img/widget-pick-wp-on-classic-page.png
+.. |WidgetOnClassicPage| image:: ../_static/img/widget-on-classic-page.png
+.. |GenGeneratedHTML| image:: ../_static/img/widget-get-html.png
+
 
 .. _this link: /Configuration%20Guide/deprecated/Widget.html
