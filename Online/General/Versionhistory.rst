@@ -1,6 +1,13 @@
 Version history
 ###############
 
+Version 1.4.4
+-------------
+
+New features:
+
+- Ability to add Plumsail Widget to modern pages.
+
 Version 1.4.3
 -------------
 
