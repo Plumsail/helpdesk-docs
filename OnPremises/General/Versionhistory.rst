@@ -1,6 +1,13 @@
 Version history
 ###############
 
+Version 1.3.9
+--------------
+
+New features:
+
+- Added support of anonymous SMTP
+
 Version 1.3.8
 --------------
 
