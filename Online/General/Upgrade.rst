@@ -9,7 +9,7 @@ Once you signed in click at “My Products” at the top menu:
 
 |AvangateTopMenu|
 
-You will see the list of your products. Locate the product you want to upgrade/renew. You will see subscription status and expiration date. Click “Upgdare now” or "Renew nowUpgrade now".
+You will see the list of your products. Locate the product you want to upgrade/renew. You will see subscription status and expiration date. Click “Upgdare now” or "Renew now".
 
  .. note::
     | If you don’t see your product or the “Renew” link in the list, contact sales@plumsail.com to get renew link.
