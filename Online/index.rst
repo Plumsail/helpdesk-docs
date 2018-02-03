@@ -28,8 +28,8 @@ Office 365 documentation articles
       Getting Started/Installation
       Getting Started/License installation
       Getting Started/Quick HelpDesk configuration
-      Community forum  <https://plumsail.com/forum/viewforum.php?f=33>
-      Official blog <https://plumsail.com/blog/> 
+      Community forum  <https://community.plumsail.com/c/helpdesk>
+      Official blog <https://medium.com/plumsail> 
       YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>
 
    .. toctree::
@@ -40,6 +40,9 @@ Office 365 documentation articles
       Configuration Guide/Email settings
       Configuration Guide/Triggers
       Configuration Guide/Widget
+      Configuration Guide/Widget forms customization
+      Configuration Guide/Ticket and contact forms customization
+      Configuration Guide/Canned responses
       Configuration Guide/Feedback
       Configuration Guide/Scheduling
       Configuration Guide/SLA policy
@@ -48,7 +51,6 @@ Office 365 documentation articles
       Configuration Guide/Color theme
       Configuration Guide/Statuses customization
       Configuration Guide/Reports customization
-      Configuration Guide/Forms customization
       Configuration Guide/How to change home page
       Configuration Guide/Upgrade manager
       Configuration Guide/Uninstall HelpDesk
@@ -77,37 +79,21 @@ Office 365 documentation articles
       User Guide/All tickets
       User Guide/Contacts
       User Guide/Reports
+      User Guide/Assign to me
       User Guide/Merge
       User Guide/Split
 
    .. toctree::
       :caption: How to
       :name: usecasetoc
-      :maxdepth: 1
+      :maxdepth: 2
       
-      How To/Assign ticket to first agent who replies
-      How To/Add new column to tickets list
-      How To/Add new email notification
-      How To/Agent collision
-      How To/Assign ticket to multiple agents
-      How To/Assign ticket to specific person
-      How To/Configure assigning based on forwarding address
-      How To/Create multiple help desks for different departments and configure them with different inboxes
-      How To/Create a new chart
-      How To/Create a new view
-      How To/Create cascading SLAs
-      How To/Edit ticket's properties from mailbox
-      How To/Escalate ticket if an agent didn't reply in time
-      How To/Export tickets to Excel
-      How To/Find the internal name of SharePoint column
-      How To/Notify agent or manager when SLA is failed
-      How To/Reassign ticket from disabled user in help desk
-      How To/Send SMS notifications from help desk with Microsoft Flow and Twilio
-      How To/Start a workflow with a trigger
-      How To/Sync SharePoint user profiles fields to HelpDesk contacts
-      How To/Track time spent to solve the ticket
-      How To/Update Help Desk message template
-   
+      How To/notifications
+      How To/automations
+      How To/sla
+      How To/ticket-management
+      How To/customizations
+      How To/advanced                              
      
    .. toctree::
       :caption: Videos

@@ -1,4 +1,4 @@
-Customize forms
+Customize ticket and contact forms
 ###############
 
 In order to customize ticket and contact forms you need to install `Forms Designer`_.

@@ -1,6 +1,44 @@
 Version history
 ###############
 
+Version 1.4.4
+-------------
+
+New features:
+
+- Ability to add Plumsail Widget to modern pages.
+
+Version 1.4.3
+-------------
+
+New features:
+
+- Ability to display Plumsail Widget in Norwegian and Czech.
+
+Version 1.4.2
+-------------
+
+New features:
+
+- Ability to `customize widget forms`_ using Plumsail Forms product.
+- New field in tickets list: Support channel.
+
+Version 1.4.1
+-------------
+
+New features:
+
+- "Assign to me" button that automatically assigns selected tickets to a current agent.
+- Canned responses.
+- Ability to change items in home page menu.
+- Other minor bug fixes.
+
+Version 1.4.0
+-------------
+
+- Implemented a fallback mechanism for notification delivery when event receivers fail.
+- Other minor bug fixes.
+
 Version 1.3.5
 -------------
 
@@ -107,7 +145,7 @@ Version 1.2.7
 
 New features:
 
-- `New rich text editor`_ for comments.
+- New rich text editor for comments.
 - Ability to paste pictures to text editor.
 - Ability to upload pictures with drag and drop.
 - Guided tour to users on first entrance.
@@ -146,8 +184,8 @@ Version 1.0
 .. _uninstall page: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Uninstall%20HelpDesk.html
 .. _client secret renewal: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Client%20secret%20renewal.html
 .. _widget: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Widget.html
-.. _New rich text editor: https://plumsail.com/blog/2016/10/new-editor-for-tickets/
 .. _Service Level Agreement feature: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/SLA%20policy.html
 .. _Ticket splitting: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Split.html
 .. _Ticket merging: https://plumsail.com/docs/help-desk-o365/v1.x/User%20Guide/Merge.html
 .. _localize: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Localization.html
+.. _customize widget forms: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Widget%20forms%20customization.html
