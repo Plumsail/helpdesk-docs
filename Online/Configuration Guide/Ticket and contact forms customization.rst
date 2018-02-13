@@ -25,11 +25,6 @@ form in a simple drag-and-drop fashion:
 
 .. _forms backups:
 
-Forms Designer Installation
-~~~~~~~~~~~~~~~~~~~~~
-
-To install Forms Designer please folow these steps
-
 Restore default forms
 ~~~~~~~~~~~~~~~~~~~~~
 

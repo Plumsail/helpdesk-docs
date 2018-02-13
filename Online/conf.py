@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'HelpDesk Documentation'
+project = 'HelpDesk Online'
 copyright = '2018, Plumsail'
 author = 'Plumsail'
 
@@ -124,7 +124,7 @@ extensions.append("guzzle_sphinx_theme")
 # Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
     # Set the name of the project to appear in the sidebar
-    "project_nav_name": "Workflow Actions Pack",
+    "project_nav_name": "HelpDesk Online",
     # Set your Disqus short name to enable comments
     # "disqus_comments_shortname": "plumsail",
 
