@@ -1,6 +1,8 @@
 SLA policy
 ##########
 
+.. important:: SLA management is only available in "Yacht" and "Ocean liner" plans.
+
 SLA stands for Service Level Agreement, it lets you to set up an average response and resolution time. SLA helps to provide more predictable and clear service, so your customers know when to expect a response for their request. 
 
 You can create your own SLA policies and define actions for them according to your needs.
