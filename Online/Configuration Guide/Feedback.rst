@@ -11,11 +11,11 @@ Providing a rate for customer service is quite user-friendly and quick. Addition
 How to add feedback snippet to your messages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Snippet ``{{snippet:FeedbackLink}}`` is automatically added in email notification template of a built-in trigger called “Notification: Requester – Ticket resolved”. 
+Snippet ``{{snippet:Feedback}}`` is automatically added in email notification template of a built-in trigger called “Notification: Requester – Ticket resolved”. 
 
 |FeedbackSnippet| 
 
-This snippet adds the rating question and three pictures with different ratings for the agent — perfect, well and bad. We assume that pictures are quite self-explanatory. These ratings have internal value like 1 is for bad, 2 is for well and 3 is for perfect. End-Users will never know about it, we use these value only for building `reports`_.
+This snippet adds a block with three pictures with different ratings for the agent — perfect, well and bad. We assume that pictures are quite self-explanatory. These ratings have internal value like 1 is for bad, 2 is for well and 3 is for perfect. End-Users will never know about it, we use these value only for building `reports`_.
 
 You can easily remove the snippet from the trigger as well as you can customize time when End-Users are asked for a satisfaction rating. Just add the snippet in email notification template of your own trigger or any other trigger. 
 
@@ -52,7 +52,7 @@ Here you can learn how work of support team was rated day by day.
 
 .. |Feedback| image:: ../_static/img/Feedback.png
    :alt: Feedback
-.. |FeedbackSnippet| image:: ../_static/img/FeedbackSnippet.png
+.. |FeedbackSnippet| image:: ../_static/img/FeedbackEmail.png
    :alt: Feedback Snippet
 .. |CommentAfterFeedback| image:: ../_static/img/CommentAfterFeedback.png
    :alt: Comment After Feedback
