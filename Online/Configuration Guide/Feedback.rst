@@ -52,7 +52,7 @@ Here you can learn how work of support team was rated day by day.
 
 .. |Feedback| image:: ../_static/img/Feedback.png
    :alt: Feedback
-.. |FeedbackSnippet| image:: ../_static/img/FeedbackEmail.png
+.. |FeedbackSnippet| image:: ../_static/img/FeedbackEmailPic.png
    :alt: Feedback Snippet
 .. |CommentAfterFeedback| image:: ../_static/img/CommentAfterFeedback.png
    :alt: Comment After Feedback
