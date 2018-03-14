@@ -11,7 +11,7 @@ Providing a rate for customer service is quite user-friendly and quick. Addition
 How to add feedback snippet to your messages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Snippet ``{{snippet:Feedback}}`` is automatically added in email notification template of a built-in trigger called “Notification: Requester – Ticket resolved”. 
+Snippet ``{{snippet:FeedbackLink}}`` is automatically added in email notification template of a built-in trigger called “Notification: Requester – Ticket resolved”. 
 
 |FeedbackSnippet| 
 
