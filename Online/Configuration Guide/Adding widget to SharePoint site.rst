@@ -69,6 +69,9 @@ After saving, HTML code for external sites and configuration ID for SharePoint w
 
 |GenSPConfigID|
 
+Enable automatic sign-in for a widget
+-----------------------
+
 Open SharePoint site where you want to place the widget.
 
 Install Plumsail HelpDesk Widget add-in from `SharePoint App store <https://store.office.com/en-us/app.aspx?assetid=WA104380769&sourcecorrid=764978a8-0233-4b42-b2e4-7724d130dcf5&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false&canaryguid=c737b959d79b439bb20bebb5befabc00&reviewedAssetRating=5&AuthType=1&fromAR=1>`_. Installing of the add-in is required to enable automatic sign-in under current SharePoint user in widget.
