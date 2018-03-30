@@ -1,5 +1,5 @@
-Appearance
-##########
+Appearance settings
+###################
 
 You can hide or display the SharePoint out of the box quick launch bar
 as well as customize HelpDesk navigation.

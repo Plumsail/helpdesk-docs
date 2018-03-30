@@ -147,3 +147,8 @@ a:hover, a:focus {
 .doc-content2 .pl-left-column ul li:before, .doc-content2 .pl-right-column ul li:before{
     display: none;
 } 
+
+p.rubric {
+    font-weight: normal;
+    font-size: 24px;
+}

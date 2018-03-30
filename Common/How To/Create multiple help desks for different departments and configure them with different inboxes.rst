@@ -1,5 +1,5 @@
-Create multiple help desks for different departments and configure them with different inboxes
-##############################################################################################
+Create multiple help desks for different departments and different mailboxes
+############################################################################
 
 Let’s say that you have several departments — R&D, HR, and Support. Each of them has unique practices, different e-mail boxes and you want to separate them one from another. Here you can learn how to create multiple help desks and configure them with different inboxes in your service desk.
 

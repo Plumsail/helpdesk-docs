@@ -1,5 +1,5 @@
-Widget
-######
+Web widget
+##########
 
 .. admonition:: Known issues
 	:class: warning

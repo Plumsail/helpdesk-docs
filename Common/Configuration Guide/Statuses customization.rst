@@ -1,8 +1,9 @@
 Statuses customization
 ######################
 
-#. `Ticket Statuses list`_
-#. `How Statuses list connected to Tickets list`_
+.. contents:: Table of contents
+   :local:
+   :depth: 1
 
 .. _statuseslist:
 

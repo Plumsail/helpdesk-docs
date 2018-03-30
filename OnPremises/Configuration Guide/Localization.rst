@@ -1,6 +1,10 @@
 Localization
 ####################
 
+.. contents:: Table of contents
+   :local:
+   :depth: 1
+
 Feature overview
 ----------------
 Localization is supported in HelpDesk from version 1.3.5.

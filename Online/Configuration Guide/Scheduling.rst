@@ -1,5 +1,5 @@
-Scheduling
-##########
+Scheduling of tasks and reminders
+#################################
 
 Scheduler allows you to set up different actions on unsolved tickets which have been changed during last 30 days.
 

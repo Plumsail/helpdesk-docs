@@ -1,5 +1,5 @@
-Upgrade manager
-###############
+Upgrade HelpDesk
+################
 
 Upgrade manager allows you to install updates on your HelpDesk. Also, it provides information about HelpDesk version and license. Information about all HelpDesk versions you can find on `Version history`_ page.
 

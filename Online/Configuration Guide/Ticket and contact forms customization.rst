@@ -1,5 +1,5 @@
 Customize ticket and contact forms
-###############
+##################################
 
 .. important:: `Forms Designer <https://spform.com/>`_ is included into "Yacht" and "Ocean liner" plans. You have to purchase it separately for "Jet boat" plan.
 
@@ -10,6 +10,13 @@ complex tables, and accordions among other UI elements.
 
 You can find more information on how to use Forms Designer in `the
 documentation`_.
+
+.. contents:: Table of contents
+   :local:
+   :depth: 1
+
+Create custom forms
+-------------------
 
 In order to customize a form with Forms Designer navigate to the list
 the form is based on and select List or Library tab in the ribbon. There
@@ -26,7 +33,7 @@ form in a simple drag-and-drop fashion:
 .. _forms backups:
 
 Restore default forms
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 You can easily rollback any changes applied to the form and return to the default form. 
 Default form layouts you can find in ``<your HelpDesk site>/HD/FormsBackups/`` folder.

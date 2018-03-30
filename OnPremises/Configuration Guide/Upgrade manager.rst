@@ -1,5 +1,5 @@
-Upgrade manager
-###############
+Upgrade HelpDesk
+################
 
 .. note:: You need to restart SharePoint Timer Service after the upgrade is finished.
 

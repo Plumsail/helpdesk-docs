@@ -11,6 +11,10 @@ With `Plumsail Forms` you can modify form markup and add custom fields to a form
 You can find detailed information on how to use Plumsail Forms in `the
 documentation`_.
 
+.. contents:: Table of contents
+   :local:
+   :depth: 1
+
 Creating custom widget form
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

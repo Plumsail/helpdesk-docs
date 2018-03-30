@@ -1,4 +1,4 @@
-Configure assigning based on forwarding address
+Assign ticket based on forwarding address
 ###############################################
 
 In HelpDesk ticket system you are able to `create multiple help desk instances`_ and configure forwarding for every mailbox you have. In case you'd like to keep all tickets from several mailboxes in one place, you can configure assigning based on forwarding address.

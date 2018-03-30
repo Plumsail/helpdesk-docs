@@ -1,4 +1,4 @@
-Reassign ticket from disabled user in help desk
+Reassign ticket from disabled user
 ###############################################
 
 First thing when an agent leaves team of your service desk is ensure that all open tickets will be handled by someone else in the team. To automate this process, you can use `Scheduler`_ for reassigning tickets from the disabled user. Here you can learn how to do that.

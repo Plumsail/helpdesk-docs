@@ -1,5 +1,9 @@
 Localization
-####################
+############
+
+.. contents:: Table of contents
+   :local:
+   :depth: 1
 
 Feature overview
 ----------------

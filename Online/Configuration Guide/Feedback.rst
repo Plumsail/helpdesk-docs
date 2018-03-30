@@ -8,6 +8,10 @@ By default, when ticket marked as ‘Solved’, the user receives a notification
 
 Providing a rate for customer service is quite user-friendly and quick. Additionally, customers can give more feedback by adding a comment.
 
+.. contents:: Table of contents
+   :local:
+   :depth: 1
+
 How to add feedback snippet to your messages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

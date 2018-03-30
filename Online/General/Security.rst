@@ -1,5 +1,10 @@
-Data protection policy
-###################
+Data protection and security
+############################
+
+Privacy Policy
+--------------
+
+General information about privacy protection can be found in the `Plumsail HelpDesk Privacy Policy <https://plumsail.com/privacy-policy/helpdesk/>`_.
 
 Application security
 --------------------

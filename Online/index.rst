@@ -3,46 +3,39 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Office 365 documentation articles
-==================================
+Table of contents
+=================
+
+.. toctree::   
+   :hidden:
+
+   self
+
 .. container:: pl-left-column
-
-   .. toctree::
-      :caption: General
-      :name: generaltoc
-      :maxdepth: 1
-
-      General/Versionhistory
-      Privacy policy <https://plumsail.com/privacy-policy/helpdesk/>
-      General/Security
-      General/Licensing details
-      General/Upgrade
-      License agreement <https://plumsail.com/license-agreement/>
-      Support plans <https://plumsail.com/support-plans/>
- 
+   
    .. toctree::
       :caption: Getting Started
       :name: getstarttoc
       :maxdepth: 1
       
-      Getting Started/Installation
-      Getting Started/License installation
+      Getting Started/Installation      
       Getting Started/Quick HelpDesk configuration
+      Getting Started/License installation
+      YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>      
+      Official blog <https://medium.com/plumsail/tagged/helpdesk> 
       Community forum  <https://community.plumsail.com/c/helpdesk>
-      Official blog <https://medium.com/plumsail> 
-      YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>
+      
 
    .. toctree::
       :caption: Configuration guide 
       :name: confguidetoc
-      :maxdepth: 2
+      :maxdepth: 1
 
       Configuration Guide/Email settings
       Configuration Guide/Triggers
       Configuration Guide/Widget
       Configuration Guide/Widget forms customization
-      Configuration Guide/Ticket and contact forms customization
-      Configuration Guide/Canned responses
+      Configuration Guide/Ticket and contact forms customization      
       Configuration Guide/Feedback
       Configuration Guide/Scheduling
       Configuration Guide/SLA policy
@@ -54,19 +47,6 @@ Office 365 documentation articles
       Configuration Guide/How to change home page
       Configuration Guide/Upgrade manager
       Configuration Guide/Uninstall HelpDesk
-      
-
-.. container:: pl-right-column
-
-   .. toctree::
-      :caption: Stay up-to-date 
-      :name: stayuptodatetoc
-      :maxdepth: 1
-
-      YouTube <https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>
-      Twitter <https://twitter.com/plumsail_sp>
-      Google Plus <https://plus.google.com/b/112093525198664117371/+PlumsailSharePointTeam?hl=ru>
-      LinkedIn <https://www.linkedin.com/company/sharepoint-helpdesk?trk=biz-brand-tree-co-name>
 
    .. toctree::
       :caption: User guide 
@@ -78,11 +58,26 @@ Office 365 documentation articles
       User Guide/Knowledge base
       User Guide/All tickets
       User Guide/Contacts
-      User Guide/Reports
-      User Guide/Assign to me
+      User Guide/Reports      
+      User Guide/Canned responses
       User Guide/Merge
       User Guide/Split
+      
+      
 
+.. container:: pl-right-column
+     
+   .. toctree::
+      :caption: General
+      :name: generaltoc
+      :maxdepth: 1
+
+      General/Versionhistory      
+      General/Security
+      General/Licensing details
+      General/Upgrade      
+      Support plans <https://plumsail.com/support-plans/> 
+   
    .. toctree::
       :caption: How to
       :name: usecasetoc
@@ -94,19 +89,3 @@ Office 365 documentation articles
       How To/ticket-management
       How To/customizations
       How To/advanced                              
-     
-   .. toctree::
-      :caption: Videos
-      :name: videostoc
-      :maxdepth: 1
-
-      General overview <https://www.youtube.com/watch?v=rcA34gRC27c>
-      Initial configuration of HelpDesk in SharePoint Online <https://www.youtube.com/watch?v=Zz513Se2zU4>
-      How to work with HelpDesk <https://www.youtube.com/watch?v=hV1nIFT2ZNM>
-
-   .. toctree::
-      :caption: Additional resources 
-      :name: addrestoc
-      :maxdepth: 1 
-
-      How to change home page <http://www.learningsharepoint.com/2013/09/05/how-to-set-a-page-as-home-page-in-sharepoint-2013-site/>      
