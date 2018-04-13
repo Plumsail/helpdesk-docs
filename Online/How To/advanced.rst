@@ -11,3 +11,4 @@ Advanced
     Sync SharePoint user profiles fields to HelpDesk contacts
     Send SMS notifications from help desk with Microsoft Flow and Twilio
     Find the internal name of SharePoint column
+    How to restrict requesters to see only tickets created by them <How to restrict requesters to see only tickets created by them> 
