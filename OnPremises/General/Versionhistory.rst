@@ -1,6 +1,13 @@
 Version history
 ###############
 
+Version 1.3.10
+--------------
+
+New features:
+
+- Login auth in IMAP and SMTP.
+
 Version 1.3.9
 --------------
 
@@ -51,6 +58,14 @@ New features:
 - Fix for jQuery conflict in ticket body editor.
 - German and Dutch `language support`_.
 - Other bugfixes and perfomance optimizations.
+
+Version 1.2.9
+--------------
+
+New features:
+
+- "HelpDesk mailbox" column has been added to the tickets list. It stores mailbox address from which the original e-mail message was forwarded.
+- Bug fixes.
 
 Version 1.2.8
 --------------
