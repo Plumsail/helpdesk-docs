@@ -1,30 +1,46 @@
 Use in Microsoft Flow
 =======================================
 
-Pick right connector
---------------------
+This tutorial shows how to use Plumsail HelpDesk API from Microsoft Fow. There are just a few steps to get started:
 
-There are two connectors available in Plumsail Actions:
+1. :ref:`create-flow-api-key`
+2. :ref:`create-custom-connector`
+3. :ref:`create-your-first-flow`
+4. :ref:`review-flow-actions`
 
-- `Plumsail Documents connector <../flow/actions/document-processing.html>`_ - provides a set of actions for operations with Documents.
-- `Plumsail SharePoint connector <../flow/actions/sharepoint-processing.html>`_ - provides a set of actions for operations with SharePoint.
+.. _create-flow-api-key:
+
+Create an API key
+-----------------
+
+HelpDesk Microsoft Flow connector uses API keys for authentification. To generate API key just follow the steps described in `this topic <get-api-key.html>`_.
+
+.. _create-custom-connector:
+
+Create custom connector
+-----------------------
+
+Plumsail HelpDesk connector is not available in Microsoft Flow yet. It will become available soon. If you want to use it right now, you can `add Plumsail HelpDesk connector as a custom connector <create-custom-connector.html>`_.
+
+.. _create-your-first-flow:
 
 Create your first Flow
 ----------------------
 
-Then you can search for "Plumsail" in you Flow and add appropriate action:
+Then you can search for "Plumsail HelpDesk" in you Flow and add an appropriate action:
 
-.. image:: ../_static/img/getting-started/sp-actions-list.png
-   :alt: Screen of Plumsail Actions
+.. image:: ../_static/img/flow-actions-list.png
+   :alt: Screen of Plumsail HelpDesk Actions
 
-When you add an action for the first time you will be asked for *'Connection Name'* and for *'Access Key'*. You can type any name for the connection. For example, *'Plumsail SharePoint'*. 
+When you add an action for the first time you will be asked for *'Connection Name'* and for *'Access Key'*. You can type any name for the connection. For example, *'Plumsail HelpDesk'*. 
 
-Then `create an API key in your Plumsail Account page <sign-up.html>`_ and paste it to *'Access Key'* input. 
+Then paste the API key you created to *'Access Key'* input. 
 
-.. note:: There are different types of keys for different connectors. You need to copy an API key for the particular connector.
 
-.. image:: ../_static/img/getting-started/sp-create-flow-connection.png
-   :alt: Screen of Plumsail Actions
+.. image:: ../_static/img/create-flow-connection.png
+   :alt: Create Connection Form
+
+.. _review-flow-actions:
 
 Examples of Flows
 -----------------

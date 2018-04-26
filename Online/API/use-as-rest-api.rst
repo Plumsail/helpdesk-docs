@@ -6,7 +6,6 @@ This tutorial shows how to use Plumsail HelpDesk API. There are just a few steps
 1. :ref:`create-api-key`
 2. :ref:`review-api-reference`
 3. :ref:`use-own-language`
-4. :ref:`two-ways-to-call-api`
 
 .. _create-api-key:
 
@@ -20,7 +19,7 @@ HelpDesk REST API uses API keys for authentification. To generate API key just f
 Review reference for API
 ------------------------
 
-You can find links to references for all Actions APIs on `this page <../rest-api/index.html>`_.
+You can find links to references for all Actions APIs on `this page <https://helpdesk-services.plumsail.com/_api/swagger>`_.
 
 .. _use-own-language:
 
