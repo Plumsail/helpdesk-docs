@@ -34,7 +34,7 @@ Then you can search for "Plumsail HelpDesk" in you Flow and add an appropriate a
 
 When you add an action for the first time you will be asked for *'Connection Name'* and for *'Access Key'*. You can type any name for the connection. For example, *'Plumsail HelpDesk'*. 
 
-Then paste the API key you created to *'Access Key'* input. 
+Then paste the API key you created in the first step to *'Access Key'* input. 
 
 
 .. image:: ../_static/img/create-flow-connection.png
@@ -42,13 +42,13 @@ Then paste the API key you created to *'Access Key'* input.
 
 .. _review-flow-actions:
 
-Examples of Flows
------------------
+Review available actions
+------------------------
 
-Once you clicked *'Create'* you can use Plumsail Actions in your Microsoft Flows. Review *'Microsoft Flow examples'* to learn how to use them:
+Once you clicked *'Create'* you can use Plumsail HelpDesk actions in your Microsoft Flows. Review available actions to learn how to use them:
 
 .. toctree::      
-      :name: toc-microsoft-flow-examples
+      :name: toc-flow-actions
       :maxdepth: 2
             
       ../flow/how-tos/sharepoint/index
