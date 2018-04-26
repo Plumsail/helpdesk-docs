@@ -23,8 +23,7 @@ Table of contents
       Getting Started/License installation
       YouTube Channel<https://www.youtube.com/channel/UCagAskua1Vxk7X4nUt07ezA>      
       Official blog <https://medium.com/plumsail/tagged/helpdesk> 
-      Community forum  <https://community.plumsail.com/c/helpdesk>
-      
+      Community forum  <https://community.plumsail.com/c/helpdesk>      
 
    .. toctree::
       :caption: Configuration guide 
@@ -77,6 +76,14 @@ Table of contents
       General/Licensing details
       General/Upgrade      
       Support plans <https://plumsail.com/support-plans/> 
+
+   .. toctree::
+      :caption: Public API and Microsoft Flow
+      :name: api
+      :maxdepth: 1
+
+      API/use-as-rest-api
+      API/use-from-flow
    
    .. toctree::
       :caption: How to
