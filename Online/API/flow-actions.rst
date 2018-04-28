@@ -10,7 +10,7 @@ This connector helps you to manipulate data in your HelpDesk with the help of Mi
 Get tickets
 ----------------------------------
 
-Get tickets. By default this actions returns first 50 tickets.
+Get tickets. By default this action returns first 50 tickets.
 
 .. rubric:: Output Parameters
 
@@ -588,7 +588,7 @@ Gets a comment by Id and returns it.
 Get contacts
 ----------------------------------
 
-Get contacts. By default this actions returns first 50 contacts.
+Get contacts. By default this action returns first 50 contacts.
 
 .. rubric:: Output Parameters
 
@@ -993,6 +993,66 @@ Finds a contact by ID and updates it. Returns updated contact.
 .. rubric:: Example
 
 .. image:: ../../_static/img/flow-actions/update-contact-by-id.png
-   :alt: Update contact by email example
+   :alt: Update contact by ID example
+
+Get organizations
+----------------------------------
+
+Get organizations. By default this action returns first 50 organizations.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Organizations
+       -  Array of organizations. All custom fields listed in $select parameter are returned in the customFields object. 
+       -  Example of Organization in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Plumsail",
+                "id": 1,
+                "customFields": {}
+            }  
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  $select
+       -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
+       -  Region,IsPartner,ManagerContact/Email
+    *  -  $expand
+       -  An `ODATA`_ $expand query option to specify that the request returns the values of lookups.
+       -  ManagerContact
+    *  -  $filter
+       -  An `ODATA`_ $filter query option to restrict the entries returned
+       -  Region eq 'Asia'  
+    *  -  $orderBy
+       -  An `ODATA`_ $orderBy query option for specifying the order of entries.
+       -  ID desc  
+    *  -  $top
+       -  An `ODATA`_ $top query option to select the first n items of the return set for return (default = 50, maximum = 100).
+       -  100  
+    *  -  $skiptoken
+       -  An `ODATA`_ $skiptoken query option to skip over items until the specified item is reached and return the rest.
+       -  Paged=TRUE&p_ID=100       
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/get-organizations.png
+   :alt: Get organizations example
 
 .. _ODATA: https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/use-odata-query-operations-in-sharepoint-rest-requests   
