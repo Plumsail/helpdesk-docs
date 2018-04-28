@@ -22,43 +22,28 @@ Get tickets. By default this actions returns first 50 tickets.
        -  Description
        -  Example
     *  -  Tickets
-       -  The array of ticket objects
-       -  .. code-block:: json
+       -  Array of tickets. All custom fields listed in $select parameter are returned in the customFields object. 
+       -  Example of ticket in JSON format:
 
-       		[
-			  {
-			    "subject": "Site issues",
-			    "requester": {
-			      "id": 2,
-			      "title": "John Davis",
-			      "email": "j.davis@example.com",
-			      "spUserId": null,
-			      "role": "End-User",
-			      "emailAlternate": null,
-			      "customFields": {}
-			    },
-			    "assignedTo": {
-			      "id": 1,
-			      "title": "Mary Smith",
-			      "email": null,
-			      "spUserId": 11,
-			      "role": "Agent",
-			      "emailAlternate": null,
-			      "customFields": {}
-			    },
-			    "status": "In progress",
-			    "category": "Question",
-			    "priority": "High",
-			    "dueDate": "2018-04-27T13:10:02Z",
-			    "created": "2018-04-27T13:10:05Z",
-			    "resolutionDate": "0001-01-01T00:00:00",
-			    "cc": [],
-			    "tags": [],
-			    "attachments": null,
-			    "id": 1,
-			    "customFields": {}
-			  }
-			]
+          .. code-block:: json
+        
+            {
+                "subject": "Site issues",
+                "requester": { ... },
+                "assignedTo": { ... },    
+                "status": "In progress",
+                "category": "Question",
+                "priority": "High",
+                "dueDate": "2018-04-27",
+                "created": "2018-04-27,
+                "resolutionDate": "",
+                "cc": [],
+                "tags": [],
+                "attachments": null,
+                "id": 1,
+                "customFields": {}
+            }  
+     		
 
 .. rubric:: Input Parameters
 
@@ -111,58 +96,27 @@ Creates new ticket and returns created ticket.
        -  Description
        -  Example
     *  -  Ticket
-       -  Created ticket object
-       -  .. code-block:: json
+       -  Created ticket. All custom fields listed in $select parameter are returned in the customFields object. 
+       -  Example of ticket in JSON format:
+
+          .. code-block:: json
 
             {
-			  "subject": "Printer issues",
-			  "requester": {
-			    "id": 10,
-			    "title": "John Davis",
-			    "email": "j.davis@example.com",
-			    "spUserId": null,
-			    "role": "End-User",
-			    "emailAlternate": null,
-			    "customFields": {}
-			  },
-			  "assignedTo": null,
-			  "status": "New",
-			  "category": "Problem",
-			  "priority": "High",
-			  "dueDate": null,
-			  "created": "2018-04-28T08:54:57Z",
-			  "resolutionDate": "0001-01-01T00:00:00",
-			  "cc": [
-			    {
-			      "id": 8,
-			      "title": "Mary Smith",
-			      "email": "m.smith@example.com",
-			      "spUserId": null,
-			      "role": "End-User",
-			      "emailAlternate": null,
-			      "customFields": {}
-			    },
-			    {
-			      "id": 9,
-			      "title": "Jane Jones",
-			      "email": "j.jones@example.com",
-			      "spUserId": null,
-			      "role": "End-User",
-			      "emailAlternate": null,
-			      "customFields": {}
-			    }
-			  ],
-			  "tags": [
-			    {
-			      "title": "Printers",
-			      "id": 1,
-			      "customFields": {}
-			    }
-			  ],
-			  "attachments": null,
-			  "id": 17,
-			  "customFields": {}
-			}                
+                "subject": "Site issues",
+                "requester": { ... },
+                "assignedTo": { ... },    
+                "status": "In progress",
+                "category": "Question",
+                "priority": "High",
+                "dueDate": "2018-04-27",
+                "created": "2018-04-27,
+                "resolutionDate": "",
+                "cc": [],
+                "tags": [],
+                "attachments": null,
+                "id": 1,
+                "customFields": {}
+            }     
 
 .. rubric:: Input Parameters
 
@@ -173,23 +127,63 @@ Creates new ticket and returns created ticket.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  Ticket
-       -  Ticket object to create
+    *  -  Ticket Subject
+       -  Subject
+       -  Printer issues
+    *  -  Ticket Body
+       -  Body
+       -  My printer is not working, please help ASAP.
+    *  -  Ticket Requester Email
+       -  Requester email
+       -  j.davis@example.com
+    *  -  Ticket Assignee Email or Sharepoint Group
+       -  Assignee email or the name of SharePoint group to which the ticket will be assigned to.
+       -  j.davis@example.com or IT support
+    *  -  Ticket Status
+       -  Status name
+       -  In progress
+    *  -  Ticket Category
+       -  Category name
+       -  Problem
+    *  -  Ticket Priority
+       -  Priority name
+       -  High
+    *  -  Ticket DueDate
+       -  DueDate
+       -  01.05.2018
+    *  -  Ticket Cc Emails
+       -  Array if Cc emails
+       -  ["j.davis@example.com", "m.smith@example.com"]
+    *  -  Ticket Tags tagTitles
+       -  Array of ticket tags, new tags will be created in Tags list automatically.
+       -  ["Printers", "MS Windows"]
+    *  -  Ticket Attachments
+       -  Array of object containing File Names and File Contents.
+       -  File Name: screenshot.png
+
+          File Content: You can extract file content from other connectors like:  
+
+            - SharePoint
+            - Salesforce
+            - Box
+            - OneDrive
+            - Google Drive
+            - Dropbox
+            - SFTP
+            - File System          
+
+          `List of Microsoft Flow connectors <https://flow.microsoft.com/en-us/connectors/>`_      
+    *  -  Ticket Support Channel
+       -  Support channel name, if no value is provided, it will be set to API
+       -  Company site
+    *  -  Ticket Custom Fields
+       -  JSON object with custom field values to be set.
        -  .. code-block:: json
 
-			{
-			  "subject": "Printer issues",
-			  "body": "My printer is not working, please help ASAP.",
-			  "requesterEmail": "j.davis@example.com",
-			  "category": "Problem",
-			  "priority": "High",
-			  "ccEmails": [
-			    "m.smith@example.com", "j.jones@example.com"
-			  ],
-			  "tagTitles": [
-			    "Printers"
-			  ]
-			}
+            {
+                "Location": "Europe",
+                "OperatingSystem": "MS Windows 10"
+            }
 
 .. rubric:: Example
 
@@ -235,58 +229,27 @@ Gets a single ticket by ID and returns it.
        -  Description
        -  Example
     *  -  Ticket
-       -  Ticket object.
-       -   .. code-block:: json
+       -  Requested ticket. All custom fields listed in $select parameter are returned in the customFields object. 
+       -  Example of ticket in JSON format:
+
+          .. code-block:: json
 
             {
-			  "subject": "Printer issues",
-			  "requester": {
-			    "id": 10,
-			    "title": "John Davis",
-			    "email": "j.davis@example.com",
-			    "spUserId": null,
-			    "role": "End-User",
-			    "emailAlternate": null,
-			    "customFields": {}
-			  },
-			  "assignedTo": null,
-			  "status": "New",
-			  "category": "Problem",
-			  "priority": "High",
-			  "dueDate": null,
-			  "created": "2018-04-28T08:54:57Z",
-			  "resolutionDate": "0001-01-01T00:00:00",
-			  "cc": [
-			    {
-			      "id": 8,
-			      "title": "Mary Smith",
-			      "email": "m.smith@example.com",
-			      "spUserId": null,
-			      "role": "End-User",
-			      "emailAlternate": null,
-			      "customFields": {}
-			    },
-			    {
-			      "id": 9,
-			      "title": "Jane Jones",
-			      "email": "j.jones@example.com",
-			      "spUserId": null,
-			      "role": "End-User",
-			      "emailAlternate": null,
-			      "customFields": {}
-			    }
-			  ],
-			  "tags": [
-			    {
-			      "title": "Printers",
-			      "id": 1,
-			      "customFields": {}
-			    }
-			  ],
-			  "attachments": null,
-			  "id": 17,
-			  "customFields": {}
-			}               
+                "subject": "Site issues",
+                "requester": { ... },
+                "assignedTo": { ... },    
+                "status": "In progress",
+                "category": "Question",
+                "priority": "High",
+                "dueDate": "2018-04-27",
+                "created": "2018-04-27,
+                "resolutionDate": "",
+                "cc": [],
+                "tags": [],
+                "attachments": null,
+                "id": 1,
+                "customFields": {}
+            }                
 
 .. rubric:: Input Parameters
 
@@ -330,58 +293,27 @@ Gets a ticket by ID and updates it. Returns updated ticket.
        -  Description
        -  Example
     *  -  Ticket
-       -  Updated ticket object.
-       -   .. code-block:: json
+       -  Updated ticket.
+       -  Example of ticket in JSON format:
+
+          .. code-block:: json
 
             {
-			  "subject": "Printer issues",
-			  "requester": {
-			    "id": 10,
-			    "title": "John Davis",
-			    "email": "j.davis@example.com",
-			    "spUserId": null,
-			    "role": "End-User",
-			    "emailAlternate": null,
-			    "customFields": {}
-			  },
-			  "assignedTo": null,
-			  "status": "New",
-			  "category": "Problem",
-			  "priority": "High",
-			  "dueDate": null,
-			  "created": "2018-04-28T08:54:57Z",
-			  "resolutionDate": "0001-01-01T00:00:00",
-			  "cc": [
-			    {
-			      "id": 8,
-			      "title": "Mary Smith",
-			      "email": "m.smith@example.com",
-			      "spUserId": null,
-			      "role": "End-User",
-			      "emailAlternate": null,
-			      "customFields": {}
-			    },
-			    {
-			      "id": 9,
-			      "title": "Jane Jones",
-			      "email": "j.jones@example.com",
-			      "spUserId": null,
-			      "role": "End-User",
-			      "emailAlternate": null,
-			      "customFields": {}
-			    }
-			  ],
-			  "tags": [
-			    {
-			      "title": "Printers",
-			      "id": 1,
-			      "customFields": {}
-			    }
-			  ],
-			  "attachments": null,
-			  "id": 17,
-			  "customFields": {}
-			}               
+                "subject": "Site issues",
+                "requester": { ... },
+                "assignedTo": { ... },    
+                "status": "In progress",
+                "category": "Question",
+                "priority": "High",
+                "dueDate": "2018-04-27",
+                "created": "2018-04-27,
+                "resolutionDate": "",
+                "cc": [],
+                "tags": [],
+                "attachments": null,
+                "id": 1,
+                "customFields": {}
+            }
 
 .. rubric:: Input Parameters
 
@@ -392,23 +324,63 @@ Gets a ticket by ID and updates it. Returns updated ticket.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  ID
-       -  Ticket ID
-       -  15
-    *  -  Ticket
-       -  Ticket object
+    *  -  Ticket Subject
+       -  Subject
+       -  Printer issues
+    *  -  Ticket Body
+       -  Body
+       -  My printer is not working, please help ASAP.
+    *  -  Ticket Requester Email
+       -  Requester email
+       -  j.davis@example.com
+    *  -  Ticket Assignee Email or Sharepoint Group
+       -  Assignee email or the name of SharePoint group to which the ticket will be assigned to.
+       -  j.davis@example.com or IT support
+    *  -  Ticket Status
+       -  Status name
+       -  In progress
+    *  -  Ticket Category
+       -  Category name
+       -  Problem
+    *  -  Ticket Priority
+       -  Priority name
+       -  High
+    *  -  Ticket DueDate
+       -  DueDate
+       -  01.05.2018
+    *  -  Ticket Cc Emails
+       -  Array if Cc emails
+       -  ["j.davis@example.com", "m.smith@example.com"]
+    *  -  Ticket Tags tagTitles
+       -  Array of ticket tags, new tags will be created in Tags list automatically.
+       -  ["Printers", "MS Windows"]
+    *  -  Ticket Attachments
+       -  Array of object containing File Names and File Contents.
+       -  File Name: screenshot.png
+
+          File Content: You can extract file content from other connectors like:  
+
+            - SharePoint
+            - Salesforce
+            - Box
+            - OneDrive
+            - Google Drive
+            - Dropbox
+            - SFTP
+            - File System          
+
+          `List of Microsoft Flow connectors <https://flow.microsoft.com/en-us/connectors/>`_      
+    *  -  Ticket Support Channel
+       -  Support channel name, if no value is provided, it will be set to API
+       -  Company site
+    *  -  Ticket Custom Fields
+       -  JSON object with custom field values to be set.
        -  .. code-block:: json
 
-			{			 
-			  "category": "Problem",
-			  "priority": "High",
-			  "ccEmails": [
-			    "m.smith@example.com", "j.jones@example.com"
-			  ],
-			  "tagTitles": [
-			    "Printers"
-			  ]
-			}
+            {
+                "Location": "Europe",
+                "OperatingSystem": "MS Windows 10"
+            }
     
 
 .. rubric:: Example
@@ -431,28 +403,20 @@ Gets all comments for a ticket with specified Id.
        -  Description
        -  Example
     *  -  Comments
-       -  Array of comment objects
-       -  .. code-block:: json
-            [
-                {
-                    "body": "This is the first comment. Feel free to delete this sample ticket.",
-                    "created": "2018-04-27T13:10:05Z",
-                    "fromEmail": "mymail@mysite.com",
-                    "fromName": "End-User Sample",
-                    "messageId": null,
-                    "id": 1,
-                    "customFields": {}
-                },
-                {
-                    "body": "This is a private comment (no notifications sent to requester) that you added. You also changed the ticket priority to High. You can view a ticket's complete history by selecting the History link in the ticket.",
-                    "created": "2018-04-27T13:10:06Z",
-                    "fromEmail": null,
-                    "fromName": "Anna Zabolotskaya",
-                    "messageId": null,
-                    "id": 2,
-                    "customFields": {}
-                }
-            ]
+       -  Array of comments. All custom fields listed in $select parameter are returned in the customFields object. 
+       -  Example of comment in JSON format:
+
+          .. code-block:: json
+
+            {
+                "body": "The issue is still not resolved!",
+                "created": "2018-04-28T09:48:07Z",
+                "fromEmail": "j.jones@example.com",
+                "fromName": "James Jones",
+                "messageId": null,
+                "id": 25,
+                "customFields": {}
+            }
 
 .. rubric:: Input Parameters
 
@@ -499,16 +463,21 @@ Creates new comment for a ticket with specified Id and returns it.
        -  Description
        -  Example
     *  -  Comment
-       -  Created comment object
-       -  .. code-block:: json
+       -  Created comment
+       -  Example of comment in JSON format:
+
+          .. code-block:: json
+
             {
                 "body": "The issue is still not resolved!",
                 "created": "2018-04-28T09:48:07Z",
                 "fromEmail": "j.jones@example.com",
                 "fromName": "James Jones",
                 "messageId": null,
-                "id": 25
+                "id": 25,
+                "customFields": {}
             }
+
 
 .. rubric:: Input Parameters
 
@@ -522,14 +491,39 @@ Creates new comment for a ticket with specified Id and returns it.
     *  -  ticketId
        -  Ticket ID
        -  1
-    *  -  comment
-       -  comment object to create
+    *  -  Comment Body
+       -  Body of the comment
+       -  The issue is still not resolved!
+    *  -  Comment Author Email
+       -  Email of the author of the comment
+       -  j.jones@example.com
+    *  -  Attachments
+       -  Array of object containing File Names and File Contents.
+       -  File Name: screenshot.png
+
+          File Content: You can extract file content from other connectors like:  
+
+            - SharePoint
+            - Salesforce
+            - Box
+            - OneDrive
+            - Google Drive
+            - Dropbox
+            - SFTP
+            - File System          
+
+          `List of Microsoft Flow connectors <https://flow.microsoft.com/en-us/connectors/>`_  
+    *  -  Comment MessageId
+       -  Message-ID of email message, if comment is being created from email
+       -  <SN2PR0501MB10559C65E048C190F1B401F9AF8E0@SN2PR0501MB1055.namprd05.prod.outlook.com>
+    *  -  Comment Custom Fields
+       -  JSON object with custom field values to be set for comment.
        -  .. code-block:: json
 
             {
-                "body": "The issue is still not resolved!",
-                "fromEmail": "j.jones@example.com"
-            }
+                "Location": "Europe",
+                "OperatingSystem": "MS Windows 10"
+            }  
 
 .. rubric:: Example
 
@@ -551,18 +545,21 @@ Gets a comment by Id and returns it.
        -  Description
        -  Example
     *  -  Comment
-       -  Comment object
-       -  .. code-block:: json
+       -  Comment
+       -  Example of comment in JSON format:
 
-                {
-                    "body": "This is the first comment. Feel free to delete this sample ticket.",
-                    "created": "2018-04-27T13:10:05Z",
-                    "fromEmail": "mymail@mysite.com",
-                    "fromName": "End-User Sample",
-                    "messageId": null,
-                    "id": 1,
-                    "customFields": {}
-                }
+          .. code-block:: json
+
+            {
+                "body": "The issue is still not resolved!",
+                "created": "2018-04-28T09:48:07Z",
+                "fromEmail": "j.jones@example.com",
+                "fromName": "James Jones",
+                "messageId": null,
+                "id": 25,
+                "customFields": {}
+            }
+
 
 .. rubric:: Input Parameters
 
