@@ -48,7 +48,7 @@ Review available actions
 Once you clicked *'Create'* you can use Plumsail HelpDesk actions in your Microsoft Flows. Review available actions to learn how to use them:
 
 .. toctree::      
-      :name: ../api/toc-flow-actions
+      :name: flow-actions
       :maxdepth: 2
             
-      ../flow-actions
+      flow-actions
