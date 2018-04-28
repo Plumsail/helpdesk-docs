@@ -585,4 +585,414 @@ Gets a comment by Id and returns it.
 .. image:: ../../_static/img/flow-actions/get-comment.png
    :alt: Get comments example
 
+Get contacts
+----------------------------------
+
+Get contacts. By default this actions returns first 50 contacts.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Contacts
+       -  Array of contacts. All custom fields listed in $select parameter are returned in the customFields object. 
+       -  Example of contact in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Mary Smith",
+                "email": "m.smith@example.com",
+                "spUserId": 0,
+                "role": "End-User",
+                "emailAlternate": "m.smith@google.com",
+                "id": 20,
+                "customFields": {}
+            } 
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  $select
+       -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
+       -  PhoneNumber,IsValidated,Organization/Title
+    *  -  $expand
+       -  An `ODATA`_ $expand query option to specify that the request returns the values of lookups.
+       -  Organization
+    *  -  $filter
+       -  An `ODATA`_ $filter query option to restrict the entries returned
+       -  Role eq 'Agent'  
+    *  -  $orderBy
+       -  An `ODATA`_ $orderBy query option for specifying the order of entries.
+       -  ID desc  
+    *  -  $top
+       -  An `ODATA`_ $top query option to select the first n items of the return set for return (default = 50, maximum = 100).
+       -  100  
+    *  -  $skiptoken
+       -  An `ODATA`_ $skiptoken query option to skip over items until the specified item is reached and return the rest.
+       -  Paged=TRUE&p_ID=100       
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/get-contacts.png
+   :alt: Get contacts example
+
+Create a contact
+----------------------------------
+
+Creates new contact and returns it.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Contact
+       -  All custom fields listed in $select parameter are returned in the customFields object. 
+       -  Example of contact in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Mary Smith",
+                "email": "m.smith@example.com",
+                "spUserId": 0,
+                "role": "End-User",
+                "emailAlternate": "m.smith@google.com",
+                "id": 20,
+                "customFields": {}
+            } 
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  updateIfExists
+       -  If contact with specified email already exists and updateIfExists parameter is set to Yes, contact information will be updated
+       -  Yes
+    *  -  Contact Name
+       -  Full name of the contact
+       -  Mary Cane
+    *  -  Contact Email
+       -  Email of the contact
+       -  m.cane@example.com
+    *  -  Contact SPUserId
+       -  You can provide SPUser ID instead of contact email, if you want to create Agent or Member
+       -  15
+    *  -  Contact Role
+       -  Role of the contact  in HelpDesk
+       -  En-User, Member or Agent
+    *  -  Contact Alterate Email
+       -  Alterate email address for the contact
+       -  m.cane@outlook.com
+    *  -  Contact Custom Fields
+       -  JSON object with custom field values to be set.
+       -  .. code-block:: json
+
+            {
+                "Location": "USA",
+                "PhoneNumber": "(123)123-1234"
+            }  
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/create-contact.png
+   :alt: Create contact example
+
+Get a single contact by Email
+----------------------------------
+
+Gets a contact by email and returs it.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Requested contact
+       -  All custom fields listed in $select parameter are returned in the customFields object. 
+       -  Example of contact in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Mary Smith",
+                "email": "m.smith@example.com",
+                "spUserId": 0,
+                "role": "End-User",
+                "emailAlternate": "m.smith@google.com",
+                "id": 20,
+                "customFields": {}
+            } 
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  email
+       -  Contact email
+       -  m.cane@example.com
+    *  -  $select
+       -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
+       -  PhoneNumber,IsValidated,Organization/Title
+    *  -  $expand
+       -  An `ODATA`_ $expand query option to specify that the request returns the values of lookups.
+       -  Organization
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/get-contact-by-email.png
+   :alt: Get contact by email example
+
+Update a contact by Email
+----------------------------------
+
+Finds a contact by email and updates it. Returns updated contact.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Contact
+       -  Updated contact 
+       -  Example of contact in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Mary Smith",
+                "email": "m.smith@example.com",
+                "spUserId": 0,
+                "role": "End-User",
+                "emailAlternate": "m.smith@google.com",
+                "id": 20,
+                "customFields": {}
+            } 
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Contact Email
+       -  Email of the contact
+       -  m.cane@example.com
+    *  -  Contact Name
+       -  Full name of the contact
+       -  Mary Cane
+    *  -  Contact SPUserId
+       -  You can provide SPUser ID instead of contact email, if you want to create Agent or Member
+       -  15
+    *  -  Contact Role
+       -  Role of the contact  in HelpDesk
+       -  En-User, Member or Agent
+    *  -  Contact Alterate Email
+       -  Alterate email address for the contact
+       -  m.cane@outlook.com
+    *  -  Contact Custom Fields
+       -  JSON object with custom field values to be set.
+       -  .. code-block:: json
+
+            {
+                "Location": "USA",
+                "PhoneNumber": "(123)123-1234"
+            }  
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/update-contact-by-email.png
+   :alt: Update contact by email example
+
+Delete a contact
+----------------------------
+
+Deletes a contact by ID.
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  id
+       -  Contact ID to delete
+       -  1          
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/delete-contact.png
+   :alt: Delete a contact example
+
+Get a single contact by ID
+----------------------------------
+
+Gets a contact by ID and returs it.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Requested contact
+       -  All custom fields listed in $select parameter are returned in the customFields object. 
+       -  Example of contact in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Mary Smith",
+                "email": "m.smith@example.com",
+                "spUserId": 0,
+                "role": "End-User",
+                "emailAlternate": "m.smith@google.com",
+                "id": 20,
+                "customFields": {}
+            } 
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  id
+       -  Contact ID
+       -  20
+    *  -  $select
+       -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
+       -  PhoneNumber,IsValidated,Organization/Title
+    *  -  $expand
+       -  An `ODATA`_ $expand query option to specify that the request returns the values of lookups.
+       -  Organization
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/get-contact-by-id.png
+   :alt: Get contact by ID example
+
+Update a contact by ID
+----------------------------------
+
+Finds a contact by ID and updates it. Returns updated contact.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Contact
+       -  Updated contact 
+       -  Example of contact in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Mary Smith",
+                "email": "m.smith@example.com",
+                "spUserId": 0,
+                "role": "End-User",
+                "emailAlternate": "m.smith@google.com",
+                "id": 20,
+                "customFields": {}
+            } 
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  id
+       -  Contact ID
+       -  20
+    *  -  Contact Name
+       -  Full name of the contact
+       -  Mary Cane
+    *  -  Contact Email
+       -  Email of the contact
+       -  m.cane@example.com
+    *  -  Contact SPUserId
+       -  You can provide SPUser ID instead of contact email, if you want to create Agent or Member
+       -  15
+    *  -  Contact Role
+       -  Role of the contact  in HelpDesk
+       -  En-User, Member or Agent
+    *  -  Contact Alterate Email
+       -  Alterate email address for the contact
+       -  m.cane@outlook.com
+    *  -  Contact Custom Fields
+       -  JSON object with custom field values to be set.
+       -  .. code-block:: json
+
+            {
+                "Location": "USA",
+                "PhoneNumber": "(123)123-1234"
+            }  
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/update-contact-by-id.png
+   :alt: Update contact by email example
+
 .. _ODATA: https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/use-odata-query-operations-in-sharepoint-rest-requests   
