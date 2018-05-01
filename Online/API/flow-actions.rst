@@ -1055,4 +1055,319 @@ Get organizations. By default this action returns first 50 organizations.
 .. image:: ../../_static/img/flow-actions/get-organizations.png
    :alt: Get organizations example
 
+Create an organization
+----------------------------------
+
+Creates new organization and returns it.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Organization
+       -  Created organization
+       -  Example of Organization in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Plumsail",
+                "id": 1,
+                "customFields": {}
+            }  
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Organization Title
+       -  Title of the organization
+       -  Plumsail
+    *  -  Organization Custom Fields
+       -  JSON object with custom field values to be set.
+       -  .. code-block:: json
+
+            {
+                "Location": "USA",
+                "PhoneNumber": "(123)123-1234"
+            }
+     
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/create-organization.png
+   :alt: Create organization example
+
+Delete an organization
+----------------------------------
+
+Deletes an organization by ID.
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  id
+       -  Organization ID
+       -  15
+     
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/delete-organization.png
+   :alt: Delete organization by id example
+
+Get a single organization
+----------------------------------
+
+Gets the organization by ID and returns it.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Organization
+       -  Found organization
+       -  Example of Organization in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Plumsail",
+                "id": 1,
+                "customFields": {}
+            }  
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  id
+       -  Organization ID
+       -  15
+    *  -  $select
+       -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
+       -  Region,IsPartner,ManagerContact/Email
+    *  -  $expand
+       -  An `ODATA`_ $expand query option to specify that the request returns the values of lookups.
+       -  ManagerContact
+     
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/get-organization-by-id.png
+   :alt: Get organization by ID example
+
+Update an organization
+----------------------------------
+
+Updates an organization and returns it.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Organization
+       -  Updated organization
+       -  Example of Organization in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Plumsail",
+                "id": 1,
+                "customFields": {}
+            }  
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  id
+       -  Organization ID
+       -  15
+    *  -  Organization Title
+       -  Title of the organization
+       -  New tree inc.
+    *  -  Organization Custom Fields
+       -  JSON object with custom field values to be set.
+       -  .. code-block:: json
+
+            {
+                "Location": "USA",
+                "PhoneNumber": "(123)123-1234"
+            }     
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/update-organization-by-id.png
+   :alt: Update organization by id example
+
+Delete an organization by title
+----------------------------------
+
+Deletes an organization by title.
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  title
+       -  Organization Title
+       -  New tree inc.
+     
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/delete-organization-by-title.png
+   :alt: Delete organization by title example
+
+Get a single organization by title
+----------------------------------
+
+Gets the organization by Title and returns it.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Organization
+       -  Found organization
+       -  Example of Organization in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Plumsail",
+                "id": 1,
+                "customFields": {}
+            }  
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  title
+       -  Organization Title
+       -  New tree inc.
+    *  -  $select
+       -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
+       -  Region,IsPartner,ManagerContact/Email
+    *  -  $expand
+       -  An `ODATA`_ $expand query option to specify that the request returns the values of lookups.
+       -  ManagerContact
+     
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/get-organization-by-title.png
+   :alt: Get organization by Title example
+
+Update an organization by title
+----------------------------------
+
+Updates an organization and returns it.
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Organization
+       -  Updated organization
+       -  Example of Organization in JSON format:
+
+          .. code-block:: json
+        
+            {
+                "title": "Plumsail",
+                "id": 1,
+                "customFields": {}
+            }  
+     		
+
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Organization Title
+       -  Title of the organization
+       -  New tree inc.
+    *  -  Organization Custom Fields
+       -  JSON object with custom field values to be set.
+       -  .. code-block:: json
+
+            {
+                "Location": "USA",
+                "PhoneNumber": "(123)123-1234"
+            }     
+
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/update-organization-by-title.png
+   :alt: Update organization by title example
+
 .. _ODATA: https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/use-odata-query-operations-in-sharepoint-rest-requests   
