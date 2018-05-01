@@ -1,4 +1,4 @@
-Use as REST API
+Rich REST API
 =======================================
 
 This tutorial shows how to use Plumsail HelpDesk API. There are just a few steps to get started:

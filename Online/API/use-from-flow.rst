@@ -1,12 +1,13 @@
-Use in Microsoft Flow
+Microsoft Flow connector
 =======================================
 
-This tutorial shows how to use Plumsail HelpDesk API from Microsoft Fow. There are just a few steps to get started:
+This connector helps you to manipulate data in your HelpDesk with the help of Microsoft Flow.
+
+To start using it you need to complete following prerequisites:
 
 1. :ref:`create-flow-api-key`
 2. :ref:`create-custom-connector`
-3. :ref:`create-your-first-flow`
-4. :ref:`review-flow-actions`
+3. :ref:`review-flow-actions`
 
 .. _create-flow-api-key:
 
@@ -22,12 +23,14 @@ Create custom connector
 
 Plumsail HelpDesk connector is not available in Microsoft Flow yet. It will become available soon. If you want to use it right now, you can `add Plumsail HelpDesk connector as a custom connector <create-custom-connector.html>`_.
 
-.. _create-your-first-flow:
+.. _review-flow-actions:
 
-Create your first Flow
-----------------------
+Review available actions
+------------------------
 
-Then you can search for "Plumsail HelpDesk" in you Flow and add an appropriate action:
+Once you created an API key and custom connector, you are ready to create your first Flow.
+
+Just search for "Plumsail HelpDesk" in you Flow and add an appropriate action:
 
 .. image:: ../_static/img/flow-actions-list.png
    :alt: Screen of Plumsail HelpDesk Actions
@@ -36,16 +39,10 @@ When you add an action for the first time you will be asked for *'Connection Nam
 
 Then paste the API key you created in the first step to *'Access Key'* input. 
 
-
 .. image:: ../_static/img/create-flow-connection.png
    :alt: Create Connection Form
 
-.. _review-flow-actions:
-
-Review available actions
-------------------------
-
-Once you clicked *'Create'* you can use Plumsail HelpDesk actions in your Microsoft Flows. Review available actions to learn how to use them:
+Here is the list of actions available in the connector:
 
 .. toctree::      
       :name: flow-actions
