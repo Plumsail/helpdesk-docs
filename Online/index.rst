@@ -78,12 +78,12 @@ Table of contents
       Support plans <https://plumsail.com/support-plans/> 
 
    .. toctree::
-      :caption: Public API and Microsoft Flow
+      :caption: Microsoft Flow and Public API
       :name: api
       :maxdepth: 1
-
-      API/use-as-rest-api
-      API/use-from-flow
+      
+      API/ms-flow
+      API/rest-api
    
    .. toctree::
       :caption: How to

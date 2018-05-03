@@ -1,5 +1,5 @@
-Plumsail HelpDesk connector
-==================================
+Microsoft Flow Actions
+======================
 
 This connector helps you to manipulate data in your HelpDesk with the help of Microsoft Flow. Before starting, ensure that you `added Plumsail HelpDesk connector to Microsoft Flow <../api/use-from-flow.html>`_.
 

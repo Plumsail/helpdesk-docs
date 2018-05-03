@@ -1,30 +1,16 @@
-Rich REST API
-=======================================
+Public REST API
+===============
 
-This tutorial shows how to use Plumsail HelpDesk API. There are just a few steps to get started:
+Prerequisites
+-------------
 
-1. :ref:`create-api-key`
-2. :ref:`review-api-reference`
-3. :ref:`use-own-language`
+To start using REST API you need to complete following prerequisites:
 
-.. _create-api-key:
+1. `Create an API key <get-api-key.html>`_
+2. `Create custom connector <create-custom-connector.html>`_
 
-Create an API key
------------------
-
-HelpDesk REST API uses API keys for authentification. To generate API key just follow the steps described in `this topic <get-api-key.html>`_
-
-.. _review-api-reference:
-
-Review reference for API
-------------------------
-
-You can find links to references for all Actions APIs on `this page <https://helpdesk-services.plumsail.com/_api/swagger>`_.
-
-.. _use-own-language:
-
-Use API from your programming language
----------------------------------------------
+How to use API
+--------------
 
 Our API is REST based. Thus, you can use any programming language that is able to execute web requests. For example, you would use C#, PowerShell, node.js, Python, PHP.
 
@@ -36,10 +22,10 @@ There are a lot of ready to use helper REST API clients for those languages. Her
 - `Requests: HTTP for Humans <http://docs.python-requests.org>`_ for Python
 - `Guzzle <http://guzzle.readthedocs.io>`_ for PHP
 
-Usage examples
---------------
+Curl and HTTP request examples
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Here you can see a couple of examples of using HelpDesk REST API.
+Here you can see a couple of examples of using HelpDesk REST API using `curl command line tool <https://curl.haxx.se/>`_ or raw HTTP requests.
 
 1. :ref:`get-tickets`
 2. :ref:`create-ticket`
@@ -49,7 +35,7 @@ Here you can see a couple of examples of using HelpDesk REST API.
 .. _get-tickets:
 
 Get tickets
-~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^
 
 This is an example of a raw request to get tickets:
 
@@ -69,7 +55,7 @@ And this is cURL representation for it:
 .. _create-ticket:
 
 Create a ticket
-~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
 This is an example of a raw request to create a ticket:
 
@@ -121,7 +107,7 @@ And this is cURL representation for it:
 .. _delete-ticket:
 
 Delete a ticket
-~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
 This is an example of a raw request to delete a ticket:
 
@@ -139,7 +125,7 @@ And this is cURL representation for it:
 .. _update-ticket:
 
 Update a ticket
-~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
 This is an example of a raw request to update a ticket:
 

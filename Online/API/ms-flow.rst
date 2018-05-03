@@ -5,30 +5,11 @@ This connector helps you to manipulate data in your HelpDesk with the help of Mi
 
 To start using it you need to complete following prerequisites:
 
-1. :ref:`create-flow-api-key`
-2. :ref:`create-custom-connector`
-3. :ref:`review-flow-actions`
+1. `Create an API key <get-api-key.html>`_
+2. `Create custom connector <create-custom-connector.html>`_
+3. `Review available actions <flow-actions.html>`_
 
-.. _create-flow-api-key:
-
-Create an API key
------------------
-
-HelpDesk Microsoft Flow connector uses API keys for authentification. To generate API key just follow the steps described in `this topic <get-api-key.html>`_.
-
-.. _create-custom-connector:
-
-Create custom connector
------------------------
-
-Plumsail HelpDesk connector is not available in Microsoft Flow yet. It will become available soon. If you want to use it right now, you can `add Plumsail HelpDesk connector as a custom connector <create-custom-connector.html>`_.
-
-.. _review-flow-actions:
-
-Review available actions
-------------------------
-
-Once you created an API key and custom connector, you are ready to create your first Flow.
+Then, once you created an API key and custom connector, you are ready to create your first Flow.
 
 Just search for "Plumsail HelpDesk" in you Flow and add an appropriate action:
 
