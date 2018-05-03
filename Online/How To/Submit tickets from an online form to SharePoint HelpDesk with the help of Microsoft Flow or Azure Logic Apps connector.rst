@@ -80,7 +80,7 @@ Add Variables— Append to array variable action and append here the output from
 The array of attachments is ready, now we can move to the last step — creating a ticket in our HelpDesk.
 
 Configure the Flow  —  Create a ticket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We will use Plumsail HelpDesk  —  Create a ticket action. 
 
@@ -93,28 +93,29 @@ Plumsail HelpDesk connector allows you to work with Plumsail HelpDesk with the h
 
 
 Add Plumsail HelpDesk — Create a ticket action and use fields from the form to compose the ticket. 
+
 Add the Array of result files we received in the loop to the Ticket Attachments field and click Show advanced options to add JSON schema with custom fields.
 
+|CreateTicket|
 
+Finally, press Save Flow, unless you want other actions to take place after an email is sent.
 
+So, here is the complete flow:
 
+|CompleteFlow|
 
+Final Result
+~~~~~~~~~~~~
 
----------
+Here is a preview of my form. I have filled in some information to serve as an example and clicked Submit:
 
-By default, `Plumsail HelpDesk`_ doesn’t assign unique permissions to each ticket. HelpDesk site can be used by anyone to create tickets or reply to them. If you want to change this behavior, you should restrict access to help desk site for non-agents and use HelpDesk widget as an interface for requesters instead. It displays only tickets that are created by the current user.
+|FormPreview|
 
-Please review `this instruction`_ to understand how to place the widget on a page.
+And here is the ticket in our Helpdesk, automatically created by HelpDesk — Create a ticket action:
 
-Pay attention to `this step`_ of installing add-in from SharePoint app store. It is required to allow the widget to automatically detect the current user (single sign-on). If you don't install it, the widget will ask requesters for login and password.
+|HelpDeskTicket|
 
-
-Restricting access to the HelpDesk site
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The only thing we need to do is to restrict access to the Plumsail HelpDesk site and allow access to agents only.
-
-After following this instruction you should have a separate `Plumsail HelpDesk`_ site that is shared with your agents and another site with a page where requesters can see or create their own tickets. If you didn't install it yet, `download it`_ and follow the installation instruction for your version of SharePoint in the documentation. It is quite easy to get started.
+That is it. These simple steps will help you to improve communication with clients or within your company.
 
 
 .. |FormPreview| image:: ../_static/img/form-preview.png
@@ -144,13 +145,15 @@ After following this instruction you should have a separate `Plumsail HelpDesk`_
 .. |AppendToArray| image:: ../_static/img/append-to-array-data.png
    :alt: Append to array action
 
+.. |CreateTicket| image:: ../_static/img/create-a-ticket.png
+   :alt: Create a ticket action
+
+.. |CompleteFlow| image:: ../_static/img/submit-ticket-flow.png
+   :alt: Complete Flow
+
+.. |HelpDeskTicket| image:: ../_static/img/ticket-in-Plumsail-HelpDesk.png
+   :alt: Ticket created in Plumsail HelpDesk
+
 
 .. _add this connector as a custom connector: https://plumsail.com/docs/help-desk-o365/v1.x/API/create-custom-connector.html
 
-.. _Plumsail HelpDesk: https://plumsail.com/sharepoint-helpdesk/
-
-.. _this instruction: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Adding%20widget%20to%20SharePoint%20site.html
-
-.. _this step: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Adding%20widget%20to%20SharePoint%20site.html#enable-automatic-sign-in-for-a-widget
-
-.. _download it: https://plumsail.com/sharepoint-helpdesk/download/
