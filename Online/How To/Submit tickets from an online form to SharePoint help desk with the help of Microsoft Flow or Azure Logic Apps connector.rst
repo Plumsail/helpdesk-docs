@@ -33,15 +33,15 @@ Configure the Flow  —  First steps
 
 Here, I will guide you step by step through creating the flow. You also will find a screenshot of the complete flow at the end of the article. 
 
-First, open `Microsoft Flow`_, go to My Flows, click Create from blank to create a new Flow, search for and add Plumsail Forms — Form is submitted. 
+First, open `Microsoft Flow`_, go to *My Flows*, click *Create from blank* to create a new Flow, search for and add *Plumsail Forms  —  Form is submitted*. 
 
-Next, you need to fill in Form ID. You can find the Form Id in the Plumsail Forms if you click the Flow button. Alternatively, you can always check it in your `Plumsail account`_.
+Next, you need to fill in Form ID. You can find the **Form Id** in the Plumsail Forms if you click the **Flow** button. Alternatively, you can always check it in your `Plumsail account`_.
 
 |FormIsSubmitted|
 
-We need to somehow parse JSON received from form submission to use it in the ticket creation step. Click Add an action and search for Data Operations — Parse JSON. 
+We need to somehow parse JSON received from form submission to use it in the ticket creation step. Click *Add an action* and search for *Data Operations  —  Parse JSON*. 
 
-Here, you’ll need to click on Content field and select Body from menu on the right. Next, go to Flow in the designer, copy form’s schema and insert it into the Schema field:
+Here, you’ll need to click on **Content** field and select **Body** from menu on the right. Next, go to **Flow** in the designer, copy form’s schema and insert it into the **Schema** field:
 
 |SchemaField|
 
@@ -53,27 +53,27 @@ Don’t forget to save the form first, if you’ve added some changes, that will
 Configure the Flow  —  Handling attachments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We need to prepare an array of attachments, that we will put in Plumsail HelpDesk — Create a ticket action when composing the ticket.
+We need to prepare an array of attachments, that we will put in *Plumsail HelpDesk  —  Create a ticket* action when composing the ticket.
 
-Add a new action and search for Variables — Initialaze variable action. Enter a name for the variable and choose the Array type for it.
+Add a new action and search for *Variables  — Initialaze variable* action. Enter a name for the variable and choose the **Array** type for it.
 
 |InitializeVariable|
 
-Now, you need to add HTTP — HTTP action to download files from the Urls created on the form submission.
+Now, you need to add *HTTP  —  HTTP* action to download files from the Urls created on the form submission.
  
-In the opened window select GET in Method dropdown field and add url to the Uri field. This will automatically transform this action into repeating one which will be performed for each file in Attachments.
+In the opened window select **GET** in **Method** dropdown field and add **url** to the **Uri** field. This will automatically transform this action into repeating one which will be performed for each file in Attachments.
 
 It should look like this as a result:
 
 |HTTPAction|
 
-Now, inside of the loop, add Data Operations — Compose action.
+Now, inside of the loop, add *Data Operations  —  Compose* action.
 
-Enter an element of the array into the Inputs as shown in the screenshot below. We will reference it in the next action.
+Enter an element of the array into the **Inputs** as shown in the screenshot below. We will reference it in the next action.
 
 |ComposeData|
 
-Add Variables— Append to array variable action and append here the output from the Compose operation:
+Add *Variables — Append to array* variable action and append here the output from the *Compose* operation:
 
 |AppendToArray|
 
@@ -82,7 +82,7 @@ The array of attachments is ready, now we can move to the last step — crea
 Configure the Flow  —  Create a ticket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We will use Plumsail HelpDesk  —  Create a ticket action. 
+We will use *Plumsail HelpDesk  —  Create a ticket* action. 
 
 `Plumsail HelpDesk connector`_ allows you to work with `Plumsail HelpDesk`_ with the help of Microsoft Flow.
 
@@ -92,13 +92,13 @@ We will use Plumsail HelpDesk  —  Create a ticket action. 
   This action is not available in public connector in Microsoft Flow yet. It will become available soon. If you want to use this action right now, you can `add this connector as a custom connector`_.
 
 
-Add Plumsail HelpDesk — Create a ticket action and use fields from the form to compose the ticket. 
+Add *Plumsail HelpDesk  —  Create a ticket* action and use fields from the form to compose the ticket. 
 
-Add the Array of result files we received in the loop to the Ticket Attachments field and click Show advanced options to add JSON schema with custom fields.
+Add the **Array of result files** we received in the loop to the **Ticket Attachments** field and click *Show advanced options* to add **JSON schema with custom fields**.
 
 |CreateTicket|
 
-Finally, press Save Flow, unless you want other actions to take place after an email is sent.
+Finally, press *Save Flow*, unless you want other actions to take place after an email is sent.
 
 So, here is the complete flow:
 
@@ -107,11 +107,11 @@ So, here is the complete flow:
 Final Result
 ~~~~~~~~~~~~
 
-Here is a preview of my form. I have filled in some information to serve as an example and clicked Submit:
+Here is a preview of my form. I have filled in some information to serve as an example and clicked *Submit*:
 
 |FormPreview|
 
-And here is the ticket in our Helpdesk, automatically created by HelpDesk — Create a ticket action:
+And here is the ticket in our Helpdesk, automatically created by *HelpDesk  —  Create a ticket* action:
 
 |HelpDeskTicket|
 
