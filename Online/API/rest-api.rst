@@ -7,7 +7,7 @@ Prerequisites
 To start using REST API you need to complete the following prerequisites:
 
 1. `Create an API key <get-api-key.html>`_
-2. `Create custom connector <create-custom-connector.html>`_
+2. `Review reference for API that you want to call <https://helpdesk-services.plumsail.com/_api/swagger>`_
 
 How to use API
 --------------

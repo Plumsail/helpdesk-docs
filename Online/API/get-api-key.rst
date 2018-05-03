@@ -23,5 +23,5 @@ Once you created and API key, you can see your key right in the "API key" row on
 
 Now you can copy and use it in:
 
-- `Microsoft Flow <use-from-flow.html>`_
-- `REST API calls <use-as-rest-api.html>`_
+- `Microsoft Flow <ms-flow.html>`_
+- `REST API calls <rest-api.html>`_
