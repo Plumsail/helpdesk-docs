@@ -4,7 +4,7 @@ Public REST API
 Prerequisites
 -------------
 
-To start using REST API you need to complete following prerequisites:
+To start using REST API you need to complete the following prerequisites:
 
 1. `Create an API key <get-api-key.html>`_
 2. `Create custom connector <create-custom-connector.html>`_
@@ -69,7 +69,7 @@ This is an example of a raw request to create a ticket:
     {
     "subject": "Printer Issues",
     "body": "My printer is not working. Please help. ASAP.",
-    "requesterEmail": "m.cane@emaple,com",
+    "requesterEmail": "m.cane@example,com",
     "priority": "High",
     "tagTitles": [
         "Printers"
@@ -90,7 +90,7 @@ And this is cURL representation for it:
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-HD-ApiKey: YOUR_API_KEY' -d '{ \ 
     "subject": "Printer Issues", \ 
     "body": "My printer is not working. Please help. ASAP.", \ 
-    "requesterEmail": "m.cane%40emaple,com", \ 
+    "requesterEmail": "m.cane%40example.com", \ 
     "priority": "High", \ 
     "tagTitles": [ \ 
         "Printers" \ 

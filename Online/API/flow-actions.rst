@@ -515,7 +515,7 @@ Creates new comment for a ticket with specified Id and returns it.
           `List of Microsoft Flow connectors <https://flow.microsoft.com/en-us/connectors/>`_  
     *  -  Comment MessageId
        -  Message-ID of email message, if comment is being created from email
-       -  <SN2PR0501MB10559C65E048C190F1B401F9AF8E0@SN2PR0501MB1055.namprd05.prod.outlook.com>
+       -  <SN2PR0501MB105.namprd05.prod.outlook.com>
     *  -  Comment Custom Fields
        -  JSON object with custom field values to be set for comment.
        -  .. code-block:: json

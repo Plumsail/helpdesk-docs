@@ -6,7 +6,7 @@ Get API key
 
 	If you don't see the menu item Settings -> API page, please check your HelpDesk version, it should be 1.4.5 or above to use API.
 
-To generate new API key for Microsoft Flow connector or REST API you need to navigate to the *"Settings -> API"* page on your HelpDesk site and click "Create new" button. Then select type of API key according to your needs. Read-only keys can be used only to retrive information, Edit keys allow to update and create items.
+To generate new API key for Microsoft Flow connector or REST API you need to navigate to the *"Settings -> API"* page on your HelpDesk site and click "Create new" button. Then select type of API key according to your needs. Read-only keys can be used only to retrive information, Edit keys allow to create, update and delete items.
 
 .. image:: ../_static/img/create-api-key.png
    :alt: API keys
