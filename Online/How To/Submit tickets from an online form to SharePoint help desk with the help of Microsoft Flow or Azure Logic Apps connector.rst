@@ -35,7 +35,7 @@ Here, I will guide you step by step through creating the flow. You also will fin
 
 First, open `Microsoft Flow`_, go to *My Flows*, click *Create from blank* to create a new Flow, search for and add *Plumsail Forms  —  Form is submitted*. 
 
-Next, you need to fill in Form ID. You can find the **Form Id** in the Plumsail Forms if you click the **Flow** button. Alternatively, you can always check it in your `Plumsail account`_.
+Next, you need to fill in **Form ID**. You can find the Form ID in the Plumsail Forms if you click the **Flow** button. Alternatively, you can always check it in your `Plumsail account`_.
 
 |FormIsSubmitted|
 
@@ -55,7 +55,7 @@ Configure the Flow  —  Handling attachments
 
 We need to prepare an array of attachments, that we will put in *Plumsail HelpDesk  —  Create a ticket* action when composing the ticket.
 
-Add a new action and search for *Variables  — Initialaze variable* action. Enter a name for the variable and choose the **Array** type for it.
+Add a new action and search for *Variables  — Initialaze variable* action. Enter a name for the variable and choose the **Array** type for&nbsp;it.
 
 |InitializeVariable|
 
@@ -111,7 +111,7 @@ Here is a preview of my form. I have filled in some information to serve as an e
 
 |FormPreview|
 
-And here is the ticket in our Helpdesk, automatically created by *HelpDesk  —  Create a ticket* action:
+And here is the ticket in our Helpdesk automatically created by *HelpDesk  —  Create a ticket* action:
 
 |HelpDeskTicket|
 
