@@ -1,9 +1,9 @@
-How to submit tickets from an online form to SharePoint HelpDesk with the help of Microsoft Flow or Azure Logic Apps connector
+How to submit tickets from an online form to SharePoint help desk with the help of Microsoft Flow or Azure Logic Apps connector
 ##############################################################
 
 One of a simple ways to improve communication with clients or within a company is to create a custom form that can be used to send a feedback, to report a problem, to request assistance or just to get some information in general.
 
-In this example, we will design a form for customers for submitting messages and use Plumsail HelpDesk connector in Microsoft Flow to create a new ticket in Plumsail Helpdesk for Office 365.
+In this example, we will design a form for customers for submitting messages and use `Plumsail HelpDesk connector`_ in Microsoft Flow to create a new ticket in `Plumsail Helpdesk for Office 365`_.
 
 This is an example of the form that will create a ticket:
 
@@ -13,19 +13,19 @@ This is an example of the form that will create a ticket:
 Design a form
 ~~~~~~~~~~~~~
 
-First, design a form. We will do it with help of Plumsail Forms, but you can use any other forms solution that can submit data to Microsoft Flow.
+First, design a form. We will do it with help of `Plumsail Forms`_, but you can use any other forms solution that can submit data to Microsoft Flow.
 
 Think about what information might need to be specified: a subject for the ticket, request’s category, customer’s location, operation system, etc.
 
 Don’t forget to include the Submit button, so the form can be actually submitted. Flow only starts operating once the form is submitted.
 
-This short article gives a better understanding of how to work with Plumsail Forms.
+`This short article`_ gives a better understanding of how to work with Plumsail Forms.
 
 Here’s a simple form designed to receive messages from customers:
 
 |SimpleForm|
 
-Once you design and save the form, place it on a page where you would like the form to appear. You may add it to your public website or a page in SharePoint Online in Office 365.
+Once you design and save the form, `place`_ it on a page where you would like the form to appear. You may add it to your public website or a page in SharePoint Online in Office 365.
 
 
 Configure the Flow  —  First steps
@@ -33,9 +33,9 @@ Configure the Flow  —  First steps
 
 Here, I will guide you step by step through creating the flow. You also will find a screenshot of the complete flow at the end of the article. 
 
-First, open Microsoft Flow, go to My Flows, click Create from blank to create a new Flow, search for and add Plumsail Forms — Form is submitted. 
+First, open `Microsoft Flow`_, go to My Flows, click Create from blank to create a new Flow, search for and add Plumsail Forms — Form is submitted. 
 
-Next, you need to fill in Form ID. You can find the Form Id in the Plumsail Forms if you click the Flow button. Alternatively, you can always check it in your Plumsail account.
+Next, you need to fill in Form ID. You can find the Form Id in the Plumsail Forms if you click the Flow button. Alternatively, you can always check it in your `Plumsail account`_.
 
 |FormIsSubmitted|
 
@@ -84,7 +84,7 @@ Configure the Flow  —  Create a ticket
 
 We will use Plumsail HelpDesk  —  Create a ticket action. 
 
-Plumsail HelpDesk connector allows you to work with Plumsail HelpDesk with the help of Microsoft Flow.
+`Plumsail HelpDesk connector`_ allows you to work with `Plumsail HelpDesk`_ with the help of Microsoft Flow.
 
 
 .. important::
@@ -155,5 +155,20 @@ That is it. These simple steps will help you to improve communication with clien
    :alt: Ticket created in Plumsail HelpDesk
 
 
-.. _add this connector as a custom connector: https://plumsail.com/docs/help-desk-o365/v1.x/API/create-custom-connector.html
+.. _Plumsail HelpDesk connector: https://plumsail.com/docs/help-desk-o365/v1.x/API/ms-flow.html
 
+.. _Plumsail Helpdesk for Office 365: https://plumsail.com/sharepoint-helpdesk/
+
+.. _Plumsail Forms: https://plumsail.com/forms/
+
+.. _This short article: https://plumsail.com/docs/forms/design.html
+
+.. _place: https://plumsail.com/docs/forms/design.html#publish-the-form
+
+.. _Microsoft Flow: https://us.flow.microsoft.com/
+
+.. _Plumsail account: https://account.plumsail.com/
+
+.. _Plumsail Helpdesk: https://plumsail.com/sharepoint-helpdesk/
+
+.. _add this connector as a custom connector: https://plumsail.com/docs/help-desk-o365/v1.x/API/create-custom-connector.html
