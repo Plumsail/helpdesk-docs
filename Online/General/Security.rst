@@ -57,7 +57,7 @@ Information that we collect about you as a customer is described in our general 
 
 Plumsail HelpDesk is installed directly into SharePoint tenant of a client. All personal data of HelpDesk requesters and agents are stored inside tenant of a client. Thus, Microsoft GDPR policies are applied here.
 
-However, Plumsail provides services for conversion of email messages into tickets. The physical location of those services is inside the Europian Union. All date that we process is properly protected and encrypted as described in our `data protection <Security.html#data-security>`_ and in `privacy </privacy-policy/helpdesk/>`_ policies. 
+However, Plumsail provides services for conversion of email messages into tickets. The physical location of those services is inside the Europian Union. All data that we process is properly protected and encrypted as described in our `data protection <Security.html#data-security>`_ and in `privacy </privacy-policy/helpdesk/>`_ policies. 
 
 Plumsail is implementing necessary data breaches notifications for relevant supervisory authorities and data subjects in accordance with GDPR timeframes.
 
