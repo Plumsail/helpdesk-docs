@@ -20,7 +20,7 @@ Choose column type which goes along with your task and decide if the information
 
 |ColumnSettings|
 
-To put the column into action, place it on the ticket form with the help of `Forms Designer`_. You can find a link to Forms Designer in ribbon menu. Note that Forms Designer runs only in Internet Explorer at this time.
+To put the column into action, place it on the ticket form with the help of `Forms Designer <https://spform.com/>`_. You can find more information about forms customization in `this article <../Configuration%20Guide/Ticket%20and%20contact%20forms%20customization.html>`_.
 
 |FormsDesigner|
 
@@ -50,6 +50,3 @@ This how your ticket's editing form will look like:
    :alt:  Pay attention to Save settings
 .. |TicketEditForm| image:: ../_static/img/ticket-editing-form.jpg
    :alt: Ticket edit form withe the new column
-
-
-.. _Forms Designer: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Forms%20customization.html
