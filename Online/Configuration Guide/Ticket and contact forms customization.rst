@@ -3,7 +3,7 @@ Customize ticket and contact forms
 
 .. important:: `Forms Designer <https://spform.com/>`_ is included into "Yacht" and "Ocean liner" plans. You have to purchase it separately for "Jet boat" plan.
 
-In order to customize ticket and contact forms you need to install `Forms Designer`_.
+In order to customize ticket and contact forms you need to install `Forms Designer <https://spform.com/>`_.
 It is available for free for HelpDesk customizations.
 Forms Designer allows to design SharePoint forms with tabs,
 complex tables, and accordions among other UI elements.
