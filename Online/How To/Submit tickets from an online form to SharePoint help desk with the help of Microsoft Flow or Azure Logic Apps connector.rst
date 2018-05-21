@@ -1,7 +1,7 @@
 How to submit tickets from an online form to SharePoint help desk with the help of Microsoft Flow or Azure Logic Apps connector
 ##############################################################
 
-One of simple ways to improve communication with clients or within a company is to create a custom form that can be used to send a feedback, to report a problem, to request assistance or just to get some information in general.
+One of the simple ways to improve communication with clients or within a company is to create a custom form that can be used to send a feedback, to report a problem, to request assistance or just to get some information in general.
 
 In this example, we will design a form for customers for submitting messages and use `Plumsail HelpDesk connector`_ in Microsoft Flow to create a new ticket in `Plumsail Helpdesk for Office 365`_.
 
@@ -55,7 +55,7 @@ Configure the Flow  —  Handling attachments
 
 We need to prepare an array of attachments, that we will put in *Plumsail HelpDesk  —  Create a ticket* action when composing the ticket.
 
-Add a new action and search for *Variables  — Initialaze variable* action. Enter a name for the variable and choose the **Array** type for it.
+Add a new action and search for *Variables  — Initialize variable* action. Enter a name for the variable and choose the **Array** type for it.
 
 |InitializeVariable|
 
