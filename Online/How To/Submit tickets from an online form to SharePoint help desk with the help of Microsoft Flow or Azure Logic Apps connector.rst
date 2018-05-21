@@ -1,7 +1,7 @@
 How to submit tickets from an online form to SharePoint help desk with the help of Microsoft Flow or Azure Logic Apps connector
 ##############################################################
 
-One of a simple ways to improve communication with clients or within a company is to create a custom form that can be used to send a feedback, to report a problem, to request assistance or just to get some information in general.
+One of simple ways to improve communication with clients or within a company is to create a custom form that can be used to send a feedback, to report a problem, to request assistance or just to get some information in general.
 
 In this example, we will design a form for customers for submitting messages and use `Plumsail HelpDesk connector`_ in Microsoft Flow to create a new ticket in `Plumsail Helpdesk for Office 365`_.
 
@@ -41,7 +41,7 @@ Next, you need to fill in **Form ID**. You can find the Form ID in the Plumsail 
 
 We need to somehow parse JSON received from form submission to use it in the ticket creation step. Click *Add an action* and search for *Data Operations  —  Parse JSON*. 
 
-Here, you’ll need to click on **Content** field and select **Body** from menu on the right. Next, go to **Flow** in the designer, copy form’s schema and insert it into the **Schema** field:
+Here, you’ll need to click on **Content** field and select **Body** from the menu on the right. Next, go to **Flow** in the designer, copy form’s schema and insert it into the **Schema** field:
 
 |SchemaField|
 
@@ -55,13 +55,13 @@ Configure the Flow  —  Handling attachments
 
 We need to prepare an array of attachments, that we will put in *Plumsail HelpDesk  —  Create a ticket* action when composing the ticket.
 
-Add a new action and search for *Variables  — Initialaze variable* action. Enter a name for the variable and choose the **Array** type for&nbsp;it.
+Add a new action and search for *Variables  — Initialaze variable* action. Enter a name for the variable and choose the **Array** type for it.
 
 |InitializeVariable|
 
-Now, you need to add *HTTP  —  HTTP* action to download files from the Urls created on the form submission.
+Now, you need to add *HTTP  —  HTTP* action to download files from the URLs created on the form submission.
  
-In the opened window select **GET** in **Method** dropdown field and add **url** to the **Uri** field. This will automatically transform this action into repeating one which will be performed for each file in Attachments.
+In the opened window select **GET** in **Method** drop-down list and add **URL** to the **Uri** field. This will automatically transform this action into repeating one which will be performed for each file in Attachments.
 
 It should look like this as a result:
 
