@@ -3,11 +3,7 @@ HelpDesk installation
 
 `Download`_ and run the setup file.
 
-.. important:: SmartScreen prompt does not show for ClickOnce app since Windows 10 Update 1803. If you experience this issue please `download`_ **HelpDesk installer archive**, unpack it and run *Plumsail.HelpDesk.Online.Wizard.exe* manually.
-
-Then specify the URL where a
-HelpDesk instance will be created and credentials for Full Control
-access:
+Then specify the URL where a HelpDesk instance will be created and credentials for Full Control access:
 
 |HelpDeskOnlineInstallAuthentication|
 
