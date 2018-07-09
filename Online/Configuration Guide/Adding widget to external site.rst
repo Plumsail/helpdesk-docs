@@ -14,7 +14,15 @@ Here you can create a new widget configuration for your page by choosing 'New it
 |NewWidget|
 
 Provide a title for a widget configuration and choose how many tickets will be displayed on the page.
+
+You can customize fields displayed in widget ticket list. To do this you will need to provide a list of comma-separated field names in Display fields section. Note, that you need to use `internal names`_ of the fields. 
+
 If you are creating a widget for external site, you can choose widget language and whether to allow user registration. Registered users have ability to review their tickets.
+
+.. note::
+   Display fields customization is available from version 1.4.7.
+.. note::
+   Display fields are cached for 30 minutes for optimisation purposes. You will need to clear browser cache to apply your changes immediatly.
 
 |WidgetMenu|
 
@@ -56,3 +64,4 @@ Open editing form of your HTML page and add copied code where you'd like to plac
 
 
 .. _this link: /Configuration%20Guide/deprecated/Widget.html
+.. _internal names: ../How%20To/Find%20the%20internal%20name%20of%20SharePoint%20column.html
