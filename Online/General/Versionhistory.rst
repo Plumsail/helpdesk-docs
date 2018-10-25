@@ -1,6 +1,15 @@
 Version history
 ###############
 
+Version 1.5.0
+-------------
+
+New features:
+
+- Major stability improvements and optimizations.
+- Fix for the issue with slow comment creation.
+- Ability to view ticket field changes on the history tab.
+
 Version 1.4.7
 -------------
 
