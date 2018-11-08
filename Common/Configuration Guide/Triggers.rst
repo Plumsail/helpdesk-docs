@@ -1,8 +1,7 @@
 Triggers
 ########
 
- .. note::
-    | If you are using Plumsail HelpDesk with version older than 1.3.0, please follow  `this link <deprecated/Triggers.html>`_ to learn about triggers.
+.. note:: If you are using Plumsail HelpDesk with version older than 1.3.0, please follow  `this link <deprecated/Triggers.html>`_ to learn about triggers.
 
 Triggers allow you to set up automatic execution of arbitrary sets of actions based on events and conditions. A bunch of triggers designed for sending notifications is available out-of-the-box. Find them in the screenshot below. You can create your own triggers and define actions for them in accordance with your needs.
 

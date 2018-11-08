@@ -36,5 +36,5 @@ After saving this message template you will receive e-mails with order numbers i
    :alt: Additional text in the trigger   
 
 
-.. _Forms Designer: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Forms%20customization.html
-.. _Triggers: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html
+.. _Forms Designer: ../Configuration%20Guide/Ticket%20and%20contact%20forms%20customization.html
+.. _Triggers: ../Configuration%20Guide/Triggers.html

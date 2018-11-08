@@ -95,7 +95,7 @@ To do this you will need to navigate to your HelpDesk Widgets settings page, ope
    
 
 .. _Plumsail Forms: https://plumsail.com/forms
-.. _here: https://plumsail.com/docs/forms/designer/ribbonActions.html#export-and-import
+.. _here: https://plumsail.com/docs/forms/designer/ribbon-actions.html#export-and-import
 .. _the documentation: https://plumsail.com/docs/forms
 .. _ticket form: ../_static/download/Ticket.xfds
 .. _comment form: ../_static/download/Comment.xfds

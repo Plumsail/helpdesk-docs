@@ -34,7 +34,7 @@ Table of contents
       Configuration Guide/Email settings
       Configuration Guide/Triggers      
       Configuration Guide/Widget
-      Configuration Guide/Forms customization
+      Configuration Guide/Ticket and contact forms customization
       Configuration Guide/Scheduling
       Configuration Guide/SLA policy
       Configuration Guide/Localization
