@@ -54,9 +54,6 @@ Get tickets. By default this action returns first 50 tickets.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  includeAttachments
-       -  By default result will not contain any attachments. To load ticket attachments you must set parameter "includeAttachments" to Yes.
-       -  Yes
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
        -  SupportChannel,HelpDeskMailbox,Metadata/IsRead
@@ -263,9 +260,6 @@ Gets a single ticket by ID and returns it.
     *  -  ID
        -  Ticket ID
        -  15  
-    *  -  includeAttachments
-       -  By default result will not contain any attachments. To load ticket attachments you must set parameter "includeAttachments" to Yes.
-       -  Yes
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
        -  SupportChannel,HelpDeskMailbox,Metadata/IsRead
