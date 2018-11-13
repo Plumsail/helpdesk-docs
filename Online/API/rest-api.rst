@@ -69,7 +69,7 @@ This is an example of a raw request to create a ticket:
     {
     "subject": "Printer Issues",
     "body": "My printer is not working. Please help. ASAP.",
-    "requesterEmail": "m.cane@example,com",
+    "requesterEmail": "m.cane@example.com",
     "priority": "High",
     "tagTitles": [
         "Printers"
