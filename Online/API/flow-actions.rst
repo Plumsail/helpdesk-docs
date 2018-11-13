@@ -355,6 +355,9 @@ Gets a ticket by ID and updates it. Returns updated ticket.
     *  -  Parameter
        -  Description
        -  Example
+    *  -  Ticket Id
+       -  Ticket identifier
+       -  15  
     *  -  Ticket Subject
        -  Subject
        -  Printer issues
