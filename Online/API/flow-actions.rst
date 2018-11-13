@@ -243,7 +243,7 @@ Gets a single ticket by ID and returns it.
                 "resolutionDate": "",
                 "cc": [],
                 "tags": [],
-                "attachments": null,
+                "attachments": ["error.png"],
                 "id": 1,
                 "customFields": {}
             }                
@@ -257,8 +257,8 @@ Gets a single ticket by ID and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  ID
-       -  Ticket ID
+    *  -  Ticket Id
+       -  Ticket identifier
        -  15  
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
