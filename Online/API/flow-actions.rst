@@ -202,7 +202,7 @@ Deletes a ticket by ID.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  ID
+    *  -  Ticket Id
        -  Ticket ID to delete
        -  1          
 
