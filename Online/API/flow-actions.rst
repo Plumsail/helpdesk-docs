@@ -461,8 +461,8 @@ Gets all comments for a ticket with specified Id.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  ticketId
-       -  Ticket ID
+    *  -  Ticket Id
+       -  Ticket identifier
        -  1
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
