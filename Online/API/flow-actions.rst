@@ -272,6 +272,43 @@ Gets a single ticket by ID and returns it.
 .. image:: ../../_static/img/flow-actions/get-ticket.png
    :alt: Get ticket by ID example
 
+Download attachment
+----------------------------
+
+Returns attachment file for specific ticket by its name
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30
+
+    *  -  Parameter
+       -  Description       
+    *  -  Attachment
+       -  Requested attachment file 
+       
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Ticket Id
+       -  Ticket identifier
+       -  15  
+    *  -  Attachment Filename
+       -  Attachment Filename
+       -  error.png
+    
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/download-attachment.png
+   :alt: Download attachment example
+
 Update a ticket
 ----------------------------
 
