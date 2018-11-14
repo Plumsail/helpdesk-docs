@@ -522,8 +522,8 @@ Creates new comment for a ticket with specified Id and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  ticketId
-       -  Ticket ID
+    *  -  Ticket Id
+       -  Ticket identifier
        -  1
     *  -  Comment Body
        -  Body of the comment
