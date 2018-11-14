@@ -54,9 +54,6 @@ Get tickets. By default this action returns first 50 tickets.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  includeAttachments
-       -  By default result will not contain any attachments. To load ticket attachments you must set parameter "includeAttachments" to Yes.
-       -  Yes
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
        -  SupportChannel,HelpDeskMailbox,Metadata/IsRead
@@ -205,7 +202,7 @@ Deletes a ticket by ID.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  ID
+    *  -  Ticket Id
        -  Ticket ID to delete
        -  1          
 
@@ -246,7 +243,7 @@ Gets a single ticket by ID and returns it.
                 "resolutionDate": "",
                 "cc": [],
                 "tags": [],
-                "attachments": null,
+                "attachments": ["error.png"],
                 "id": 1,
                 "customFields": {}
             }                
@@ -260,12 +257,9 @@ Gets a single ticket by ID and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  ID
-       -  Ticket ID
+    *  -  Ticket Id
+       -  Ticket identifier
        -  15  
-    *  -  includeAttachments
-       -  By default result will not contain any attachments. To load ticket attachments you must set parameter "includeAttachments" to Yes.
-       -  Yes
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
        -  SupportChannel,HelpDeskMailbox,Metadata/IsRead
@@ -277,6 +271,43 @@ Gets a single ticket by ID and returns it.
 
 .. image:: ../../_static/img/flow-actions/get-ticket.png
    :alt: Get ticket by ID example
+
+Download attachment
+----------------------------
+
+Returns attachment file for specific ticket by its name
+
+.. rubric:: Output Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30
+
+    *  -  Parameter
+       -  Description       
+    *  -  Attachment
+       -  Requested attachment file 
+       
+.. rubric:: Input Parameters
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 30 20
+
+    *  -  Parameter
+       -  Description
+       -  Example
+    *  -  Ticket Id
+       -  Ticket identifier
+       -  15  
+    *  -  Attachment Filename
+       -  Attachment Filename
+       -  error.png
+    
+.. rubric:: Example
+
+.. image:: ../../_static/img/flow-actions/download-attachment.png
+   :alt: Download attachment example
 
 Update a ticket
 ----------------------------
@@ -324,6 +355,9 @@ Gets a ticket by ID and updates it. Returns updated ticket.
     *  -  Parameter
        -  Description
        -  Example
+    *  -  Ticket Id
+       -  Ticket identifier
+       -  15  
     *  -  Ticket Subject
        -  Subject
        -  Printer issues
@@ -427,8 +461,8 @@ Gets all comments for a ticket with specified Id.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  ticketId
-       -  Ticket ID
+    *  -  Ticket Id
+       -  Ticket identifier
        -  1
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
@@ -488,8 +522,8 @@ Creates new comment for a ticket with specified Id and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  ticketId
-       -  Ticket ID
+    *  -  Ticket Id
+       -  Ticket identifier
        -  1
     *  -  Comment Body
        -  Body of the comment
@@ -570,8 +604,11 @@ Gets a comment by Id and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Comment ID
+    *  -  Ticket Id
+       -  Ticket identifier
+       -  1
+    *  -  Comment Id
+       -  Comment identifier
        -  1
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
@@ -761,7 +798,7 @@ Gets a contact by email and returs it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  email
+    *  -  Contact Email
        -  Contact email
        -  m.cane@example.com
     *  -  $select
@@ -859,7 +896,7 @@ Deletes a contact by ID.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
+    *  -  Contact Id
        -  Contact ID to delete
        -  1          
 
@@ -908,8 +945,8 @@ Gets a contact by ID and returs it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Contact ID
+    *  -  Contact Id
+       -  Contact identifier
        -  20
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
@@ -963,8 +1000,8 @@ Finds a contact by ID and updates it. Returns updated contact.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Contact ID
+    *  -  Contact Id
+       -  Contact identifier
        -  20
     *  -  Contact Name
        -  Full name of the contact
@@ -1123,8 +1160,8 @@ Deletes an organization by ID.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Organization ID
+    *  -  Organization Id
+       -  Organization identifier
        -  15
      
 
@@ -1169,8 +1206,8 @@ Gets the organization by ID and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Organization ID
+    *  -  Organization Id
+       -  Organization identifier
        -  15
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
@@ -1221,8 +1258,8 @@ Updates an organization and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Organization ID
+    *  -  Organization Id
+       -  Organization identifier
        -  15
     *  -  Organization Title
        -  Title of the organization
@@ -1255,7 +1292,7 @@ Deletes an organization by title.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  title
+    *  -  Organization title
        -  Organization Title
        -  New tree inc.
      
@@ -1301,7 +1338,7 @@ Gets the organization by Title and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  title
+    *  -  Organization title
        -  Organization Title
        -  New tree inc.
     *  -  $select

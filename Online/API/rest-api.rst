@@ -41,7 +41,7 @@ This is an example of a raw request to get tickets:
 
 ::
 
-    GET https://helpdesk-services.plumsail.com/_api/v4/Tickets?includeAttachments=true&$select=SupportChannel&$filter=SupportChannel%20eq%20'API'&$orderBy=ID%20desc&$top=100 HTTP/1.1
+    GET https://helpdesk-services.plumsail.com/_api/v4/Tickets?$select=SupportChannel&$filter=SupportChannel%20eq%20'API'&$orderBy=ID%20desc&$top=100 HTTP/1.1
     Accept: application/json
     X-HD-ApiKey: YOUR_API_KEY
     Host: helpdesk-services.plumsail.com
@@ -50,7 +50,7 @@ And this is cURL representation for it:
 
 ::
 
-    curl -X GET --header 'Accept: application/json' --header 'X-HD-ApiKey: YOUR_API_KEY' 'https://helpdesk-services.plumsail.com/_api/v4/Tickets?includeAttachments=true&$select=SupportChannel&$filter=SupportChannel%20eq%20'API'&$orderBy=ID%20desc&$top=100'
+    curl -X GET --header 'Accept: application/json' --header 'X-HD-ApiKey: YOUR_API_KEY' 'https://helpdesk-services.plumsail.com/_api/v4/Tickets?$select=SupportChannel&$filter=SupportChannel%20eq%20'API'&$orderBy=ID%20desc&$top=100'
 
 .. _create-ticket:
 
@@ -69,7 +69,7 @@ This is an example of a raw request to create a ticket:
     {
     "subject": "Printer Issues",
     "body": "My printer is not working. Please help. ASAP.",
-    "requesterEmail": "m.cane@example,com",
+    "requesterEmail": "m.cane@example.com",
     "priority": "High",
     "tagTitles": [
         "Printers"
