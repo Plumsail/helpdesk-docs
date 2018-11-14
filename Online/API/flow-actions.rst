@@ -1160,8 +1160,8 @@ Deletes an organization by ID.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Organization ID
+    *  -  Organization Id
+       -  Organization identifier
        -  15
      
 
@@ -1206,8 +1206,8 @@ Gets the organization by ID and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Organization ID
+    *  -  Organization Id
+       -  Organization identifier
        -  15
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
@@ -1258,8 +1258,8 @@ Updates an organization and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Organization ID
+    *  -  Organization Id
+       -  Organization identifier
        -  15
     *  -  Organization Title
        -  Title of the organization
