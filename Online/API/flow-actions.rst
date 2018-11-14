@@ -1292,7 +1292,7 @@ Deletes an organization by title.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  title
+    *  -  Organization title
        -  Organization Title
        -  New tree inc.
      
@@ -1338,7 +1338,7 @@ Gets the organization by Title and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  title
+    *  -  Organization title
        -  Organization Title
        -  New tree inc.
     *  -  $select
