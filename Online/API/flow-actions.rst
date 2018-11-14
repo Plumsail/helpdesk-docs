@@ -798,7 +798,7 @@ Gets a contact by email and returs it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  email
+    *  -  Contact Email
        -  Contact email
        -  m.cane@example.com
     *  -  $select
