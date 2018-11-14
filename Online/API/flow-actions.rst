@@ -945,8 +945,8 @@ Gets a contact by ID and returs it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Contact ID
+    *  -  Contact Id
+       -  Contact identifier
        -  20
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
