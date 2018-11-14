@@ -896,7 +896,7 @@ Deletes a contact by ID.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
+    *  -  Contact Id
        -  Contact ID to delete
        -  1          
 
