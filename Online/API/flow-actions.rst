@@ -1000,8 +1000,8 @@ Finds a contact by ID and updates it. Returns updated contact.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Contact ID
+    *  -  Contact Id
+       -  Contact identifier
        -  20
     *  -  Contact Name
        -  Full name of the contact
