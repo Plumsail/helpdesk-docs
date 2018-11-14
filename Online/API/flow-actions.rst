@@ -604,8 +604,11 @@ Gets a comment by Id and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  id
-       -  Comment ID
+    *  -  Ticket Id
+       -  Ticket identifier
+       -  1
+    *  -  Comment Id
+       -  Comment identifier
        -  1
     *  -  $select
        -  An `ODATA`_ $select query option to specify which fields to return for a list item. You can use * to return all available fields.
