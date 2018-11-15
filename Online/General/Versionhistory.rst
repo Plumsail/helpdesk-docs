@@ -1,6 +1,13 @@
 Version history
 ###############
 
+Version 1.5.1
+-------------
+
+New features:
+
+- Scheduler, SLA and Reports: fixed issues related to 5K items limit.
+
 Version 1.5.0
 -------------
 
