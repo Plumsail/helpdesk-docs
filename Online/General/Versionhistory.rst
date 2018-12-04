@@ -1,6 +1,13 @@
 Version history
 ###############
 
+Version 1.5.2
+-------------
+
+New features:
+
+- Fixed issues with displaying reports in IE.
+
 Version 1.5.1
 -------------
 
