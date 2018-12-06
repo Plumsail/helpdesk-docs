@@ -1,6 +1,13 @@
 Version history
 ###############
 
+Version 1.5.3
+-------------
+
+New features:
+
+- Message showing that ticket is viewed by other agents.
+
 Version 1.5.2
 -------------
 
