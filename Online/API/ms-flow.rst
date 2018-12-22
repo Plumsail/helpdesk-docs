@@ -6,10 +6,9 @@ This connector helps you to manipulate data in your HelpDesk with the help of Mi
 To start using it you need to complete following prerequisites:
 
 1. `Create an API key <get-api-key.html>`_
-2. `Create custom connector <create-custom-connector.html>`_
-3. `Review available actions <flow-actions.html>`_
+2. `Review available actions <flow-actions.html>`_
 
-Then, once you created an API key and custom connector, you are ready to create your first Flow.
+Then, once you created an API key, you are ready to create your first Flow.
 
 Just search for "Plumsail HelpDesk" in you Flow and add an appropriate action:
 
