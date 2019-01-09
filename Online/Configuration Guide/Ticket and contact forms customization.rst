@@ -8,6 +8,13 @@ It is available for free for HelpDesk customizations.
 Forms Designer allows to design SharePoint forms with tabs,
 complex tables, and accordions among other UI elements.
 
+Using Forms Designer
+~~~~~~~~~~~~~~~~~~~~~
+
+To start using Forms Designer please `download<https://services.spform.com/fd/app/setup.exe>`_ the desktop app and run the installation file on your computer. To connect to HelpDesk please run the app and enter your login details. Once it's connected to HelpDesk please choose a list you want to work with:
+
+|RunningFormsDesigner|
+
 You can find more information on how to use Forms Designer in `the
 documentation`_.
 
@@ -31,11 +38,6 @@ form in a simple drag-and-drop fashion:
 |FormsDesigner|
 
 .. _forms backups:
-
-Forms Designer Installation
-~~~~~~~~~~~~~~~~~~~~~
-
-To install Forms Designer please folow these steps.
 
 Restore default forms
 ---------------------
@@ -79,3 +81,5 @@ For example, to restore ticket edit form you need to do following steps:
    :alt: Forms Backups Folder
 .. |TicketFormsBackups| image:: ../_static/img/forms-backups-1.png
    :alt: Forms Backups Folder
+.. |RunningFormsDesigner| image:: ../_static/img/Forms-Designer-in-HD.jpg
+   :alt: Running Forms Designer
