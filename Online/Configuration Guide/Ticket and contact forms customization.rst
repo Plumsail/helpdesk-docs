@@ -9,9 +9,9 @@ Forms Designer allows to design SharePoint forms with tabs,
 complex tables, and accordions among other UI elements.
 
 Using Forms Designer
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^
 
-To start using Forms Designer please `download<https://services.spform.com/fd/app/setup.exe>`_ the desktop app and run the installation file on your computer. To connect to HelpDesk please run the app and enter your login details. Once it's connected to HelpDesk please choose a list you want to work with:
+To start using Forms Designer please `download <https://services.spform.com/fd/app/setup.exe>`_ the desktop app and run the installation file on your computer. To connect to HelpDesk please run the app and enter your login details. Once it's connected to HelpDesk please choose a list you want to work with:
 
 |RunningFormsDesigner|
 
