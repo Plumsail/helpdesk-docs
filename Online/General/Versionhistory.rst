@@ -1,5 +1,12 @@
 Version history
 ###############
+Version 1.5.4
+-------------
+
+New features:
+
+- Ability to display Plumsail Widget in Italian.
+- Notification about email issues.
 
 Version 1.5.3
 -------------
