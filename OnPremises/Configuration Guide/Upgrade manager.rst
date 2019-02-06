@@ -5,7 +5,7 @@ Upgrade HelpDesk
 
 Upgrade manager allows you to install updates on your HelpDesk. Also, it provides information about HelpDesk version and license. Information about all HelpDesk versions you can find on `Version history`_ page.
 
-If you'd like to update HelpDesk, you need to `download`_ the latest version of installer and run it on one of the servers in your SharePoint 2013/2016 farm as Farm Administrator. Follow the wizard steps and choose "Upgrade".
+If you'd like to update HelpDesk, you need to `download`_ the latest version of installer and run it on one of the servers in your SharePoint 2013/2016/2019 farm as Farm Administrator. Follow the wizard steps and choose "Upgrade".
 
 After that, navigate to settings using the icon in the navbar:
 
