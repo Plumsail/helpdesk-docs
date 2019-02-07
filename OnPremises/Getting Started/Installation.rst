@@ -1,7 +1,7 @@
 HelpDesk installation
 #####################
 
-`Download`_ and run it on one of the servers in your SharePoint 2013/2016 farm as Farm Administrator. Follow the wizard steps.
+`Download`_ and run it on one of the servers in your SharePoint 2013/2016/2019 farm as Farm Administrator. Follow the wizard steps.
 
 Go to SharePoint site where you want to create HelpDesk. Select ‘Site Settings’:
 
@@ -21,10 +21,10 @@ Once you clicked on the feature you are redirected to installation wizard. It wi
 
 Then click next and wait for installation. Once HelpDesk has been installed, you can go on to `configuration`_.
 
-WSP installation for SharePoint 2013/2016
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WSP installation for SharePoint 2013/2016/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Download WSP package`_  and place it to one of the servers in your Sharepoint 2013/2016 farm. Run Sharepoint 2013/2016 Management Shell as administrator.
+`Download WSP package`_  and place it to one of the servers in your Sharepoint 2013/2016/2019 farm. Run Sharepoint 2013/2016/2019 Management Shell as administrator.
 
 |WspInstallation1|
 

@@ -42,7 +42,7 @@ This will be a “Set field” action. Set it so HelpDesk will change the “Ass
 
 |image-9|
 
-And this is how you can automatically assign tickets to the first agent who replies to it. This can be done in both SharePoint Online and SharePoint 2013/2016.
+And this is how you can automatically assign tickets to the first agent who replies to it. This can be done in both SharePoint Online and SharePoint 2013/2016/2019.
 
 .. _From ribbon: #from-ribbon
 .. _From site settings: #from-settings
