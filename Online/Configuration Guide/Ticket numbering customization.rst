@@ -1,6 +1,8 @@
 Ticket numbering customization
 #######################
 
+.. note:: This feature is available in version 1.5.5 and above.
+
 You can configure tickets numbering. 
 
 Navigate to settings using the icon in the navbar:
