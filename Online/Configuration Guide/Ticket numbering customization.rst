@@ -11,7 +11,7 @@ Navigate to settings using the icon in the navbar:
 
 Then click on the "Ticket numbering" tab. Now you can see ticket numbering settigs.
 
-|PageExampleExpanded|
+|PageExample|
 
 .. contents:: Table of contents
    :local:
@@ -44,6 +44,8 @@ Reset IDCounter
 
 Click "Advanced settings" to see current IDCounter value.
 
+|Advanced|
+
 You can reset IDCounter value using "Reset IDCounter" button. 
 
 .. warning::
@@ -53,8 +55,10 @@ You can reset IDCounter value using "Reset IDCounter" button.
 
 .. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |PageExampleExpanded| image:: ../_static/img/ticket-numbering-page-expanded.png
+.. |PageExample| image:: ../_static/img/ticket-numbering-page.png
    :alt: Ticket numbering settings page
+.. |Advanced| image:: ../_static/img/ticket-numbering-advanced.png
+   :alt: Ticket numbering settings page expanded
 .. |CustomFormula| image:: ../_static/img/custom-formula.png
    :alt: Custom formula
 .. |CustomNumbering| image:: ../_static/img/custom-ticket-numbering.png
