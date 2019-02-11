@@ -23,10 +23,6 @@ Then click on the "Ticket numbering" tab. Now you can see ticket numbering setti
 
 |PageExample|
 
-.. contents:: Table of contents
-   :local:
-   :depth: 1
-
 Formula customization
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -34,7 +30,7 @@ By default, the formula is ``{{IDCounter}}``, so tickets are numbered as "1", "2
 
 Formula must contain ``{{IDCounter}}`` token and may contain optional ``{{CurrentDate}}`` token.
 
-``{{IDCounter}}`` is an instance-wide ticket counter. 
+``{{IDCounter}}`` is an HelpDesk-wide ticket counter. 
 
 ``{{CurrentDate}}`` is current date/time.
 
