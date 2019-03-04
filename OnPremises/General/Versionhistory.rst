@@ -6,6 +6,13 @@ Version 1.3.10
 
 New features:
 
+– Fixed search in Requester and Cc field.
+
+Version 1.3.10
+--------------
+
+New features:
+
 - Login auth in IMAP and SMTP.
 
 Version 1.3.9
