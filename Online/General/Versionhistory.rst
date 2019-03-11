@@ -1,5 +1,15 @@
 Version history
 ###############
+Version 1.5.5
+-------------
+
+New features:
+
+- `Custom numbering for tickets`_.
+- Bugfix for deleted SLA task issue.
+- API settings page localization.
+- Other minor bugfixes.
+
 Version 1.5.4
 -------------
 
@@ -249,3 +259,4 @@ Version 1.0
 .. _customize widget forms: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Widget%20forms%20customization.html
 .. _REST API: https://plumsail.com/docs/help-desk-o365/v1.x/API/rest-api.html
 .. _Microsoft Flow connector: https://plumsail.com/docs/help-desk-o365/v1.x/API/ms-flow.html
+.. _Custom numbering for tickets: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Ticket%20numbering%20customization.html
