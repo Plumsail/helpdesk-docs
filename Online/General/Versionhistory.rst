@@ -6,9 +6,9 @@ Version 1.5.5
 New features:
 
 - `Custom numbering for tickets`_.
-- Bugfix for deleted SLA task issue.
+- Bug fix for deleted SLA task issue.
 - API settings page localization.
-- Other minor bugfixes.
+- Other minor bug fixes.
 
 Version 1.5.4
 -------------
