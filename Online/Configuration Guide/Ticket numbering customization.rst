@@ -3,7 +3,7 @@ Ticket numbering customization
 
 .. note:: This feature is available in version 1.5.5 and above.
 
-TicketID is used to identify a ticket:
+Ticket number is used to identify a ticket:
 
 * in e-mail notifications
 * on the edit and view forms
@@ -19,7 +19,7 @@ Navigate to settings using the icon in the navbar:
 
 |SettingsIcon|
 
-Then click on the "Ticket numbering" tab. Now you can see ticket numbering settigs.
+Then click on the "Ticket numbering" tab. Now you can see the ticket numbering settings.
 
 |PageExample|
 
@@ -28,7 +28,7 @@ Formula customization
 
 By default, the formula is ``{{IDCounter}}``, so tickets are numbered as "1", "2" etc. 
 
-Formula must contain ``{{IDCounter}}`` token and may contain optional ``{{CurrentDate}}`` token.
+A formula must contain ``{{IDCounter}}`` token and may contain optional ``{{CurrentDate}}`` token.
 
 ``{{IDCounter}}`` is an HelpDesk-wide ticket counter. 
 
@@ -37,7 +37,7 @@ Formula must contain ``{{IDCounter}}`` token and may contain optional ``{{Curren
 You can use ``{{CurrentDate:format}}`` syntax to show only part of current date/time. 
 
 +--------+---------------------------------------------+------------------------+
-| Format | Example formula                             | Example TicketID       |
+| Format | Example formula                             | Example Ticket number  |
 +========+=============================================+========================+
 | t      | ``IT {{IDCounter}} {{CurrentDate:t}}``      | IT 123 9:34 PM         |
 +--------+---------------------------------------------+------------------------+
@@ -74,7 +74,7 @@ Click "Reset IDCounter" to reset IDCounter to zero.
 
 .. warning::
     Use this option only if you are absolutely sure that there are no tickets with a new counter value in HelpDesk. 
-    Otherwise it will lead to the appearance of tickets with duplicate IDs.
+    Otherwise, it will lead to the appearance of tickets with duplicate IDs.
 
 
 .. |SettingsIcon| image:: ../_static/img/settingsicon.png
