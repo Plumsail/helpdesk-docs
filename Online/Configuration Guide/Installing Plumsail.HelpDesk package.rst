@@ -1,15 +1,15 @@
 Installing Plumsail.HelpDesk package
 ######
 
-Installing Widget WebPart
+.. note::
+    You have to be a SharePoint administrator to complete the installation. 
+    
+    If you don’t see some menus from the instruction below, most likely you are not a SharePoint administrator. 
+    
+    Please contact your administrator to assist with the installation.
+
+Create App Catalog
 -------------------------
-
-Plumsail.HelpDesk for SharePoint sites is a a `SharePoint Framework <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview>`_ add-in. 
-Unfortunately, SharePoint Store doesn’t support the installation of SharePoint Framework add-ins. That is why you need to install add-in manually.
-
-You have to be a SharePoint administrator to complete the installation. 
-If you don’t see some menus from the instruction below, most likely you are not a SharePoint administrator. 
-Please contact your administrator to assist with the installation.
 
 Open Office 365 admin center:
 
@@ -36,15 +36,17 @@ Just fill in ‘Title’, ‘Web Site Address’, ‘Administrator’ and ‘Sto
 
 |NewAppCatalog|
 
-`Download the add-in <https://static.plumsail.com/wp-content/uploads/Files/HelpDesk365Widget/plumsail-help-desk-widget-web-part.sppkg>`_ from our website. Navigate to ‘Apps for SharePoint’ and upload Add-in package that you downloaded (you need to upload to the App Catalog the whole .sppkg file without unpacking it):
+Install add-in
+-------------------------
+
+`Download the add-in <https://static.plumsail.com/wp-content/uploads/Files/HelpDesk365Widget/plumsail-help-desk-widget-web-part.sppkg>`_ from our website.
+ Navigate to ‘Apps for SharePoint’ and upload Add-in package that you downloaded (you need to upload to the App Catalog the whole .sppkg file without unpacking it):
 
 |UploadSPPKG|
 
-You need to select “Make this solution available to all sites in the organization” in the dialog. Once you did this you can add a web part to a page.
+You need to select “Make this solution available to all sites in the organization” in the dialog. 
 
 |TenantScopedWP|
-
-If you don’t want to make this app availalbe on all sites, you will need to `add app to each site manually <InstallWidgetAddInOnSite.html>`_.
 
 .. |WidgetView| image:: ../_static/img/widgetview.png
    :alt: HelpDesk Widget
