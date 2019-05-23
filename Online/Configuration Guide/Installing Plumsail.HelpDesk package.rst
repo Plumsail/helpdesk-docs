@@ -44,7 +44,7 @@ Install add-in
 
 |UploadSPPKG|
 
-You need to select “Make this solution available to all sites in the organization” in the dialog. 
+Select “Make this solution available to all sites in the organization” in the dialog and click "Deploy". 
 
 |TenantScopedWP|
 
