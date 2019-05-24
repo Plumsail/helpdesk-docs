@@ -8,6 +8,12 @@ Installing Plumsail.HelpDesk package
     
     Please contact your administrator to assist with the installation.
 
+Download add-in
+-------------------------
+
+Download the `add-in <https://static.plumsail.com/wp-content/uploads/Files/HelpDesk365Widget/plumsail-help-desk-widget-web-part.sppkg>`_ from our website.
+
+
 Create App Catalog
 -------------------------
 
@@ -39,7 +45,6 @@ Just fill in ‘Title’, ‘Web Site Address’, ‘Administrator’ and ‘Sto
 Install add-in
 -------------------------
 
-`Download the add-in <https://static.plumsail.com/wp-content/uploads/Files/HelpDesk365Widget/plumsail-help-desk-widget-web-part.sppkg>`_ from our website.
  Navigate to ‘Apps for SharePoint’ and upload Add-in package that you downloaded (you need to upload to the App Catalog the whole .sppkg file without unpacking it):
 
 |UploadSPPKG|
