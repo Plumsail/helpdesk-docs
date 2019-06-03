@@ -31,6 +31,7 @@ Table of contents
       :maxdepth: 1
 
       Configuration Guide/Email settings
+      Configuration Guide/Installing Plumsail.HelpDesk package
       Configuration Guide/Triggers
       Configuration Guide/Widget
       Configuration Guide/Widget forms customization
