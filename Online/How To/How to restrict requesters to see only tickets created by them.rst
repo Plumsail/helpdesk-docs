@@ -1,4 +1,4 @@
-How to restrict requesters to see only tickets created by them using Plumsail HelpDesk in SharePoint Online 123
+How to restrict requesters to see only tickets created by them using Plumsail HelpDesk in SharePoint Online
 ##############################################################
 
 It is a very common task because in some cases you don’t want to allow requesters to see tickets for other requesters. Only agents should see all the tickets on HelpDesk site.
