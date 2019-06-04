@@ -3,7 +3,7 @@ Canned responses
 
 Respond to common questions faster with canned responses. Your agents can create a predefined set of reply templates that they can send out with a single click. 
  
-Navigate to settings using the icon in the navbar: 
+Navigate to settings using the icon in the navbar:   
 
 |SettingsIcon|
 
