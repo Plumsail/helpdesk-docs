@@ -16,7 +16,7 @@ Table of contents
    .. toctree::
       :caption: Getting Started
       :name: getstarttoc
-      :maxdepth: 1 
+      :maxdepth: 1
       
       Getting Started/Installation      
       Getting Started/Quick HelpDesk configuration
