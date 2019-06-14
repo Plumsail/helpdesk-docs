@@ -25,13 +25,12 @@ Table of contents
       Official blog <https://medium.com/plumsail/tagged/helpdesk> 
       Community forum  <https://community.plumsail.com/c/helpdesk>      
 
-   .. toctree::
+   .. toctree:: 
       :caption: Configuration guide 
       :name: confguidetoc
       :maxdepth: 1
 
-      Configuration Guide/Email settings
-      Configuration Guide/Installing Plumsail.HelpDesk package
+      Configuration Guide/Email settings      
       Configuration Guide/Triggers
       Configuration Guide/Widget
       Configuration Guide/Widget forms customization

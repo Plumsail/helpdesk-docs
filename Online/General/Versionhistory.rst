@@ -1,4 +1,4 @@
-Version history 123
+Version history
 ###############
 Version 1.5.5
 -------------
