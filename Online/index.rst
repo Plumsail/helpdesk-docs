@@ -30,8 +30,7 @@ Table of contents
       :name: confguidetoc
       :maxdepth: 1
 
-      Configuration Guide/Email settings
-      Configuration Guide/Installing Plumsail.HelpDesk package
+      Configuration Guide/Email settings      
       Configuration Guide/Triggers
       Configuration Guide/Widget
       Configuration Guide/Widget forms customization
