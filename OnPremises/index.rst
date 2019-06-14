@@ -31,7 +31,7 @@ Table of contents
       :name: confguidetoc
       :maxdepth: 1
 
-      Configuration Guide/Email settings
+      Configuration Guide/Email Settings
       Configuration Guide/Triggers      
       Configuration Guide/Widget
       Configuration Guide/Ticket and contact forms customization
