@@ -25,7 +25,7 @@ Table of contents
       Official blog <https://medium.com/plumsail/tagged/helpdesk> 
       Community forum  <https://community.plumsail.com/c/helpdesk>      
 
-   .. toctree::
+   .. toctree:: 
       :caption: Configuration guide 
       :name: confguidetoc
       :maxdepth: 1
