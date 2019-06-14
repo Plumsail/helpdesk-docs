@@ -1,5 +1,5 @@
-Create ticket from a Twitter mention
-######################################
+Create a new ticket in HelpDesk from a Twitter mention
+######################################################
 Social nets are one of the important ways of communicating and networking. Clients ask questions and leave feedback there. To be a successful and caring company it’s a good idea to stay in touch with customers and reply to them as quick as possible. See how you can use `Plumsail Helpdesk connector`_ in Microsoft Flow to create a new ticket in `Plumsail Helpdesk for Office 365`_ when somebody mentioned the company on `Twitter`_.
 
 First, open `Microsoft Flow`_. Then go to My flows tab, click on +New in the left upper corner to build your own workflow.
