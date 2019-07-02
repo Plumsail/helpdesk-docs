@@ -1,5 +1,26 @@
 Version history
 ###############
+Version 1.5.8
+-------------
+
+New features:
+
+- New trigger action: Set comment type to private.
+
+Version 1.5.7
+-------------
+
+New features:
+
+- Fixed translation issues in German, Czech and French.
+
+Version 1.5.6
+-------------
+
+New features:
+
+- Ability to display Plumsail Widget in French.
+
 Version 1.5.5
 -------------
 
