@@ -12,4 +12,4 @@ Automations
     Create ticket from a Twitter mention
     Edit ticket's properties from mailbox    
     Start a workflow with a trigger
-    Close tickets if requesters haven't replied
+    Close tickets if customer hasn't replied <Close tickets if customer hasn't replied in SharePoint help desk system>
