@@ -51,9 +51,10 @@ You can add as many mailboxes as you want.
 |Step4|
 
 .. Warning::
-    HelpDesk will not use auto-generated email if at least 1 outlook mailbox was added.
-    This means that email notifications can stop working if you revoke access in the future.
-    If HelpDesk lost access to some mailbox, the red indicator is displayed.
+    If at least one Outlook mailbox is configured, HelpDesk will use Outlook365 
+    to send all emails. This means that email notifications can stop working if 
+    you revoke access in the future. If HelpDesk lost access to some mailbox, 
+    the red indicator is displayed
 
     |LostAccess|
 
@@ -83,9 +84,6 @@ Just do the following:
 2. Click "Delete"
 
 |Delete|
-
-.. Note::
-    HelpDesk will use auto-generated email for notifications if there are no outlook mailboxes
 
 
 .. _this article: How%20forwarding%20works.html
