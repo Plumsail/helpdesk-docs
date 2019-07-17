@@ -1,5 +1,23 @@
 Version history
 ###############
+
+Version 1.5.10
+-------------
+
+New features:
+
+- Fixed translation issues in German and Czech.
+- Ability to display Plumsail Widget in Swedish.
+
+
+Version 1.5.9
+-------------
+
+New features:
+
+- Fixed search in Requester and Cc fields with more than 5000 contacts.
+
+
 Version 1.5.8
 -------------
 
