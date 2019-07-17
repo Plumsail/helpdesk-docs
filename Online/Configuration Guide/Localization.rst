@@ -26,6 +26,7 @@ Available languages:
 - Norwegian
 - Czech
 - Italian
+- Swedish
 
 If you want to add support of new language, please send request to support@plumsail.com.
 
