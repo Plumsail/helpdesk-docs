@@ -30,7 +30,7 @@ The next step is to determine a schedule when the task to be executed. You can u
 Set conditions and action to close tickets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The actions to be executed are configured on the next tab. It contains two blocks—conditions and actions.  Take a look on the screenshot below.
+The actions to be executed are configured on the next tab. It contains two blocks—conditions and actions.  Take a look at the screenshot below.
 
 |task|
 
@@ -45,7 +45,7 @@ You can check the task executions on a "Logs" tab. If you need, you can export t
 
 |logs|
 
-Summarry
+Summary
 ~~~~~~~~
 
 That's it. Now you know how to configure the task. HelpDesk Scheduler will periodically check status of your tickets and close them if they didn’t get a reply from a customer in 3 days. You can try to do it by yourself. Just follow instructions and install_ HelpDesk on your own SharePoint site to get a ticketing system with easy and simple automation.
