@@ -11,7 +11,7 @@ Installing Plumsail.HelpDesk package
 Download add-in
 -------------------------
 
-Download the `add-in <https://static.plumsail.com/wp-content/uploads/Files/HelpDesk365Widget/plumsail-help-desk-widget-web-part.sppkg>`_ from our website.
+Download the `add-in <https://static-hd.plumsail.com/spfx/Plumsail.HelpDesk.sppkg>`_ from our website.
 
 
 Create App Catalog
@@ -74,5 +74,5 @@ Select “Make this solution available to all sites in the organization” in th
 .. |OpenAppCatalog| image:: ../_static/img/widget-open-app-catalog.png
 .. |CreateAppCatalog| image:: ../_static/img/widget-create-app-catalog.png
 .. |NewAppCatalog| image:: ../_static/img/widget-new-app-catalog.png
-.. |UploadSPPKG| image:: ../_static/img/widget-upload-sppkg.png
-.. |TenantScopedWP| image:: ../_static/img/widget-tenant-scoped-webpart.png
+.. |UploadSPPKG| image:: ../_static/img/hepldesk-uploaded-sppkg.png
+.. |TenantScopedWP| image:: ../_static/img/helpdesk-sppkg-dialog.png
