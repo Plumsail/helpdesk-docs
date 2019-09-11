@@ -60,7 +60,7 @@ Each SLA policy has the following structure:
 Condition
 ~~~~~~~~~
 
-When you open SLA policies for the first time you see the default SLA policy. It doesn't have any conditions but you can configure it. `Conditions in SLA`_ are similar to `trigger’s conditions <Triggers.html>`_
+When you open SLA policies for the first time you see the default SLA policy. It doesn't have any conditions but you can configure it. `Condition syntax`_ in SLA is the same as in triggers_.
 
 |editSLA|
 
@@ -82,7 +82,7 @@ Site settings can be found in the top right corner of your site. Click Site Sett
 Failure actions
 ~~~~~~~~~~~~~~~
 
-If the target time is not achieved, action will be performed. Actions for SLA policies is the same to the trigger’s `actions`_.
+If the target time is not achieved, action will be performed. Actions for SLA policies is the same to the trigger `actions`_.
 The list of actions may contain multiple actions that will be executed sequentially one by one starting from the top. On the screenshot below, it is chosen to send an email to assignee about an unanswered ticket. You can use `tokens`_ and HTML markup to include information about the ticket into your message.
 
 |Failure|
@@ -104,6 +104,7 @@ The list of actions may contain multiple actions that will be executed sequentia
 .. |Failure| image:: ../_static/img/action-for-sla.png
    :alt: Action for SLA failure
 
-.. _actions: Triggers.html#actions
+.. _actions: General%20information.html#actions
 .. _tokens: Tokens%20and%20snippets.html
-.. _Conditions in SLA: Condition%20Syntax.html
+.. _Condition syntax: Condition%20syntax.html
+.. _triggers: General%20information.html#conditions

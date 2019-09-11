@@ -42,8 +42,8 @@ On the logs tab you can find history on what tickets task were performed. As wel
 
 Note that you can schedule a task not oftener than once in an hour.
 
-.. _Condition syntax: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Condition%20Syntax.html
-.. _actions: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html#actions
+.. _Condition syntax: Condition%20syntax.html
+.. _actions: General%20information.html#actions
 
 .. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
