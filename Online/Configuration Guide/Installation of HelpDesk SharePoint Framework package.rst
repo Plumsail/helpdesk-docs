@@ -1,4 +1,4 @@
-Installing Plumsail.HelpDesk package
+Installation of HelpDesk SharePoint Framework package
 ######
 
 .. note::
