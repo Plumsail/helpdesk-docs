@@ -1,3 +1,5 @@
+.. _upload-helpdesk-sppkg:
+
 Installation of HelpDesk SharePoint Framework package
 ######
 
