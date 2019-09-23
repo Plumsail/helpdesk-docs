@@ -24,7 +24,7 @@ If there is no app catalog created yet, you will see the following error:
 
 |AppCatalogError|
     
-This error can be solved manually using `this article <https://social.technet.microsoft.com/wiki/contents/articles/36933.create-app-catalog-in-sharepoint-online.aspx>`_
+This error can be solved manually using `this article <https://social.technet.microsoft.com/wiki/contents/articles/36933.create-app-catalog-in-sharepoint-online.aspx>`_.
 
 "Plumsail HelpDesk" app should be deployed to the tenant app catalog.
 ================================================================== 
@@ -37,7 +37,7 @@ you will be asked for tenant admin credentials:
 To automatically deploy "Plumsail HelpDesk" app in the app catalog, 
 please enter tenant admin credentials and click "Update".
 
-If you don't want to enter the credentials, please do the steps described in this article: :ref:`upload-helpdesk-sppkg`.
+If you don't want to enter the credentials, please do the steps described in this article: :ref:`upload-helpdesk-sppkg`
 and click "Update" again.
 
 
