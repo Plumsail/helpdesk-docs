@@ -1,13 +1,21 @@
 How to upgrade to 2.1.1
 #####################################################
 
+2.1.1 is the major update.
+
+Most of UI parts will be changed from Classic to Modern.
+
+Ticket and contact forms will be overwritten.
+
+.. note:: 
+    You can switch your UI back to Classic after update (link)
+    
+
 Navigate to settings using the icon in the navbar:
 
 |SettingsIcon|
 
-Go to "About" tab
-
-|AboutTab|
+Then click on the “About” tab. Now you can see available updates.
 
 Click "Update" and confirm you want to update.
 
@@ -41,10 +49,8 @@ If you don't want to enter the credentials, please do the steps described in thi
 and click "Update" again.
 
 
-.. |SettingsIcon| image:: ../_static/img/upgrade-2-1-1/upgrade211_step1.png
+.. |SettingsIcon| image:: ../../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |AboutTab| image:: ../_static/img/upgrade-2-1-1/upgrade211_step2.png
-   :alt: About tab
 .. |Update| image:: ../_static/img/upgrade-2-1-1/upgrade211_step3.png
    :alt: Update
 .. |Confirm| image:: ../_static/img/upgrade-2-1-1/upgrade211_step4.png
