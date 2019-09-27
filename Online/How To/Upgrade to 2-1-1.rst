@@ -21,7 +21,9 @@ New features:
     - Contact forms will be reset to default.
 
 .. note:: 
-    You can switch your UI back to Classic after update (link)
+    You can switch your UI back to Classic after update.
+
+    Please read this article for more details: :ref:`back-to-classic`
     
 
 Navigate to settings using the icon in the navbar:
