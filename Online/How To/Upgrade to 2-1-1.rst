@@ -70,7 +70,7 @@ please enter tenant admin credentials and click "Update".
     and click "Update" again.
 
 
-.. |SettingsIcon| image:: ../../_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
 .. |Update| image:: ../_static/img/upgrade-2-1-1/upgrade211_step3.png
    :alt: Update
