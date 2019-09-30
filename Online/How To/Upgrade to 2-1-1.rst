@@ -42,10 +42,9 @@ The app catalog is used to install the Sharepoint Framework app (SPFx), which ad
 
 If there is no app catalog created yet, you will see the following error:   
 
-.. error::
-    App catalog not found. Please create App catalog using `this article <https://social.technet.microsoft.com/wiki/contents/articles/36933.create-app-catalog-in-sharepoint-online.aspx>`_.
+|AppCatalogError|
 
-Create app catalog and click "Try again":
+Create app catalog using `this article <https://social.technet.microsoft.com/wiki/contents/articles/36933.create-app-catalog-in-sharepoint-online.aspx>`_ and click "Try again":
 |TryAgain|
     
 
@@ -70,7 +69,9 @@ If you don't want to enter the credentials, please do the steps described in thi
    :alt: Update
 .. |Confirm| image:: ../_static/img/upgrade-2-1-1/upgrade211_step4.png
    :alt: Confirm
-.. |TryAgain| image:: ../_static/img/upgrade-2-1-1/upgrade211_try_again.png
+.. |AppCatalogError| image:: ../_static/img/upgrade-2-1-1/upgrade211_appcatalog.png
    :alt: App catalog not found
+.. |TryAgain| image:: ../_static/img/upgrade-2-1-1/upgrade211_try_again.png
+   :alt: Try again
 .. |CredentialsRequired| image:: ../_static/img/upgrade-2-1-1/upgrade211_credentials.png
    :alt: Credentials required
