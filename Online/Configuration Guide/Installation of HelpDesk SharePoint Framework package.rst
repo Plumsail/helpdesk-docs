@@ -37,17 +37,17 @@ If you don’t have ‘App Catalog’ yet, you will be able to create a new one:
 
 Just fill in ‘Title’, ‘Web Site Address’, ‘Administrator’ and ‘Storage Quota’ and click ‘OK’. For example:
 
- - Title – App Catalog Site
- - Web Site address – AppCatalog
- - Administrator – Fill in your account name
- - Storage Quota – 10 GB
+- Title – App Catalog Site
+- Web Site address – AppCatalog
+- Administrator – Fill in your account name
+- Storage Quota – 10 GB
 
 |NewAppCatalog|
 
 Install add-in
 -------------------------
 
- Navigate to ‘Apps for SharePoint’ and upload Add-in package that you downloaded (you need to upload to the App Catalog the whole .sppkg file without unpacking it):
+Navigate to ‘Apps for SharePoint’ and upload Add-in package that you downloaded (you need to upload to the App Catalog the whole .sppkg file without unpacking it):
 
 |UploadSPPKG|
 
