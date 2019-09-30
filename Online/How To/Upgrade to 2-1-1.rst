@@ -38,9 +38,7 @@ HelpDesk will check the following requirements:
 App catalog should be created. 
 ============================== 
 
-The app catalog is used to install the Sharepoint Framework solution (SPFx).
-
-SPFx adds Modern UI features to your HelpDesk.
+The app catalog is used to install the Sharepoint Framework app (SPFx), which adds Modern UI features to your HelpDesk.
 
 If there is no app catalog created yet, you will see the following error:   
 
