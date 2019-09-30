@@ -8,15 +8,15 @@ How to return to Classic UI
     We don't recommend to return to the Classic UI without the need.
 
 
-#. Navigate to settings using the navbar:
+1. Navigate to settings using the navbar:
 
-     |SettingsLink|
+|SettingsLink|
 
-#. Click on the “Appearance” tab and uncheck "Use Modern UI".
+2. Click on the “Appearance” tab and uncheck "Use Modern UI".
 
-     |CheckBox|
+|CheckBox|
 
-#. To restore default forms please follow `this instruction <https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Ticket%20and%20contact%20forms%20customization%20(before%202.1.1).html#restore-default-forms>`_
+3. To restore default forms please follow `this instruction <https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Ticket%20and%20contact%20forms%20customization%20(before%202.1.1).html#restore-default-forms>`_
 
 
 .. |SettingsLink| image:: ../_static/img/howto-returntoclassic-navbar-settings.png
