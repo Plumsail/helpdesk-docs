@@ -61,9 +61,7 @@ you will be asked for tenant admin credentials:
 To automatically deploy "Plumsail HelpDesk" app in the app catalog, 
 please enter tenant admin credentials and click "Update".
 
-.. note::
-    If you don't want to enter the credentials, please do the steps described in this article: :ref:`upload-helpdesk-sppkg`
-    and click "Update" again.
+If you don't want to enter the credentials, please do the steps described in this article: :ref:`upload-helpdesk-sppkg` and click "Update" again.
 
 
 .. |SettingsIcon| image:: ../_static/img/settingsicon.png
