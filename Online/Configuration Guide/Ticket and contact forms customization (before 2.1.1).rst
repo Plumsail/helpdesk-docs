@@ -1,4 +1,4 @@
-Customize ticket and contact forms
+Customize ticket and contact forms (before 2.1.1)
 ##################################
 
 .. contents:: Table of contents
