@@ -14,11 +14,10 @@ New features:
 
 
 
-.. warning:: 
-    This update will erase some settings:
+This update will erase some settings:
 
-    - Ticket forms will be reset to default.
-    - Contact forms will be reset to default.
+- Ticket forms will be reset to default.
+- Contact forms will be reset to default.
 
 .. note:: 
     You can switch your UI back to Classic after update.
