@@ -20,10 +20,7 @@ This update will erase some settings:
 - Contact forms will be reset to default.
 
 .. note:: 
-    You can switch your UI back to Classic after update.
-
-    Please read this article for more details: :ref:`back-to-classic`
-    
+    You can `switch your UI back to Classic <Return%20to%20Classic.html>`_ after update.    
 
 Navigate to settings using the icon in the navbar:
 |SettingsIcon|
