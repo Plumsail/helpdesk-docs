@@ -726,20 +726,17 @@ Creates new contact and returns it.
     *  -  Parameter
        -  Description
        -  Example
-    *  -  updateIfExists
-       -  If contact with specified email already exists and updateIfExists parameter is set to Yes, contact information will be updated
-       -  Yes
     *  -  Contact Name
        -  Full name of the contact
        -  Mary Cane
     *  -  Contact Email
-       -  Email of the contact
+       -  HelpDesk checks Email from this field and if it founds an SPUser with one, it will create a contact with "Member" role by default. Otherwise, it creates "End-User" one
        -  m.cane@example.com
     *  -  Contact SPUserId
-       -  You can provide SPUser ID instead of contact email, if you want to create Agent or Member
+       -  You can provide SPUser ID instead of contact email, if you want to create Agent or Member. The field is not mandatory
        -  15
     *  -  Contact Role
-       -  Role of the contact  in HelpDesk
+       -  Role of the contact in HelpDesk. The field is not mandatory
        -  En-User, Member or Agent
     *  -  Contact Alterate Email
        -  Alterate email address for the contact
@@ -751,7 +748,11 @@ Creates new contact and returns it.
             {
                 "Location": "USA",
                 "PhoneNumber": "(123)123-1234"
-            }  
+            }
+            
+    *  -  Update if exists
+       -  If contact with specified email already exists and "Update if exists" parameter is set to "Yes", contact information will be updated
+       -  Yes
 
 .. rubric:: Example
 
