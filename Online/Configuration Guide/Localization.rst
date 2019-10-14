@@ -20,12 +20,13 @@ For a newly created instances you will be able:
 
 Available languages:
 
-- English
-- German
-- Dutch
-- Norwegian
 - Czech
+- Dutch
+- English
+- French
+- German
 - Italian
+- Norwegian
 - Swedish
 
 If you want to add support of new language, please send request to support@plumsail.com.
