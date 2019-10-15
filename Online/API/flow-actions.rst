@@ -730,10 +730,10 @@ Creates new contact and returns it.
        -  Full name of the contact
        -  Mary Cane
     *  -  Contact Email
-       -  HelpDesk checks Email from this field and if it founds an SPUser with one, it will create a contact with "Member" role by default. Otherwise, it creates "End-User" one
+       -  HelpDesk checks Email from this field and if it founds a SharePoint user with one, it will create a contact with "Member" role by default. Otherwise, it creates "End-User" one
        -  m.cane@example.com
     *  -  Contact SPUserId
-       -  You can provide SPUser ID instead of contact email, if you want to create Agent or Member. The field is not mandatory
+       -  You can provide a SharePoint user ID instead of contact Email, if you want to create Agent or Member. The field is not mandatory
        -  15
     *  -  Contact Role
        -  Role of the contact in HelpDesk. The field is not mandatory
