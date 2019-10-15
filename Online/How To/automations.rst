@@ -15,3 +15,4 @@ Automations
     Start a workflow with a trigger
     Submit tickets from an online form with the help of Microsoft Flow <Submit tickets from an online form to SharePoint help desk with the help of Microsoft Flow or Azure Logic Apps connector>
     Close tickets if customer hasn't replied <Close tickets if customer hasn't replied in SharePoint help desk system>
+    Import Office 365 users into contacts list <Import Office 365 users into contacts list>

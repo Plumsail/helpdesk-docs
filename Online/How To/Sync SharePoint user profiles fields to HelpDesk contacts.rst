@@ -29,7 +29,7 @@ Then add a new action which will update fields in Contacts list in SharePoint if
 
 |Update|
 
-Don't forget to save the new new flow.
+Don't forget to save the new flow.
 
 .. |SuiteBar| image:: ../_static/img/flow-button.png
    :alt: Office 365 suite bar
