@@ -13,7 +13,7 @@ Installation of HelpDesk SharePoint Framework package
 Download add-in
 -------------------------
 
-Download the `add-in <https://static-hd.plumsail.com/spfx/Plumsail.HelpDesk.sppkg>`_ from our website.
+Download the `add-in <https://static-hd.plumsail.com/ModernUI/spfx/Plumsail.HelpDesk.sppkg>`_ from our website.
 
 
 Create App Catalog
