@@ -1,6 +1,20 @@
 Version history
 ###############
 
+Version 2.1.1
+-------------
+
+.. important:: This is the major update. It may require manual actions. Follow `this instruction <../How%20To/Upgrade%20to%202-1-1.html>`_ to successfully update HelpDesk to the new version.
+
+New features:
+
+- Tickets list is migrated to Modern UI
+- Ticket forms are migrated to Modern UI
+- Contacts list is migrated to Modern UI
+- Contact forms are migrated to Modern UI
+- Right and top navigation are migrated to Modern UI
+- HelpDesk now uses `Plumsail Forms <https://plumsail.com/forms/>`_ instead of `Forms Designer <https://spform.com/>`_ for Modern forms customization.
+
 Version 1.5.10
 -------------
 
