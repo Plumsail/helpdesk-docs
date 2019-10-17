@@ -3,23 +3,28 @@ Import Office 365 Users into Contacts List of HelpDesk for SharePoint Online Usi
 
 Microsoft Flow is a universal tool for creating automated processes in which different apps and services can interact with each other.
 Since `Plumsail HelpDesk`_ has got own connector_ for it with a bunch of actions_, it widens automation opportunities of a HelpDesk service based on our product.
-In this article, I will review configuring of a flow for importing of Office 365 users into a HelpDesk contacts list.
-Though each SharePoint user in your domain is added to it automatically once he/she creates a ticket of signs in to a HelpDesk site, you may need to have all users in the list regardless that condition.
+In this article, I will review configuring of a flow for importing of Office 365 users into a HelpDesk contacts list or for updating the latter.
+In most cases, there is no need in such a synchronisation since HelpDesk adds contacts_ automatically when creating tickets on the basis of received E-mail messages or through a `web widget`_.
+However, importing or updating contacts may be useful in cases when communication with customers occurs personally, by phone, etc. and in any case not via HelpDesk.
+Automation of contacts processing can lighten the work of the support staff.
+
+Import Office 365 Users into HelpDesk Contacts List
++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 First, sign in to a `Microsoft Flow`_ site and go to the list of flows.
 
 |FlowList|
 
-Then create a new scheduled flow. You may choose another type of the one or replace then trigger by another according to your needs.
+Then create a new blank flow, name it and find a recurrence trigger.
+It will allow you to start the flow by schedule.
+You may choose another trigger or replace the one later according to your needs.
 
-|CreateNewFlow|
+|Trigger|
 
-In a pop-up window, specify a name of the flow to be created and a schedule according to which you want to start the flow.
-Click "Create."
+Configure the trigger as you wish. The one on the screenshot below will start the flow every day at 10:15 (UTC) starting on 17 October 2019.
 
-|ConfigureSchedule|
+|TriggerConfiguration|
 
-After, you will ber redirected to a page for editing the flow. Here you can edit the trigger and add other actions to be performed.
 Add a new step (action).
 
 |NewStep|
@@ -75,21 +80,53 @@ And check its results.
 
 As a result, the process of importing new users to teh list of contacts in HelpDesk is automated.
 
+Synchronisation of HelpDesk Contacts with Office 365 Users Profiles 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+When the task is not to add new contacts but keep the existing ones up to date, you can modify the flow to the following configuration.
+
+If you want to check updates about user’s status once in a day, use the same recurrence trigger.
+
+|NewStep|
+
+Next, add an action for SharePoint.
+It will get items from from the Contacts list of the SharePoint site on which HelpDesk is installed.
+Once you have selected SharePoint, you will need to log in.
+In advanced options you can filter query by role which equals to Member or Agent.
+
+|GetItems|
+
+After that, you need to configure "Apply to each" loop which makes possible to control the list that you repeat over.
+
+|Loop|
+
+Then add a "Get user profile" action for Office 365.
+
+|GetUser|
+
+As next step, add a new action which will update fields in Contacts list in SharePoint if there were some changes in user profiles in Office 365.
+Note that "Is enabled" field was created manually.
+You can find information how to create a new column `here`_.
+
+|Update|
+
+Don't forget to save the new flow.
+
 .. |FlowList| image:: ../_static/img/HowTo_ImportUsers_FlowList.png
    :alt: List of flows
    :width: 550
 
-.. |CreateNewFlow| image:: ../_static/img/HowTo_ImportUsers_CreateNewFlow.png
+.. |Trigger| image:: ../_static/img/HowTo_ImportUsers_Trigger.png
    :alt: Create new scheduled flow
    :width: 550
 
-.. |ConfigureSchedule| image:: ../_static/img/HowTo_ImportUsers_ConfigureSchedule.png
+.. |TriggerConfiguration| image:: ../_static/img/HowTo_ImportUsers_TriggerConfiguration.png
    :alt: Create new scheduled flow
-   :width: 650
+   :width: 550
 
 .. |NewStep| image:: ../_static/img/HowTo_ImportUsers_NewStep.png
    :alt: Create new scheduled flow
-   :width: 650
+   :width: 550
 
 .. |OfficeConnector| image:: ../_static/img/HowTo_ImportUsers_OfficeConnector.png
    :alt: Create new scheduled flow
@@ -131,8 +168,23 @@ As a result, the process of importing new users to teh list of contacts in HelpD
    :alt: Create new scheduled flow
    :width: 550
 
+.. |GetItems| image:: ../_static/img/get-items-with-filter.png
+   :alt: Get items
+
+.. |Loop| image:: ../_static/img/apply-to-each.png
+   :alt: Loop action
+
+.. |GetUser| image:: ../_static/img/get-user-profile-office.png
+   :alt: Get user profiles
+
+.. |Update| image:: ../_static/img/update-items-in-contacts.png
+   :alt: Update items
+
 .. _Plumsail HelpDesk: https://plumsail.com/sharepoint-helpdesk/
 .. _connector: ../API/ms-flow.html
 .. _actions: ../API/flow-actions.html
 .. _Microsoft Flow: https://us.flow.microsoft.com/en-us/
 .. _Create a contact: ../API/flow-actions.html#create-a-contact
+.. _contacts: ../User%20Guide/Contacts.html
+.. _web widget: ../Configuration%20Guide/Widget.html
+.. _here: https://plumsail.com/blog/2016/07/quick-tip-how-to-add-a-new-column-to-tickets-list-and-form-in-sharepoint-help-desk/
