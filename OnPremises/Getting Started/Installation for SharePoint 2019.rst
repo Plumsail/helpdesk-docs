@@ -26,17 +26,17 @@ WSP installation for SharePoint 2019
 
 `Download WSP package`_  and place it to one of the servers in your Sharepoint 2019 farm. Run Sharepoint 2019 Management Shell as administrator.
 
-|WspInstallation1|
+|Shell|
 
-|WspInstallation2|
+|RunAs|
 
 Type Add-SPSolution <path to wsp-package>.
 
-|cmd|
+|Command|
 
 Open Central Administration as administrator, then "System Settings" and move to "Manage farm solutions". Select plumsail.helpdesk.wsp and press "Deploy Solution" link.
 
-|SolutionProp|
+|Deployment|
 
 Go to your application. Select Site Settings item in the root of the site collection. Choose Site collection features in Site Collection Administration section.
 
@@ -61,14 +61,14 @@ After that, you can continue with `configuration`_.
    :alt: Activate Plumsail HelpDesk
 .. |HDInstaller| image:: ../_static/img/installer.png
    :alt: HelpDesk Installer
-.. |WspInstallation1| image:: ../_static/img/WspInstallation1.png
-   :alt: WSP Installation
-.. |WspInstallation2| image:: ../_static/img/WspInstallation2.png
-   :alt: WSP Installation
-.. |cmd| image:: ../_static/img/cmd.png
-   :alt: CMD
-.. |SolutionProp| image:: ../_static/img/SolutionProp.png
-   :alt: Solution Properties
+.. |Shell| image:: ../_static/img/GettingStarted_InstallationSP2019_Shell.png
+   :alt: Starting of SharePoint Mangement Shell
+.. |RunAs| image:: ../_static/img/GettingStarted_InstallationSP2019_RunAs.png
+   :alt: Running as administrator
+.. |Command| image:: ../_static/img/GettingStarted_InstallationSP2019_Command.png
+   :alt: Management Shell command
+.. |Deployment| image:: ../_static/img/GettingStarted_InstallationSP2019_Deployment.png
+   :alt: Solution deployment
 .. |SiteFeatures| image:: ../_static/img/SiteFeatures.png
    :alt: Sites Features
 .. |PFeature| image:: ../_static/img/HD_Feature_2013.png

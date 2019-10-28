@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'HelpDesk for SharePoint 2013/2016'
+project = 'HelpDesk for SharePoint On-Premises'
 copyright = '2018, Plumsail'
 author = 'Plumsail'
 
@@ -124,7 +124,7 @@ extensions.append("guzzle_sphinx_theme")
 # Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
     # Set the name of the project to appear in the sidebar
-    "project_nav_name": "HelpDesk for SharePoint 2013/2016ises",
+    "project_nav_name": "HelpDesk for SharePoint On-Premises",
     # Set your Disqus short name to enable comments
     # "disqus_comments_shortname": "plumsail",
 
@@ -182,7 +182,7 @@ html_context = {
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
-#html_title = 'Plumsail HelpDesk for SharePoint 2013/2016 Documentation'
+#html_title = 'Plumsail HelpDesk for SharePoint On-Premises Documentation'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
