@@ -3,8 +3,8 @@ How to add quick actions to the context menu of tickets
 
 Plumsail Helpdesk has `Microsoft Flow Connector`_ which helps you to manipulate data in your HelpDesk with the help of Microsoft Flow.
 To start using it you need to `Create an API key`_ and  `Review available actions`_ .
-In this article we'll work with PLumsail Helpdesk connector to add quick actions to the context menu of tickets, specifically to resolve a ticket without opening it.
-Of course, you can use this approach for other scenarios. 
+In this article we'll work with Plumsail Helpdesk connector to add quick actions to the context menu of tickets, specifically to resolve a ticket without opening it.
+Of course, you can use this approach with other scenarios. 
 
 Creating API key
 ##############################################################
