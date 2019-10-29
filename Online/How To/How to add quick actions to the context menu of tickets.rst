@@ -35,7 +35,7 @@ Now we move further and create a flow which is going to resolve the tickets.
 
 Then we can start the flow for selected ticket. Check it out
 
-.. image:: ../_static/img/start-flow-for-selected-ticket.png.png
+.. image:: ../_static/img/start-flow-for-selected-ticket.png
    :alt: Start flow
 
 
@@ -43,7 +43,7 @@ Creating flow
 ##############################################################
 
 The same manner you can manage the tickets statuses depending on the situation and your goals.
-Microsoft Flow and Plumsail Helpdesk connector is a power tandem which allows managing Plumsail helpdeks very efectively.
+Microsoft Flow and Plumsail Helpdesk connector is a power tandem which allows managing Plumsail Helpdesk very efectively.
 
 .. _Plumsail HelpDesk: https://plumsail.com/sharepoint-helpdesk/
 
