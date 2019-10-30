@@ -52,7 +52,7 @@ For example, you can design a flow which changes ticket's category, priority or 
 Conslusion
 ##############################################################
 
-Microsoft Flow and Plumsail Helpdesk connector is a power tandem which allows managing Plumsail Helpdesk very efectively.
+Microsoft Flow and Plumsail Helpdesk connector is a power tandem which allows managing Plumsail Helpdesk very effectively.
 
 .. _Plumsail HelpDesk: https://plumsail.com/sharepoint-helpdesk/
 
