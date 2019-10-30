@@ -39,10 +39,19 @@ Then we can start the flow for selected ticket. Check it out
    :alt: Start flow
 
 
-Creating flow
+Another example
 ##############################################################
 
 The same manner you can manage the tickets statuses depending on the situation and your goals.
+For example, you can design a flow which changes ticket's category, priority or due date and add the action to the ticket's context menu.
+
+.. image:: ../_static/img/another-example.png
+   :alt: Another examples
+
+
+Conslusion
+##############################################################
+
 Microsoft Flow and Plumsail Helpdesk connector is a power tandem which allows managing Plumsail Helpdesk very efectively.
 
 .. _Plumsail HelpDesk: https://plumsail.com/sharepoint-helpdesk/
