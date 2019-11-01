@@ -21,7 +21,7 @@ Once HelpDesk has been installed, you can go on to `configuration`_.
 .. _this article: ../Configuration%20Guide/Enabling%20scripting.html
 .. _configuration: Quick%20HelpDesk%20configuration.html
 
-.. |HelpDeskOnlineInstallAuthentication| image:: ../_static/img/wizard-0.png
+.. |HelpDeskOnlineInstallAuthentication| image:: ../_static/img/wizard-00.png
    :alt: Install Authentication
 
 .. |HelpDeskOnlineInstallSiteName| image:: ../_static/img/wizard-1.png
