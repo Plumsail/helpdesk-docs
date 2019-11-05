@@ -3,7 +3,7 @@ HelpDesk installation
 
 `Download`_ and run the setup file.
 
-Then specify your SharePoint tenant URL URL where a HelpDesk instance will be created:
+Then specify your SharePoint tenant URL where a HelpDesk instance will be created:
 
 |HelpDeskOnlineInstallAuthentication|
 
