@@ -5,39 +5,31 @@ Customize ticket and contact forms
     :local:
     :depth: 1
 
-In order to customize ticket and contact forms you need to install `Forms Designer <https://spform.com/>`_.
+In order to customize ticket and contact forms you need to install `Plumsail Forms for SharePoint online <https://plumsail.com/forms/>`_.
 It is available for free for HelpDesk customizations.
-Forms Designer allows to design SharePoint forms with tabs,
+Pluimsail Forms allows you to design SharePoint forms with tabs,
 complex tables, and accordions among other UI elements.
 
-.. important:: `Forms Designer <https://spform.com/>`_ is included into "Yacht" and "Ocean liner" plans. You have to purchase it separately for "Jet boat" plan.
+.. important:: `Plumsail Forms <https://plumsail.com/forms/>`_ is included into the "Yacht" and "Ocean liner" plans. You have to purchase it separately for the "Jet boat" plan.
 
-Using Forms Designer
+Using Plumsail Forms
 -------------------
 
-To start using Forms Designer please `download <https://services.spform.com/fd/app/setup.exe>`_ a desktop app and run the installation file on your computer. To connect to HelpDesk please run the app and enter your login details. Once it's connected to HelpDesk please choose a list you want to work with:
+To start using Plumsail Form, please `download <https://services.spform.com/fd/app/setup.exe>`_ a desktop app and run the installation file on your computer. To connect to HelpDesk, run the app, choose **Sharepoint** and specify your HelpDesk site URL. You'll be prompted for your login details. Once it connects to HelpDesk, please choose a list you want to work with:
 
-|RunningFormsDesigner|
+|PlumsailForms Sign in|
 
-You can find more information on how to use Forms Designer in `the
+You can find more information on how to use Plumsail Forms in `the
 documentation`_.
 
 Create custom forms
 -------------------
 
-In order to customize a form with Forms Designer navigate to the list
-the form is based on and select List or Library tab in the ribbon. There
-you will find a new button called “Design Form” under the “Customize
-List” section:
-
-|HelpDeskFDRibbon|
-
-Clicking the button will load Forms Designer where you can edit your
+In order to customize a form with Plumsail Forms connect to the list
+the form is based on. This will open the form editor where you can customize your
 form in a simple drag-and-drop fashion:
 
-|FormsDesigner|
-
-.. _forms backups:
+|Plumsail Forms Interface|
 
 Restore default forms
 ---------------------
@@ -62,24 +54,24 @@ TicketStatuses
 
 For example, to restore ticket edit form you need to do following steps:
 
-1. Download file from ``<your HelpDesk site>/HD/FormsBackups/Tickets/Item_edit.xfds``.
-2. Navigate to any tickets list view (for example click on "Home" button on navbar).
-3. Click on "Design Forms" button in the ribbon.
-4. Select "Edit Form" in Forms Designer.
-5. Click on "Import" button.
-6. Select downloaded file "Item_edit.xfds".
-7. Save the form. 
-
-.. _Forms Designer: https://store.office.com/plumsail-forms-designer-WA104231938.aspx?assetid=WA104231938
-.. _the documentation: http://spform.com/documentation
+1. Download file from ``<your HelpDesk site>/HD/FormsBackups/Tickets/Modern/Ticket_Edit.xfds``.
+2. Connect to the Tickets list with Plumsail Forms.
+3. Click on the **Import** button.
+4. Select the downloaded file ``Ticket_Edit.xfds``.
+5. Select **Edit** in the upper right corner of the Plumsail Forms window.
+6. Save the form.
+ 
+.. _Plumsail Forms: https://plumsail.com/forms/
+.. _the documentation: https://plumsail.com/docs/forms-sp/index.html
 
 .. |HelpDeskFDRibbon| image:: ../_static/img/helpdeskfdribbon.png
    :alt: Forms Designer Ribbon
-.. |FormsDesigner| image:: ../_static/img/formsdesigner.png
-   :alt: Forms Designer
-.. |FormsBackupsFolder| image:: ../_static/img/forms-backups-0.png
+.. |PlumsailForms Sign in| image:: ../_static/img/plumsail-forms-sign-in.png
+   :alt: Plumsail Forms Sign in
+.. |Plumsail Forms Interface| image:: ../_static/img/plumsail-forms-interface.png
+    :alt: Plumsail Forms Interface
+.. |FormsBackupsFolder| image:: ../_static/img/forms-backups-1.png
    :alt: Forms Backups Folder
-.. |TicketFormsBackups| image:: ../_static/img/forms-backups-1.png
-   :alt: Forms Backups Folder
-.. |RunningFormsDesigner| image:: ../_static/img/Forms-Designer-in-HD.jpg
-   :alt: Running Forms Designer
+.. |TicketFormsBackups| image:: ../_static/img/forms-backups-2.png
+   :alt: Tickets Backups Folder
+
