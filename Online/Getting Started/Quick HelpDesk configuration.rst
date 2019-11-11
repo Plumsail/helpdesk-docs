@@ -17,11 +17,7 @@ Forward messages from your support mailbox
 
 If you want to receive new tickets from your support email address you
 need to configure message forwarding. Navigate to HelpDesk settings
-using the icon in the navbar:
-
-|SettingsIcon|
-
-You will see the “Email settings” section.
+using the left navbar. You will see the **Email settings** section.
 
 |HDEmailSettings|
 
@@ -60,7 +56,7 @@ customers will reply to your own support mailbox.
 You also can specify a friendly display name for your email address. By
 default, it is “HelpDesk”.
 
-|HDEmailSettingsReply|
+|HDEmailSettings|
 
 .. _create-contacts:
 
@@ -81,12 +77,10 @@ End-User
 
 End-Users and Members are created automatically, when a new ticket is created or when a user visits help desk for the first time. The only case when you need to do something manually is when you create a new agent or convert an existing contact to an agent by changing his role. Once you created an agent, you can start receiving notifications about new unassigned tickets.
 
-To create a new contact, navigate to “Contacts” using the icon in the
-right navbar:
+To create a new contact, navigate to **Contacts** using left navbar.
+Then click on **New**, specify mandatory fields and submit the form:
 
-|ContactsNav|
-
-Then specify mandatory fields and submit the form.
+|Create Contact|
 
 .. _place-widget:
 
@@ -107,11 +101,7 @@ Notice that adding a widget is optional.
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
 .. _here: ../Configuration%20Guide/Widget.html
 
-.. |SettingsIcon| image:: ../_static/img/settingsicon.png
-   :alt: Settings Navigation Icon
 .. |HDEmailSettings| image:: ../_static/img/email-settings-0.png
    :alt: Email Settings
-.. |HDEmailSettingsReply| image:: ../_static/img/email-settings-1.png
-   :alt: Email Reply Settings
-.. |ContactsNav| image:: ../_static/img/contactsnav.png
-   :alt: Contacts Navigation Icon
+.. |Create Contact| image:: ../_static/img/getting-started-quick-helpdesk-configuration-0.png
+    :alt: Create Contact
