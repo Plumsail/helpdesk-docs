@@ -5,7 +5,7 @@ Customize ticket and contact forms
     :local:
     :depth: 1
 
-.. note:: If you are using Plumsail HelpDesk with version older than 2.1.1, please follow  `this link <deprecated/Ticket and contact forms customization (before 2.1.1).html>`_ to learn about forms customization for your version of HelpDesk.
+.. note:: If you are using Plumsail HelpDesk with version older than 2.1.1, please follow  `this link <deprecated/Ticket%20and%20contact%20forms%20customization(before%202.1.1).html>`_ to learn about forms customization for your version of HelpDesk.
 
 In order to customize ticket and contact forms you need to install `Plumsail Forms for SharePoint online <https://plumsail.com/forms/>`_.
 It is available for free for HelpDesk customizations.
