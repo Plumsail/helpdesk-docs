@@ -28,7 +28,7 @@ Create custom forms
 -------------------
 
 In order to customize a form with Plumsail Forms connect to the list
-the form is based on. This will open the form editor where you can customize your
+the form is based on. This will open  the form editor where you can customize your
 form in a simple drag-and-drop fashion:
 
 |Plumsail Forms Interface|
