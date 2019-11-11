@@ -14,17 +14,15 @@ Triggers List
 
 :Location:
 
-Navigate to the settings using the icon in the navbar:
+Navigate to the settings using navbar.
 
-|SettingsIcon|
-
-Then click the "Triggers" tab. Here you can find the list of the pre-defined notification triggers. All of them are active but you can uncheck this option in trigger's configuration menu.
+Then click the  **Triggers**  tab. Here you can find the list of the pre-defined notification triggers. All of them are active but you can uncheck this option in trigger's configuration menu.
 
 |hd-triggers|
 
 :Manage the List:
 
-As on any SharePoint list, you can create new items (a "new item" link) and get access to a quick edit mode (an "edit" link) to change some of triggers properties without opening each one separately. For example, you can deactivate some of the triggers that you don't need. When you have done with editing, just click a "Stop" link.
+As on any SharePoint list, you can create new items (a **new item** link) and get access to a quick edit mode (an  **edit**  link) to change some of triggers properties without opening each one separately. For example, you can deactivate some of the triggers that you don't need. When you have done with editing, just click a  **Stop**  link.
 
 |triggersList_quickEdit|
 
