@@ -1,7 +1,7 @@
 How to add quick actions to the context menu of tickets
 ##############################################################
 
-Plumsail Helpdesk has `Microsoft Flow Connector`_ which helps you to manipulate data in your HelpDesk with the help of Microsoft Flow.
+`Plumsail Helpdesk for Office 365`_ has `Microsoft Flow Connector`_ which helps you to manipulate data in your HelpDesk with the help of Microsoft Flow.
 To start using it you need to `Create an API key`_ and  `Review available actions`_ .
 In this article we'll work with Plumsail Helpdesk connector to add quick actions to the context menu of tickets, specifically to resolve a ticket without opening it.
 Of course, you can use this approach with other scenarios. 
@@ -16,19 +16,39 @@ Let's create an API key in the Helpdesk settings
 .. image:: ../_static/img/test-key.png
    :alt: Test API key
 
-We need to copy the API key and then use it in Microsoft Flow
+We need to copy the API key and then use it in Microsoft Flow. 
 
 .. image:: ../_static/img/test-key1.png
    :alt: Test API key
 
-.. image:: ../_static/img/flow-connection.png
+Open Micsoft Flow website and go to connections
+
+.. image:: ../_static/img/flow-connections.png
    :alt: Microsoft Flow Connection
+
+Search for Plumsail Helpdesk connector, select it and paste our API key
+
+.. image:: ../_static/img/helpdesk-connector.png
+   :alt: Helpdesk connector
+
+
+Ok, now we've connected MS Flow Helpdesk connector to our Helpdesk instance and ready to move on.
 
 
 Creating flow
 ##############################################################
 On this step we've already created MS Flow connection using our Helpdesk API key. 
 Now we move further and create a flow which is going to resolve the tickets.
+We start the flow with Microsoft SharePoint action "For a selected item". 
+We need the action to pick the selected Ticket ID and pass to the Helpdesk action `Update a ticket`_.
+I specify the Helpdesk site address and the list name "Tickets".
+
+.. image:: ../_static/img/for-selected-item.png
+   :alt: For a selected item action
+
+Then I search for Helpdesk connector
+
+
 
 .. image:: ../_static/img/resolve-ticket-flow.png
    :alt: Microsoft Flow
@@ -52,11 +72,15 @@ For example, you can design a flow which changes ticket's category, priority or 
 Conslusion
 ##############################################################
 
-Microsoft Flow and Plumsail Helpdesk connector is a power tandem which allows managing Plumsail Helpdesk very effectively.
+Microsoft Flow and `Plumsail Helpdesk connector`_ is a power tandem which allows managing Plumsail Helpdesk very effectively.
 
-.. _Plumsail HelpDesk: https://plumsail.com/sharepoint-helpdesk/
+.. _Plumsail Helpdesk for Office 365: https://plumsail.com/docs/help-desk-o365/v1.x/
 
-.. _Microsoft Flow Connector: ../API/ms-flow.html
+.. _Update a ticket: https://plumsail.com/docs/help-desk-o365/v1.x/API/flow-actions.html#update-a-ticket
+
+.. _Microsoft Flow Connector: https://emea.flow.microsoft.com/en-us/connectors/shared_plumsailhelpdesk/plumsail-helpdesk/
+
+.. _Plumsail Helpdesk connector: ../API/ms-flow.html
 
 .. _Create an API key: ../API/get-api-key.html
 
