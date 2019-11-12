@@ -48,6 +48,10 @@ I specify the Helpdesk site address and the list name "Tickets".
 
 Then I search for Helpdesk connector
 
+.. image:: ../_static/img/search-for-helpdesk-connector.png
+   :alt: Search for Helpdesk connector
+
+Select `Update a ticket`_ action, specify the Ticket ID from the previous step and put ticket status "Solved".
 
 
 .. image:: ../_static/img/resolve-ticket-flow.png
