@@ -1,5 +1,5 @@
-How to add quick actions to the context menu of tickets
-##############################################################
+How to add quick actions to the context menu of tickets in SharePoint HelpDesk
+##############################################################################
 
 `Plumsail Helpdesk for Office 365`_ has `Microsoft Flow Connector`_ which helps you to manipulate data in your HelpDesk with the help of Microsoft Flow.
 To start using it you need to `Create an API key`_ and  `Review available actions`_ .
@@ -21,7 +21,7 @@ We need to copy the API key and then use it in Microsoft Flow.
 .. image:: ../_static/img/test-key1.png
    :alt: Test API key
 
-Open Micsoft Flow website and go to connections
+Open Micsoft Flow website and go to Connections
 
 .. image:: ../_static/img/flow-connections.png
    :alt: Microsoft Flow Connection
@@ -40,7 +40,7 @@ Creating flow
 On this step we've already created MS Flow connection using our Helpdesk API key. 
 Now we move further and create a flow which is going to resolve the tickets.
 We start the flow with Microsoft SharePoint action "For a selected item". 
-We need the action to pick the selected Ticket ID and pass to the Helpdesk action `Update a ticket`_.
+We need the action to pick the selected Ticket ID and pass it to the Helpdesk action `Update a ticket`_.
 I specify the Helpdesk site address and the list name "Tickets".
 
 .. image:: ../_static/img/for-selected-item.png
@@ -68,7 +68,7 @@ Another example
 
 The same manner you can manage the tickets statuses depending on the situation and your goals.
 For example, you can design a flow which changes ticket's category, priority or due date and add the action to the ticket's context menu.
-To achieve it we can add dropdown input for the initial action "For a selected item"
+To achieve it we can add dropdown input for the initial action "For a selected item".
 
 .. image:: ../_static/img/change-status-flow.png
    :alt: Change status flow
