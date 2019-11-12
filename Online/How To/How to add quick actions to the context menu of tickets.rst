@@ -79,7 +79,7 @@ Then we select the flow in the ticket context menu
    :alt: Change status context menu
 
 
-And we see the dropwon, select the status and run the flow
+And we see the dropdown, select the status and run the flow
 
 .. image:: ../_static/img/select-status.png
    :alt: Select status
