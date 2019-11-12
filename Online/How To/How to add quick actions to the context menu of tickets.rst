@@ -96,8 +96,8 @@ Microsoft Flow and `Plumsail Helpdesk connector`_ is a power tandem which allows
 
 .. _Microsoft Flow Connector: https://emea.flow.microsoft.com/en-us/connectors/shared_plumsailhelpdesk/plumsail-helpdesk/
 
-.. _Plumsail Helpdesk connector: ../API/ms-flow.html
+.. _Plumsail Helpdesk connector: https://plumsail.com/docs/help-desk-o365/v1.x/API/ms-flow.html
 
-.. _Create an API key: ../API/get-api-key.html
+.. _Create an API key: https://plumsail.com/docs/help-desk-o365/v1.x/API/get-api-key.html
 
-.. _Review available actions: ../API/flow-actions.html
+.. _Review available actions: https://plumsail.com/docs/help-desk-o365/v1.x/API/flow-actions.html
