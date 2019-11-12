@@ -70,18 +70,18 @@ The same manner you can manage the tickets statuses depending on the situation a
 For example, you can design a flow which changes ticket's category, priority or due date and add the action to the ticket's context menu.
 To achieve it we can add dropdown input for the initial action "For a selected item"
 
-.. image:: ../_static/img/change-status-flow.png.png
+.. image:: ../_static/img/change-status-flow.png
    :alt: Change status flow
 
 Then we select the flow in the ticket context menu
 
-.. image:: ../_static/img/change-status.png.png
-   :alt: Change status
+.. image:: ../_static/img/change-status.png
+   :alt: Change status context menu
 
 
 And we see the dropwon, select the status and run the flow
 
-.. image:: ../_static/img/select-status.png.png
+.. image:: ../_static/img/select-status.png
    :alt: Select status
 
 
