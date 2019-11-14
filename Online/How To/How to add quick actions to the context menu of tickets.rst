@@ -1,5 +1,5 @@
 How to add quick actions to the context menu of tickets in SharePoint HelpDesk
-##############################################################################
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Plumsail Helpdesk for Office 365`_ has `Microsoft Flow Connector`_ which helps you to manipulate data in your HelpDesk with the help of Microsoft Flow.
 To start using it you need to `Create an API key`_ and  `Review available actions`_ .
@@ -7,7 +7,7 @@ In this article we'll work with Plumsail Helpdesk connector to add quick actions
 Of course, you can use this approach with other scenarios. 
 
 Creating API key
-##############################################################
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Let's create an API key in the Helpdesk settings
 
 .. image:: ../_static/img/creating-api-key1.png
@@ -36,7 +36,7 @@ Ok, now we've connected MS Flow Helpdesk connector to our Helpdesk instance and 
 
 
 Creating flow
-##############################################################
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 On this step we've already created MS Flow connection using our Helpdesk API key. 
 Now we move further and create a flow which is going to resolve the tickets.
 We start the flow with Microsoft SharePoint action "For a selected item". 
@@ -64,7 +64,7 @@ Then we can start the flow for selected ticket. Check it out
 
 
 Another example
-##############################################################
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The same manner you can manage the tickets statuses depending on the situation and your goals.
 For example, you can design a flow which changes ticket's category, priority or due date and add the action to the ticket's context menu.
@@ -86,9 +86,9 @@ And we see the dropdown, select the status and run the flow
 
 
 Conslusion
-##############################################################
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Microsoft Flow and `Plumsail Helpdesk connector`_ is a power tandem which allows managing Plumsail Helpdesk very effectively.
+
 
 .. _Plumsail Helpdesk for Office 365: https://plumsail.com/docs/help-desk-o365/v1.x/
 
