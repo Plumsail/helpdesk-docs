@@ -11,3 +11,4 @@ Advanced
     Send SMS notifications from help desk with Microsoft Flow and Twilio
     Find the internal name of SharePoint column
     Restrict requesters to see only tickets created by them <How to restrict requesters to see only tickets created by them>
+    Add quick actions to the context menu of tickets <How to add quick actions to the context menu of tickets in SharePoint HelpDesk>
