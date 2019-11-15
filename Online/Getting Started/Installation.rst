@@ -18,11 +18,11 @@ Your HelpDesk site will be available under: **yourdomain**.sharepoint.com/sites/
 Once HelpDesk has been installed, you can go on to `configuration`_.   
 
 .. _Download: https://plumsail.com/sharepoint-helpdesk/download/
-.. _this article: ../../Configuration%20Guide/Enabling%20scripting.html
+.. _this article: ../Configuration%20Guide/Enabling%20scripting.html
 .. _configuration: Quick%20HelpDesk%20configuration.html
 
-.. |HelpDeskOnlineInstallAuthentication| image:: ../../_static/img/wizard-00.png
+.. |HelpDeskOnlineInstallAuthentication| image:: ../_static/img/wizard-00.png
    :alt: Install Authentication
 
-.. |HelpDeskOnlineInstallSiteName| image:: ../../_static/img/wizard-1.png
+.. |HelpDeskOnlineInstallSiteName| image:: ../_static/img/wizard-1.png
    :alt: HelpDesk Site Name
