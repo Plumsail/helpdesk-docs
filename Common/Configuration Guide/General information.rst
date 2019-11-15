@@ -202,37 +202,35 @@ You can unfold logs about each trigger run by ckicking the "Show logs" button. T
 .. _Change Comment Type to Private: #change-comment-type-to-private
 .. _internal names: ../How%20To/Find%20the%20internal%20name%20of%20SharePoint%20column.html
 
-.. |SettingsIcon| image:: ../_static/img/settingsicon.png
-   :alt: Settings Navigation Icon
-.. |hd-triggers| image:: ../_static/img/HD-All-triggers.png
+.. |hd-triggers| image:: ../../_static/img/HD-All-triggers.png
    :alt: HelpDesk Triggers
    :width: 700
-.. |HD-trigger| image:: ../_static/img/HD-trigger.png
+.. |HD-trigger| image:: ../../_static/img/HD-trigger.png
    :alt: Trigger - Notify Requester
    :width: 700
-.. |ExpandedAction| image:: ../_static/img/show-action.png
+.. |ExpandedAction| image:: ../../_static/img/show-action.png
    :alt: Expanded action - Send Email
-.. |LogHistory| image:: ../_static/img/log-history.png
+.. |LogHistory| image:: ../../_static/img/log-history.png
    :alt: Log history
-.. |AddNewAction| image:: ../_static/img/new-action.gif
+.. |AddNewAction| image:: ../../_static/img/new-action.gif
    :alt: Add new action
-.. |DnDAction| image:: ../_static/img/move-actions.gif
+.. |DnDAction| image:: ../../_static/img/move-actions.gif
    :alt: Drag and Drop action
-.. |triggersList_quickEdit| image:: ../_static/img/triggersList_quickEdit.png
+.. |triggersList_quickEdit| image:: ../../_static/img/triggersList_quickEdit.png
    :alt: Quick edit mode
    :width: 700
-.. |events| image:: ../_static/img/triggers_general_events.png
+.. |events| image:: ../../_static/img/triggers_general_events.png
    :alt: Quick edit mode
    :width: 700
-.. |conditions| image:: ../_static/img/triggers_general_conditions.png
+.. |conditions| image:: ../../_static/img/triggers_general_conditions.png
    :alt: Quick edit mode
    :width: 700
 .. |workflows| image:: ../_static/img/triggers_general_workflows.png
    :alt: Quick edit mode
    :width: 700
-.. |setField| image:: ../_static/img/triggers_general_setField.png
+.. |setField| image:: ../../_static/img/triggers_general_setField.png
    :alt: Quick edit mode
    :width: 700
-.. |commentType| image:: ../_static/img/triggers_general_commentType.png
+.. |commentType| image:: ../../_static/img/triggers_general_commentType.png
    :alt: Quick edit mode
    :width: 700
