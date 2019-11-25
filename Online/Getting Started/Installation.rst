@@ -20,10 +20,12 @@ Once HelpDesk has been installed, you can go on to `configuration`_.
 Known Issues
 ++++++++++++
 
-During installation, you can encounter some issues whether with creating a SharePoint site or with deploying different elements of HelpDesk.
-In such a case, just click "Try again" button of the wizard to repeat the failed steps.
-Frequently, the installation fails because of temporary problems on SharePoint side so if the previous step doesn't help, try to check `health status`_ of Office 365 services.
-If there are incidents which affect Office 365 or SharePoint Online services, wait until they are resolved and try to install HelpDesk again.
+Unfortunately, sometimes SharePoint Online experiences outages.
+Incidents that affect Office 365 or SharePoint Online can hinder to install HelpDesk.
+In this case, you will encounter errors which will be listed in the HelpDesk wizard.
+First of all, try to click "Try again" button of the wizard to repeat the failed steps.
+Then, if it doesn't help, check the `health status`_ of Office 365 services ("Health" feature of Microsoft 365 admin center).
+If there are problems that affect the specified services, wait until they are resolved and try to install HelpDesk again.
 
 .. _Download: https://plumsail.com/sharepoint-helpdesk/download/
 .. _this article: ../Configuration%20Guide/Enabling%20scripting.html
