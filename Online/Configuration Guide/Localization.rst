@@ -74,7 +74,7 @@ Open en-US.js file and click Open button.
 
 You will see a JSON, containing all strings that can be customized. They are stored in format "SectionName_StringName": "String value". In our case we will edit Ribbon_TabTitle string value. Let's change it to "HelpDesk tools". Save the file after editing and check if everything is fine. You may need to reload page twice to see your changes.
 
-|RibbonLocalization|
+|ReplyLocalization|
 
 .. note::
 	Not all srings in HelpDesk interface can be customized, you can send us a support request if you want to change something that does not exist in localization files.
@@ -99,12 +99,12 @@ Also you can customize any string in Widget interface just the same way as any o
 
 .. _Multiple Language User Interface (MUI): https://support.office.com/en-us/article/Choose-the-languages-you-want-to-make-available-for-a-site-s-user-interface-16d3a83c-05ab-4b50-8fbb-ff576a3351e8
 .. _Table of Language Culture Names: https://msdn.microsoft.com/ru-ru/library/ee825488(v=cs.20).aspx
-.. |HelpDeskOnlineSelectLanguage| image:: ../_static/img/select-lang.png
+.. |HelpDeskOnlineSelectLanguage| image:: ../_static/img/wizard-1.png
    :alt: Select Language
 .. |ModifyLocalizationFile| image:: ../_static/img/en-US.png
    :alt: Modify Localization File
-.. |RibbonLocalization| image:: ../_static/img/ribbon-localization.png
-   :alt: Ribbon Localization
+.. |ReplyLocalization| image:: ../_static/img/reply-localization.png
+   :alt: Reply Localization
 .. |WidgetLanguage| image:: ../_static/img/widget-lang.png
    :alt: Widget Language
 .. |WidgetCustomLanguage| image:: ../_static/img/widget-lang-custom.png
