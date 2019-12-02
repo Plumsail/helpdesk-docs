@@ -5,7 +5,7 @@ You can configure HelpDesk to create new tickets or ticket comments with
 email messages as well as specify some custom settings for the email
 address used for notifications.
 
-Navigate to settings using the the navbar.
+Navigate to settings using the navbar.
 You will see **Email settings** section.
 
 |HDEmailSettings|
