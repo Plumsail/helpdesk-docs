@@ -72,7 +72,7 @@ Open en-US.js file and click Open button.
 
 |ModifyLocalizationFile|
 
-You will see a JSON, containing all strings that can be customized. They are stored in format "SectionName_StringName": "String value". In our case we will edit Ribbon_TabTitle string value. Let's change it to "HelpDesk tools". Save the file after editing and check if everything is fine. You may need to reload page twice to see your changes.
+You will see a JSON, containing all strings that can be customized. They are stored in format "SectionName_StringName": "String value". We will edit the **TicketComents_CommentButtonAddReply** string value and change it to a simple **"Reply"**. Save the file after editing and check if everything is fine. You may need to reload page twice to see your changes.
 
 |ReplyLocalization|
 
