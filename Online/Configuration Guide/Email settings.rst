@@ -78,11 +78,15 @@ instructions and click “Save”. Also, you can test the correctness of entered
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
 
 
-.. |HDEmailSettings| image:: ../_static/img/email-settings-online-1.png
+.. |HDEmailSettings| image:: ../_static/img/online-configuration-email-settings-online-1.png
    :alt: Email Settings
+<<<<<<< HEAD
 .. |HDSMTPServerSettings| image:: ../_static/img/email-settings-online-2.png
 <<<<<<< HEAD
 >>>>>>> develop
    :alt: SMTP Server Settings
 =======
+>>>>>>> develop
+=======
+.. |HDSMTPServerSettings| image:: ../_static/img/online-configuration-email-settings-online-2.png
 >>>>>>> develop
