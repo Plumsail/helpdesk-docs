@@ -30,7 +30,7 @@ If you send a message to this address, it will appear in HelpDesk as a
 new ticket. If you reply to this message directly or via HelpDesk, the
 reply will appear as a comment in a ticket discussion. This mailbox is
 used to create tickets and comments in real time and does not store your
-messages. You can find more information in \ `this article`_.
+messages. You can find more information in `this article`_.
 
 You can use this address as the support email address of HelpDesk, but
 most likely you already have your own support e-mail address. That is
