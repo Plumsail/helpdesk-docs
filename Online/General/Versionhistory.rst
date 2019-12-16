@@ -1,6 +1,22 @@
 Version history
 ###############
 
+Version 2.1.3
+-------------
+
+New features:
+
+- Simplified widget installation.
+
+
+Version 2.1.2
+-------------
+
+New features:
+
+- Minor fixes and performance optimizations.
+
+
 Version 2.1.1
 -------------
 
