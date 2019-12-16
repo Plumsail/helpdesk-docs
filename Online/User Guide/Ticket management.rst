@@ -1,10 +1,14 @@
 Ticket management
 #################
 
+.. contents:: Contents
+   :local:
+   :depth: 1
+
 View ticket
 ~~~~~~~~~~~
 
-You can open up a ticket by clicking its title. You will be presented
+You can open up a ticket  by clicking its title. You will be presented
 with a form like this one:
 
 |view-ticket-form|
@@ -21,14 +25,11 @@ The ticket's change history can be opened by clicking the History tab:
 |history-tab|
 
 Once you opened the ticket form as the assignee, it is marked as read.
-But certainly, you may want to mark the ticket as unread right from the
+But you may want to mark the ticket as unread right from the
 form you are currently in. To do this open HelpDesk ribbon tab and click
 Mark as unread button (make sure you are the assignee of the ticket).
 
-You can also open a ticket by entering its ID in the box and hitting
-Enter.
-
-|hd-ribbon-tab|
+|mark-unread|
 
 Most of the ticket fields are displayed in the table on the right-hand
 side of the screen:
@@ -130,11 +131,11 @@ When the ticket is resolved, Agent should change its status to **Solved**.
    :alt: View Ticket Form
 .. |history-tab| image:: ../_static/img/history-tab.png
    :alt: History Tab
-.. |hd-ribbon-tab| image:: ../_static/img/hd-ribbon-tab.png
+.. |mark-unread| image:: ../_static/img/ticket-management-1.png
    :alt: HelpDesk Ribbon Tab
-.. |edit-item| image:: ../_static/img/edit-item.png
+.. |edit-item| image:: ../_static/img/ticket-management-2.png
    :alt: Edit Item
-.. |edit-ticket-context| image:: ../_static/img/edit-ticket-context.png
+.. |edit-ticket-context| image:: ../_static/img/ticket-management-3.png
    :alt: Edit Ticket Context
 .. |ticket-edit-comment| image:: ../_static/img/ticket-edit-comment.png
    :alt: Edit Ticket Comment
