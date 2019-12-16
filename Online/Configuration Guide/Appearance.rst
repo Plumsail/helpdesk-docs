@@ -14,11 +14,6 @@ display setting and a list of HelpDesk navigation elements.
 
 |navigationsets|
 
-.. contents:: Table of contents
-   :local:
-   :depth: 1
-
-
 Top menu customization 
 ~~~~~~~~~~~~~~~~~~~~~~
 
