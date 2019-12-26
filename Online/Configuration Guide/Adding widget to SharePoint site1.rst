@@ -1,6 +1,10 @@
 Adding widget to SharePoint site
 ######
 
+.. contents:: Table of contents
+   :local:
+   :depth: 1
+
 Installing Widget WebPart
 -------------------------
 
