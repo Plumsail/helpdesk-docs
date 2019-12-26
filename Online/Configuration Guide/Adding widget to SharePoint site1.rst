@@ -4,10 +4,10 @@ Adding widget to SharePoint site
 Installing Widget WebPart
 -------------------------
 
-Since helpdesk Modern UI release we included webpart of web widget into Modern UI package
+Since `Helpdesk Modern UI release <https://plumsail.com/docs/help-desk-o365/v1.x/General/Versionhistory.html#version-2-1-1>`_ we included webpart of web widget into Modern UI package
 and it's installed with Helpdesk by the installation wizard.
 
-After Helpdesk installation please follow the next steps to confugure Helpdesk web widget.
+After Helpdesk installation please follow the next steps to configure Helpdesk web widget.
 
 Creating widget configuration
 -----------------------------
