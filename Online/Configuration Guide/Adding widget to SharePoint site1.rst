@@ -73,24 +73,7 @@ Publish the page. Your HelpDesk widget is ready to use.
 
 |WidgetOnModernPage|
 
-Adding widget to classic SharePoint page
---------------------------------------
 
-Navigate to a page where you'd like to place a widget and open the page in the edit mode.
-
-Click ‘Insert → Web Part’. 
-
-Pick ‘Plumsail’ category in the list of web part categories.
-
-Pick ‘Plumsail HelpDesk Widget WebPart’ web part and click ‘Add’:
-
-|PickWPOnClassicPage|
-
-Once you added the web part you need to configure it. Just copy 'Configuration ID for SharePoint' from widget configuration form and paste it to corresponding web part property.
-
-Save the page. Your HelpDesk widget is ready to use.
-
-|WidgetOnClassicPage|
 
 .. |WidgetView| image:: ../_static/img/widgetview.png
    :alt: HelpDesk Widget
