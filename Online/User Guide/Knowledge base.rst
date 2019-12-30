@@ -10,7 +10,7 @@ You will see two sample category folders “Solutions” and “General”. They
 were created during HelpDesk installation. You can navigate to any of
 them and add new articles.
 
-To create a new article click **New** and select **Wiki Page**:
+To create a new article click **New** and  select **Wiki Page**:
 To create a new folder click **New** and select  **Folder**.
 
 |create-kb-article|
