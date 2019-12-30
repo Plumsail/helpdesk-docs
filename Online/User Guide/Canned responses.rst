@@ -1,17 +1,17 @@
 Canned responses
 ################
 
-Respond to common questions faster with canned responses. Your agents can create a predefined set of reply templates that they can send out with a single click. 
- 
-Navigate to settings using the icon in the navbar:   
-
-|SettingsIcon|
+Respond to common questions faster with canned responses. Your agents can create a predefined set of reply templates 
+that they can send out with a single click.  
+Navigate to settings using menu on the left.   
 
 Click on “Canned response” tab. Here you can find all canned responses which were created on this HelpDesk instance. To create a new canned response, click on New Canned Response.
 
 |NewResponse|
 
-Provide a title that you and your agents will easily understand and type your response template in the rich text editor. Also, you can set the visibility. If you set visibility to everyone, every user can view it and use it in responses. If you uncheck “Visible to everyone”, you will be the only user of that template.
+Provide a title that you and your agents will easily understand and type your response template in the rich text editor. 
+Also, you can set the visibility. If you set visibility to everyone, every user can view it and use it in responses.
+If you uncheck “Visible to everyone”, you will be the only user of that template.
 
 |NewTemplate|
 
@@ -22,10 +22,8 @@ Choose the response you'd like to add to your reply and that’s it.
 
 Note that you can create a new canned response straight from the ticket. 
 
-.. |SettingsIcon| image:: ../_static/img/settingsicon.png
-   :alt: Settings Navigation Icon
-.. |NewResponse| image:: ../_static/img/new-canned-response.jpg
-   :alt: New canned responsу
+.. |NewResponse| image:: ../_static/img/online-user-guide-canned-responces-01.png
+   :alt: New canned response
 .. |NewTemplate| image:: ../_static/img/new-template-for-response.jpg
    :alt: New canned response template
 .. |CannedResponseInAction| image:: ../_static/img/response-in-action.jpg
