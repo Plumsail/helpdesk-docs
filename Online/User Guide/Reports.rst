@@ -1,20 +1,17 @@
 Reports
 #######
 
-In this section, you are able to create diagrams based on all tickets,
-requesters, and agents. Here you can analyze efficiency and intensity of
+You can create diagrams based on all tickets,
+requesters, and agents. You can analyze efficiency and intensity of
 HelpDesk usage, personal productivity of each agent, find most active
 requesters and do other kinds of information analysis with your HelpDesk
 data.
 
-Go to Reports by clicking the appropriate button in the navbar:
-
-|reports-icon|
-
+Navigate to Reports with the navigation menu.
 On all pages (except “Overview”) you can apply quick date filters to
 only show data in the last: 7 days, 30 days, 6 months, year.
 
-You can modify charts using `Dashboard Designer`_. It is another
+You can modify charts using `Dashboard Designer`_. **Note** that it is another
 Plumsail product with a separate pricing.
 
 Overview
@@ -87,8 +84,6 @@ Average satisfaction
 
 .. _Dashboard Designer: http://spchart.com/
 
-.. |reports-icon| image:: ../_static/img/reports-icon.png
-   :alt: Reports Navigation Icon
 .. |overview| image:: ../_static/img/OverviewReports.png
    :alt: Overview
 .. |by-date| image:: ../_static/img/by-date.png
