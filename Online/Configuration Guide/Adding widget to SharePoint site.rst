@@ -1,47 +1,17 @@
 Adding widget to SharePoint site
 ######
 
+.. contents:: Table of contents
+   :local:
+   :depth: 1
+
 Installing Widget WebPart
 -------------------------
 
-HelpDesk Widget for SharePoint sites is a `SharePoint Framework <https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview>`_ add-in that can be added both on classic and modern SharePoint pages. Unfortunately, SharePoint Store doesn’t support the installation of SharePoint Framework add-ins. That is why you need to install add-in manually.
+Since `Helpdesk Modern UI release <https://plumsail.com/docs/help-desk-o365/v1.x/General/Versionhistory.html#version-2-1-1>`_ we included webpart of web widget into Modern UI package
+and it's installed with Helpdesk by the installation wizard.
 
-You have to be a SharePoint administrator to complete the installation. If you don’t see some menus from the instruction below, most likely you are not a SharePoint administrator. Please contact your administrator to assist with the installation.
-
-Open Office 365 admin center:
-
-|Office365AdminCenter|
-
-Navigate to SharePoint Admin Center:
-
-|SharePointAdminCenter|
-
-Open ‘App catalog’:
-
-|OpenAppCatalog|
-
-If you don’t have ‘App Catalog’ yet, you will be able to create a new one:
-
-|CreateAppCatalog|
-
-Just fill in ‘Title’, ‘Web Site Address’, ‘Administrator’ and ‘Storage Quota’ and click ‘OK’. For example:
-
- - Title – App Catalog Site
- - Web Site address – AppCatalog
- - Administrator – Fill in your account name
- - Storage Quota – 10 GB
-
-|NewAppCatalog|
-
-`Download the add-in <https://static.plumsail.com/wp-content/uploads/Files/HelpDesk365Widget/plumsail-help-desk-widget-web-part.sppkg>`_ from our website. Navigate to ‘Apps for SharePoint’ and upload Add-in package that you downloaded (you need to upload to the App Catalog the whole .sppkg file without unpacking it):
-
-|UploadSPPKG|
-
-You need to select “Make this solution available to all sites in the organization” in the dialog. Once you did this you can add a web part to a page.
-
-|TenantScopedWP|
-
-If you don’t want to make this app availalbe on all sites, you will need to `add app to each site manually <InstallWidgetAddInOnSite.html>`_.
+After Helpdesk installation please follow the next steps to configure Helpdesk web widget.
 
 Creating widget configuration
 -----------------------------
@@ -103,24 +73,7 @@ Publish the page. Your HelpDesk widget is ready to use.
 
 |WidgetOnModernPage|
 
-Adding widget to classic SharePoint page
---------------------------------------
 
-Navigate to a page where you'd like to place a widget and open the page in the edit mode.
-
-Click ‘Insert → Web Part’. 
-
-Pick ‘Plumsail’ category in the list of web part categories.
-
-Pick ‘Plumsail HelpDesk Widget WebPart’ web part and click ‘Add’:
-
-|PickWPOnClassicPage|
-
-Once you added the web part you need to configure it. Just copy 'Configuration ID for SharePoint' from widget configuration form and paste it to corresponding web part property.
-
-Save the page. Your HelpDesk widget is ready to use.
-
-|WidgetOnClassicPage|
 
 .. |WidgetView| image:: ../_static/img/widgetview.png
    :alt: HelpDesk Widget
