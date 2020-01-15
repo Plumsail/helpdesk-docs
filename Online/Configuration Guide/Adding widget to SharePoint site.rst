@@ -1,17 +1,14 @@
 Adding widget to SharePoint site
 ######
 
+.. note::
+   Since version 2.1.1 widget web part is included in default HelpDesk installation package. 
+   It means you don't need to install it separately as in previous versions and it's available right after HelpDesk installation.
+
 .. contents:: Table of contents
    :local:
    :depth: 1
 
-Installing Widget WebPart
--------------------------
-
-Since `Helpdesk Modern UI release <https://plumsail.com/docs/help-desk-o365/v1.x/General/Versionhistory.html#version-2-1-1>`_ we included webpart of web widget into Modern UI package
-and it's installed with Helpdesk by the installation wizard.
-
-After Helpdesk installation please follow the next steps to configure Helpdesk web widget.
 
 Creating widget configuration
 -----------------------------
