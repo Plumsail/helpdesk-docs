@@ -3,7 +3,7 @@ Scheduling of tasks and reminders
 
 Scheduler allows you to set up different actions on unsolved tickets which have been changed during last 30 days.
 
-Navigate to settings using the navbar.
+Navigate to the **Settings** page using the left navbar.
 
 Here is the pre-defined scheduler task in HelpDesk:
 

@@ -13,13 +13,8 @@ Adding widget to SharePoint site
 Creating widget configuration
 -----------------------------
 
-The next step is to configure your future widget. 
-
-Open HelpDesk site and navigate to e-mail settings using navbar.
-
-|EmailSettings|
-
-Then click “Widgets” tab.
+Open HelpDesk site and navigate to the **Settings** tab using the left navbar.
+Click ont the **Widgets** tab.
 
 |WidgetTab|
 

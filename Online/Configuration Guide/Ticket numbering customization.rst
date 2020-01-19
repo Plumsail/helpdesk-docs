@@ -15,11 +15,9 @@ or to include additional information to the ticket number (date, time, departmen
 
 You can configure tickets numbering. 
 
-Navigate to settings using the icon in the navbar:
+Navigate to the **Settings** page using the left navbar:
 
-|SettingsIcon|
-
-Then click on the "Ticket numbering" tab. Now you can see the ticket numbering settings.
+Then click on the **Ticket numbering** tab. Now you can see the ticket numbering settings.
 
 |PageExample|
 
@@ -77,8 +75,6 @@ Click "Reset IDCounter" to reset IDCounter to zero.
     Otherwise, it will lead to the appearance of tickets with duplicate IDs.
 
 
-.. |SettingsIcon| image:: ../_static/img/settingsicon.png
-   :alt: Settings Navigation Icon
 .. |PageExample| image:: ../_static/img/ticket-numbering-page.png
    :alt: Ticket numbering settings page
 .. |Advanced| image:: ../_static/img/ticket-numbering-advanced.png

@@ -3,11 +3,8 @@ Upgrade HelpDesk
 
 Upgrade manager allows you to install updates on your HelpDesk. Also, it provides information about HelpDesk version and license. Information about all HelpDesk versions you can find on `Version history`_ page.
 
-Navigate to settings using the icon in the navbar:
-
-|SettingsIcon|
-
-Then click on "About" tab. You will see the interface of upgrade manager.
+Navigate to the **Settings** page using the left navbar:
+Then click on the **About** tab. You will see the interface of upgrade manager.
 
 .. note:: If you don't see "About" tab that means you are using HelpDesk version 1.0.0. You should manually navigate to URL ``<Site with HelpDesk>/HD/Pages/About.aspx``.
 
@@ -35,8 +32,6 @@ You need to perform some actions manually to complete upgrade if you are updatin
 3. Go to site settings and click "Change the look".
 4. Reapply your current look.
 
-.. |SettingsIcon| image:: ../_static/img/settingsicon.png
-   :alt: Settings Navigation Icon
 .. |UpgradeManager| image:: ../_static/img/upgrade-manager-0.png
    :alt: Upgrade Manager
 .. |UpdateAvailable| image:: ../_static/img/upgrade-manager-1.png

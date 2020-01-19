@@ -1,7 +1,7 @@
 How to change home page
 #######################
 
-There are two ways to change homepage:
+You can change the default HelpDesk homepage:
 
 #. `For Classic pages (Wiki Pages)`_
 #. `For Modern Pages`_
@@ -27,7 +27,9 @@ If you want to set on of these as a homepage, please click on the **Settings** i
 
 |SettingsIcon| 
 
-Then navigate to the **Site Pages** library (**Site contents** -> **Site Pages**). In the library, choose the page you'd like to make the homepage and click on the vertical ellipses (...) to the right of the page name. 
+Then navigate to the **Site Pages** library (**Site contents** -> **Site Pages**). 
+In the library, choose the page you'd like to make the homepage and click on the vertical 
+ellipses (...) to the right of the page name. 
 Choose **Make Homepage**:
 
 |Set Homepage|

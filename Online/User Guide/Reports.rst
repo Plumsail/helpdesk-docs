@@ -7,7 +7,7 @@ HelpDesk usage, personal productivity of each agent, find most active
 requesters and do other kinds of information analysis with your HelpDesk
 data.
 
-Navigate to Reports with the navigation menu.
+Navigate to **Reports** with the left navbar.
 On all pages (except “Overview”) you can apply quick date filters to
 only show data in the last: 7 days, 30 days, 6 months, year.
 

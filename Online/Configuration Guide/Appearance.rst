@@ -7,9 +7,9 @@ as well as customize HelpDesk navigation.
 .. note:: If you are using Plumsail HelpDesk with version older than 2.1.1, please follow  `this link <deprecated/Appearance%20(before%202.1.1).html>`_ to learn about forms customization for your version of HelpDesk.
 
 
-Navigate to settings using the navbar:
+Navigate to **Settings** tab using the left navbar:
 
-Then click on the “Appearance” tab. Now you can see the quick launch
+Then click on the **Appearance** tab. Now you can see the quick launch
 display setting and a list of HelpDesk navigation elements.
 
 |navigationsets|

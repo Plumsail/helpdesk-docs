@@ -8,7 +8,7 @@ For splitting, just open the ticket, choose the comment and click on the button 
 |Splitting|
 
 When the button is clicked, you will be redirected to a new ticket form with predefined fields from original ticket. In the ticket body will be an additional text which says that this ticket was splitted.
-Agents can change ticket’s body, its title, and fields. Click “Save” and the new ticket is created.
+Agents can change ticket’s body, its title, and fields. Click **Save** and the new ticket is created.
 
 |SplittedTicket|
 
