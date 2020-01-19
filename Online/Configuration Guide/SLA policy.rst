@@ -7,7 +7,7 @@ SLA stands for Service Level Agreement, it lets you set up an average response a
 
 You can create your own SLA policies and define actions for them according to your needs.
 
-First of all, navigate to the settings using the icon in the navbar.
+First of all, navigate to the **Settings** using the left navbar.
 
 Then click on the SLA policies tab. Here you have one predefined SLA policy. By default, it’s inactive but you can activate it by switching the toggle button. Also, you can delete it.
 

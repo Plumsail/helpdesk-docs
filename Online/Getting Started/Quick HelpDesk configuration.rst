@@ -16,8 +16,8 @@ Forward messages from your support mailbox
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want to receive new tickets from your support email address you
-need to configure message forwarding. Navigate to HelpDesk settings
-using the left navbar. You will see the **Email settings** section.
+need to configure message forwarding. Navigate to HelpDesk **Settings** page
+using the left navbar. You will see the **Email settings** tab.
 
 |HDEmailSettings|
 
@@ -87,7 +87,9 @@ Then click on **New**, specify mandatory fields and submit the form:
 Place widget for requesters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-HelpDesk Widget is a tool for requesters for managing their tickets. This widget helps you to provide support exactly where it is needed — widget can be added either on your SharePoint site or any external site. How to do that you can find out `here`_.
+HelpDesk Widget is a tool for requesters for managing their tickets. This widget helps you to 
+provide support exactly where it is needed — widget can be added either on your SharePoint 
+site or any external site. Click `here`_ to ream more.
 Notice that adding a widget is optional.
 
 .. _Forward messages from your support mailbox: #forwarding
@@ -101,7 +103,7 @@ Notice that adding a widget is optional.
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
 .. _here: ../Configuration%20Guide/Widget.html
 
-.. |HDEmailSettings| image:: ../_static/img/email-settings-0.png
+.. |HDEmailSettings| image:: ../_static/img/online-configuration-email-settings-online-1.png
    :alt: Email Settings
 .. |Create Contact| image:: ../_static/img/getting-started-quick-helpdesk-configuration-0.png
     :alt: Create Contact

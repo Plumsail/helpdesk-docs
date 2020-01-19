@@ -1,11 +1,9 @@
 Adding widget to external site
 ######
 
-The first step is to configure your future widget. To do it, open HelpDesk site and navigate to e-mail settings using navbar.
-
-|EmailSettings|
-
-Then click “Widgets” tab.
+The first step is to configure your future widget. To do it, open HelpDesk site and navigate to 
+the **Settings** page using the left navbar.
+Then click on the **Widgets** tab.
 
 |WidgetTab|
 
