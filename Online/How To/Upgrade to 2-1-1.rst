@@ -25,7 +25,7 @@ This update will erase some settings:
 Navigate to settings using the icon in the navbar:
 |SettingsIcon|
 
-Then click on the “About” tab. Now you can see available updates.
+Then click on the **About** tab. Now you can see available updates.
 
 Click "Update" and confirm you want to update.
 
