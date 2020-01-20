@@ -53,7 +53,7 @@ Adding widget to modern SharePoint page
 
 Navigate to a page where you'd like to place a widget.
 
-Pick ‘Plumsail HelpDesk Widget WebPart’ web part from the menu to add it to your page:
+Pick **Plumsail HelpDesk Widget WebPart** web part from the menu to add it to your page:
 
 |PickWPOnModernPage|
 
