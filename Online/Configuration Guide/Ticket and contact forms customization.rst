@@ -72,8 +72,8 @@ For example, to restore ticket edit form you need to do following steps:
    :alt: Plumsail Forms Sign in
 .. |Plumsail Forms Interface| image:: ../_static/img/plumsail-forms-interface.png
     :alt: Plumsail Forms Interface
-.. |FormsBackupsFolder| image:: ../_static/img/forms-backups-1.png
+.. |FormsBackupsFolder| image:: ../_static/img/forms-backups-online-1.png
    :alt: Forms Backups Folder
-.. |TicketFormsBackups| image:: ../_static/img/forms-backups-2.png
+.. |TicketFormsBackups| image:: ../_static/img/forms-backups-online-2.png
    :alt: Tickets Backups Folder
 

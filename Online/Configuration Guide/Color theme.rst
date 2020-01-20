@@ -25,7 +25,7 @@ You can read more about customising the look of a SharePoint site `here`_.
 
 .. _here: https://support.office.com/en-us/article/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818
 
-.. |SettingsIcon| image:: ../_static/img/sp_sitesettingsimg.png
+.. |SettingsIcon| image:: ../_static/img/sp_sitesettingsimg-online.png
    :alt: Site Settings Icon
 .. |Theme| image:: ../_static/img/Color-theme-01.png
    :alt: Change the Theme
