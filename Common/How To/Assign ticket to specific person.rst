@@ -12,7 +12,9 @@ From the home page, head to settings and choose Triggers. You need to create a n
 
 It says that ticket title should contain word ‘sales’ or ‘Sales’. More about syntax, you can find `here`_.
 
-To automatically assign tickets to an agent, in actions select ‘Set field’ and pick required field. Don’t forget about field value, in this field add user’s name, e-mail, or a name of SharePoint group. 
+To automatically assign tickets to an agent, in actions select ‘Set field’ and pick required field. 
+Don’t forget about the field value, you can add the user’s name, e-mail, or a name of a
+SharePoint group. 
 
 |Action| 
 
@@ -33,4 +35,4 @@ To automatically assign tickets to an agent, in actions select ‘Set field’ a
 .. || image:: ../_static/img/
    :alt: 
 
-.. _here: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Condition%20Syntax.html#functions
+.. _here: ../Configuration%Guide/Condition%20syntax.html#functions

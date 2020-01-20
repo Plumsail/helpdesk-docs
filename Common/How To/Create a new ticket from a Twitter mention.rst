@@ -20,14 +20,11 @@ Then fill out all required fields (Ticket Subject, Body, Requester e-mail, Ticke
 
 Save the flow, and now you’ll receive a new ticket in your HelpDesk every time the company is mentioned on Twitter. It will help you stay in touch with customers and build a productive network.
 
-|new_ticket|
-
-Let us tell `How to send notifications about new tickets to Microsoft Teams and Slack`_. 
+Also, see `how to send notifications about new tickets to Microsoft Teams and Slack`_. 
 
 .. |twitter_mention| image:: /_static/img/twitter_mention1.jpg
 .. |api_key| image:: /_static/img/api_key.jpg
 .. |filling_fields| image:: /_static/img/twitter_fillin.jpg
-.. |new_ticket| image:: /_static/img/new_ticket_HD.jpg
 
 
 .. _Microsoft Flow: https://flow.microsoft.com/en-us/
