@@ -5,11 +5,8 @@ First thing when an agent leaves team of your service desk is ensure that all op
 
 First of all, you need to `configure synchronization of your Office 365 accounts with HelpDesk`_. You need this for checking if account is enabled or not.
 
-Then navigate to settings using the icon in the navbar: 
- 
-|Settings|
-
-And then to Scheduling tab. Here you can find pre-defined task but you need to create a new one, so click on ‘Add new task’.
+Then navigate to  **Settings**. 
+Navigate to the **Scheduling** tab. Here you can find pre-defined task but you need to create a new one, so click on ‘Add new task’.
 
 |schedulerOverview|
 
@@ -30,8 +27,6 @@ In the drop-down menu select ‘Assigned to’ field and provide a username to w
 Save changes and run a task to test it. You can make sure that your task is working by looking in the logs. 
 
 
-.. |Settings| image:: ../_static/img/settingsicon.png
-   :alt: Settings Navigation Icon
 .. |schedulerOverview| image:: ../_static/img/scheduler-overview.png
    :alt: Scheduler overview
 .. |schedulerTask| image:: ../_static/img/scheduler-task.png
