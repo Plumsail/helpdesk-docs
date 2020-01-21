@@ -1,15 +1,10 @@
 Create a new view
 #################
 
-    .. raw:: html
-     
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/8kLySL2H57k" frameborder="0" allowfullscreen></iframe>
-  
-
-
 Views give an opportunity to organize work with SharePoint list and sort data in your service desk in an easy-to-find way. For instance, let's create a view based on existing custom one.
 
-On the home page, you can find auto-generated views for the most common cases and all new views will appear under ‘more options’ button.
+On the home page, you can find auto-generated views for the most common cases and all new views will appear 
+under ‘more options’ button.
 
 |newView|
 
