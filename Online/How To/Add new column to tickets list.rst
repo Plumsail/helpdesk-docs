@@ -38,7 +38,7 @@ This how your ticket's editing form will look like:
    :alt: Column settings
 .. |Forms| image:: ../_static/img/forms-online-1.jpg
    :alt: Drag-and-drop new column
-.. |Save| image:: ../_static/img/forms-online-1.jpg
+.. |Save| image:: ../_static/img/forms-online-2.jpg
    :alt:  Pay attention to Save settings
 .. |TicketEditForm| image:: ../_static/img/ticket-editing-form-online.png
    :alt: Ticket edit form with the  new column
