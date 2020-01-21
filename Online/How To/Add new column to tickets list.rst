@@ -30,15 +30,15 @@ This how your ticket's editing form will look like:
 
 |TicketEditForm|
 
-.. |ListSettings| image:: ../_static/img/list-settings-online-1.jpg
+.. |ListSettings| image:: ../_static/img/list-settings-online-1.png
    :alt: List settings
 .. |CreateColumn| image:: ../_static/img/create-column.jpg
    :alt: Create column
 .. |ColumnSettings| image:: ../_static/img/create-column-1.jpg
    :alt: Column settings
-.. |Forms| image:: ../_static/img/forms-online-1.jpg
+.. |Forms| image:: ../_static/img/forms-online-1.png
    :alt: Drag-and-drop new column
-.. |Save| image:: ../_static/img/forms-online-2.jpg
+.. |Save| image:: ../_static/img/forms-online-2.png
    :alt:  Pay attention to Save settings
 .. |TicketEditForm| image:: ../_static/img/ticket-editing-form-online.png
    :alt: Ticket edit form with the  new column
