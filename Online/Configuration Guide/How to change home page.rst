@@ -38,7 +38,7 @@ tab named 'Page' you will find a button 'Make homepage':
 
 .. |Set From Ribbon| image:: ../_static/img/set_homepage_from_ribbon.png
     :alt: Set Homepage
-.. |SettingsIcon| image:: ../_static/img/ssp_sitesettingsimg-online.png
+.. |SettingsIcon| image:: ../_static/img/sp_sitesettingsimg-online.png
    :alt: Site Settings Icon
 .. |Set Homepage| image:: ../_static/img/how-to-change-the-homepage-01.png
     :alt: Set Homepage
