@@ -53,7 +53,11 @@ tab named 'Page' you will find a button 'Make homepage':
 .. |SettingsIcon| image:: ../_static/img/sp_sitesettingsimg.png
 =======
     :alt: Set Homepage
+<<<<<<< HEAD
 .. |SettingsIcon| image:: ../_static/img/ssp_sitesettingsimg-online.png
+>>>>>>> develop
+=======
+.. |SettingsIcon| image:: ../_static/img/sp_sitesettingsimg-online.png
 >>>>>>> develop
    :alt: Site Settings Icon
 .. |Set Homepage| image:: ../_static/img/how-to-change-the-homepage-01.png
