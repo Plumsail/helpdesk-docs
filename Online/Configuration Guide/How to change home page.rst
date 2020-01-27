@@ -3,9 +3,10 @@ How to change home page
 
 You can change the default HelpDesk homepage:
 
-#. `For Classic pages (Wiki Pages)`_
 #. `For Modern Pages`_
+#. `For Classic pages (Wiki Pages)`_
 
+<<<<<<< HEAD
 .. _from-ribbon:
 
 For classic pages (Wiki Pages)
@@ -15,9 +16,10 @@ To make one of these pages the homepage, open it in a browser. On the ribbon
 tab named 'Page' you will find a button 'Make homepage':
 
 |Set From Ribbon|
+=======
+>>>>>>> develop
 
 .. _from-site-pages-library:
-
 For Modern Pages
 ------------------
 
@@ -34,10 +36,24 @@ Choose **Make Homepage**:
 
 |Set Homepage|
 
+.. _from-ribbon:
+For Classic Pages (Wiki Pages)
+-----------
+Some of the pages in HelpDesk are classic pages (e.g. **Reports** and all the pages in the **Settings**)
+To make one of these pages the homepage, open it in a browser. On the ribbon
+tab named 'Page' you will find a button 'Make homepage':
+
+|Set From Ribbon|
+
 .. _For Classic pages (Wiki Pages): #from-ribbon
 .. _For Modern Pages: #from-site-pages-library
 
 .. |Set From Ribbon| image:: ../_static/img/set_homepage_from_ribbon.png
+<<<<<<< HEAD
 .. |SettingsIcon| image:: ../_static/img/sp_sitesettingsimg.png
+=======
+    :alt: Set Homepage
+.. |SettingsIcon| image:: ../_static/img/ssp_sitesettingsimg-online.png
+>>>>>>> develop
    :alt: Site Settings Icon
 .. |Set Homepage| image:: ../_static/img/how-to-change-the-homepage-01.png
