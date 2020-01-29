@@ -156,20 +156,8 @@ Creates new ticket and returns created ticket.
        -  ["Printers", "MS Windows"]
     *  -  Ticket Attachments
        -  Array of object containing File Names and File Contents.
-       -  File Name: screenshot.png
-
-          File Content: You can extract file content from other connectors like:  
-
-            - SharePoint
-            - Salesforce
-            - Box
-            - OneDrive
-            - Google Drive
-            - Dropbox
-            - SFTP
-            - File System          
-
-          `List of Microsoft Flow connectors <https://flow.microsoft.com/en-us/connectors/>`_      
+       -  #. *Manual* adding of attachments. Specify a file name and pass its content from another action. To add an attachment item, click an accordant button. Check the "Ticket Attachments" section of the action on the `screenshot <./flow-actions.html#screenshot-createticket>`_ below.
+          #. *Dynamical* adding of attachments. If the number of attachments varies and depends on output of other actions, then use the approach described in this `article <../How%20To/Submit%20tickets%20from%20an%20online%20form%20to%20SharePoint%20help%20desk%20with%20the%20help%20of%20Microsoft%20Flow%20or%20Azure%20Logic%20Apps%20connector.html#handling-attachments>`_.
     *  -  Ticket Support Channel
        -  Support channel name, if no value is provided, it will be set to API
        -  Company site
@@ -184,6 +172,7 @@ Creates new ticket and returns created ticket.
 
 .. rubric:: Example
 
+.. _screenshot-createticket:
 
 .. image:: ../../_static/img/flow-actions/create-ticket.png
    :alt: Create ticket example
@@ -1408,4 +1397,4 @@ Updates an organization and returns it.
 .. image:: ../../_static/img/flow-actions/update-organization-by-title.png
    :alt: Update organization by title example
 
-.. _ODATA: https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/use-odata-query-operations-in-sharepoint-rest-requests   
+.. _ODATA: https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/use-odata-query-operations-in-sharepoint-rest-requests

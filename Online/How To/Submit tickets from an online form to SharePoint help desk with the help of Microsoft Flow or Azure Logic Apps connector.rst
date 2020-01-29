@@ -49,6 +49,7 @@ Don’t forget to save the form first, if you’ve added some changes, that will
 
 |ParseJSON|
 
+.. _handling-attachments:
 
 Configure the Flow  —  Handling attachments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
