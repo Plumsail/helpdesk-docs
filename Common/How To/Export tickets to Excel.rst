@@ -6,7 +6,7 @@ Export tickets to Excel
      <iframe width="560" height="315" src="https://www.youtube.com/embed/cKFbkgbVJ38" frameborder="0" allowfullscreen></iframe>
 
 
-Exporting tickets from your ticketing sstem to Excel is as easy as can be. First of all, you need to choose tickets view to export. You can select any view to export.
+Exporting tickets from your ticketing system to Excel is as easy as can be. First of all, you need to choose tickets view to export. You can select any view to export.
 
 Then head to ribbon menu and click on ‘Export to Excel’. Note that you need to have Microsoft SharePoint Foundation-compatible application for that.
 
