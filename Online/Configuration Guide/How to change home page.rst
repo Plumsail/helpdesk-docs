@@ -41,7 +41,7 @@ For Classic Pages (Wiki Pages)
 -----------
 Some of the pages in HelpDesk are classic pages (e.g. **Reports** and all the pages in the **Settings**)
 To make one of these pages the homepage, open it in a browser. On the ribbon
-tab named 'Page' you will find a button 'Make homepage':
+tab named 'Page' you will find a button **Make homepage**:
 
 |Set From Ribbon|
 
