@@ -28,13 +28,13 @@ Now your ticket was merged. Note that you can not revert this action.
 
 |Merged|
 
-.. |Merge| image:: ../_static/img/mergefeature.png
+.. |Merge| image:: ../_static/img/online-user-guide-mergefeature.png
    :alt: Merge
-.. |MergePopUp| image:: ../_static/img/merge-feature-1.png
+.. |MergePopUp| image:: ../_static/img/online-user-guide-merge-feature-1.png
    :alt: Enter ticket ID
-.. |MergeConfirm| image:: ../_static/img/merge-feature-2.png
+.. |MergeConfirm| image:: ../_static/img/online-user-guide-merge-feature-2.png
    :alt: Merge confirmation
-.. |MergeConfirm1| image:: ../_static/img/merge-feature-3.png
+.. |MergeConfirm1| image:: ../_static/img/online-user-guide-merge-feature-3.png
    :alt: Editing of comments
-.. |Merged| image:: ../_static/img/merge-feature-4.png
+.. |Merged| image:: ../_static/img/online-user-guide-merge-feature-4.png
    :alt: Merged ticket
