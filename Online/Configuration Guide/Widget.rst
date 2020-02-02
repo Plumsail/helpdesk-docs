@@ -25,5 +25,5 @@ Use these links to learn how to
    Adding widget to SharePoint site
    Adding widget to external site
 
-.. |WidgetView| image:: ../_static/img/widgetview.png
+.. |WidgetView| image:: ../_static/img/Online/_static/img/online-requester-widget-view.png
    :alt: HelpDesk Widget
