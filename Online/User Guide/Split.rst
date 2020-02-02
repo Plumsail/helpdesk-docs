@@ -12,7 +12,7 @@ Agents can change ticket’s body, its title, and fields. Click **Save** and the
 
 |SplittedTicket|
 
-.. |Splitting| image:: ../_static/img/online-user-guide-split-feature.png
+.. |Splitting| image:: ../_static/img/split-feature.png
    :alt: Splitting
-.. |SplittedTicket| image:: ../_static/img/online-user-guide-split-feature-1.png
+.. |SplittedTicket| image:: ../_static/img/split-feature-1.png
    :alt: New ticket with predefined fields

@@ -75,7 +75,7 @@ Publish the page. Your HelpDesk widget is ready to use.
    :alt: Widget Tab
 .. |NewWidget| image:: ../_static/img/newitem.png
    :alt: Create a new item
-.. |WidgetMenu| image:: ../_static/img/online-configuration-guide-widget-01.png
+.. |WidgetMenu| image:: ../_static/img/newwidget.png
    :alt: Widget settings
 .. |GenSPConfigID| image:: ../_static/img/widget-get-sp-config-id.png
    :alt: Generated HTML code
