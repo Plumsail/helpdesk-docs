@@ -67,7 +67,7 @@ described above, but alternatively, you can specify SMTP server settings
 for your support mailbox to make HelpDesk use your support mailbox for
 sending messages. To do it click **Custom SMTP server settings**. You will
 see a few parameters. Fill them in by following your SMTP server’s
-instructions and click “Save”. Also, you can test the correctness of entered settings by clicking on **Test** button.
+instructions and click “Save”. Also, you can test the correctness of entered settings by clicking on **Test** button
 
 |HDSMTPServerSettings|
 

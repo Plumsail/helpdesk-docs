@@ -111,7 +111,7 @@ To add a new action click the "Add new action" link.
 
 |AddNewAction|
 
-There are three types of actions:
+There are following types of actions:
 
 #. `Send Email`_
 #. `Start Workflow`_
