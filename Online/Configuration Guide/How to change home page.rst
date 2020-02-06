@@ -7,6 +7,7 @@ You can change the default HelpDesk homepage:
 #. `For Classic pages (Wiki Pages)`_
 
 .. _from-site-pages-library:
+
 For Modern Pages
 ----------------
 
