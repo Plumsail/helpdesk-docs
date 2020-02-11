@@ -39,16 +39,6 @@ Next, you need to fill in **Form ID**. You can find the Form ID in the Plumsail 
 
 |FormIsSubmitted|
 
-We need to somehow parse JSON received from form submission to use it in the ticket creation step. Click *Add an action* and search for *Data Operations  —  Parse JSON*. 
-
-Here, you’ll need to click on **Content** field and select **Body** from the menu on the right. Next, go to **Flow** in the designer, copy form’s schema and insert it into the **Schema** field:
-
-|SchemaField|
-
-Don’t forget to save the form first, if you’ve added some changes, that will update the schema.
-
-|ParseJSON|
-
 .. _handling-attachments:
 
 Configure the Flow  —  Handling attachments
@@ -130,9 +120,6 @@ That is it. These simple steps will help you to improve communication with clien
 
 .. |SchemaField| image:: ../_static/img/copy-to-clipboard.png
    :alt: Copy schema to clipboard
-
-.. |ParseJSON| image:: ../_static/img/parse-json.png
-   :alt: Parse JSON
 
 .. |InitializeVariable| image:: ../_static/img/initialize-variable.png
    :alt: Initialize Array Variable
