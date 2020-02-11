@@ -1,7 +1,7 @@
 Edit ticket's properties from mailbox
 #####################################
 
-You can work with Plumsail HelpDesk for Office 365 from your mailbox but not only respond to tickets. 
+You can work with Plumsail HelpDesk for Office 365 or On-premises from your mailbox but not only respond to tickets. 
 For example, you can edit and update some ticket's properties.
 
 For instance, let's check how assignee can **change ticket’s status**, **resolve** it or **update** its priority 
