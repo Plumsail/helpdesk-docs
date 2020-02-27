@@ -1,5 +1,5 @@
 Adding widget to SharePoint site
-######
+################################
 
 .. note::
    Since version 2.1.1 widget web part is included in default HelpDesk installation package. 
@@ -39,8 +39,10 @@ After saving, HTML code for external sites and configuration ID for SharePoint w
 
 |GenSPConfigID|
 
+.. _auto-sign-in:
+
 Enable automatic sign-in for a widget
------------------------
+-------------------------------------
 
 Open SharePoint site where you want to place the widget.
 
@@ -49,7 +51,7 @@ Install Plumsail HelpDesk Widget add-in from `SharePoint App store <https://stor
 Then you need to place widget to specific SharePoint page. Steps to do that are described below.
 
 Adding widget to modern SharePoint page
---------------------------------------
+---------------------------------------
 
 Navigate to a page where you'd like to place a widget.
 
@@ -65,7 +67,40 @@ Publish the page. Your HelpDesk widget is ready to use.
 
 |WidgetOnModernPage|
 
+Known issue
+-----------
 
+You may encounter the following error trying to `add <Adding%20widget%20to%20SharePoint%20site.html#auto-sign-in>`_ Plumsail HelpDesk Widget to a SharePoint site:
+
+|Widget_Issue|
+
+In this case, click **Find out why** and **Request Approval**.
+
+|Widget_ApprovalRequest|
+
+Enter a reason and request approval.
+
+|Widget_SendRequest|
+
+Then, open `App Catalog <Installation%20of%20HelpDesk%20SharePoint%20Framework%20package.html#create-app-catalog>`_ and go to **App Requests**.
+Click **Plumsail HelpDesk Widget** on the requests list.
+
+|Widget_AppCatalog|
+
+Check the permissions granting to the app and click **Approve**.
+
+|Widget_Approval|
+
+Then go back to the site where you want to install the widget add-in and click it again.
+Confirm that you **Trust It**.
+
+|Widget_Installation|
+
+When the installation is finished, the widget's icon color will be changed from pale to bright one in **Site contents**.
+
+|Widget_PaleIcon|
+
+|Widget_BrightIcon|
 
 .. |WidgetView| image:: ../_static/img/widgetview.png
    :alt: HelpDesk Widget
@@ -96,7 +131,25 @@ Publish the page. Your HelpDesk widget is ready to use.
 .. |PickWPOnClassicPage| image:: ../_static/img/widget-pick-wp-on-classic-page.png
 .. |WidgetOnClassicPage| image:: ../_static/img/widget-on-classic-page.png
 .. |GenGeneratedHTML| image:: ../_static/img/widget-get-html.png
-
+.. |Widget_Issue| image:: ../_static/img/ConfigurationGuide_Widget_Issue.png
+   :alt: Widget Issue
+.. |Widget_ApprovalRequest| image:: ../_static/img/ConfigurationGuide_Widget_RequestApproval.png
+   :alt: Request Approval
+.. |Widget_SendRequest| image:: ../_static/img/ConfigurationGuide_Widget_Request.png
+   :alt: Send Request
+.. |Widget_AppCatalog| image:: ../_static/img/ConfigurationGuide_Widget_AppCatalog.png
+   :alt: App Catalog
+   :width: 634px
+.. |Widget_Approval| image:: ../_static/img/ConfigurationGuide_Widget_Approval.png
+   :alt: Approval
+   :width: 634px
+.. |Widget_Installation| image:: ../_static/img/ConfigurationGuide_Widget_Installation.png
+   :alt: Widget Installation
+   :width: 634px
+.. |Widget_PaleIcon| image:: ../_static/img/ConfigurationGuide_Widget_PaleIcon.png
+   :alt: Widget's Pale Icon
+.. |Widget_BrightIcon| image:: ../_static/img/ConfigurationGuide_Widget_BrightIcon.png
+   :alt: Widget's Bright Icon
 
 .. _this link: /Configuration%20Guide/deprecated/Widget.html
 .. _internal names: ../How%20To/Find%20the%20internal%20name%20of%20SharePoint%20column.html
