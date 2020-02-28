@@ -67,10 +67,10 @@ Publish the page. Your HelpDesk widget is ready to use.
 
 |WidgetOnModernPage|
 
-Known issue
------------
+Known issues
+------------
 
-You may encounter the following error trying to `add <Adding%20widget%20to%20SharePoint%20site.html#auto-sign-in>`_ Plumsail HelpDesk Widget to a SharePoint site:
+You may encounter the following error trying to `add Plumsail HelpDesk Widget <Adding%20widget%20to%20SharePoint%20site.html#auto-sign-in>`_ to a SharePoint site:
 
 |Widget_Issue|
 
@@ -81,6 +81,9 @@ In this case, click **Find out why** and **Request Approval**.
 Enter a reason and request approval.
 
 |Widget_SendRequest|
+
+.. note::
+   You should have global (tenant) admin permissions to perform further actions in App Catalog.
 
 Then, open `App Catalog <Installation%20of%20HelpDesk%20SharePoint%20Framework%20package.html#create-app-catalog>`_ and go to **App Requests**.
 Click **Plumsail HelpDesk Widget** on the requests list.
