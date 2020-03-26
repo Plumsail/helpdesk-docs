@@ -1,6 +1,14 @@
 Version history
 ###############
 
+Version 2.1.5
+-------------
+
+New features:
+
+- Minor improvements.
+
+
 Version 2.1.3
 -------------
 
