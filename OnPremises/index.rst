@@ -81,4 +81,5 @@ Table of contents
       How To/sla
       How To/ticket-management
       How To/customizations
-      How To/advanced     
+      How To/advanced
+
