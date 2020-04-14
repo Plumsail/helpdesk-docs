@@ -1,7 +1,7 @@
 Add quick actions to the context menu of tickets in SharePoint HelpDesk
 =====================================================================================
 
-`Plumsail Helpdesk for Office 365`_ has `Microsoft Flow Connector`_ which helps you to manipulate data in your HelpDesk with the help of Microsoft Flow.
+`Plumsail Helpdesk for Office 365`_ has `Power Automate (Microsoft Flow) Connector`_ which helps you to manipulate data in your HelpDesk with the help of Power Automate (Microsoft Flow).
 To start using it you need to `Create an API key`_ and  `Review available actions`_ .
 In this article we'll work with Plumsail Helpdesk connector to add quick actions to the context menu of tickets, specifically to resolve a ticket without opening it.
 Of course, you can use this approach with other scenarios. 
@@ -17,7 +17,7 @@ Let's create an API key in the Helpdesk settings
 .. image:: ../_static/img/test-key.png
    :alt: Test API key
 
-We need to copy the API key and then use it in Microsoft Flow. 
+We need to copy the API key and then use it in Power Automate (Microsoft Flow). 
 
 .. image:: ../_static/img/test-key1.png
    :alt: Test API key
@@ -25,7 +25,7 @@ We need to copy the API key and then use it in Microsoft Flow.
 Open Micsoft Flow website and go to Connections
 
 .. image:: ../_static/img/flow-connections.png
-   :alt: Microsoft Flow Connection
+   :alt: Power Automate (Microsoft Flow) Connection
 
 Search for Plumsail Helpdesk connector, select it and paste our API key
 
@@ -57,7 +57,7 @@ Select `Update a ticket`_ action, specify the Ticket ID from the previous step a
 
 
 .. image:: ../_static/img/resolve-ticket-flow.png
-   :alt: Microsoft Flow
+   :alt: Power Automate (Microsoft Flow)
 
 Then we can start the flow for selected ticket. Check it out
 
@@ -90,14 +90,14 @@ And we see the dropdown, select the status and run the flow
 Conslusion
 ------------------
 
-Microsoft Flow and `Plumsail Helpdesk connector`_ is a power tandem which allows managing Plumsail Helpdesk very effectively.
+Power Automate (Microsoft Flow) and `Plumsail Helpdesk connector`_ is a power tandem which allows managing Plumsail Helpdesk very effectively.
 
 
 .. _Plumsail Helpdesk for Office 365: https://plumsail.com/docs/help-desk-o365/v1.x/
 
 .. _Update a ticket: https://plumsail.com/docs/help-desk-o365/v1.x/API/flow-actions.html#update-a-ticket
 
-.. _Microsoft Flow Connector: https://emea.flow.microsoft.com/en-us/connectors/shared_plumsailhelpdesk/plumsail-helpdesk/
+.. _Power Automate (Microsoft Flow) Connector: https://emea.flow.microsoft.com/en-us/connectors/shared_plumsailhelpdesk/plumsail-helpdesk/
 
 .. _Plumsail Helpdesk connector: https://plumsail.com/docs/help-desk-o365/v1.x/API/ms-flow.html
 

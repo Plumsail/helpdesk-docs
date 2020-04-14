@@ -1,12 +1,12 @@
 Create custom connector
 =======================
 
-Open Microsoft Flow account then navigate to *'Custom Connectors'* and click *'Create custom connector → Import an OpenAPI from URL'*:
+Open Power Automate (Microsoft Flow) account then navigate to *'Custom Connectors'* and click *'Create custom connector → Import an OpenAPI from URL'*:
 
 |i1| |nbsp| |nbsp| |nbsp| |nbsp| |i2|
 
 .. |i1| image:: ../_static/img/1-flow-custom-connectors.png
-   :alt: Microsoft Flow custom connectors menu
+   :alt: Power Automate (Microsoft Flow) custom connectors menu
 
 .. |i2| image:: ../_static/img/connector-from-url.png
    :alt: Connector from URL

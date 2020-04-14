@@ -1,7 +1,7 @@
-Import Office 365 Users into Contacts List of HelpDesk for SharePoint Online Using Microsoft Flow
+Import Office 365 Users into Contacts List of HelpDesk for SharePoint Online Using Power Automate (Microsoft Flow)
 #################################################################################################
 
-Microsoft Flow is a universal tool for creating automated processes in which different apps and services can interact with each other.
+Power Automate (Microsoft Flow) is a universal tool for creating automated processes in which different apps and services can interact with each other.
 Since `Plumsail HelpDesk`_ has got own connector_ for it with a bunch of actions_, it widens automation opportunities of a HelpDesk service based on our product.
 In this article, I will review configuring of a flow for importing of Office 365 users into a HelpDesk contacts list or for updating the latter.
 In most cases, there is no need in such a synchronisation since HelpDesk adds contacts_ automatically when creating tickets on the basis of received E-mail messages or through a `web widget`_.
@@ -11,7 +11,7 @@ Automation of contacts processing can lighten the work of the support staff.
 Import Office 365 Users into HelpDesk Contacts List
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
-First, sign in to a `Microsoft Flow`_ site and go to the list of flows.
+First, sign in to a `Power Automate (Microsoft Flow)`_ site and go to the list of flows.
 
 |FlowList|
 
@@ -183,7 +183,7 @@ Don't forget to save the new flow.
 .. _Plumsail HelpDesk: https://plumsail.com/sharepoint-helpdesk/
 .. _connector: ../API/ms-flow.html
 .. _actions: ../API/flow-actions.html
-.. _Microsoft Flow: https://us.flow.microsoft.com/en-us/
+.. _Power Automate (Microsoft Flow): https://us.flow.microsoft.com/en-us/
 .. _Create a contact: ../API/flow-actions.html#create-a-contact
 .. _contacts: ../User%20Guide/Contacts.html
 .. _web widget: ../Configuration%20Guide/Widget.html

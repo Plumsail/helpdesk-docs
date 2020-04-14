@@ -1,9 +1,9 @@
-How to submit tickets from an online form to SharePoint help desk with the help of Microsoft Flow or Azure Logic Apps connector
+How to submit tickets from an online form to SharePoint help desk with the help of Power Automate (Microsoft Flow) or Azure Logic Apps connector
 ##############################################################
 
 One of the simple ways to improve communication with clients or within a company is to create a custom form that can be used to send a feedback, to report a problem, to request assistance or just to get some information in general.
 
-In this example, we will design a form for customers for submitting messages and use `Plumsail HelpDesk connector`_ in Microsoft Flow to create a new ticket in `Plumsail Helpdesk for Office 365`_.
+In this example, we will design a form for customers for submitting messages and use `Plumsail HelpDesk connector`_ in Power Automate (Microsoft Flow) to create a new ticket in `Plumsail Helpdesk for Office 365`_.
 
 This is an example of the form that will create a ticket:
 
@@ -13,7 +13,7 @@ This is an example of the form that will create a ticket:
 Design a form
 ~~~~~~~~~~~~~
 
-First, design a form. We will do it with help of `Plumsail Forms`_, but you can use any other forms solution that can submit data to Microsoft Flow.
+First, design a form. We will do it with help of `Plumsail Forms`_, but you can use any other forms solution that can submit data to Power Automate (Microsoft Flow).
 
 Think about what information might need to be specified: a subject for the ticket, request’s category, customer’s location, operation system, etc.
 
@@ -33,7 +33,7 @@ Configure the Flow  —  First steps
 
 Here, I will guide you step by step through creating the flow. You also will find a screenshot of the complete flow at the end of the article. 
 
-First, open `Microsoft Flow`_, go to *My Flows*, click *Create from blank* to create a new Flow, search for and add *Plumsail Forms  —  Form is submitted*. 
+First, open `Power Automate (Microsoft Flow)`_, go to *My Flows*, click *Create from blank* to create a new Flow, search for and add *Plumsail Forms  —  Form is submitted*. 
 
 Next, you need to fill in **Form ID**. You can find the Form ID in the Plumsail Forms if you click the **Flow** button. Alternatively, you can always check it in your `Plumsail account`_.
 
@@ -75,12 +75,12 @@ Configure the Flow  —  Create a ticket
 
 We will use *Plumsail HelpDesk  —  Create a ticket* action. 
 
-`Plumsail HelpDesk connector`_ allows you to work with `Plumsail HelpDesk`_ with the help of Microsoft Flow.
+`Plumsail HelpDesk connector`_ allows you to work with `Plumsail HelpDesk`_ with the help of Power Automate (Microsoft Flow).
 
 
 .. important::
 
-  This action is not available in public connector in Microsoft Flow yet. It will become available soon. If you want to use this action right now, you can `add this connector as a custom connector`_.
+  This action is not available in public connector in Power Automate (Microsoft Flow) yet. It will become available soon. If you want to use this action right now, you can `add this connector as a custom connector`_.
 
 
 Add *Plumsail HelpDesk  —  Create a ticket* action and use fields from the form to compose the ticket. 
@@ -153,7 +153,7 @@ That is it. These simple steps will help you to improve communication with clien
 
 .. _place: https://plumsail.com/docs/forms/design.html#publish-the-form
 
-.. _Microsoft Flow: https://us.flow.microsoft.com/
+.. _Power Automate (Microsoft Flow): https://us.flow.microsoft.com/
 
 .. _Plumsail account: https://account.plumsail.com/
 
