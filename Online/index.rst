@@ -79,7 +79,7 @@ Table of contents
       Support plans <https://plumsail.com/support-plans/> 
 
    .. toctree::
-      :caption: Microsoft Flow and Public API
+      :caption: Power Automate (Microsoft Flow) and Public API
       :name: api
       :maxdepth: 1
       

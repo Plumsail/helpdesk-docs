@@ -1,9 +1,9 @@
-Send SMS notifications from help desk with Microsoft Flow and Twilio
+Send SMS notifications from help desk with Power Automate (Microsoft Flow) and Twilio
 ####################################################################
 
-`Microsoft Flow`_ is a service for creation automated workflows between different apps and services. Since now you can connect SharePoint to a lot of external services, so you can do with Plumsail HelpDesk for Office 365. Let’s connect HelpDesk to Twilio. In this use case, agents will get SMS every time when a ticket has been assigned to them.
+`Power Automate (Microsoft Flow)`_ is a service for creation automated workflows between different apps and services. Since now you can connect SharePoint to a lot of external services, so you can do with Plumsail HelpDesk for Office 365. Let’s connect HelpDesk to Twilio. In this use case, agents will get SMS every time when a ticket has been assigned to them.
 
-First of all, you need to create a free account in Microsoft Flow. After your account has been created, Microsoft Flow could be found in the waffle icon in the Office 365 suite bar.
+First of all, you need to create a free account in Power Automate (Microsoft Flow). After your account has been created, Power Automate (Microsoft Flow) could be found in the waffle icon in the Office 365 suite bar.
 
 |SuiteBar|
 
@@ -56,4 +56,4 @@ Save flow and that’s it! It starts running immediately, so you can check how i
    :alt: 
 
 
-.. _Microsoft Flow: https://flow.microsoft.com/en-us/
+.. _Power Automate (Microsoft Flow): https://flow.microsoft.com/en-us/

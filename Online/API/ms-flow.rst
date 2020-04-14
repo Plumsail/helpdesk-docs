@@ -1,7 +1,7 @@
-Microsoft Flow connector
+Power Automate (Microsoft Flow) connector
 =======================================
 
-This connector helps you to manipulate data in your HelpDesk with the help of Microsoft Flow.
+This connector helps you to manipulate data in your HelpDesk with the help of Power Automate (Microsoft Flow).
 
 To start using it you need to complete following prerequisites:
 

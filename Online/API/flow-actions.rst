@@ -1,7 +1,7 @@
-Microsoft Flow Actions
+Power Automate (Microsoft Flow) Actions
 ======================
 
-This connector helps you to manipulate data in your HelpDesk with the help of Microsoft Flow. Before starting, ensure that you `added Plumsail HelpDesk connector to Microsoft Flow <https://plumsail.com/docs/help-desk-o365/v1.x/API/ms-flow.html>`_.
+This connector helps you to manipulate data in your HelpDesk with the help of Power Automate (Microsoft Flow). Before starting, ensure that you `added Plumsail HelpDesk connector to Power Automate (Microsoft Flow) <https://plumsail.com/docs/help-desk-o365/v1.x/API/ms-flow.html>`_.
 
 .. contents:: List of actions in this connector
    :local:
@@ -392,7 +392,7 @@ Gets a ticket by ID and updates it. Returns updated ticket.
             - SFTP
             - File System          
 
-          `List of Microsoft Flow connectors <https://flow.microsoft.com/en-us/connectors/>`_      
+          `List of Power Automate (Microsoft Flow) connectors <https://flow.microsoft.com/en-us/connectors/>`_      
     *  -  Ticket Support Channel
        -  Support channel name, if no value is provided, it will be set to API
        -  Company site
@@ -535,7 +535,7 @@ Creates new comment for a ticket with specified Id and returns it.
             - SFTP
             - File System          
 
-          `List of Microsoft Flow connectors <https://flow.microsoft.com/en-us/connectors/>`_  
+          `List of Power Automate (Microsoft Flow) connectors <https://flow.microsoft.com/en-us/connectors/>`_  
     *  -  Comment MessageId
        -  Message-ID of email message, if comment is being created from email
        -  <SN2PR0501MB105.namprd05.prod.outlook.com>
