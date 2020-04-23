@@ -1,6 +1,15 @@
 Version history
 ###############
 
+Version 2.1.6
+-------------
+
+New features:
+
+- Modern Settings page.
+- Modern Canned responses appearance.
+- Modern Email settings appearance.
+
 Version 2.1.5
 -------------
 
