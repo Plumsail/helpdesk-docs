@@ -26,6 +26,9 @@ On the schedule tab, you choose the period of time when a notification is perfor
 
 |Schedule|
 
+.. note::
+   You can schedule a task not oftener than once in an hour.
+
 On the second tab, you need to provide a condition for a task.
 
 |Task|
@@ -36,27 +39,30 @@ The list of actions contains three types of actions: send email, start workflow 
 
 |Task1|
 
+To test any task, you can run it manualy on the "Scheduler" tab.
+
+|RunTask|
+
 On the logs tab you can find history on what tickets task were performed. As well, you can find this information in the ticket history if you check "Log task runs in the ticket history" option on the schedule tab.
 
 |Logs|
-
-Note that you can schedule a task not oftener than once in an hour.
 
 .. _Condition syntax: Condition%20syntax.html
 .. _actions: General%20information.html#actions
 
 .. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
-.. |HelpDeskScheduler| image:: /_static/img/overdueNotification.png
+.. |HelpDeskScheduler| image:: ../_static/img/overdueNotification.png
    :alt: Overdue notification task
-.. |TaskCondition| image:: /_static/img/task-condition.png
+.. |TaskCondition| image:: ../_static/img/task-condition.png
    :alt: Task condition
-.. |Schedule| image:: /_static/img/runat.png
+.. |Schedule| image:: ../_static/img/runat.png
    :alt: Schedule tab
-.. |Task| image:: /_static/img/task-condition-1.png
+.. |Task| image:: ../_static/img/task-condition-1.png
    :alt: Condition for task
-.. |Task1| image:: /_static/img/task-action.png
+.. |Task1| image:: ../_static/img/task-action.png
    :alt: Condition for task
-.. |Logs| image:: /_static/img/task-logs.png
+.. |Logs| image:: ../_static/img/task-logs.png
    :alt: Task's logs
-
+.. |RunTask| image:: ../_static/img/ConfGuide_Scheduler_RunTask.png
+   :alt: Run a task
