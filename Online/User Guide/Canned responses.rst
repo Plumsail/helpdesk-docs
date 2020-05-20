@@ -3,15 +3,16 @@ Canned responses
 
 Respond to common questions faster with canned responses. Your agents can create a predefined set of reply templates 
 that they can send out with a single click.  
-Navigate to settings using menu on the left.   
+Navigate to **Settings** using menu on the left.   
 
-Click on “Canned response” tab. Here you can find all canned responses which were created on this HelpDesk instance. To create a new canned response, click on New Canned Response.
+Click on “Canned response” tab. Here you can find all canned responses which were created on this HelpDesk instance. 
 
-|NewResponse|
+|CannedResponces|
 
+To create a new canned response, click on **New Canned Response**.
 Provide a title that you and your agents will easily understand and type your response template in the rich text editor. 
-Also, you can set the visibility. If you set visibility to everyone, every user can view it and use it in responses.
-If you uncheck “Visible to everyone”, you will be the only user of that template.
+Also, you can set the visibility. If you leave **Visibility to everyone**, every user can view it and use it in responses.
+If you choose **Visible to me** from the dropdown list, you will be the only user of that template.
 
 |NewTemplate|
 
@@ -20,12 +21,12 @@ Choose the response you'd like to add to your reply and that’s it.
 
 |CannedResponseInAction|
 
-Note that you can create a new canned response straight from the ticket. 
+Note that you can create a new canned response straight from the ticket. Just click on the **Add new** button on top of the **Canned responces** dropdown list. 
 
-.. |NewResponse| image:: ../_static/img/online-user-guide-canned-responces-01.png
-   :alt: New canned response
-.. |NewTemplate| image:: ../_static/img/new-template-for-response.jpg
+.. |CannedResponces| image:: ../_static/img/online-user-guide-canned-responces-00.jpg
+   :alt: Canned Responces
+.. |NewTemplate| image:: ../_static/img/online-user-guide-canned-responces-01.jpg
    :alt: New canned response template
-.. |CannedResponseInAction| image:: ../_static/img/response-in-action.jpg
+.. |CannedResponseInAction| image:: ../_static/img/online-use-guide-canned-responces-03.gif
    :alt: Insert canned response to your answer
 

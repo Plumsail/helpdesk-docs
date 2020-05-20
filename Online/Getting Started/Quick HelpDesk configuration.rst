@@ -17,7 +17,11 @@ Forward messages from your support mailbox
 
 If you want to receive new tickets from your support email address you
 need to configure message forwarding. Navigate to HelpDesk **Settings** page
-using the left navbar. You will see the **Email settings** tab.
+using the left navbar. Then choose **Emails** 
+
+|HDModernSettings|
+
+You will see the **Email settings** tab.
 
 |HDEmailSettings|
 
@@ -103,7 +107,8 @@ Notice that adding a widget is optional.
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
 .. _here: ../Configuration%20Guide/Widget.html
 
-.. |HDEmailSettings| image:: ../_static/img/online-configuration-email-settings-online-1.png
+.. |HDModernSettings| image:: ../_static/img/online-getting-started-settings-online-1.png
+.. |HDEmailSettings| image:: ../_static/img/online-configuration-email-settings-online-1.jpg
    :alt: Email Settings
 .. |Create Contact| image:: ../_static/img/getting-started-quick-helpdesk-configuration-0.png
     :alt: Create Contact
