@@ -107,7 +107,7 @@ Notice that adding a widget is optional.
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
 .. _here: ../Configuration%20Guide/Widget.html
 
-.. |HDModernSettings| image:: ../_static/img/online-getting-started-settings-online-1.png
+.. |HDModernSettings| image:: ../_static/img/online-getting-started-settings-online-1.jpg
 .. |HDEmailSettings| image:: ../_static/img/online-configuration-email-settings-online-1.jpg
    :alt: Email Settings
 .. |Create Contact| image:: ../_static/img/getting-started-quick-helpdesk-configuration-0.png
