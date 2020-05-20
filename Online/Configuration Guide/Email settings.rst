@@ -5,8 +5,7 @@ You can configure HelpDesk to create new tickets or ticket comments with
 email messages as well as specify some custom settings for the email
 address used for notifications.
 
-Navigate to **Settings** tab using the left navbar.
-You will see **Email settings** section.
+Navigate to **Email settings** section on the **Settings** page.
 
 |HDEmailSettings|
 
@@ -78,7 +77,7 @@ instructions and click “Save”. Also, you can test the correctness of entered
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
 
 
-.. |HDEmailSettings| image:: ../_static/img/online-configuration-email-settings-online-1.png
+.. |HDEmailSettings| image:: ../_static/img/online-configuration-email-settings-online-1.jpg
    :alt: Email Settings
-.. |HDSMTPServerSettings| image:: ../_static/img/online-configuration-email-settings-online-2.png
+.. |HDSMTPServerSettings| image:: ../_static/img/online-configuration-email-settings-online-2.jpg
    :alt: SMTP Server Settings

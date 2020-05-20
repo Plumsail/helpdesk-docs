@@ -58,6 +58,7 @@ Table of contents
       User Guide/Knowledge base
       User Guide/All tickets
       User Guide/Contacts
+      User Guide/My contact
       User Guide/Reports      
       User Guide/Canned responses
       User Guide/Merge
