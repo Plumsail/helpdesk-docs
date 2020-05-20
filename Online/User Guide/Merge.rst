@@ -11,7 +11,7 @@ merged as the ticket is closed during the merge.
 To merge tickets, open the ticket you’d like to merge into another. 
 Then click on the **Merge** button in the top-left menu. 
 |Merge|
-You'll see a pop-up window where you need to enter ticket ID to merge into.
+You will see a pop-up window where you need to enter ticket ID to merge into.
 
 |MergePopUp|
 
