@@ -35,6 +35,7 @@ Forms license
 -----------------------------------
 When you purchase Helpdesk Yacht plan and higher you receive a special Forms license which allows modifying Helpdesk forms.
 
+
 - You can customize only forms in the following lists if you don't have a separate Plumsail Forms license but have at least Yacht plan: Tickets, Contacts, Organizations
 - There could be the Forms expired licensing notification in your Plumsail Forms account. It is ok and means that you don't have a full Forms license. Anyway, you'll be able to modify the mentioned Helpdesk forms.
 
