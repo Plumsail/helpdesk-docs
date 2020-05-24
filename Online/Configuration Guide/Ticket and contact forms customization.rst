@@ -20,6 +20,9 @@ It is available for free for HelpDesk customizations.
 Pluimsail Forms allows you to design SharePoint forms with tabs,
 complex tables, and accordions among other UI elements.
 
+- You can customize only forms in the following lists if you don't have a full Plumsail Forms license but have at least Yacht plan: Tickets, Contacts, Organizations
+- There could be the Forms expired licensing notification in your Plumsail Forms account. It is ok and it means that you don't have a full Forms license. Anyway, you'll be able to modify the mentioned Helpdesk forms.
+
 To start using Plumsail Forms, please `download <https://plumsail.com/forms/start-trial/>`_ a desktop app and run the installation file on your computer. To connect to HelpDesk, run the app, choose **SharePoint** and specify your HelpDesk site URL. You'll be prompted for your login details. Once it connects to HelpDesk, please choose a list you want to work with:
 
 |PlumsailForms Sign in|

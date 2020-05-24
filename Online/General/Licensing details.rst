@@ -30,6 +30,14 @@ Likely you start using Plumsail HelpDesk with a trial. The trial version gives y
     Who is an agent?
 	  Agent is a SharePoint user that processes tickets. Agents unlike members, receive notifications about new unassigned tickets. There is a Role column in the  `contacts`_  list. User is an agent if his role is "Agent".
 
+
+Forms license
+-----------------------------------
+When you purchase Helpdesk Yacht plan and higher you receive a special Forms license which allows modifying Helpdesk forms.
+
+- You can customize only forms in the following lists if you don't have a separate Plumsail Forms license but have at least Yacht plan: Tickets, Contacts, Organizations
+- There could be the Forms expired licensing notification in your Plumsail Forms account. It is ok and means that you don't have a full Forms license. Anyway, you'll be able to modify the mentioned Helpdesk forms.
+
 End-User Software License Agreement
 -----------------------------------
 
