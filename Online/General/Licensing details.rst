@@ -12,32 +12,53 @@ As for the rest, all plans have the same features. The only difference is in a n
 
 Likely you start using Plumsail HelpDesk with a trial. The trial version gives you an opportunity to try our product with no limits. The trial period lasts for 30 days. If you choose not to purchase one of three plans, the help desk will stop working. For more details about plans, take a look at the table below.
 
-+------------------+------------------+------------------+
-| Jet boat         | Yacht            | Ocean liner      |
-+==================+==================+==================+
-|5 agents          |10 agents         |Unlimited agents  |
-+------------------+------------------+------------------+
-|2000 comments     |5000 comments     |Unlimited amount  |
-|per month         |per month         |of comments       |
-|                  |                  |                  |
-+------------------+------------------+------------------+
-|Unlimited         |Unlimited         |Unlimited         |
-|helpdesk instances|helpdesk instances|helpdesk instances|
-+------------------+------------------+------------------+
- 
+.. list-table::
+    :header-rows: 1    
+
+    *  -  Jet boat  
+       -  Yacht
+       -  Ocean liner 
+    *  -  5 agents
+       -  10 agents
+       -  Unlimited agents
+    *  -  Unlimited installations
+       -  Unlimited installations
+       -  Unlimited installations
+    *  -  Automations
+       -  Automations
+       -  Automations
+    *  -  Support widget
+       -  Support widget
+       -  Support widget
+    *  -  Knowledge base
+       -  Knowledge base
+       -  Knowledge base
+    *  -  Reports dashboard
+       -  Reports dashboard
+       -  Reports dashboard
+    *  -  
+       -  SLA management
+       -  SLA management
+    *  -  
+       -  Forms customization
+       -  Forms customization
+    *  -  
+       -  
+       -  No copyright in widget
+
 .. glossary::
 
     Who is an agent?
 	  Agent is a SharePoint user that processes tickets. Agents unlike members, receive notifications about new unassigned tickets. There is a Role column in the  `contacts`_  list. User is an agent if his role is "Agent".
 
 
-Forms license
------------------------------------
-When you purchase Helpdesk Yacht plan and higher you receive a special Forms license which allows modifying Helpdesk forms.
+Plumsail Forms license
+----------------------
+When you purchase Helpdesk "Yacht" or "Ocean liner" plan you receive a special `Plumsail Forms <https://plumsail.com/forms/>`_ license that allows modifying Helpdesk forms:
 
-
-- You can customize only forms in the following lists if you don't have a separate Plumsail Forms license but have at least Yacht plan: Tickets, Contacts, Organizations
-- There could be the Forms expired licensing notification in your Plumsail Forms account. It is ok and means that you don't have a full Forms license. Anyway, you'll be able to modify the mentioned Helpdesk forms.
+- You can customize only forms in the Tickets, Contacts, and Organizations lists by default.
+- If you want to customize other lists you need to `buy Plumsail Forms subscription <https://plumsail.com/forms/store/>`_.
+- You will see trial message in Plumsail Forms UI. It is because you don't have full subscription. You are still able to customize HelpDesk forms.
 
 End-User Software License Agreement
 -----------------------------------

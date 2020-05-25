@@ -1,8 +1,14 @@
 Customize ticket and contact forms
-##################################
+################################## 
 
-.. note:: If you are using Plumsail HelpDesk with version older than 2.1.1, please follow  `this link <deprecated/Ticket%20and%20contact%20forms%20customization%20(before%202.1.1).html>`_ to learn about forms customization for your version of HelpDesk.
+.. note:: 
 
+   `Plumsail Forms <https://plumsail.com/forms/>`_ is included into the "Yacht" and "Ocean liner" plans. You have to purchase it separately for the "Jet boat" plan.
+
+   - You can customize only forms in the Tickets, Contacts, and Organizations lists by default.
+   - If you want to customize other lists you need to `buy Plumsail Forms subscription <https://plumsail.com/forms/store/>`_.
+   - You will see trial message in Plumsail Forms UI. It is because you don't have full subscription. You are still able to customize HelpDesk forms.
+   - If you are using Plumsail HelpDesk 2.1.1 and earlier, please `use this documentation instead <deprecated/Ticket%20and%20contact%20forms%20customization%20(before%202.1.1).html>`_.
 
 .. contents:: Table of contents
     :local:
@@ -13,16 +19,10 @@ Customize ticket and contact forms
 Using Plumsail Forms
 -------------------
 
-.. important:: `Plumsail Forms <https://plumsail.com/forms/>`_ is included into the "Yacht" and "Ocean liner" plans. You have to purchase it separately for the "Jet boat" plan.
-
 In order to customize ticket and contact forms you need to install `Plumsail Forms for SharePoint online <https://plumsail.com/forms/>`_.
 It is available for free for HelpDesk customizations.
 Pluimsail Forms allows you to design SharePoint forms with tabs,
 complex tables, and accordions among other UI elements.
-
-
-- You can customize only forms in the following lists if you don't have a full Plumsail Forms license but have at least Yacht plan: Tickets, Contacts, Organizations
-- There could be the Forms expired licensing notification in your Plumsail Forms account. It is ok and it means that you don't have a full Forms license. Anyway, you'll be able to modify the mentioned Helpdesk forms.
 
 To start using Plumsail Forms, please `download <https://plumsail.com/forms/start-trial/>`_ a desktop app and run the installation file on your computer. To connect to HelpDesk, run the app, choose **SharePoint** and specify your HelpDesk site URL. You'll be prompted for your login details. Once it connects to HelpDesk, please choose a list you want to work with:
 
