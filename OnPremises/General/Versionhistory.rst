@@ -1,7 +1,23 @@
 Version history
 ###############
 
-Version 1.3.10
+Version 1.3.13
+--------------
+
+New features:
+
+– Support of recent Microsoft update by forms.
+
+
+Version 1.3.12
+--------------
+
+New features:
+
+– Various fixes.
+
+
+Version 1.3.11
 --------------
 
 New features:
