@@ -8,6 +8,7 @@ Customize ticket and contact forms
    - You can customize only forms in the Tickets, Contacts, and Organizations lists by default.
    - If you want to customize other lists you need to `buy Plumsail Forms subscription <https://plumsail.com/forms/store/>`_.
    - You will see trial message in Plumsail Forms UI. It is because you don't have full subscription. You are still able to customize HelpDesk forms.
+   - Do not delete default JavaScript code - just extend it in the case of need. Otherwise, you will encounter a notification in HelpDesk forms that Forms trial has expired.
    - If you are using Plumsail HelpDesk 2.1.1 and earlier, please `use this documentation instead <deprecated/Ticket%20and%20contact%20forms%20customization%20(before%202.1.1).html>`_.
 
 .. contents:: Table of contents
