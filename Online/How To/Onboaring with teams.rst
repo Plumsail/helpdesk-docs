@@ -2,15 +2,15 @@ Use HelpDesk with Microsoft Teams for employee onboarding
 #########################################################
 
 A good onboarding experience can help you set your new hires up for success from the get-go. This is especially relevant when your team or its part is working remotely and you can't easily guide the new employee in person.
-In this article, we'll take a look at a couple of tricks you can use to partially or fully automate the process with the help of Plumsail HelpDesk, MS Teams, and PowerAutomate.
+In this article, we'll take a look at a couple of tricks you can use to partially or fully automate the process with the help of Plumsail HelpDesk, MS Teams, and Power Automate.
 
-#. `Use MS Teams to trigger the onboarding process in Power Automate`_
+#. `Trigger the onboarding process with MS Teams`_
 #. `Use HelpDesk MS PowerAutomate connector for onboarding process`_
 #. `Send messages to MS Teams chat and channel`_
 #. `Complete flow`_
 
 
-Use MS Teams to trigger the onboarding process in Power Automate
+Trigger the onboarding process with MS Teams
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `MS Teams`_ is a a communication and collaboration hub for the users of your Office365 tenant to chat, hold video meetings, share files, etc.  
@@ -103,7 +103,7 @@ You will find the complete flow picture with all the settings below:
    :alt: Add automated trigger
 .. |Trigger| image:: ../_static/img/online-how-to-onboarding-trigger-channel.png
    :alt: Trigger settings
-.. |TriggerWithUpdatedTemplate| image:: ../_static/img/online-how-to-onboarding-create-key.png
+.. |Key| image:: ../_static/img/online-how-to-onboarding-create-key.png
    :alt: New API Key
 .. |Office365| image:: ../_static/img/online-how-tp-onboarding-office365.png
    :alt: Get user profile
@@ -124,8 +124,8 @@ You will find the complete flow picture with all the settings below:
 .. _MS Teams: https://teams.microsoft.com/
 .. _connector: ../API/ms-flow.html
 .. _Power Automate (formerly Microsoft Flow): https://flow.microsoft.com
-.. _Use MS Teams to trigger the onboarding process in Power Automate: ##use-ms-teams-to-trigger-the-onboarding-process-in-power-automate
-.. _Use HelpDesk MS PowerAutomate connector for onboarding process: #use-helpdesk-ms-powerautomate-connector-for-onboarding-process
+.. _Use MS Teams to trigger the onboarding process in Power Automate: #trigger-the-onboarding-process-with-ms-teams
+.. _Use HelpDesk MS PowerAutomate connector for onboarding process: #use-helpDesk-ms-powerautomate-connector-for-the-onboarding-process
 .. _Send messages to MS Teams chat and channel: #send-messages-to-ms-teams-chat-and-channel
 .. _Complete flow: #complete-flow
 .. _separate article: ../API/ms-flow.html
