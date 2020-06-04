@@ -60,7 +60,7 @@ Here's how a template of such a ticket might look like:
 
 |Ticket|
 
-Please note that we've used all the info dynamically from the previous step and only the ticket assignee (the IT service desk in this case) is hardcoded. We've also used the following Expression to set the Ticket due date to tomorrow:  "addDays(utcNow(),1)".
+Please note that we've used all the info dynamically from the previous step and only the ticket assignee (the IT service desk in this case) is hardcoded. We've also used the following Expression to set the ticket due date to tomorrow:  "addDays(utcNow(),1)".
 
 Send messages to MS Teams chat and channel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
