@@ -17,6 +17,7 @@ You will be redirected to the confirmation and payment page, where you will be a
 
 |RenewSample|
 
+
 Optionally you can enable auto-renewal for the product. See the “Enable auto-renewal” link at the picture above. So, renewal will be performed automatically using the credit card information you submitted.
 
 .. |SignInTo2co| image:: ../_static/img/sign-in-to-2co.png
