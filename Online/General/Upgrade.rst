@@ -19,7 +19,7 @@ You will be redirected to the confirmation and payment page, where you will be a
 
 Optionally you can enable auto-renewal for the product. See the “Enable auto-renewal” link at the picture above. So, renewal will be performed automatically using the credit card information you submitted.
 
-.. |SignInTo2co| image:: ../_static/img/general/sign-in-to-2co.png
+.. |SignInTo2co| image:: ../_static/img/sign-in-to-2co.png
    :alt: Signin to 2checkout
 .. |AvangateTopMenu| image:: ../_static/img/general/avangate-top-menu.png
    :alt: 2checkout top menu
