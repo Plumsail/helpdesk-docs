@@ -1,6 +1,20 @@
 Version history
 ###############
 
+Version 2.1.8
+-------------
+
+New features:
+
+-  Ability to display Plumsail Widget in Polish.
+
+Version 2.1.7
+-------------
+
+New features:
+
+- Modern widget configuration settings.
+
 Version 2.1.6
 -------------
 
