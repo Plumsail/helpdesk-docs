@@ -66,6 +66,7 @@ Compliance Certifications
 
 Azure data center is certified for ISO 27001, SOC I, II AND III, HIPAA and FedRAMP compliance. Visit `Azure trust center`_. 
 
+
 Get in touch with us
 ---------------------
 If you have any questions about our security policy, please, feel free to drop a line at support@plumsail.com.
