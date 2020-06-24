@@ -3,6 +3,9 @@ My contact
 
 You can easily view and set up your on contact on the HelpDesk site.  
 Navigate to **Settings** using menu on the left. Click on **My contact**
+
+|HDSettingsMyContact|
+
 Add or edit the info in the form and click **Save**.
 
 |My_Contact|
@@ -12,6 +15,8 @@ Please note that you can also add an automated signature that will be added unde
 |Signature|
 
 
+.. |HDSettingsMyContact| image:: ../_static/img/online-user-guide-my-contact-settings.png
+   :alt: Settings page
 
 .. |My_Contact| image:: ../_static/img/online-user-guide-my-contact-00.jpg
    :alt: My Contact

@@ -23,10 +23,9 @@ Here you can create a new widget configuration for your page by choosing 'New it
 |NewWidget|
 
 Provide a title for a widget configuration and choose how many tickets will be displayed on the page.
+You can customize fields displayed in widget ticket list. To do this, just start typing the name of the field and pick it up from the dropdown list.  
 
-You can customize fields displayed in widget ticket list. To do this you will need to provide a list of comma-separated field names in Display fields section. Note, that you need to use `internal names`_ of the fields. 
-
-If you are creating a widget for external site, you can choose widget language and whether to allow user registration. Registered users have ability to review their tickets.
+Also, choose "For Sharepoint" as the **Type** of the widget. 
 
 .. note::
    Display fields customization is available from version 1.4.7.
@@ -116,7 +115,7 @@ When the installation is finished, the widget's icon color will be changed from 
 .. |WidgetMenu| image:: ../_static/img/newwidget.png
    :alt: Widget settings
 .. |GenSPConfigID| image:: ../_static/img/widget-get-sp-config-id.png
-   :alt: Generated HTML code
+   :alt: Generated ID
 .. |EditPage| image:: ../_static/img/editpage.png
    :alt: Adding a widget to your site
 .. |Finish| image:: ../_static/img/finish.png

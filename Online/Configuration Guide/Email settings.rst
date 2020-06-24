@@ -7,7 +7,7 @@ address used for notifications.
 
 Navigate to **Email settings** section on the **Settings** page.
 
-|HDEmailSettings|
+|HDModernSettings|
 
 .. _forwarding:
 
@@ -76,7 +76,7 @@ instructions and click “Save”. Also, you can test the correctness of entered
 .. _Gmail: https://support.google.com/mail/answer/10957?hl=en
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
 
-
+.. |HDModernSettings| image:: ../_static/img/online-getting-started-settings-online-1.png
 .. |HDEmailSettings| image:: ../_static/img/online-configuration-email-settings-online-1.jpg
    :alt: Email Settings
 .. |HDSMTPServerSettings| image:: ../_static/img/online-configuration-email-settings-online-2.jpg
