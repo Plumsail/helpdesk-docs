@@ -5,6 +5,8 @@ Respond to common questions faster with canned responses. Your agents can create
 that they can send out with a single click.  
 Navigate to **Settings** using menu on the left.   
 
+|HDSettingsCannedResponces|
+
 Click on “Canned response” tab. Here you can find all canned responses which were created on this HelpDesk instance. 
 
 |CannedResponces|
@@ -22,7 +24,10 @@ Choose the response you'd like to add to your reply and that’s it.
 |CannedResponseInAction|
 
 Note that you can create a new canned response straight from the ticket. Just click on the **Add new** button on top of the **Canned responces** dropdown list. 
+ 
 
+.. |HDSettingsCannedResponces| image:: ../_static/img/online-user-guide-canned-responses-settings.png
+   :alt: HelpDesk Settings
 .. |CannedResponces| image:: ../_static/img/online-user-guide-canned-responces-00.jpg
    :alt: Canned Responces
 .. |NewTemplate| image:: ../_static/img/online-user-guide-canned-responces-01.jpg
