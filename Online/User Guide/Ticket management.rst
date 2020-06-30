@@ -83,7 +83,7 @@ message. Click save and your comment will be added.
 Add new ticket
 ~~~~~~~~~~~~~~
 
-HelpDesk can create new tickets from email messages, but you may
+Help desk can create new tickets from email messages, but you may
 need to create a new ticket manually. Click the button on top of the page:
 
 |new-icon|
@@ -97,7 +97,7 @@ Assign to me button
 ~~~~~~~~~~~~~~~~~~~
 
 Assign to me button gives you opportunity to easily assign Tickets to yourself with one click.
-To assign tickets, choose one or several unassigned tickets. Then click on Helpdesk tab and select “Assign to me”. 
+To assign tickets, choose one or several unassigned tickets. Then click "Assign to me". 
 After that, you will find newly assigned tickets on My tickets tab. This action can be reverted. 
 If the ticket has been assigned to somebody else, you can reassign it with Assign to me button as well.
 
