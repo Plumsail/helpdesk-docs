@@ -50,8 +50,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'HelpDesk for Office 365'
-copyright = '2018, Plumsail'
+project = 'HelpDesk for Office 365, MS Teams, and SharePoint'
+copyright = '2020, Plumsail'
 author = 'Plumsail'
 
 # The version info for the project you're documenting, acts as replacement for
