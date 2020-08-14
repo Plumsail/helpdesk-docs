@@ -35,5 +35,5 @@ After that, add a new action and select ‘Send email’. You can choose a perso
 
 .. _Forms Designer: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Forms%20customization.html
 .. _Triggers: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Triggers.html
-.. _here: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Condition%20Syntax.html
+.. _here: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Condition%20syntax.html
 .. _tokens: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Tokens%20and%20snippets.html

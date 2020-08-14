@@ -50,7 +50,7 @@ Summary
 
 That's it. Now you know how to configure the task. HelpDesk Scheduler will periodically check status of your tickets and close them if they didn’t get a reply from a customer in 3 days. You can try to do it by yourself. Just follow instructions and install_ HelpDesk on your own SharePoint site to get a ticketing system with easy and simple automation.
 
-.. _condition syntax: ../Configuration%20Guide/Condition%20Syntax.html
+.. _condition syntax: ../Configuration%20Guide/Condition%20syntax.html
 .. _cron syntax: https://plumsail.com/sharepoint-workflow-scheduler/docs/advanced-schedule-cron-syntax/
 .. _HelpDesk Scheduler: ../Configuration%20Guide/Scheduling.html
 .. _Plumsail HelpDesk: https://plumsail.com/sharepoint-helpdesk/
