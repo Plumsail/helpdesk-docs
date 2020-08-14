@@ -39,4 +39,4 @@ Save changes and run a task to test it. You can make sure that your task is work
 .. _Scheduler: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Scheduling.html 
 .. _Here: https://plumsail.com/docs/help-desk-o365/v1.x/How%20To/Add%20new%20column%20to%20tickets%20list.html  
 .. _tokens: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/Tokens%20and%20snippets.html
-.. _configure synchronization of your Office 365 accounts with HelpDesk: https://plumsail.com/docs/help-desk-o365/v1.x/How%20To/Sync%20SharePoint%20user%20profiles%20fields%20to%20HelpDesk%20contacts.html
+.. _configure synchronization of your Office 365 accounts with HelpDesk: https://plumsail.com/docs/help-desk-o365/v1.x/How%20To/Import%20Office%20365%20users%20into%20contacts%20list.html

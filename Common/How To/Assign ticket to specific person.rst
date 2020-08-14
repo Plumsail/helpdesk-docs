@@ -35,4 +35,4 @@ SharePoint group.
 .. || image:: ../_static/img/
    :alt: 
 
-.. _here: ../Configuration%Guide/Condition%20syntax.html#functions
+.. _here: ../Configuration%20Guide/Condition%20syntax.html#functions
