@@ -94,7 +94,6 @@ Table of contents
       
       How To/notifications
       How To/automations
-      How To/integrations
       How To/sla
       How To/ticket-management
       How To/customizations
