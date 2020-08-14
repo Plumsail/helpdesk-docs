@@ -23,6 +23,7 @@ This update will erase some settings:
     You can `switch your UI back to Classic <Return%20to%20Classic.html>`_ after update.    
 
 Navigate to settings using the icon in the navbar:
+
 |SettingsIcon|
 
 Then click on the **About** tab. Now you can see available updates.
@@ -45,6 +46,7 @@ If there is no app catalog created yet, you will see the following error:
 |AppCatalogError|
 
 Create app catalog using `this article <https://social.technet.microsoft.com/wiki/contents/articles/36933.create-app-catalog-in-sharepoint-online.aspx>`_ and click "Try again":
+
 |TryAgain|
     
 
@@ -63,7 +65,7 @@ please enter tenant admin credentials and click "Update".
 If you don't want to enter the credentials, please do the steps described in this article: :ref:`upload-helpdesk-sppkg` and click "Update" again.
 
 
-.. |SettingsIcon| image:: ../_static/img/settingsicon.png
+.. |SettingsIcon| image:: ../_static/img/settings_classicIcon.png
    :alt: Settings Navigation Icon
 .. |Update| image:: ../_static/img/upgrade-2-1-1/upgrade211_step3.png
    :alt: Update
