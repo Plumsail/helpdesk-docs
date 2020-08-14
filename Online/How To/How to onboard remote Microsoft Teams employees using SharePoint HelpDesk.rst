@@ -1,14 +1,12 @@
-Use HelpDesk with Microsoft Teams for employee onboarding
-#########################################################
+Use SharePoint HelpDesk with Microsoft Teams for employee onboarding
+####################################################################
 
 A good onboarding experience can help you set your new hires up for success from the get-go. This is especially relevant when your team or its part is working remotely and you can't easily guide the new employee in person.
 In this article, we'll take a look at a couple of tricks you can use to partially or fully automate the process with the help of Plumsail HelpDesk, MS Teams, and Power Automate.
 
-#. `Trigger the onboarding process with MS Teams`_
-#. `Use HelpDesk MS PowerAutomate connector for onboarding process`_
-#. `Send messages to MS Teams chat and channel`_
-#. `Complete flow`_
-
+.. contents:: Table of contents
+   :local:
+   :depth: 1
 
 Trigger the onboarding process with MS Teams
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,7 +41,7 @@ You can store the checklist as a separate file. We'll use the OneDrive connector
 
 |OneDrive|
 
-Use HelpDesk MS PowerAutomate connector for the onboarding process
+Use HelpDesk MS Power Automate connector for the onboarding process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Plumsail HelpDesk has its own connector to work wit Power Automate. To use it, you need to only to navigate to the **Power Automate & API** tab on the **Settings** page
 and create a new API key. Please give it a name and choose **Edit** permissions level. Copy the key:
@@ -76,7 +74,7 @@ We'll also post a message in the **General** Team chat for others to greet the n
 
 |Channel|
 
-Complete flow
+Review the complete flow
 ~~~~~~~~~~~~~
 
 You will find the complete flow picture with all the settings below:
