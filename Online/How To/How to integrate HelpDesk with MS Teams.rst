@@ -5,7 +5,7 @@ Integrate HelpDesk for SharePoint in Microsoft Teams
 
 You can integrate HelpDesk into `MS Teams`_ so that your Office365 users will not have to leave their preferred communication hub to work with the tickets.
 In this article, we'll walk through inserting a HelpDesk tab to channels in MS Teams.
-First, we'll insert a HelpDesk widget in an organization wide channel for all the users of your Office365 to be able to get support within the Teams interface:
+First, we'll insert a HelpDesk widget in an organization-wide channel for all the users of your Office365 to be able to get support within the Teams interface:
 
 |HelpDeskWidget|
 
@@ -20,7 +20,7 @@ Second, we'll create a Team for the Support agents to interact with the HelpDesk
 Add Teams tab for submitting tickets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We'll start with creating an onranizational wide team that will unite all the users in your Office365 domain.
+We'll start by creating an organizational team that will unite all the users in your Office365 domain.
 **Note** that you can build a HelpDesk tab for any Team with limited access in the same way.
 Click on **Join or create a team** link below and then on the **Create a team** button.
 
@@ -37,12 +37,12 @@ You can navigate to the Team site directly from the MS Teams:
 
 On the Team site, create a new page in the Pages library and place a HelpDesk widget on the page.
 To create a Widget, please navigate to the **Settings** page on your HelpDesk site and select **Widget**. 
-Click on **New widget configuration**, enter the title for your widget and select **For SharePoint** type:
+Click on **New widget configuration**, enter the title for your widget, and select **For SharePoint** type:
 
 |CreateWidget|
 
-Copy ID of the created widget. Next, you need to the place the widget on the Team site. 
-Navigate to the site page, click on the **"+"** icon to add a new wepbart an select the **Plumsail HelpDesk Widget**:
+Copy ID of the created widget. Next, you need to place the widget on the Team site. 
+Navigate to the site page, click on the **"+"** icon to add a new webpart, and select the **Plumsail HelpDesk Widget**:
 
 |AddWidget|
 
@@ -61,7 +61,7 @@ Search for the SharePoint app:
 |SharePointApp|
 
 You will see the list of all the pages on your Team Site. Please note that you can add any page within your SharePoint tenant as well.
-Now, you users can interact with the HelpDesk widget without ever leaving Teams:
+Now, your users can interact with the HelpDesk widget without ever leaving Teams:
 
 |Widget|
 
@@ -88,7 +88,7 @@ Insert the page URL here:
 
 |AddPageByURL|
 
-Now your HelpDesk agents can create, view and reply to the tickets from the Teams tab. 
+Now, your HelpDesk agents can create, view and reply to the tickets from the Teams tab. 
 To open the HelpDesk site in the browser, just click on the Globe icon (**Go to website**)
 
 
