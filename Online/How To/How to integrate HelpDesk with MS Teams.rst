@@ -53,7 +53,7 @@ Open the Widget settings and paste the ID:
 Every Team member can use this page to view and create tickets and interact with the HelpDesk agents. 
 
 .. note::
-   Please review `this article`_ on how to create and insert a Widget on a SharePoint site page to get more details. 
+   Please see how to create and insert a `Widget`_ on a SharePoint site in more details. 
 
 Now you can add your page as a tab to the Team. Select your team, click on the **"+"** icon on the tabs toolbar above.
 Search for the SharePoint app: 
@@ -88,8 +88,11 @@ Insert the page URL here:
 
 |AddPageByURL|
 
-Now, your HelpDesk agents can create, view and reply to the tickets from the Teams tab. 
-To open the HelpDesk site in the browser, just click on the Globe icon (**Go to website**)
+Now, your HelpDesk agents can create, view and reply to the tickets from the Teams tab:
+
+|HelpDeskHome|
+
+To open the HelpDesk site in the browser, just click on the Globe icon (**Go to website**).
 
 
 
@@ -120,5 +123,5 @@ To open the HelpDesk site in the browser, just click on the Globe icon (**Go to 
 
 
 .. _MS Teams: https://teams.microsoft.com/
-.. _this article: ../Configuration%20Guide/Adding%20widget%20to%20SharePoint%20site.html
+.. _Widget: ../Configuration%20Guide/Adding%20widget%20to%20SharePoint%20site.html
 
