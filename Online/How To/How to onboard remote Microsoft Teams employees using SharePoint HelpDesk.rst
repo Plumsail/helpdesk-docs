@@ -1,17 +1,23 @@
 Use SharePoint HelpDesk with Microsoft Teams for employee onboarding
 ####################################################################
 
-A good onboarding experience can help you set your new hires up for success from the get-go. This is especially relevant when your team or its part is working remotely and you can't easily guide the new employee in person.
-In this article, we'll take a look at a couple of tricks you can use to partially or fully automate the process with the help of Plumsail HelpDesk, MS Teams, and Power Automate.
+In this article, we'll take a look at a couple of tricks you can use to partially or fully automate the 
+onboarding process with the help of Plumsail HelpDesk, MS Teams, and Power Automate.
+When you add a new member in `MS Teams`_, an automated process will assign a new HelpDesk ticket to start the onboarding and notify the 
+new employee in the Chat:
+
+|Example|
+
+
 
 .. contents:: Table of contents
    :local:
    :depth: 1
 
-Trigger the onboarding process with MS Teams
+Create a ticket when a new user joins MS Teams channel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`MS Teams`_ is a a communication and collaboration hub for the users of your Office365 tenant to chat, hold video meetings, share files, etc.  
+`MS Teams`_ is a a communication and collaboration hub for the users of your Microsoft 365 tenant to chat, hold video meetings, share files, etc.  
 `Power Automate (formerly Microsoft Flow)`_ is a flexible instrument for creating automated processes. It can help integrate 
 different services and make them interact with each other. Plumsail Helpdesk has a connector_ to interact with 
 Power Automate that help you automate routine and repetitive actions. 
@@ -41,8 +47,7 @@ You can store the checklist as a separate file. We'll use the OneDrive connector
 
 |OneDrive|
 
-Use HelpDesk MS Power Automate connector for the onboarding process
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Plumsail HelpDesk has its own connector to work wit Power Automate. To use it, you need to only to navigate to the **Power Automate & API** tab on the **Settings** page
 and create a new API key. Please give it a name and choose **Edit** permissions level. Copy the key:
 
@@ -60,7 +65,7 @@ Here's how a template of such a ticket might look like:
 
 Please note that we've used all the info dynamically from the previous step and only the ticket assignee (the IT service desk in this case) is hardcoded. We've also used the following Expression to set the ticket due date to tomorrow:  "addDays(utcNow(),1)".
 
-Send messages to MS Teams chat and channel
+Notify new employee about onboarding steps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Finally, you may use MS Teams to send a message to your new colleague and notify other Team members of the reinforcement. 
@@ -69,6 +74,9 @@ First, we'll use the **Post a message as the Flow bot to a user** action to not 
 |Chat|
 
 Note that, like in the previous steps, all the necessary info is acquired dynamically. The **Create a ticket** action yields all the info about the ticket we might need.
+
+Introduce the new employee to the company
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We'll also post a message in the **General** Team chat for others to greet the new colleague:
 
@@ -115,15 +123,15 @@ You will find the complete flow picture with all the settings below:
    :alt: Channel post
 .. |Arrow| image:: ../_static/img/online-how-to-onboarding-arrow.png
    :alt:
+.. |Example| image:: ../_static/img/online-how-to-onboarding-example1.png
+   :alt: Chat notification
 
+   
    
 
 
 .. _MS Teams: https://teams.microsoft.com/
 .. _connector: ../API/ms-flow.html
 .. _Power Automate (formerly Microsoft Flow): https://flow.microsoft.com
-.. _Use MS Teams to trigger the onboarding process in Power Automate: #trigger-the-onboarding-process-with-ms-teams
-.. _Use HelpDesk MS PowerAutomate connector for onboarding process: #use-helpDesk-ms-powerautomate-connector-for-the-onboarding-process
-.. _Send messages to MS Teams chat and channel: #send-messages-to-ms-teams-chat-and-channel
 .. _Complete flow: #complete-flow
 .. _separate article: ../API/ms-flow.html
