@@ -1,12 +1,19 @@
 Version history
 ###############
 
+Version 2.1.9
+-------------
+
+New features:
+
+- Ability to create custom views in a web widget.
+
 Version 2.1.8
 -------------
 
 New features:
 
--  Ability to display Plumsail Widget in Polish.
+- Ability to display Plumsail Widget in Polish.
 
 Version 2.1.7
 -------------
