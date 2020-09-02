@@ -1,5 +1,5 @@
-Adding widget to SharePoint site
-################################
+Add widget to SharePoint site
+#############################
 
 .. note::
    Since version 2.1.1 widget web part is included in default HelpDesk installation package. 
