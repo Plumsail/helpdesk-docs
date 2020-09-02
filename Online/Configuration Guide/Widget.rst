@@ -9,8 +9,8 @@ Here is 'My tickets' view looks like for end-users:
 
 |WidgetView|
 
-How to install widget
----------------------
+How to configure widget
+-----------------------
 
 Use these links to learn how to
 
@@ -18,8 +18,9 @@ Use these links to learn how to
    :name: widgettoc
    :maxdepth: 1
 
-   Adding widget to SharePoint site
-   Adding widget to external site
+   Add widget to SharePoint site
+   Add widget to external site
+   Add custom ticket views to widget <Custom widget views>
 
 .. |WidgetView| image:: ../_static/img/online-requester-widget-view.png
    :alt: HelpDesk Widget
