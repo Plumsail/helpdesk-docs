@@ -2,7 +2,7 @@ Add widget to SharePoint site
 #############################
 
 .. note::
-   Since version 2.1.1 widget web part is included in default HelpDesk installation package. 
+   Since version 2.1.1 widget web part is included in the default HelpDesk installation package. 
    It means you don't need to install it separately as in previous versions and it's available right after HelpDesk installation.
 
 .. contents:: Table of contents
@@ -14,27 +14,33 @@ Creating widget configuration
 -----------------------------
 
 Open HelpDesk site and navigate to the **Settings** tab using the left navbar.
-Click ont the **Widgets** tab.
+Click on the **Widgets** tab.
 
 |WidgetTab|
 
-Here you can create a new widget configuration for your page by choosing 'New item' and edit any existing configurations by clicking 'Edit'. Note that editing of widget configuration is employing to every existing widget with this configuration.
+Here you can create a new widget configuration for your page by choosing "New item" and edit any existing configurations by clicking "Edit".
+Note that editing of widget configuration is employing to every existing widget with this configuration.
 
 |NewWidget|
 
-Provide a title for a widget configuration and choose how many tickets will be displayed on the page.
-You can customize fields displayed in widget ticket list. To do this, just start typing the name of the field and pick it up from the dropdown list.  
+Provide a **Title** for the widget and choose "For SharePoint" as its **Type**.
 
-Also, choose "For Sharepoint" as the **Type** of the widget. 
+|SPWidget|
+
+Check the configuration of the default views.
+You can set how many **Tickets per page** the widget will have for a certain view.
+The **Display fields** property specifies what information about tickets will be exposed on the widget list.
+Just start typing the name of a field and pick it up from the dropdown list.
+Creation of custom views is also available and described in `this article`_.
+
+|EditView|
 
 .. note::
-   Display fields customization is available from version 1.4.7.
+   Display fields customization is available from version 1.4.7 and custom views—from version 2.1.9.
 .. note::
-   Display fields are cached for 30 minutes for optimisation purposes. You will need to clear browser cache to apply your changes immediatly.
+   Display fields are cached for 30 minutes for optimisation purposes. You will need to clear browser cache to apply your changes immediately.
 
-|WidgetMenu|
-
-After saving, HTML code for external sites and configuration ID for SharePoint will be generated and you need to copy SharePoint Configuration ID.
+After saving, a configuration ID for SharePoint will be generated—copy it for inserting into the web part on a page.
 
 |GenSPConfigID|
 
@@ -43,11 +49,11 @@ After saving, HTML code for external sites and configuration ID for SharePoint w
 Enable automatic sign-in for a widget
 -------------------------------------
 
-Open SharePoint site where you want to place the widget.
+Open the SharePoint site where you want to place the widget.
 
-Install Plumsail HelpDesk Widget add-in from `SharePoint App store <https://store.office.com/en-us/app.aspx?assetid=WA104380769&sourcecorrid=764978a8-0233-4b42-b2e4-7724d130dcf5&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false&canaryguid=c737b959d79b439bb20bebb5befabc00&reviewedAssetRating=5&AuthType=1&fromAR=1>`_. Installing of the add-in is required to enable automatic sign-in under current SharePoint user in widget.
+Install Plumsail HelpDesk Widget add-in from `SharePoint App store <https://store.office.com/en-us/app.aspx?assetid=WA104380769&sourcecorrid=764978a8-0233-4b42-b2e4-7724d130dcf5&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false&canaryguid=c737b959d79b439bb20bebb5befabc00&reviewedAssetRating=5&AuthType=1&fromAR=1>`_. Installing of the add-in is required to enable automatic sign-in under the current SharePoint user in a widget.
 
-Then you need to place widget to specific SharePoint page. Steps to do that are described below.
+Then you need to place widget to a specific SharePoint page. Steps to do that are described below.
 
 Adding widget to modern SharePoint page
 ---------------------------------------
@@ -104,35 +110,22 @@ When the installation is finished, the widget's icon color will be changed from 
 
 |Widget_BrightIcon|
 
-.. |WidgetView| image:: ../_static/img/widgetview.png
-   :alt: HelpDesk Widget
-.. |EmailSettings| image:: ../_static/img/settingsicon.png
-   :alt: E-mail settings
 .. |WidgetTab| image:: ../_static/img/tab.png
    :alt: Widget Tab
-.. |NewWidget| image:: ../_static/img/newitem.png
+.. |NewWidget| image:: ../_static/img/widget-add-new.png
    :alt: Create a new item
-.. |WidgetMenu| image:: ../_static/img/newwidget.png
-   :alt: Widget settings
-.. |GenSPConfigID| image:: ../_static/img/widget-get-sp-config-id.png
+.. |SPWidget| image:: ../_static/img/widget-add-sp.png
+   :alt: SharePoint widget
+.. |EditView| image:: ../_static/img/widget-add-view.png
+   :alt: Edit widget view
+.. |GenSPConfigID| image:: ../_static/img/widget-add-id.png
    :alt: Generated ID
-.. |EditPage| image:: ../_static/img/editpage.png
-   :alt: Adding a widget to your site
-.. |Finish| image:: ../_static/img/finish.png
-   :alt: Inserting a widget
-.. |Office365AdminCenter| image:: ../_static/img/widget-open-admin-center.png
-.. |SharePointAdminCenter| image:: ../_static/img/widget-navigate-to-sharepoint-admin-center.png
-.. |OpenAppCatalog| image:: ../_static/img/widget-open-app-catalog.png
-.. |CreateAppCatalog| image:: ../_static/img/widget-create-app-catalog.png
-.. |NewAppCatalog| image:: ../_static/img/widget-new-app-catalog.png
-.. |UploadSPPKG| image:: ../_static/img/widget-upload-sppkg.png
-.. |TenantScopedWP| image:: ../_static/img/widget-tenant-scoped-webpart.png
 .. |PickWPOnModernPage| image:: ../_static/img/widget-pick-wp-on-modern-page.png
+   :alt: Pick the HelpDesk web part
 .. |ConfigureModernWP| image:: ../_static/img/widget-configure-modern-wp.png
+   :alt: Copy ID to the web part
 .. |WidgetOnModernPage| image:: ../_static/img/widget-on-modern-page.png
-.. |PickWPOnClassicPage| image:: ../_static/img/widget-pick-wp-on-classic-page.png
-.. |WidgetOnClassicPage| image:: ../_static/img/widget-on-classic-page.png
-.. |GenGeneratedHTML| image:: ../_static/img/widget-get-html.png
+   :alt: The widget on the page
 .. |Widget_Issue| image:: ../_static/img/ConfigurationGuide_Widget_Issue.png
    :alt: Widget Issue
 .. |Widget_ApprovalRequest| image:: ../_static/img/ConfigurationGuide_Widget_RequestApproval.png
@@ -153,5 +146,4 @@ When the installation is finished, the widget's icon color will be changed from 
 .. |Widget_BrightIcon| image:: ../_static/img/ConfigurationGuide_Widget_BrightIcon.png
    :alt: Widget's Bright Icon
 
-.. _this link: /Configuration%20Guide/deprecated/Widget.html
-.. _internal names: ../How%20To/Find%20the%20internal%20name%20of%20SharePoint%20column.html
+.. _this article: ./Custom%20widget%20views.html
