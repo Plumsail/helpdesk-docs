@@ -28,8 +28,6 @@ Creation of custom views is also available and described in `this article`_.
 .. note::
    Display fields are cached for 30 minutes for optimisation purposes. You will need to clear browser cache to apply your changes immediately.
 
-|WidgetMenu|
-
 After saving, HTML code for external sites will be generated—copy it.
 
 |GetGeneratedHTML|
@@ -44,8 +42,6 @@ Open editing form of your HTML page and add the copied code where you'd like to 
    :alt: External widget
 .. |EditView| image:: ../_static/img/widget-add-view.png
    :alt: Edit widget view
-.. |WidgetMenu| image:: ../_static/img/newwidget.png
-   :alt: Widget settings
 .. |GetGeneratedHTML| image:: ../_static/img/widget-add-html.png
    :alt: Copy HTML snippet
 

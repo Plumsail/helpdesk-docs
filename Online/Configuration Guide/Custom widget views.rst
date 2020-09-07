@@ -33,23 +33,23 @@ The query can contain one of these tokens:
 
 In this case, I would like to display the tickets raised by the current user and which have the “Incident” category.
 First, let’s filter the ones raised by a current user.
-In the filter, I check whether the lookup field “Requester” refers to the user’s ID:
+In the filter, I check whether the lookup field “Requester” refers to the user’s ID so I leave the first part of the default query:
 
 .. code::
 
-    <Eq>
-        <FieldRef Name="Requester" LookupId="True"></FieldRef>
-        <Value Type="Lookup">{{Me.ID}}</Value>
-    </Eq>
+   <Eq>
+      <FieldRef Name='Requester' LookupId='True' />
+      <Value Type='Lookup'>{{Me.ID}}</Value>
+   </Eq>
 
 Then, I add another filter that leaves only the tickets with the “Incident” category:
 
 .. code::
 
-    <Eq>
-        <FieldRef Name="Category"></FieldRef>
-        <Value Type="Choice">Incident</Value>
-    </Eq>
+   <Eq>
+      <FieldRef Name='Category' />
+      <Value Type='Choice'>Incident</Value>
+   </Eq>
 
 And finally, I unite both conditions with a logical operator “And.”
 That is how it looks on the form:
@@ -65,17 +65,17 @@ Thus, a user can see their incident tickets separately from others:
 Now, try to reproduce the described example and then implement your own views.
 Your clients will appreciate convenient and clear communication
 
-.. |AddView| image:: ../_static/img/widget-view-add.png
+.. |AddView| image:: ../_static/img/configuration-guide-custom-widget-views-1.png
    :alt: Add widget
-.. |ConfigurationForm| image:: ../_static/img/widget-view-conf.png
+.. |ConfigurationForm| image:: ../_static/img/configuration-guide-custom-widget-views-2.png
    :alt: Widget configuration form
-.. |BasicFields| image:: ../_static/img/widget-view-basic.png
+.. |BasicFields| image:: ../_static/img/configuration-guide-custom-widget-views-3.png
    :alt: Basic fields
-.. |QueryField| image:: ../_static/img/widget-view-query.png
+.. |QueryField| image:: ../_static/img/configuration-guide-custom-widget-views-4.png
    :alt: Query field
-.. |ActiveTickets| image:: ../_static/img/widget-view-active.png
+.. |ActiveTickets| image:: ../_static/img/configuration-guide-custom-widget-views-5.png
    :alt: Active tickets
-.. |IncidentTickets| image:: ../_static/img/widget-view-incidents.png
+.. |IncidentTickets| image:: ../_static/img/configuration-guide-custom-widget-views-6.png
    :alt: Incident tickets
 
 .. _CAML-query: https://docs.microsoft.com/en-us/sharepoint/dev/schema/collaborative-application-markup-language-caml-schemas

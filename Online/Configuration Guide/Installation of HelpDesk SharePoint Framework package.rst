@@ -63,8 +63,6 @@ Select “Make this solution available to all sites in the organization” in th
    :alt: Widget Tab
 .. |NewWidget| image:: ../_static/img/newitem.png
    :alt: Create a new item
-.. |WidgetMenu| image:: ../_static/img/newwidget.png
-   :alt: Widget settings
 .. |GenSPConfigID| image:: ../_static/img/widget-get-sp-config-id.png
    :alt: Generated HTML code
 .. |EditPage| image:: ../_static/img/editpage.png

@@ -59,15 +59,15 @@ Adding a widget to an external site is quite similar to adding it to SharePoint 
 
 .. |WidgetView| image:: ../../_static/img/widgetview.png
    :alt: HelpDesk Widget
-.. |EmailSettings| image:: ../../_static/img/settingsicon.png
+.. |EmailSettings| image:: ../../_static/img/settings_classicIcon.png
    :alt: E-mail settings
-.. |WidgetTab| image:: ../../_static/img/tab.png
+.. |WidgetTab| image:: ../../_static/img/tab-depr.png
    :alt: Widget Tab
-.. |NewWidget| image:: ../../_static/img/newitem.png
+.. |NewWidget| image:: ../../_static/img/newitem-depr.png
    :alt: Create a new item
-.. |WidgetMenu| image:: ../../_static/img/newwidget.png
+.. |WidgetMenu| image:: ../../_static/img/newwidget-depr.png
    :alt: Widget settings
-.. |GenHTML| image:: ../../_static/img/gethtml.png
+.. |GenHTML| image:: ../../_static/img/gethtml-depr.png
    :alt: Generated HTML code
 .. |EditPage| image:: ../../_static/img/editpage.png
    :alt: Adding a widget to your site
