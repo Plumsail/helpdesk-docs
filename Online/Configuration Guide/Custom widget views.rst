@@ -65,17 +65,17 @@ Thus, a user can see their incident tickets separately from others:
 Now, try to reproduce the described example and then implement your own views.
 Your clients will appreciate convenient and clear communication
 
-.. |AddView| image:: ../_static/img/configuration-guide-custom-widget-views-1.png
+.. |AddView| image:: ../_static/img/configuration-guide-widget-views-add.png
    :alt: Add widget
-.. |ConfigurationForm| image:: ../_static/img/configuration-guide-custom-widget-views-2.png
+.. |ConfigurationForm| image:: ../_static/img/configuration-guide-widget-views-conf.png
    :alt: Widget configuration form
-.. |BasicFields| image:: ../_static/img/configuration-guide-custom-widget-views-3.png
+.. |BasicFields| image:: ../_static/img/configuration-guide-widget-views-basic.png
    :alt: Basic fields
-.. |QueryField| image:: ../_static/img/configuration-guide-custom-widget-views-4.png
+.. |QueryField| image:: ../_static/img/configuration-guide-widget-views-query.png
    :alt: Query field
-.. |ActiveTickets| image:: ../_static/img/configuration-guide-custom-widget-views-5.png
+.. |ActiveTickets| image:: ../_static/img/configuration-guide-widget-views-active.png
    :alt: Active tickets
-.. |IncidentTickets| image:: ../_static/img/configuration-guide-custom-widget-views-6.png
+.. |IncidentTickets| image:: ../_static/img/configuration-guide-widget-views-incidents.png
    :alt: Incident tickets
 
 .. _CAML-query: https://docs.microsoft.com/en-us/sharepoint/dev/schema/collaborative-application-markup-language-caml-schemas

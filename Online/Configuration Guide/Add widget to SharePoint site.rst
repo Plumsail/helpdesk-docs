@@ -112,13 +112,13 @@ When the installation is finished, the widget's icon color will be changed from 
 
 .. |WidgetTab| image:: ../_static/img/tab.png
    :alt: Widget Tab
-.. |NewWidget| image:: ../_static/img/widget-add-new.png
+.. |NewWidget| image:: ../_static/img/configuration-guide-widget-add-new.png
    :alt: Create a new item
-.. |SPWidget| image:: ../_static/img/widget-add-sp.png
+.. |SPWidget| image:: ../_static/img/configuration-guide-widget-add-sp.png
    :alt: SharePoint widget
-.. |EditView| image:: ../_static/img/widget-add-view.png
+.. |EditView| image:: ../_static/img/configuration-guide-widget-add-view.png
    :alt: Edit widget view
-.. |GenSPConfigID| image:: ../_static/img/widget-add-id.png
+.. |GenSPConfigID| image:: ../_static/img/configuration-guide-widget-add-id.png
    :alt: Generated ID
 .. |PickWPOnModernPage| image:: ../_static/img/widget-pick-wp-on-modern-page.png
    :alt: Pick the HelpDesk web part

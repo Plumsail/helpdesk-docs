@@ -36,13 +36,13 @@ Open editing form of your HTML page and add the copied code where you'd like to 
 
 .. |WidgetTab| image:: ../_static/img/tab.png
    :alt: Widget Tab
-.. |NewWidget| image:: ../_static/img/widget-add-new.png
+.. |NewWidget| image:: ../_static/img/configuration-guide-widget-add-new.png
    :alt: Create a new item
-.. |ExtWidget| image:: ../_static/img/widget-add-ext.png
+.. |ExtWidget| image:: ../_static/img/configuration-guide-widget-add-ext.png
    :alt: External widget
-.. |EditView| image:: ../_static/img/widget-add-view.png
+.. |EditView| image:: ../_static/img/configuration-guide-widget-add-view.png
    :alt: Edit widget view
-.. |GetGeneratedHTML| image:: ../_static/img/widget-add-html.png
+.. |GetGeneratedHTML| image:: ../_static/img/configuration-guide-widget-add-html.png
    :alt: Copy HTML snippet
 
 .. _this article: ./Custom%20widget%20views.html
