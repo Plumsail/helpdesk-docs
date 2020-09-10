@@ -16,7 +16,7 @@ Open Power Automate (Microsoft Flow) account then navigate to *'Custom Connector
 
 Fill in name *'Plumsail HelpDesk'* and swagger definition URL:
 
-  https://static.plumsail.com/AppFiles/HelpDesk/swagger.json
+  http://helpdesk-services.plumsail.com/_api/swagger/rest/swagger.json
 
 .. image:: ../_static/img/connector-from-url-form.png
    :alt: Connector from URL form
