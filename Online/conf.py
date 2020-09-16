@@ -133,6 +133,9 @@ html_theme_options = {
     "base_url": "https://plumsail.com/docs/help-desk-o365/v1.x/" #for sitemap
 }
 
+html_sidebars = {'**': ['searchbox.html','globaltoc.html']}
+#-----
+
 #html_theme = "sphinx_rtd_theme"
 #html_theme_path = ["_themes\sphinx_librato_theme", ]
 

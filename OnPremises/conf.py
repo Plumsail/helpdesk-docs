@@ -130,8 +130,10 @@ html_theme_options = {
 
     # Set you GA account ID to enable tracking
     "google_analytics_account": "UA-36215023-2",
-    "base_url": "https://plumsail.com/docs/help-desk-o365/v1.x/" #for sitemap
+    "base_url": "https://plumsail.com/docs/help-desk-onpremises/v1.x/" #for sitemap
 }
+html_sidebars = {'**': ['searchbox.html','globaltoc.html']}
+#-----
 
 #html_theme = "sphinx_rtd_theme"
 #html_theme_path = ["_themes\sphinx_librato_theme", ]
