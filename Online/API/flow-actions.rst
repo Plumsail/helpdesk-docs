@@ -162,12 +162,15 @@ Creates new ticket and returns created ticket.
        -  Support channel name, if no value is provided, it will be set to API
        -  Company site
     *  -  Ticket Custom Fields
-       -  JSON object with custom field values to be set.
+       -  JSON object with custom field values to be set. There is a specific way to set a multichoice field (check the "Languages" property).
        -  .. code-block:: json
 
             {
                 "Location": "Europe",
-                "OperatingSystem": "MS Windows 10"
+                "OperatingSystem": "MS Windows 10",
+                "Languages": {
+                    "results": ["English", "French"]
+                }
             }
 
 .. rubric:: Example
@@ -397,12 +400,15 @@ Gets a ticket by ID and updates it. Returns updated ticket.
        -  Support channel name, if no value is provided, it will be set to API
        -  Company site
     *  -  Ticket Custom Fields
-       -  JSON object with custom field values to be set.
+       -  JSON object with custom field values to be set. There is a specific way to set a multichoice field (check the "Languages" property).
        -  .. code-block:: json
 
             {
                 "Location": "Europe",
-                "OperatingSystem": "MS Windows 10"
+                "OperatingSystem": "MS Windows 10",
+                "Languages": {
+                    "results": ["English", "French"]
+                }
             }
     
 

@@ -75,7 +75,7 @@ Publish the page. Your HelpDesk widget is ready to use.
 Known issues
 ------------
 
-You may encounter the following error trying to `add Plumsail HelpDesk Widget <Adding%20widget%20to%20SharePoint%20site.html#auto-sign-in>`_ to a SharePoint site:
+You may encounter the following error trying to `add Plumsail HelpDesk Widget <Add%20widget%20to%20SharePoint%20site.html#auto-sign-in>`_ to a SharePoint site:
 
 |Widget_Issue|
 
