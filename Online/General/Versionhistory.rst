@@ -1,6 +1,21 @@
 Version history
 ###############
 
+Version 2.1.11
+-------------
+
+New features:
+
+- Modern reports.
+
+Version 2.1.10
+-------------
+
+New features:
+
+- Modern UI for the "Power Automate & API" page.
+- Separate Modern UI localization from Classic UI.
+
 Version 2.1.9
 -------------
 
