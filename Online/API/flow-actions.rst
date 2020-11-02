@@ -157,7 +157,7 @@ Creates new ticket and returns created ticket.
     *  -  Ticket Attachments
        -  Array of object containing File Names and File Contents.
        -  #. *Manual* adding of attachments. Specify a file name and pass its content from another action. To add an attachment item, click an accordant button. Check the "Ticket Attachments" section of the action on the `screenshot <./flow-actions.html#screenshot-createticket>`_ below.
-          #. *Dynamical* adding of attachments. If the number of attachments varies and depends on output of other actions, then use the approach described in this `article <../How%20To/Submit%20tickets%20from%20an%20online%20form%20to%20SharePoint%20help%20desk%20with%20the%20help%20of%20Microsoft%20Flow%20or%20Azure%20Logic%20Apps%20connector.html#handling-attachments>`_.
+          #. *Dynamical* adding of attachments. If the number of attachments varies and depends on output of other actions, then use the approach described in this `article <../How%20To/Submit%20tickets%20from%20an%20online%20form%20to%20SharePoint%20help%20desk%20with%20the%20help%20of%20Power%20Automate%20(Microsoft%20Flow)%20or%20Azure%20Logic%20Apps%20connector.html#handling-attachments>`_.
     *  -  Ticket Support Channel
        -  Support channel name, if no value is provided, it will be set to API
        -  Company site
