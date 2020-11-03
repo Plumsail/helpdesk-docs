@@ -1,14 +1,14 @@
 Building advanced email templates
 #################################
 
-This article describes advanced practices for customizing email notifications sent by trigger.
+This article describes advanced practices for customizing email notifications sent by the trigger.
 We will customize the email template for the `Send email`_ trigger action.
 
 .. contents::
     :local:
     :depth: 2
 
-How to include values conditionally
+How conditionally to include values
 +++++++++++++++++++++++++++++++++++
 
 Template engine allows you conditional including (or excluding) arbitrary content into a message.
@@ -19,8 +19,8 @@ The *Tickets* list has a yes/no column which defines whether to include or not a
  
 In the template, it is necessary to add conditional tokens ``{{#if}}`` and ``{{/if}}``.
 The former should contain a reference to a field.
-If its value is resolved to ``true``, content between the tokens will be rendered in the resulting message.
-In this case, the content of the snippet should be included conditionally:
+If it resolves the value to ``true``, content between the tokens will be rendered in the resulting message.
+In this case, we include the snippet conditionally:
 
 .. code-block:: html
 
@@ -32,8 +32,8 @@ The conditional tokens has complimentary ones: ``{{#elif}}`` and ``{{#else}}``.
 They are optional and allow to include alternative content.
 ``{{#elif}}`` checks alternative condition fields, should be placed after ``{{#if}}`` and its quantity is not limited.
 ``{{#else}}`` should be placed just before ``{{/if}}`` and may occur just once.
-It defines the content for rendering if all previous conditions were resolved to ``false`` as it is in the current case.
-So I add ``{{#else}}`` to clarify that the rendering of comments was switched off:
+The token defines what content to render if all previous conditions were ``false`` as it is in the current case.
+So I add ``{{#else}}`` for notifying about switching comments off:
 
 .. code-block:: html
 
@@ -45,16 +45,16 @@ So I add ``{{#else}}`` to clarify that the rendering of comments was switched of
         <br/>
     {{/if}}
 
-Thus, the template with conditional inclduding of comments will be as follows:
+Thus, the template with conditional including of comments will be as follows:
 
 |templates-2|
 
-And the agent will receive the following notification if comments were switched off:
+And the agent will receive the following notification if we switched the comments off:
 
 |templates-3|
 
-How to iterate over collection of values
-++++++++++++++++++++++++++++++++++++++++
+How to iterate over a collection of values
+++++++++++++++++++++++++++++++++++++++++++
 
 Here is a simple example of iteration over a collection of comments:
 
@@ -78,22 +78,22 @@ Here is a simple example of iteration over a collection of comments:
         </div>
     {{/each}}
 
-In the beginning, it is necessary to list tokens for the fields which will be repeated in each iteration.
-Every token in such a list should start with ``#!``.
-They will not be included into the result message and just let the template know about fields that it needs to prepare for using inside the iteration.
+In the beginning, it is necessary to list tokens for the repeating fields of each iteration.
+In such a list, each one should start with ``#!``.
+They will not be included in the result message and just let the template know about fields, that it needs to prepare for using inside the iteration.
 
 In the example above, we used the ticket property ``AllComments``.
 It refers to the *Comments* list where all of them are stored.
-Thus, each comment has multiple fields that can be used in each iteration and we selected the following:
+Thus, each comment has multiple fields which you can use in each iteration, and we selected the following:
 
 * the title of a comment’s author (``{{#!Ticket.AllComments.From.Title}}``)
 * the date of a comment’s creation (``{{#!Ticket.AllComments.Created}}``)
 * the body of a comment (``{{#!Ticket.AllComments.Body}}``)
 
 Then, there are the limits of the repeatable block specified with special tokens ``{{#each}}`` and ``{{/each}}``.
-The first one should contain a reference to the field which contains the collection of values, i.e. in the example, it looks like ``{{#each Ticket.AllComments}}``.
+The first one should contain a reference to the field which contains the collection of values, i.e. it looks like ``{{#each Ticket.AllComments}}`` in the example.
 
-Since the full tokens for comments’ fields were listed in the beginning, now we use only the parts within the specified collection and mark them up with HTML:
+Since we listed the full tokens for comments’ fields in the beginning, now we use only the parts within the specified collection and mark them up with HTML:
 
 .. code-block:: html
 
@@ -109,8 +109,8 @@ Since the full tokens for comments’ fields were listed in the beginning, now w
         </div>
     </div>
 
-Thhe built-in snippet ``{{snippet:AllComments}}`` do the same in the same logic.
-It has a bit more complex structure to apply HelpDesk styles and include comments' attachments.
+The built-in snippet ``{{snippet:AllComments}}`` do the same in the same logic.
+It has a bit more complex structure to apply HelpDesk styles and include comments’ attachments.
 Here is its internal structure:
 
 .. code-block:: html
@@ -143,9 +143,9 @@ Here is its internal structure:
     {{/each}}
 
 It contains conditional including of attachments and iteration over them (since each comment can have multiple attachments).
-For this purpose, it is used a system token with a collection of comments’ attachments: ``{{AttachmentUrlsCollection}}``.
+For this purpose, they use a system token with a collection of comments’ attachments: ``{{AttachmentUrlsCollection}}``.
 The iteration over it doesn’t require building a dictionary.
-Each object in this collection has the following self-explanatory properties which are used as tokens within the iteration:
+Each object in this collection has the following self-explanatory properties, i.e. tokens to include in the iteration:
 
 * ``FileName``
 * ``URL``
@@ -161,7 +161,7 @@ Here is a sample of the notification:
 You can find condition configuration for such a trigger in this article_.
 The message body for the *Send email* action should contain an iteration over ``Data.FieldChanges`` which is available only on the *Ticket has been changed* event.
 It is a system array of objects that contain field values before and after the last modification.
-Each object has the following properties that can be used as tokens within iteration:
+Each one has the following properties to be used as tokens within iteration:
 
 * ``FieldName``
 * ``BeforeValue``
@@ -198,9 +198,9 @@ The default trigger renders a table using the mentioned tokens:
 How to use snippets
 +++++++++++++++++++
 
-Snippet is a small predefined part of a template in the `Send email`_ action that allows to insert blocks of information in the resulting message.
+The snippet is a small predefined part of a template in the `Send email`_ action that allows inserting blocks of information in the resulting message.
 Currently, it is not allowed to customize or to create snippets.
-All of them can be found in the hint to a template:
+All of them are in the hint to a template:
 
 |templates-5|
 
@@ -220,9 +220,9 @@ How to use context data
 You can use the context tokens on any event to get site related information.
 There are three possible tokens:
 
-* ``{{Context.SiteUrl}}`` (URL to site collection, where HelpDesk is installed)
-* ``{{Context.ServerUrl}}`` (URL to server, where SharePoint is hosted)
-* ``{{Context.WidgetUrl}}`` (default widget URL, specified in HelpDesk settings)
+* ``{{Context.SiteUrl}}`` (a URL of the site collection, where HelpDesk is installed)
+* ``{{Context.ServerUrl}}`` (a URL of the server, where SharePoint is hosted)
+* ``{{Context.WidgetUrl}}`` (a default widget URL, specified in HelpDesk settings)
 
 .. |templates-1| image:: ../_static/img/configuration-guide-triggers-templates-1.png
    :alt: Tickets with a custom field
