@@ -11,6 +11,8 @@ To generate new API key for Power Automate (Microsoft Flow) connector or REST AP
 .. image:: ../_static/img/create-api-key.png
    :alt: API keys
 
+-------------------------------------------------------------------------
+
 .. image:: ../_static/img/create-api-key-form.png
    :alt: API key type
 
