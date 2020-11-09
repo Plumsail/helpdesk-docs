@@ -1,6 +1,10 @@
 Ticket management
 #################
 
+.. contents::
+   :local:
+   :depth: 2
+
 View ticket
 ~~~~~~~~~~~
 
@@ -80,6 +84,14 @@ message. Click save and your comment will be added.
 
 |ticket-edit-comment|
 
+Pin ticket
+~~~~~~~~~~
+
+By default, tickets are closed after saving the changes.
+But you can keep it open—just enable the “Pin” on the command line:
+
+|pin|
+
 Add new ticket
 ~~~~~~~~~~~~~~
 
@@ -144,6 +156,8 @@ When the ticket is resolved, Agent should change its status to **Solved**.
    :alt: Assign to me button
 .. |TicketLifecycle| image:: ../_static/img/ticket-cycle.png
    :alt: Ticket lifecycle
+.. |pin| image:: ../_static/img/user-guide-management-pin.png
+   :alt: Pin button on the command line
 
 
 .. _SLA policies: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/SLA%20policy.html
