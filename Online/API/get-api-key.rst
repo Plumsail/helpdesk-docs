@@ -16,7 +16,7 @@ To generate new API key for Power Automate (Microsoft Flow) connector or REST AP
 .. image:: ../_static/img/create-api-key-form.png
    :alt: API key type
 
-Once you created and API key, you can see your key right in the "API key" row on a key form:
+Once you created and API key,  you can see your key right in the "API key" row on a key form:
 
 .. image:: ../_static/img/copy-api-key.png
    :alt: API key
