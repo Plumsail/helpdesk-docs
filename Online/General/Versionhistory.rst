@@ -1,6 +1,14 @@
 Version history
 ###############
 
+Version 2.1.12
+-------------
+
+New features:
+
+- Modern UI for the "Appearance setting" page.
+- Ability to attach files to canned responses.
+
 Version 2.1.11
 -------------
 
