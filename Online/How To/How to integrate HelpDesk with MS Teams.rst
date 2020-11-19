@@ -72,8 +72,9 @@ Insert the page URL here:
 |AddPageByURL|
 
 Now, your HelpDesk agents can create, view and reply to the tickets from the Teams tab. 
-To open the HelpDesk site in the browser, just click on the Globe icon (**Go to website**).
+To open the HelpDesk site in the browser, just click on the Globe icon (**Go to website**):
 
+|GlobeIcon|
 
 
 .. |HelpDeskWidget| image:: ../_static/img/online-how-to-teams-01.png
@@ -96,6 +97,8 @@ To open the HelpDesk site in the browser, just click on the Globe icon (**Go to 
    :alt: Widget in Teams
 .. |AddPageByURL| image:: ../_static/img/online-how-to-teams-11.png
    :alt: Add Page by URL
+.. |GlobeIcon| image:: ../_static/img/online-how-to-teams-13.png
+   :alt: Go to the website
 
    
 
