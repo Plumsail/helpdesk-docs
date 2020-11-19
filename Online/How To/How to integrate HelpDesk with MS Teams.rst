@@ -79,7 +79,7 @@ To open the HelpDesk site in the browser, just click on the Globe icon (**Go to 
 
 .. |HelpDeskWidget| image:: ../_static/img/online-how-to-teams-01.png
    :alt: HelpDesk Widget
-.. |HelpDeskHome| image:: ../_static/img/online-how-two-teams-2.png
+.. |HelpDeskHome| image:: ../_static/img/online-how-to-teams-2.png
    :alt: HelpDesk Home page
 .. |CreateTeam| image:: ../_static/img/online-how-to-teams-4.png
    :alt: Create a team
