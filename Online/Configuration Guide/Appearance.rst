@@ -9,7 +9,7 @@ as well as customize HelpDesk navigation.
 
 Navigate to **Settings** tab using the left navbar:
 
-Then click on the **Appearance** tab. Now you can see the quick launch
+Then click on the **Appearance** button. Now you can see the quick launch
 display setting and a list of HelpDesk navigation elements.
 
 |navigationsets|
@@ -17,18 +17,19 @@ display setting and a list of HelpDesk navigation elements.
 Top menu customization 
 ~~~~~~~~~~~~~~~~~~~~~~
 
-HelpDesk top menu is a set of buttons  with different ticket views. You can customize them by adding a new button with a view or URL to external site. You can change existing buttons as well.
+HelpDesk top menu is a set of links  with different ticket views. You can customize them by adding a new button with a view or URL to external site. You can drag the existing links to chnage their order as well.
 
 To add a new item to top navigation, click “New top menu item”.
 
 |NewTopMenu|
 
-You will see a dialog window where you need provide a title for a new item and select ticket view. If you choose a link instead of view, please provide aan URL.
+You will see a dialog window where you need provide a title for a new item and select ticket view. If you choose a link instead of view, please provide an URL.
 
 |NewItem|
 
-In Order field, provide an index number which the new item will take place in the line of existing elements. 
-Don’t forget to save a new item.
+Don’t forget to save a new item. After adding this new element you can drga it to change the links' order 
+
+|NewItemOrder|
 
 If you have troubles with deleting the item, open your browser's console and type localStorage.clear() there. Then renew the page.
 
@@ -45,3 +46,5 @@ If you have troubles with deleting the item, open your browser's console and typ
    :alt: New top menu item
 .. |NewItem| image:: ../_static/img/new-top-menu-item-1.png
    :alt: Creation of the new item
+.. |NewItemOrder| image:: ../_static/img/new-top-menu-item-order.gif
+   :alt: Change the items order
