@@ -34,6 +34,14 @@ Don’t forget to save a new item. After adding this new element you can drga it
 If you have troubles with deleting the item, open your browser's console and type localStorage.clear() there. Then renew the page.
 
 
+
+How to change home page 
+~~~~~~~~~~~~~~~~~~~~~~
+
+You can change the default Home page in the Appearance settings. Specify the new URL in the field and click save button.
+
+|HomePageUrl|
+
 .. |SettingsIcon| image:: ../_static/img/settingsicon.png
    :alt: Settings Navigation Icon
 .. |navigationsets| image:: ../_static/img/appearance.png
@@ -48,3 +56,5 @@ If you have troubles with deleting the item, open your browser's console and typ
    :alt: Creation of the new item
 .. |NewItemOrder| image:: ../_static/img/new-top-menu-item-order.gif
    :alt: Change the items order
+.. |HomePageUrl| image:: ../_static/img/change-home-page-url.png
+   :alt: Change the home page url
