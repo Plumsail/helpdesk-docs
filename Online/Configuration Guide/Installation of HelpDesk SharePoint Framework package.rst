@@ -19,13 +19,13 @@ Download the `add-in <https://static-hd.plumsail.com/ModernUI/spfx/Plumsail.Help
 Create App Catalog
 -------------------------
 
-Open Office 365 admin center:
-
-|Office365AdminCenter|
-
 Navigate to SharePoint Admin Center:
 
 |SharePointAdminCenter|
+
+Go to 'More features' - 'Apps'
+
+|SharePointApps|
 
 Open ‘App catalog’:
 
@@ -67,6 +67,7 @@ Select “Make this solution available to all sites in the organization” in th
    :alt: Inserting a widget
 .. |Office365AdminCenter| image:: ../_static/img/widget-open-admin-center.png
 .. |SharePointAdminCenter| image:: ../_static/img/widget-navigate-to-sharepoint-admin-center.png
+.. |SharePointApps| image:: ../_static/img/sharepoint-apps.png
 .. |OpenAppCatalog| image:: ../_static/img/widget-open-app-catalog.png
 .. |CreateAppCatalog| image:: ../_static/img/widget-create-app-catalog.png
 .. |NewAppCatalog| image:: ../_static/img/widget-new-app-catalog.png
