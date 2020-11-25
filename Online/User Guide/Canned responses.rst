@@ -26,6 +26,15 @@ Choose the response you'd like to add to your reply and that’s it.
 Note that you can create a new canned response straight from the ticket. Just click on the **Add new** button on top of the **Canned responces** dropdown list. 
  
 
+Additionally, you can add attachments to your canned response.
+
+|CannedResponseWithAttachment|
+
+After selecting the canned response the attachments will be added to the ticket.
+
+|SelectCannedResponseWithAttachment|
+
+
 .. |HDSettingsCannedResponces| image:: ../_static/img/online-user-guide-canned-responses-settings.png
    :alt: HelpDesk Settings
 .. |CannedResponces| image:: ../_static/img/online-user-guide-canned-responces-00.jpg
@@ -34,4 +43,8 @@ Note that you can create a new canned response straight from the ticket. Just cl
    :alt: New canned response template
 .. |CannedResponseInAction| image:: ../_static/img/online-use-guide-canned-responces-03.gif
    :alt: Insert canned response to your answer
+.. |CannedResponseWithAttachment| image:: ../_static/img/online-canned-response-with-attachment.png
+   :alt: Add attachments to canned response
+.. |CannedResponseInAction| image:: ../_static/img/online-select-canned-response-with-attachment.gif
+   :alt: Insert canned response with attachment to your answer
 
