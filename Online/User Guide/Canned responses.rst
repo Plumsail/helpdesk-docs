@@ -14,7 +14,7 @@ Click on “Canned response” tab. Here you can find all canned responses which
 To create a new canned response, click on **New Canned Response**.
 Provide a title that you and your agents will easily understand and type your response template in the rich text editor. 
 Also, you can set the visibility. If you leave **Visibility to everyone**, every user can view it and use it in responses.
-If you choose **Visible to me** from the dropdown list, you will be the only user of that template. Additionally, you can add attachments to your canned response.
+If you choose **Visible to me** from the dropdown list, you will be the only user of that template. Additionally, you can add **attachments** to your canned response.
 
 |CannedResponseWithAttachment|
 
