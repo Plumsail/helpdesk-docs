@@ -45,6 +45,6 @@ After selecting the canned response the attachments will be added to the ticket.
    :alt: Insert canned response to your answer
 .. |CannedResponseWithAttachment| image:: ../_static/img/online-canned-response-with-attachment.png
    :alt: Add attachments to canned response
-.. |CannedResponseInAction| image:: ../_static/img/online-select-canned-response-with-attachment.gif
+.. |SelectCannedResponseWithAttachment| image:: ../_static/img/online-select-canned-response-with-attachment.gif
    :alt: Insert canned response with attachment to your answer
 
