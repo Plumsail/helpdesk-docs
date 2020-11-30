@@ -17,7 +17,7 @@ display setting and a list of HelpDesk navigation elements.
 Top menu customization 
 ~~~~~~~~~~~~~~~~~~~~~~
 
-HelpDesk top menu is a set of links  with different ticket views. You can customize them by adding a new button with a view or URL to external site. You can drag the existing links to chnage their order as well.
+HelpDesk top menu is a set of links  with different ticket views. You can customize them by adding a new button with a view or URL to external site. You can drag the existing links to change their order as well.
 
 To add a new item to top navigation, click “New top menu item”.
 
@@ -27,7 +27,7 @@ You will see a dialog window where you need provide a title for a new item and s
 
 |NewItem|
 
-Don’t forget to save a new item. After adding this new element you can drga it to change the links' order 
+Don’t forget to save a new item. After adding this new element you can drag it to change the links' order 
 
 |NewItemOrder|
 
