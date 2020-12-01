@@ -72,12 +72,12 @@ For example, to restore ticket edit form you need to do following steps:
 6. Save the form.
 
 
-Restore previous version of SharePoint Helpdesk form
+Restore previous version of Helpdesk forms
 -----------------------------------------------------
 
 Sometimes you don't need to restore the default Helpdesk forms but only need to rollback to a previous version.
 
-You can find detailed instruction on how to do this in `this article <https://plumsail.com/docs/forms-sp/how-to/form-versions.html>`_.
+You can find detailed instructions on how to do this in `this article <https://plumsail.com/docs/forms-sp/how-to/form-versions.html>`_.
  
 .. _Plumsail Forms: https://plumsail.com/forms/
 .. _the documentation: https://plumsail.com/docs/forms-sp/index.html
