@@ -72,7 +72,7 @@ For example, to restore ticket edit form you need to do following steps:
 6. Save the form.
 
 
-Restore previous version of SharePoint Helpdesk form
+Restore previous version of Helpdesk forms
 -----------------------------------------------------
 
 Sometimes you don't need to restore the default Helpdesk forms but only need to rollback to a previous version.
