@@ -77,7 +77,7 @@ Restore previous version of SharePoint Helpdesk form
 
 Sometimes you don't need to restore the default Helpdesk forms but only need to rollback to a previous version.
 
-You can find detailed instruction on how to do this in `this article <https://plumsail.com/docs/forms-sp/how-to/form-versions.html>`_.
+You can find detailed instructions on how to do this in `this article <https://plumsail.com/docs/forms-sp/how-to/form-versions.html>`_.
  
 .. _Plumsail Forms: https://plumsail.com/forms/
 .. _the documentation: https://plumsail.com/docs/forms-sp/index.html
