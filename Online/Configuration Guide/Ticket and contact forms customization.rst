@@ -41,41 +41,10 @@ form in a simple drag-and-drop fashion:
 
 |Plumsail Forms Interface|
 
-Restore default forms
----------------------
-
-You can easily rollback any changes applied to the form and return to the default form. 
-Default form layouts you can find in ``<your HelpDesk site>/HD/FormsBackups/`` folder.
-
-|FormsBackupsFolder|
-
-All layouts are splitted by three folders:
-
-Tickets
-	Contains backups of the tickets forms.
-
-Contacts
-	Contains backups of the contacts forms.
-
-TicketStatuses
-	Contains backups of the ticket statuses forms.
-
-|TicketFormsBackups|
-
-For example, to restore ticket edit form you need to do following steps:
-
-1. Download file from ``<your HelpDesk site>/HD/FormsBackups/Tickets/Modern/Ticket_Edit.xfds``.
-2. Connect to the Tickets list with Plumsail Forms.
-3. Click on the **Import** button.
-4. Select the downloaded file ``Ticket_Edit.xfds``.
-5. Select **Edit** in the upper right corner of the Plumsail Forms window.
-6. Save the form.
-
-
 Restore previous version of Helpdesk forms
------------------------------------------------------
+------------------------------------------
 
-Sometimes you don't need to restore the default Helpdesk forms but only need to rollback to a previous version.
+You can easily rollback any changes applied to the Helpdesk forms: restore a previous version or return to the default forms. 
 
 You can find detailed instructions on how to do this in `this article <https://plumsail.com/docs/forms-sp/how-to/form-versions.html>`_.
  
