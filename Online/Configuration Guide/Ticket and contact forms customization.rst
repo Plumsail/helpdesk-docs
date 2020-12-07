@@ -41,10 +41,10 @@ form in a simple drag-and-drop fashion:
 
 |Plumsail Forms Interface|
 
-Restore previous version of Helpdesk forms
+Restore previous version of HelpDesk forms
 ------------------------------------------
 
-You can easily rollback any changes applied to the Helpdesk forms: restore a previous version or return to the default forms. 
+You can easily rollback any changes applied to the HelpDesk forms: restore a previous version or return to the default forms. 
 
 You can find detailed instructions on how to do this in `this article <https://plumsail.com/docs/forms-sp/how-to/form-versions.html>`_.
  
