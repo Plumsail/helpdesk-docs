@@ -71,7 +71,7 @@ instructions and click “Save”. Also, you can test the correctness of entered
 |HDSMTPServerSettings|
 
 .. _this article: How%20forwarding%20works.html
-.. _Office 365 Outlook: https://support.office.com/en-sg/article/Use-rules-in-Outlook-Web-App-to-automatically-forward-messages-to-another-account-1433e3a0-7fb0-4999-b536-50e05cb67fed#__toc377639463
+.. _Office 365 Outlook: Office365Outlook.html
 .. _Outlook.com: http://windows.microsoft.com/en-us/outlook/multiple-email-accounts#msaForwardEmail
 .. _Gmail: https://support.google.com/mail/answer/10957?hl=en
 .. _Yahoo: https://help.yahoo.com/kb/SLN3525.html
