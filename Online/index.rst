@@ -44,7 +44,6 @@ Table of contents
       Configuration Guide/Statuses customization
       Configuration Guide/Reports customization
       Configuration Guide/Ticket numbering customization
-      Configuration Guide/How to change home page
       Configuration Guide/Upgrade manager
       Configuration Guide/Uninstall HelpDesk
 

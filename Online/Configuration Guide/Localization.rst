@@ -87,11 +87,14 @@ For widgets located inside SharePoint environment usual localization logic is ap
 
 For example, you can put English widget to an English version of your site and German widget to a German version. You can also translate your widget to any custom language by yourself.
 
-To set language for your widget you need to open widget configuration form and select a language from Site language dropdown. You can also select custom language option and enter you own locale name. You can find list of culture names here: `Table of Language Culture Names`_\.
+To set language for your widget you need to open widget configuration form and select a language from Site language dropdown.
 
-|WidgetLanguage| |WidgetCustomLanguage|
+|WidgetLanguage| 
 
-If you selected custom language for your widget you will need to translate it by yourself. To do this, navigate to *<Site with HelpDesk>/HD/localization* folder, create a copy of en-US.js file and rename it to LocaleName.js, for example it-IT.js. Then you will have to translate all strings starting with "Widget" prefix and save the file.
+You can also select your custom language. To do this, navigate to *<Site with HelpDesk>/HD/modern_localization/widget* folder, create a copy of en-US.js file and rename it to LocaleName.js, for example bg-BG.js. Then you will have to translate all strings starting with "Widget" prefix and save the file.You can find list of culture names here: `Table of Language Culture Names`_\.
+
+|WidgetCustomLanguagePath| |WidgetCustomLanguage|
+
 
 Also you can customize any string in Widget interface just the same way as any other string in HelpDesk interface.
 
@@ -108,6 +111,8 @@ Also you can customize any string in Widget interface just the same way as any o
    :alt: Reply Localization
 .. |WidgetLanguage| image:: ../_static/img/widget-lang.png
    :alt: Widget Language
+.. |WidgetCustomLanguagePath| image:: ../_static/img/widget-custom-lang-path.png
+   :alt: Widget Custom Language Path
 .. |WidgetCustomLanguage| image:: ../_static/img/widget-lang-custom.png
    :alt: Widget Custom Language
 

@@ -1,6 +1,10 @@
 Ticket management
 #################
 
+.. contents::
+   :local:
+   :depth: 2
+
 View ticket
 ~~~~~~~~~~~
 
@@ -96,7 +100,6 @@ are required to be filled in. Status of ticket will be 'New' by design.
 |new-ticket-form|
 
 
-<<<<<<< HEAD
 Understanding ticket's statuses
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -108,7 +111,6 @@ Statuses **New** and **In Progress** are used for calculations of agent’s work
 When End-user submits a ticket, ticket’s status will be New by default. It applies to tickets created by team members via HelpDesk interface as well.
 Then Agent should provide a reply and change ticket’s status to **Pending**. After End-user has provided some feedback, ticket’s status will be automatically changed into In progress. This cycle can repeat as much as needed to resolve a ticket.
 When the ticket is resolved, Agent should change its status to **Solved**.
-
 
 .. |view-ticket-form| image:: ../_static/img/view-ticket-form.png
    :alt: View Ticket Form
@@ -130,6 +132,5 @@ When the ticket is resolved, Agent should change its status to **Solved**.
    :alt: Ticket lifecycle
 .. |TicketStatus| image:: /_static/img/status-list.png
    :alt: Ticket's statuses
-
 
 .. _SLA policies: https://plumsail.com/docs/help-desk-o365/v1.x/Configuration%20Guide/SLA%20policy.html
