@@ -1,18 +1,18 @@
 Building advanced conditions
-############################
+============================
 
 .. contents::
     :local:
     :depth: 2
 
 How to refer to values of ticket and comment fields
-+++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------------------------------------
 
 You can use a reference in the trigger conditions.
 When the one is checked, the reference will be replaced by the ticket property to which it refers.
 
 Define the source of data
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 One of the options is retrieving properties of tickets or comments.
 For the former, it is possible to get properties of the current or previous version.
@@ -23,7 +23,7 @@ One of the following keywords should be used to get a required property:
 * ``[Comment]`` (can be used on a *Comment has been added* event)
 
 Get simple values
------------------
+~~~~~~~~~~~~~~~~~
 
 To get a column value for a ticket or a comment it is necessary to use the column internal name from the accordant list:
 
@@ -40,7 +40,7 @@ You can retrieve thus any simple value such as text, choice or date and time.
 In the case of multiple values, they will be separated by a semicolon.
 
 Get lookup values
------------------
+~~~~~~~~~~~~~~~~~
 
 Sometimes you may need to access data from a lookup column. Reference to it will look like this:
 
@@ -54,7 +54,7 @@ The *Requester* is a lookup column in the *Tickets* list that refers to *Contact
 The *Organization* is another lookup column but in the *Contacts* list that refers to *Organizations* one.
 
 Get person or group values
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Getting data from the field which has a *Person or Group* type is almost the same as in the case with lookup fields.
 The only exception, that there is a fixed list of properties that you can refer to:
@@ -74,7 +74,7 @@ For example, a reference to a person or group specified in the *Assigned to* fie
     [Ticket.AssignedTo.Email]
 
 How to use expression operators
-+++++++++++++++++++++++++++++++
+-------------------------------
 
 In the middle of each expression, there is an operator.
 It performs some actions with data from both ends of expression and returns true or false.
@@ -94,7 +94,7 @@ As well as a function:
 * ``matches`` (the function returns true if the left part is an occurrence of the regular expression which is in the right part of condition expression)
 
 Options for *matches*
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 The pattern can contain inline options to modify the behaviour of the regular expression.
 Such options have to be placed at the beginning of the expression inside brackets with a question mark: ``(?YOUR_OPTIONS)``.
@@ -110,7 +110,7 @@ List of available options:
 You can find additional information about inline options in this article_.
 
 How to group condition expressions
-++++++++++++++++++++++++++++++++++
+----------------------------------
 
 Condition expressions are grouped with the following logical operators:
 
@@ -121,14 +121,14 @@ By default, there is always one basic group of conditions even if you have just 
 But it is possible to add nested groups which will return a common result for all expressions it contains.
 
 How to manipulate data inside operands
-++++++++++++++++++++++++++++++++++++++
+--------------------------------------
 
 Besides operators, you can perform some additional actions on data right in the operands’ fields (the left and right parts of expressions).
 There are date/time functions and arithmetical operators.
 They can be applied to hardcoded data as well as to ticket and comment fields.
 
 Date/time functions
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 * ``Today()`` receives no argument and returns of the current system date with 12 AM time part.
 * 
@@ -139,7 +139,7 @@ Date/time functions
 * ``AddMinutes() / AddHours() / AddDays() / AddMonths() / AddYears()``, each function adds the specified number of time units to a certain date/time string. It contains two arguments: the first one is a date/time string; the second one is an integer.
 
 Arithmetical operators
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 * Addition or concatenation (``+``)
 * Subtraction (``-``)
@@ -148,7 +148,7 @@ Arithmetical operators
 * Division with remainder (``%``)
 
 How to assign tickets proportionally on the shift basis 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------------------------------------------------------
 
 To demonstrate how conditions should be configured, let’s consider the following example.
 There are three shifts with 2 agents in each to provide 24/7 support.
@@ -203,7 +203,7 @@ All expressions are united with the logical operator ``AND`` since each should r
 .. _changes:
 
 How to detect changes made by others
-++++++++++++++++++++++++++++++++++++
+------------------------------------
 
 Out-of-the-box, HelpDesk has a trigger notifying assignees about changes performed by others.
 It is fired on the *Ticket has been changed* event which allows referring to the previous ticket version.

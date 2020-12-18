@@ -1,5 +1,5 @@
 Triggers
-########
+========
 
 .. toctree::
     :name: triggerstoc

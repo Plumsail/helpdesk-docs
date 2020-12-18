@@ -1,12 +1,12 @@
 Troubleshooting triggers
-########################
+========================
 
 .. contents::
     :local:
     :depth: 2
 
 General information on logs
-+++++++++++++++++++++++++++
+---------------------------
 
 Trigger logs can help to clarify the source of possible issues.
 Open the configuration of a problem trigger and click a button *Show logs* at the bottom.
@@ -28,12 +28,12 @@ The text-file will contain not only logs about the execution of a trigger but al
 |logs-3|
  
 Troubleshooting of requester notifications
-++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------
 
 The troubleshooting process is considered in the example when a requester does not receive notifications about new replies from an agent.
 
 Check trigger fires
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 Examine **timestamps** and **ticket IDs** of recent fires.
 If just one specific occurrence is absent, ensure that you added the reply: perhaps, there was an error that prevented it.
@@ -43,7 +43,7 @@ If the trigger did not work for multiple new comments added and it is active (th
 |logs-4|
  
 Check the meeting the condition
--------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If the trigger fired, but the **condition result** was ``false``, it means that the case does not meet the condition expression—check the **resolved values**.
 You need either ensure that the ticket/comment has required properties or edit trigger’s condition.
@@ -52,7 +52,7 @@ In this case, the agent accidentally added a private note instead of a public re
 |logs-5|
  
 Check the sending off the message
----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If the condition resolved to ``true``, then the trigger tried to send the notification.
 In this case, it is necessary to check **action results**: whether it was successful or not and whether it sent the message to the proper e-mail address.

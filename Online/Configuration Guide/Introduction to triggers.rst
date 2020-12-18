@@ -1,5 +1,5 @@
 Introduction to triggers in HelpDesk for SharePoint
-###################################################
+===================================================
 
 .. note::
     If you are using Plumsail HelpDesk with a version older than 1.3.0, please follow this link to learn about triggers.
@@ -11,7 +11,7 @@ Introduction to triggers in HelpDesk for SharePoint
 In this article, you will learn what a trigger is and how to create the one following the simple guidance.
 
 What is a trigger?
-++++++++++++++++++
+------------------
 
 The trigger is one of HelpDesk automation tools.
 There is a bunch of them available out of the box.
@@ -27,7 +27,7 @@ Trigger settings define when to run the trigger, what actions to perform, and un
 Of course, you can create triggers for other cases—more about this in further sections of the article.
 
 How to create a new trigger?
-++++++++++++++++++++++++++++
+----------------------------
 
 Open HelpDesk settings and find triggers in the *Automations* section:
 
@@ -54,7 +54,7 @@ Let’s create a trigger that will assign sales tickets to a specified agent and
 |general|
  
 Events
-++++++
+------
 
 The *Execute when* field contains possible events within your HelpDesk site on which the trigger will be started.
 Their names are self-explanatory:
@@ -68,7 +68,7 @@ For the current case, I select the event *Ticket has been created*.
 |events|
  
 Conditions
-++++++++++
+----------
 
 The trigger will execute the specified actions only if conditions are true.
 You can combine them with logical operators AND/OR, select ticket or comment fields on one side, and enter custom values on the other.
@@ -86,7 +86,7 @@ After configuring the condition, click the *Validate* button to ensure that ther
 |condition|
  
 Actions
-+++++++
+-------
 
 The main point of any trigger is to perform some actions.
 There can be as many actions as you need, and they can be arranged in the order you want.
@@ -113,7 +113,7 @@ Then, I add another action and set the field *Tags* to the *Sales* value. After 
 |action-2|
  
 What is next?
-+++++++++++++
+-------------
 
 Try to repeat the simple steps described in this article to understand a general order of configuring the trigger.
 Then you can modify it or create others that accord your requirements.

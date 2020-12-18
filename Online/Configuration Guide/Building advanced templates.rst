@@ -1,5 +1,5 @@
 Building advanced email templates
-#################################
+=================================
 
 This article describes advanced practices for customizing email notifications sent by the trigger.
 We will customize the email template for the `Send email`_ trigger action.
@@ -9,7 +9,7 @@ We will customize the email template for the `Send email`_ trigger action.
     :depth: 2
 
 How conditionally to include values
-+++++++++++++++++++++++++++++++++++
+-----------------------------------
 
 Template engine allows you conditional including (or excluding) arbitrary content into a message.
 Let’s review this feature on the following example.
@@ -54,7 +54,7 @@ And the agent will receive the following notification if we switched the comment
 |templates-3|
 
 How to iterate over a collection of values
-++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------
 
 Here is a simple example of iteration over a collection of comments:
 
@@ -151,7 +151,7 @@ Each object in this collection has the following self-explanatory properties, i.
 * ``URL``
 
 How to detect changes made by others
-++++++++++++++++++++++++++++++++++++
+------------------------------------
 
 HelpDesk triggers allow notifying agents about ticket modifications made by others.
 Here is a sample of the notification:
@@ -196,7 +196,7 @@ The default trigger renders a table using the mentioned tokens:
     </table>
 
 How to use snippets
-+++++++++++++++++++
+-------------------
 
 The snippet is a small predefined part of a template in the `Send email`_ action that allows inserting blocks of information in the resulting message.
 Currently, it is not allowed to customize or to create snippets.
@@ -215,7 +215,7 @@ Here is the list of available snippets:
 * ``{{snippet:FeedbackLink}}`` renders a link to rate the service on the current ticket
 
 How to use context data
-+++++++++++++++++++++++
+-----------------------
 
 You can use the context tokens on any event to get site related information.
 There are three possible tokens:

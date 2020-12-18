@@ -1,5 +1,5 @@
 Actions reference
-#################
+=================
 
 There are four types of actions that can be executed with triggers (the first three are also available for Scheduler_ tasks or SLA_ policies).
 
@@ -8,7 +8,7 @@ There are four types of actions that can be executed with triggers (the first th
     :depth: 2
 
 Set field
-+++++++++
+---------
 
 |set-1|
 
@@ -25,7 +25,7 @@ For example, the following token will be replaced with the value of the *Modifie
 For more information on the tokens usage, read the `accordant section`_.
 
 Send email
-++++++++++
+----------
 
 |send-1|
  
@@ -58,7 +58,7 @@ Check the article `Building advanced email templates`_ to know more about this a
 |send-4|
  
 Start workflow
-++++++++++++++
+--------------
 
 |start|
  
@@ -66,7 +66,7 @@ The action starts a custom SharePoint workflow.
 It can be a site or list-level workflow which is created on the *Tickets* list.
 
 Change comment type to private
-++++++++++++++++++++++++++++++
+------------------------------
 
 |change|
  
@@ -76,7 +76,7 @@ So if the condition meets ``true`` the type of the created comment will be chang
 .. _tokens:
 
 How to use tokens to access ticket and comment field values
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------------------------------------------
 
 You can use tokens in the fields of trigger actions.
 When the action is executed, the token will be replaced by the value to which it refers.
