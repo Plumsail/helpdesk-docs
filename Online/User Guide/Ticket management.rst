@@ -1,12 +1,12 @@
 Ticket management
-#################
+=================
 
 .. contents::
    :local:
    :depth: 2
 
 View ticket
-~~~~~~~~~~~
+-----------
 
 You can open up a ticket by clicking its title. You will see a form like this one:
 
@@ -66,7 +66,7 @@ Tags
    Some key categories to classify the ticket.
 
 Edit ticket and add comments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 To open the ticket for edit from a display form click the “Edit Item”
 button on the top:
@@ -84,8 +84,8 @@ message. Click save and your comment will be added.
 
 |ticket-edit-comment|
 
-Pin ticket
-~~~~~~~~~~
+Keep ticket form open after reply
+---------------------------------
 
 By default, tickets are closed after saving the changes.
 But you can keep it open—just enable the “Pin” on the command line:
@@ -93,7 +93,7 @@ But you can keep it open—just enable the “Pin” on the command line:
 |pin|
 
 Add new ticket
-~~~~~~~~~~~~~~
+--------------
 
 Help desk can create new tickets from email messages, but you may
 need to create a new ticket manually. Click the button on top of the page:
@@ -106,7 +106,7 @@ are required to be filled in. Status of the ticket will be 'New' by design.
 |new-ticket-form|
 
 Assign to me button
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 Assign to me button gives you opportunity to easily assign Tickets to yourself with one click.
 To assign tickets, choose one or several unassigned tickets. Then click "Assign to me". 
@@ -116,7 +116,7 @@ If the ticket has been assigned to somebody else, you can reassign it with Assig
 |AssignToMe|
 
 Understanding ticket's statuses
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 In HelpDesk you have four built-in statuses: New, In progress, Pending and Solved. Each of them describes on 
 which stage of resolving is the ticket placed.
