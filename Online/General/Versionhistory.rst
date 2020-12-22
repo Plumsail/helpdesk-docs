@@ -1,6 +1,14 @@
 Version history
 ###############
 
+Version 2.1.13
+-------------
+
+New features:
+
+- Modern UI for the "Ticket numbering" page.
+- Latest Plumsail Forms version support.
+
 Version 2.1.12
 -------------
 
