@@ -1,5 +1,5 @@
 Ticket numbering customization
-#######################
+###############################
 
 .. note:: This feature is available in version 1.5.5 and above.
 
@@ -17,7 +17,7 @@ You can configure tickets numbering.
 
 Navigate to the **Settings** page using the left navbar:
 
-Then click on the **Ticket numbering** tab. Now you can see the ticket numbering settings.
+Then click on the **Ticket numbering** button. Now you can see the ticket numbering settings.
 
 |PageExample|
 
@@ -54,7 +54,7 @@ So, you can change formula to ``IT {{IDCounter}} {{CurrentDate:HH-mm}}``.
 
 |CustomFormula|
 
-In this case new tickets will be numbered as "IT 3 12-35", "IT 4 14-54", "IT 5 02-55" etc
+In this case new tickets will be numbered as "IT 31 09-19", "IT 32 09-21", "IT 33 09-22" etc
 
 |CustomNumbering|
 
