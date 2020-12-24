@@ -1,6 +1,14 @@
 How to forward incoming email messages to HelpDesk address in Office365 Outlook
 ######################################################################## 
 
+.. contents:: Table of contents
+    :local:
+    :depth: 1
+
+
+Enable automatic external forwarding
+------------------------------------
+
 
 Firstly, You need to do some steps to enable automatic external forwarding for individual mailboxes
 
@@ -23,6 +31,9 @@ Firstly, You need to do some steps to enable automatic external forwarding for i
 
 .. note:: You may have other transport rules or spam policies in place at Microsoft 365 that block external forwarding in addition to the outbound spam filtering we've covered here. If automatic external forwarding is still blocked after adjusting these policies, you will want to reach out to your Microsoft 365 support for assistance in finding any further blocking that has been set up in your Microsoft 365 account. 
 
+
+Configure forwarding
+--------------------
 
 
 Then, you can `use rules in Outlook Web App to automatically forward messages to another account`_ .
