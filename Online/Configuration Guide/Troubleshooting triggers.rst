@@ -9,7 +9,7 @@ General information on logs
 ---------------------------
 
 Trigger logs can help to clarify the source of possible issues.
-Open the configuration of a problem trigger and click a button *Show logs* at the bottom.
+Open the configuration of a problem trigger and click a button **Show logs** at the bottom.
 
 |logs-1|
 

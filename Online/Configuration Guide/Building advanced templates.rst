@@ -13,12 +13,12 @@ How conditionally to include values
 
 Template engine allows you conditional including (or excluding) arbitrary content into a message.
 Let’s review this feature on the following example.
-The *Tickets* list has a yes/no column which defines whether to include or not all comments into agents’ notifications:
+The “Tickets” list has a yes/no column which defines whether to include or not all comments into agents’ notifications:
 
 |templates-1|
  
-In the template, it is necessary to add conditional tokens ``{{#if}}`` and ``{{/if}}``.
-The former should contain a reference to a field.
+In the template, it is necessary to add **conditional tokens** ``{{#if}}`` and ``{{/if}}``.
+The first one should contain a reference to a field.
 If it resolves the value to ``true``, content between the tokens will be rendered in the resulting message.
 In this case, we include the snippet conditionally:
 
@@ -28,7 +28,7 @@ In this case, we include the snippet conditionally:
         {{snippet:AllComments}}
     {{/if}}
 
-The conditional tokens has complimentary ones: ``{{#elif}}`` and ``{{#else}}``.
+The conditional tokens has **complimentary** ones: ``{{#elif}}`` and ``{{#else}}``.
 They are optional and allow to include alternative content.
 ``{{#elif}}`` checks alternative condition fields, should be placed after ``{{#if}}`` and its quantity is not limited.
 ``{{#else}}`` should be placed just before ``{{/if}}`` and may occur just once.
@@ -78,19 +78,19 @@ Here is a simple example of iteration over a collection of comments:
         </div>
     {{/each}}
 
-In the beginning, it is necessary to list tokens for the repeating fields of each iteration.
+In the beginning, it is necessary to **list tokens** for the repeating fields of each iteration.
 In such a list, each one should start with ``#!``.
-They will not be included in the result message and just let the template know about fields, that it needs to prepare for using inside the iteration.
+They will not be included in the result message and just let the template know about the fields that it needs to prepare for using inside the iteration.
 
 In the example above, we used the ticket property ``AllComments``.
-It refers to the *Comments* list where all of them are stored.
+It refers to the “Comments” list where all of them are stored.
 Thus, each comment has multiple fields which you can use in each iteration, and we selected the following:
 
 * the title of a comment’s author (``{{#!Ticket.AllComments.From.Title}}``)
 * the date of a comment’s creation (``{{#!Ticket.AllComments.Created}}``)
 * the body of a comment (``{{#!Ticket.AllComments.Body}}``)
 
-Then, there are the limits of the repeatable block specified with special tokens ``{{#each}}`` and ``{{/each}}``.
+Then, there are the limits of the **repeatable block** specified with special tokens ``{{#each}}`` and ``{{/each}}``.
 The first one should contain a reference to the field which contains the collection of values, i.e. it looks like ``{{#each Ticket.AllComments}}`` in the example.
 
 Since we listed the full tokens for comments’ fields in the beginning, now we use only the parts within the specified collection and mark them up with HTML:
@@ -109,7 +109,7 @@ Since we listed the full tokens for comments’ fields in the beginning, now we 
         </div>
     </div>
 
-The built-in snippet ``{{snippet:AllComments}}`` do the same in the same logic.
+The built-in **snippet** ``{{snippet:AllComments}}`` do the same in the same logic.
 It has a bit more complex structure to apply HelpDesk styles and include comments’ attachments.
 Here is its internal structure:
 
@@ -142,7 +142,7 @@ Here is its internal structure:
     </div>
     {{/each}}
 
-It contains conditional including of attachments and iteration over them (since each comment can have multiple attachments).
+It contains conditional including of **attachments** and iteration over them (since each comment can have multiple attachments).
 For this purpose, they use a system token with a collection of comments’ attachments: ``{{AttachmentUrlsCollection}}``.
 The iteration over it doesn’t require building a dictionary.
 Each object in this collection has the following self-explanatory properties, i.e. tokens to include in the iteration:
@@ -159,7 +159,7 @@ Here is a sample of the notification:
 |templates-4|
 
 You can find condition configuration for such a trigger in this article_.
-The message body for the *Send email* action should contain an iteration over ``Data.FieldChanges`` which is available only on the *Ticket has been changed* event.
+The message body for the `Send email`_ action should contain an iteration over **Data.FieldChanges** which is available only on the ``Ticket has been changed`` event.
 It is a system array of objects that contain field values before and after the last modification.
 Each one has the following properties to be used as tokens within iteration:
 
@@ -206,13 +206,13 @@ All of them are in the hint to a template:
 
 Here is the list of available snippets:
 
-* ``{{snippet:AllComments}}`` renders a list of all comments for a current ticket
-* ``{{snippet:PublicComments}}`` renders a list of public comments for a current ticket
-* ``{{snippet:Styles}}`` sets the style of an email message to the default HelpDesk style via CSS
-* ``{{snippet:TicketInfo}}`` renders a summary for current ticket as a table
-* ``{{snippet:TicketIdLink}}`` renders a link to a ticket in HelpDesk
-* ``{{snippet:TicketIdWidgetLink}}`` renders a link to a ticket in Widget
-* ``{{snippet:FeedbackLink}}`` renders a link to rate the service on the current ticket
+* ``{{snippet:AllComments}}`` (it renders a list of all comments for a current ticket)
+* ``{{snippet:PublicComments}}`` (it renders a list of public comments for a current ticket)
+* ``{{snippet:Styles}}`` (it sets the style of an email message to the default HelpDesk style via CSS)
+* ``{{snippet:TicketInfo}}`` (it renders a summary for current ticket as a table)
+* ``{{snippet:TicketIdLink}}`` (it renders a link to a ticket in HelpDesk)
+* ``{{snippet:TicketIdWidgetLink}}`` (it renders the ticket link to a widget_)
+* ``{{snippet:FeedbackLink}}`` (it renders a link to rate the service on the current ticket)
 
 How to use context data
 -----------------------
@@ -235,5 +235,6 @@ There are three possible tokens:
 .. |templates-5| image:: ../_static/img/configuration-guide-triggers-templates-5.png
    :alt: Available tokens
 
-.. _Send email: ./Actions%20reference.html#send-email
+.. _Send email: ./Actions%20reference.html#email
 .. _article: ./Building%20advanced%20conditions.html#changes
+.. _widget: ./Widget.html
