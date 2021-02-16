@@ -32,7 +32,8 @@ import os
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+# extensions = ['sphinx_sitemap']  # 'sphinxcontrib.disqus', 'rst2pdf.pdfbuilder']  # Add to this list.
+html_baseurl = 'https://plumsail.com/docs/help-desk-o365/v1.x/' #for sitemap
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -111,27 +112,27 @@ todo_include_todos = False
 
 # -- Options for HTML output ----------------------------------------------
 
-import guzzle_sphinx_theme
+# import guzzle_sphinx_theme
 
 # Adds an HTML table visitor to apply Bootstrap table classes
-html_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'
-html_theme_path = guzzle_sphinx_theme.html_theme_path()
-html_theme = 'guzzle_sphinx_theme'
+# html_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'
+# html_theme_path = guzzle_sphinx_theme.html_theme_path()
+# html_theme = 'guzzle_sphinx_theme'
 
 # Register the theme as an extension to generate a sitemap.xml
-extensions.append("guzzle_sphinx_theme")
+# extensions.append("guzzle_sphinx_theme")
 
 # Guzzle theme options (see theme.conf for more information)
-html_theme_options = {
+# html_theme_options = {
     # Set the name of the project to appear in the sidebar
-    "project_nav_name": "HelpDesk for Office 365",
+    # "project_nav_name": "HelpDesk for Office 365",
     # Set your Disqus short name to enable comments
     # "disqus_comments_shortname": "plumsail",
 
     # Set you GA account ID to enable tracking
-    "google_analytics_account": "UA-36215023-2",
-    "base_url": "https://plumsail.com/docs/help-desk-o365/v1.x/" #for sitemap
-}
+    # "google_analytics_account": "UA-36215023-2",
+    # "base_url": "https://plumsail.com/docs/help-desk-o365/v1.x/" #for sitemap
+# }
 
 html_sidebars = {'**': ['searchbox.html','globaltoc.html']}
 #-----
@@ -142,7 +143,7 @@ html_sidebars = {'**': ['searchbox.html','globaltoc.html']}
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#html_theme = 'alabaster' #by default
+html_theme = 'basic'
 
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -169,11 +170,11 @@ html_sidebars = {'**': ['searchbox.html','globaltoc.html']}
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_context = {
-    'css_files': [
-        '_static/theme_overrides_guzzle.css',  # overrides for wide tables in RTD theme
-        ],
-    }
+# html_context = {
+#     'css_files': [
+#         '_static/theme_overrides_guzzle.css',  # overrides for wide tables in RTD theme
+#         ],
+#     }
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
