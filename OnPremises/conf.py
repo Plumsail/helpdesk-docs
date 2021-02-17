@@ -32,7 +32,7 @@ import os
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-# extensions = ['sphinx_sitemap']  # 'sphinxcontrib.disqus', 'rst2pdf.pdfbuilder']  # Add to this list.
+extensions = ['sphinx_sitemap']  # 'sphinxcontrib.disqus', 'rst2pdf.pdfbuilder']  # Add to this list.
 html_baseurl = 'https://plumsail.com/docs/help-desk-o365/v1.x/' #for sitemap
 
 
@@ -53,7 +53,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'HelpDesk for SharePoint On-Premises'
-copyright = '2018, Plumsail'
+copyright = '2021, Plumsail'
 author = 'Plumsail'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -61,7 +61,7 @@ author = 'Plumsail'
 # built documents.
 #
 # The short X.Y version.
-version = '1.x'
+version = ''
 # The full version, including alpha/beta/rc tags.
 release = '1.x'
 
