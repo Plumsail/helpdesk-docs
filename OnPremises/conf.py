@@ -33,7 +33,7 @@ import os
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx_sitemap']  # 'sphinxcontrib.disqus', 'rst2pdf.pdfbuilder']  # Add to this list.
-html_baseurl = 'https://plumsail.com/docs/help-desk-o365/v1.x/' #for sitemap
+html_baseurl = 'https://plumsail.com/docs/help-desk-onpremises/v1.x/' #for sitemap
 
 
 
