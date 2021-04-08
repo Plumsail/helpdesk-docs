@@ -2,9 +2,10 @@ HelpDesk installation
 #####################
 
 .. raw:: html
-   <div data-nosnippet="true"<iframe width="840" height="472" src="https://www.youtube.com/embed/39pH5_LgElw" frameborder="0" 
-   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
+   <div data-nosnippet="true"><iframe width="840" height="472" src="https://www.youtube.com/embed/39pH5_LgElw" frameborder="0" 
+   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+   
 `Download`_ and run the setup file.
 
 Then specify your SharePoint tenant URL where a HelpDesk instance will be created:
