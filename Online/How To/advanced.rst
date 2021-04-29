@@ -9,4 +9,4 @@ Advanced
     Track time spent to solve the ticket
     Send SMS notifications from help desk with Power Automate (Microsoft Flow) and Twilio
     Find the internal name of SharePoint column
-    Manage permissions for SharePoint HelpDesk <Manage permissions for the helpdesk site in SharePoint Online>
+    Manage permissions for SharePoint HelpDesk
