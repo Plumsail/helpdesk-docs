@@ -9,4 +9,4 @@ Advanced
     Track time spent to solve the ticket
     Send SMS notifications from help desk with Power Automate (Microsoft Flow) and Twilio
     Find the internal name of SharePoint column
-    Restrict requesters to see only tickets created by them <How to restrict requesters to see only tickets created by them>
+    Manage permissions for SharePoint HelpDesk <Manage permissions for the helpdesk site in SharePoint Online>
