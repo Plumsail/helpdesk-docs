@@ -1,5 +1,5 @@
-Manage permissions for the helpdesk site in SharePoint Online
-##############################################################
+Manage permissions for SharePoint HelpDesk
+##########################################
 
  
 There are two basic ways to manage permissions in Plumsail HelpDesk for Microsoft 365. 
