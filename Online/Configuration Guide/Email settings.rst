@@ -1,6 +1,13 @@
 Email settings
 ###########################
 
+.. raw:: html
+
+   <div data-nosnippet="true"><iframe width="560" height="315" src="https://www.youtube.com/embed/k4O6KiwMDMA" title="YouTube video player" 
+   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
+
 You can configure HelpDesk to create new tickets or ticket comments with
 email messages as well as specify some custom settings for the email
 address used for notifications.

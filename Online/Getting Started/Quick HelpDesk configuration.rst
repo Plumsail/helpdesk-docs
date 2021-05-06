@@ -1,6 +1,12 @@
 Quick HelpDesk configuration
 #########################################
 
+.. raw:: html
+
+	<div data-nosnippet="true"><iframe width="840" height="472" src="https://www.youtube.com/embed/39pH5_LgElw" frameborder="0" 
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
 Once HelpDesk has been installed you can start working with it straight
 away, no further configuration required. There are a couple of things you
 may want to set up to make your life easier, however. You can:
